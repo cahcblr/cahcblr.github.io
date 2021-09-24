@@ -9,9 +9,9 @@ layout: default
 
   {{ content }}
 
-  {%- if 1 < 0 -%}
+  {%- if page.show_posts -%}
     {%- if site.posts.size > 0 -%}
-      <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+      <h2 hidden class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
       <ul class="post-list">
         {%- for post in site.posts -%}
         <li>
