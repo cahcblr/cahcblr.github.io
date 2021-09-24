@@ -6,6 +6,10 @@
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
   background-color: bisque;
+  background-image: url('/assets/gr_manuscript_01.jpg');
+  background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -20,7 +24,7 @@
 }
 
 .site-title {
-  @include relative-font-size(1.525);
+  @include relative-font-size(1.825);
   font-weight: 300 bold;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
@@ -28,15 +32,18 @@
   margin-bottom: 0;
   // margin-bottom: 0;
   float: left;
+  color: antiquewhite !important;
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    // color: $grey-color-dark;
   }
 }
 
 .site-nav {
   float: right;
+  @include relative-font-size(1.625);
+  font-weight: 200 bold;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
