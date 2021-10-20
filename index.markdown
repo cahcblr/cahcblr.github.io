@@ -9,7 +9,7 @@ title: CAHC
 
 The **Center for Ancient History and Culture (CAHC)** carries out inter-disciplinary research on India's ancient cultural & intellectual heritage.
 
-Generally, Indian history is treated as chronicling political history, without adequate emphasis on cultural,scientific and social intellutual traditions. Ancient Indian history is still depicted from a Eurocentric viewpoint. There is a need to present ancient history in an objective fashion avoiding extremities of ideologies. The modern education should be able to connect with intellectual traditions deep rooted in ancient India. CAHC was started in the year 2011 to conduct primary research towards addressing this gap.
+Generally, Indian history is treated as chronicling political history, without adequate emphasis on cultural, scientific and social intellectual traditions. Ancient Indian history is still depicted from a Eurocentric viewpoint. There is a need to present ancient history in an objective fashion avoiding extremities of ideologies. The modern education should be able to connect with intellectual traditions deep rooted in ancient India. CAHC was started in the year 2011 to conduct primary research towards addressing this gap.
 
 ## Research activities
 
