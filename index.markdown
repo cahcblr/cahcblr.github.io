@@ -30,7 +30,7 @@ The center publishes
 
 The Center's outreach activities aims to inculcate appreciation for the cultural heritage of India.
 
-Some of them are
+Some of these are
 
 - National Level Workshop on Manuscriptology And Paleography (November 2012)
 - International Seminar OnThe Future Of Civilisation (December 2012)
