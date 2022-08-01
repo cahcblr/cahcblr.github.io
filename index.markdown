@@ -7,7 +7,9 @@ title: CAHC
 ---
 <div hidden style="color:red;padding-top:-100px"> mask </div>
 
-The **Center for Ancient History and Culture (CAHC)** carries out inter-disciplinary research on India's ancient cultural & intellectual heritage.
+The **Center for Ancient History and Culture (CAHC)** carries out inter-disciplinary research on India's ancient cultural & intellectual heritage. The Ministry of Education, Govt of India, has recognized CAHC of Jain University as an Indian Knowledge System (IKS) center after a competitive national evaluation.
+
+![IKS](../assets/cahc-iks-cert.png)
 
 Generally, Indian history is treated as chronicling political history, without adequate emphasis on cultural, scientific and social intellectual traditions. Ancient Indian history is still depicted from a Eurocentric viewpoint. There is a need to present ancient history in an objective fashion avoiding extremities of ideologies. The modern education should be able to connect with intellectual traditions deep rooted in ancient India. CAHC was started in the year 2011 to conduct primary research towards addressing this gap.
 
