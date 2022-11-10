@@ -17,5 +17,7 @@ _This conference was conducted by [Bhaktivedanta Institute for Higher Studies (B
 |Sunder Chakravarty|[Precession of Equinoxes and Sun's Transit in the Vṛddha-Gārgīya Jyotiṣa](/assets/talks/bihs/sun-transit/sun-transit.pdf);  [_(as slides)_](/assets/talks/bihs/sun-transit/sun-transit.html) |[abstract](/assets/talks/bihs/sun-transit/sun-transit-abstract.pdf) |
 
 
+[![center()](/assets/talks/bihs/bihs-collage.jpeg){:style="display:block; margin-left:auto; margin-right:auto"}](/assets/talks/bihs/bihs-combined-abstracts.pdf)
+
 [![center()](/assets/talks/bihs/sun-transit/sun-transit-clock-analogy-precession.png){:style="display:block; margin-left:auto; margin-right:auto"}](/assets/talks/bihs/bihs-combined-abstracts.pdf)
 <!-- ![](/assets/talks/bihs/sun-transit/sun-transit-ayana.gif) -->
