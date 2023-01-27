@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "International Conference on Purāṇic and Siddhātic Cosmology"
+title:  "International Conference on Purāṇic and Siddhāntic Cosmology"
 date:   2022-11-08 10:11:12 +0530
 categories: conference update
 ---
