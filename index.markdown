@@ -28,7 +28,7 @@ The center publishes
 - [Academic papers](/papers) in peer reviewed journals.
 - [Books](/books) on these research areas. Two books are in print and third book is under preparation.
 
-## Outreach activties
+## Outreach activities
 
 The Center's outreach activities aims to inculcate appreciation for the cultural heritage of India.
 
