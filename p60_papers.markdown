@@ -4,6 +4,7 @@ title: Papers
 permalink: /papers/
 ---
 
+## Papers
 ### History of Astronomy, Archaeo-Astronomy
 
 1. Iyengar, R. N. et al. (2021).<br/>`Transit of Sun through the seasonal nakṣatra cycle in the Vṛddha-Gārgīya Jyotiṣa.`<br/> Indian Journal of History of Science, 56(3).<br/>&nbsp; 
