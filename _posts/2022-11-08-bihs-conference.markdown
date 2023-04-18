@@ -10,12 +10,11 @@ _This conference was conducted by [Bhaktivedanta Institute for Higher Studies (B
 
 ### [CAHC presented the following in the conference](/assets/talks/bihs/bihs-combined-abstracts.pdf)
 
-||Presentations|[Abstracts](/assets/talks/bihs/bihs-combined-abstracts.pdf)|
-|--|--|--|
-|Prof R N Iyengar| [Vedic Adhidaivata Roots of Purāṇic and Hindu Astronomy](/assets/talks/bihs/vedic-adhidaivata-roots/vedic-adhidaivata-roots.pdf) |[abstract](/assets/talks/bihs/vedic-adhidaivata-roots/vedic-adhidaivata-roots-abstract.pdf) |  
-|Sudarshan H S |[Celestial interpretation of the Aśva Sūkta in the Ṛgveda](/assets/talks/bihs/asva-sukta/asva-sukta.pdf)|[abstract](/assets/talks/bihs/asva-sukta/asva-sukta-abstract.pdf) |
-|Sunder Chakravarty|[Precession of Equinoxes and Sun's Transit in the Vṛddha-Gārgīya Jyotiṣa](/assets/talks/bihs/sun-transit/sun-transit.pdf);  [_(as slides)_](/assets/talks/bihs/sun-transit/sun-transit.html) |[abstract](/assets/talks/bihs/sun-transit/sun-transit-abstract.pdf) |
-
+||Pdfs|[Abstracts](/assets/talks/bihs/bihs-combined-abstracts.pdf)|Videos|
+|--|--|--|--|
+|Prof R N Iyengar| [Vedic Adhidaivata Roots of Purāṇic and Hindu Astronomy](/assets/talks/bihs/vedic-adhidaivata-roots/vedic-adhidaivata-roots.pdf) |[abstract](/assets/talks/bihs/vedic-adhidaivata-roots/vedic-adhidaivata-roots-abstract.pdf) |  [video](https://youtu.be/wyySzZvIY-E) |
+|Sudarshan H S |[Celestial interpretation of the Aśva Sūkta in the Ṛgveda](/assets/talks/bihs/asva-sukta/asva-sukta.pdf)|[abstract](/assets/talks/bihs/asva-sukta/asva-sukta-abstract.pdf) | [video](https://youtu.be/p9bKiJ8hGjU) |
+|Sunder Chakravarty|[Precession of Equinoxes and Sun's Transit in the Vṛddha-Gārgīya Jyotiṣa](/assets/talks/bihs/sun-transit/sun-transit.pdf);  [_(as slides)_](/assets/talks/bihs/sun-transit/sun-transit.html) |[abstract](/assets/talks/bihs/sun-transit/sun-transit-abstract.pdf) | [video](https://youtu.be/KUywxdjyNEI) |
 
 [![center()](/assets/talks/bihs/bihs-collage.jpeg){:style="display:block; margin-left:auto; margin-right:auto"}](/assets/talks/bihs/bihs-combined-abstracts.pdf)
 
