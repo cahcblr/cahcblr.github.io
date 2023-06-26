@@ -18,7 +18,7 @@ After his retirement from IISc, he joined Jain University and was instrumental i
 ---
 
 |:-:|:------------:|
-| ![Shankar](../assets/shankar-2018.jpg)<br>**Shankar&nbsp;Rajaraman**, Associate Professor | ![badarayana](../assets/shankar-award.jpg)<br> **Badarayan Vyas Samman** conferred on the Professor |
+| ![Shankar](../assets/shankar-2018.jpg)<br>**Shankar&nbsp;Rajaraman**, Associate Professor |
 
 Shankar Rajaraman is an Associate Professor at CAHC since 2022. He holds a PhD in Psychology on an interdisciplinary topic bridging Emotion Studies and Indian Aesthetics. His areas of interest include Sanskrit Literature, Indian Aesthetics and Indian Psychology. He has authored books and articles in these areas and guides students in their research.
 
