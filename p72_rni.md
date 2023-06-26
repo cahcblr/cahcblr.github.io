@@ -7,7 +7,7 @@ permalink: /people/
 |:-:|------------|
 | ![RNI](../assets/rni.jpg)  **Professor&nbsp;Rangachar&nbsp;Narayana&nbsp;Iyengar**, Director of CAHC |
 
-[Brief Bio of Prof.R.N.Iyengar ](../assets/rni.pdf) 
+[Brief Bio of Prof.R.N.Iyengar ](../assets/rni.pdf)
 
 Prof RNI is the Director  of the Center for Ancient History and Culture (CAHC) at the [Jain University](https://en.wikipedia.org/wiki/Jain_University) since 2012 and is actively working on research in the area of History of Science in India.
 
@@ -17,8 +17,23 @@ After his retirement from IISc, he joined Jain University and was instrumental i
 
 ---
 
+|:-:|------------|
+| ![Shankar](../assets/shankar-2018.jpg) **Shankar&nbsp;Rajaraman**, Associate Professor | ![badarayana](../assets/shankar-award.jpg) Prof conferred with the **Badarayan Vyas Samman** |
+
+Dr. Shankar Rajaraman has received multiple recognitions, including the prestigious Badarayan Vyas Samman(2016) from the President of India for his contribution to Sanskrit literature.
+
+He is an Associate Professor at the Center of Ancient History and Culture (CAHC) at the [Jain University](https://en.wikipedia.org/wiki/Jain_University) since 2022 and is actively working on aesthetics and psychology in Sanskrit literature , authoring books and articles in this area and guiding students in their research.
+
+Some of his published books include:
+- Rajaraman, Shankar (2016) Citranaisadham: The Picturesque Tale of King Nala. Niraamaya Publishing, Mumbai. ISBN 978-8193114421
+- Rajaraman, S., & Kotamraju, V. (2014). The conquest of Madhura: Gangadevi’s Madhura Vijaya. Rasala. ISBN: 978-8192411224.
+  
+Shankar Rajaraman earned his doctorate from the National Institute of Advanced Studies (NIAS), Bangalore, on a topic that bridges contemporary psychology and Sanskrit poetics. He is gold medallist in MA Sanskrit from KSOU, Mysore. Earlier Shankar completed his MBBS degree from MS Ramaiah Medical College, Bangalore and a post-graduate diploma in psychological medicine from JJM Medical College, Davanagere.
+
+---
+
 |:-|:------------|
-| ![Sudarshan](../assets/sudarshan.jpg)  **Sudarshan&nbsp;HS** , Research Associate | 
+| ![Sudarshan](../assets/sudarshan.jpg)  **Sudarshan&nbsp;HS** , Research Associate |
 Researching on comets and impact events in Vedas, Puranas, Vedangas and other pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra.Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa.|
 
 ---
@@ -27,17 +42,22 @@ Researching on comets and impact events in Vedas, Puranas, Vedangas and other pr
 | ![Anand](../assets/anand.jpg) **Anand&nbsp;Viswanathan**, Research Associate | ![INSA](../assets/anand-insa-young-historian-award-small.jpg)|
 Researching on planetary paths, perioidicity and other information in pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra. Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa. | *Anand Viswanathan* is elected **INSA Young Historian of Science for the year 2021**  |
 
+---
+
+|:-|:------------|
+| ![Smita](../assets/smita-2022.jpg) **Smita&nbsp;Bhatta** , Project Assistant |
+Assist in the manuscript collation, translation and editing activities and maintenance of the book catalog for project titled "IKS Project of MOE-AICTE at Jain University"  |
 
 ---
 
 |:-|:------------|
 | ![Warija](../assets/warija.jpg) **Warija&nbsp;Adiga** , Associate |
-Decode and digitize manusripts in various indic scripts. Warija has digitized few chapters of Vṛddha-Gārgīya Jyotiṣa and Vṛddha-Gārga Vāstu Vidyā manuscripts into devanaagri from ancient Nepali, Newari and Bangla lipi. |
+Decode and digitize manusripts in various indic scripts. Warija has digitized few chapters of Vṛddha-Gārgīya Jyotiṣa and the full body of Vṛddha-Gārga Vāstu Vidyā manuscripts into devanaagri from ancient Nepali, Newari and Bangla lipi. Write and publish articles based on Sanskrit literature. |
 
 ---
 
 |:-:|------------|
-| ![Sunder](../assets/sunder.jpg) **Sunder&nbsp;Chakravarty** , Associate |
+| ![Sunder](../assets/sunder-2022.png) **Sunder&nbsp;Chakravarty** , Associate |
 Develop computer programs and models to validate and infer astronomical and other observational information in ancient text . |
 
 <!-- |:------:|------------:|
