@@ -5,7 +5,7 @@ permalink: /people/
 ---
 
 |:-:|------------|
-| ![RNI](../assets/rni.jpg)  **Professor&nbsp;Rangachar&nbsp;Narayana&nbsp;Iyengar**, Director of CAHC |
+| ![RNI](../assets/rni.jpg)<br>**Professor&nbsp;Rangachar&nbsp;Narayana&nbsp;Iyengar**, Director of CAHC |
 
 [Brief Bio of Prof.R.N.Iyengar ](../assets/rni.pdf)
 
@@ -17,8 +17,13 @@ After his retirement from IISc, he joined Jain University and was instrumental i
 
 ---
 
-|:-:|------------|
-| ![Shankar](../assets/shankar-2018.jpg) **Shankar&nbsp;Rajaraman**, Associate Professor | ![badarayana](../assets/shankar-award.jpg) Prof conferred with the **Badarayan Vyas Samman** |
+|:-:|:------------:|
+| ![Shankar](../assets/shankar-2018.jpg)<br>**Shankar&nbsp;Rajaraman**, Associate Professor | ![badarayana](../assets/shankar-award.jpg)<br> **Badarayan Vyas Samman** conferred on the Professor |
+
+Shankar Rajaraman is an Associate Professor at CAHC since 2022. He holds a PhD in Psychology on an interdisciplinary topic bridging Emotion Studies and Indian Aesthetics. His areas of interest include Sanskrit Literature, Indian Aesthetics and Indian Psychology. He has authored books and articles in these areas and guides students in their research.
+
+<!-- |:-:|------------|
+| ![Shankar](../assets/shankar-2018.jpg)<br>**Shankar&nbsp;Rajaraman**, Associate Professor | ![badarayana](../assets/shankar-award.jpg) Prof conferred with the **Badarayan Vyas Samman** |
 
 Dr. Shankar Rajaraman has received multiple recognitions, including the prestigious Badarayan Vyas Samman(2016) from the President of India for his contribution to Sanskrit literature.
 
@@ -28,36 +33,42 @@ Some of his published books include:
 - Rajaraman, Shankar (2016) Citranaisadham: The Picturesque Tale of King Nala. Niraamaya Publishing, Mumbai. ISBN 978-8193114421
 - Rajaraman, S., & Kotamraju, V. (2014). The conquest of Madhura: Gangadevi’s Madhura Vijaya. Rasala. ISBN: 978-8192411224.
   
-Shankar Rajaraman earned his doctorate from the National Institute of Advanced Studies (NIAS), Bangalore, on a topic that bridges contemporary psychology and Sanskrit poetics. He is gold medallist in MA Sanskrit from KSOU, Mysore. Earlier Shankar completed his MBBS degree from MS Ramaiah Medical College, Bangalore and a post-graduate diploma in psychological medicine from JJM Medical College, Davanagere.
+Shankar Rajaraman earned his doctorate from the National Institute of Advanced Studies (NIAS), Bangalore, on a topic that bridges contemporary psychology and Sanskrit poetics. He is gold medallist in MA Sanskrit from KSOU, Mysore. Earlier Shankar completed his MBBS degree from MS Ramaiah Medical College, Bangalore and a post-graduate diploma in psychological medicine from JJM Medical College, Davanagere. -->
 
 ---
 
 |:-|:------------|
-| ![Sudarshan](../assets/sudarshan.jpg)  **Sudarshan&nbsp;HS** , Research Associate |
+| ![Sudarshan](../assets/sudarshan.jpg)<br>**Sudarshan&nbsp;HS** , Research Associate |
 Researching on comets and impact events in Vedas, Puranas, Vedangas and other pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra.Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa.|
 
 ---
 
 |:-|:------------|
-| ![Anand](../assets/anand.jpg) **Anand&nbsp;Viswanathan**, Research Associate | ![INSA](../assets/anand-insa-young-historian-award-small.jpg)|
+| ![Anand](../assets/anand.jpg)<br>**Anand Viswanathan**, Research Associate | ![INSA](../assets/anand-insa-young-historian-award-small.jpg)|
 Researching on planetary paths, perioidicity and other information in pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra. Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa. | *Anand Viswanathan* is elected **INSA Young Historian of Science for the year 2021**  |
 
 ---
 
 |:-|:------------|
-| ![Smita](../assets/smita-2022.jpg) **Smita&nbsp;Bhatta** , Project Assistant |
+| ![Hari](../assets/hari-2023.jpg)<br>**R S Hariharan**, Research Assistant |
+Researching on planetary paths, perioidicity and other information in pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra. Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa. | 
+
+---
+
+|:-|:------------|
+| ![Smita](../assets/smita-2022.jpg)<br>**Smita Bhatta** , Project Assistant |
 Assist in the manuscript collation, translation and editing activities and maintenance of the book catalog for project titled "IKS Project of MOE-AICTE at Jain University"  |
 
 ---
 
 |:-|:------------|
-| ![Warija](../assets/warija.jpg) **Warija&nbsp;Adiga** , Associate |
+| ![Warija](../assets/warija.jpg)<br>**Warija Adiga** , Associate |
 Decode and digitize manusripts in various indic scripts. Warija has digitized few chapters of Vṛddha-Gārgīya Jyotiṣa and the full body of Vṛddha-Gārga Vāstu Vidyā manuscripts into devanaagri from ancient Nepali, Newari and Bangla lipi. Write and publish articles based on Sanskrit literature. |
 
 ---
 
 |:-:|------------|
-| ![Sunder](../assets/sunder-2022.png) **Sunder&nbsp;Chakravarty** , Associate |
+| ![Sunder](../assets/sunder-2022.png)<br>**Sunder Chakravarty** , Associate |
 Develop computer programs and models to validate and infer astronomical and other observational information in ancient text . |
 
 <!-- |:------:|------------:|
