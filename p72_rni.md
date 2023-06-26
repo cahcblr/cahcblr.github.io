@@ -19,8 +19,7 @@ After his retirement from IISc, he joined Jain University and was instrumental i
 
 |:-:|:------------:|
 | ![Shankar](../assets/shankar-2018.jpg)<br>**Shankar&nbsp;Rajaraman**, Associate Professor |
-
-Shankar Rajaraman is an Associate Professor at CAHC since 2022. He holds a PhD in Psychology on an interdisciplinary topic bridging Emotion Studies and Indian Aesthetics. His areas of interest include Sanskrit Literature, Indian Aesthetics and Indian Psychology. He has authored books and articles in these areas and guides students in their research.
+Shankar Rajaraman is an Associate Professor at CAHC since 2022. His areas of interest include Sanskrit Literature, Indian Aesthetics and Indian Psychology.|
 
 <!-- |:-:|------------|
 | ![Shankar](../assets/shankar-2018.jpg)<br>**Shankar&nbsp;Rajaraman**, Associate Professor | ![badarayana](../assets/shankar-award.jpg) Prof conferred with the **Badarayan Vyas Samman** |
@@ -51,7 +50,7 @@ Researching on planetary paths, perioidicity and other information in pre-siddha
 
 |:-|:------------|
 | ![Hari](../assets/hari-2023.jpg)<br>**R S Hariharan**, Research Assistant |
-Researching on planetary paths, perioidicity and other information in pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra. Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa. | 
+Research Assistant working on an IKS Project. Interested in the interface of leadership studies & Sanskrit Literature.|
 
 ---
 
