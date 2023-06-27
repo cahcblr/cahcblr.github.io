@@ -19,26 +19,13 @@ After his retirement from IISc, he joined Jain University and was instrumental i
 
 |:-:|:------------:|
 | ![Shankar](../assets/shankar-2018.jpg)<br>**Shankar&nbsp;Rajaraman**, Associate Professor |
-Shankar Rajaraman is an Associate Professor at CAHC since 2022. His areas of interest include Sanskrit Literature, Indian Aesthetics and Indian Psychology.|
-
-<!-- |:-:|------------|
-| ![Shankar](../assets/shankar-2018.jpg)<br>**Shankar&nbsp;Rajaraman**, Associate Professor | ![badarayana](../assets/shankar-award.jpg) Prof conferred with the **Badarayan Vyas Samman** |
-
-Dr. Shankar Rajaraman has received multiple recognitions, including the prestigious Badarayan Vyas Samman(2016) from the President of India for his contribution to Sanskrit literature.
-
-He is an Associate Professor at the Center of Ancient History and Culture (CAHC) at the [Jain University](https://en.wikipedia.org/wiki/Jain_University) since 2022 and is actively working on aesthetics and psychology in Sanskrit literature , authoring books and articles in this area and guiding students in their research.
-
-Some of his published books include:
-- Rajaraman, Shankar (2016) Citranaisadham: The Picturesque Tale of King Nala. Niraamaya Publishing, Mumbai. ISBN 978-8193114421
-- Rajaraman, S., & Kotamraju, V. (2014). The conquest of Madhura: Gangadevi’s Madhura Vijaya. Rasala. ISBN: 978-8192411224.
-  
-Shankar Rajaraman earned his doctorate from the National Institute of Advanced Studies (NIAS), Bangalore, on a topic that bridges contemporary psychology and Sanskrit poetics. He is gold medallist in MA Sanskrit from KSOU, Mysore. Earlier Shankar completed his MBBS degree from MS Ramaiah Medical College, Bangalore and a post-graduate diploma in psychological medicine from JJM Medical College, Davanagere. -->
+Shankar Rajaraman is an Associate Professor at CAHC since 2022 and works in area of Sanskrit Literature.|
 
 ---
 
 |:-|:------------|
 | ![Sudarshan](../assets/sudarshan.jpg)<br>**Sudarshan&nbsp;HS** , Research Associate |
-Researching on comets and impact events in Vedas, Puranas, Vedangas and other pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra.Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa.|
+Researching on comets and impact events in Vedas, Puranas, Vedangas and other pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra. Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa.|
 
 ---
 
@@ -50,7 +37,7 @@ Researching on planetary paths, perioidicity and other information in pre-siddha
 
 |:-|:------------|
 | ![Hari](../assets/hari-2023.jpg)<br>**R S Hariharan**, Research Assistant |
-Research Assistant working on an IKS Project. Interested in the interface of leadership studies & Sanskrit Literature.|
+Interested in the interface of leadership studies & Sanskrit Literature.|
 
 ---
 
@@ -62,7 +49,7 @@ Assist in the manuscript collation, translation and editing activities and maint
 
 |:-|:------------|
 | ![Warija](../assets/warija.jpg)<br>**Warija Adiga** , Associate |
-Decode and digitize manusripts in various indic scripts. Warija has digitized few chapters of Vṛddha-Gārgīya Jyotiṣa and the full body of Vṛddha-Gārga Vāstu Vidyā manuscripts into devanaagri from ancient Nepali, Newari and Bangla lipi. Write and publish articles based on Sanskrit literature. |
+Decode and digitize manuscripts in various indic scripts. Warija has digitized few chapters of Vṛddha-Gārgīya Jyotiṣa and the full body of Vṛddha-Gārga Vāstu Vidyā manuscripts into devanaagri from ancient Nepali, Newari and Bangla lipi. She publishes articles based on Sanskrit literature. |
 
 ---
 
@@ -70,10 +57,17 @@ Decode and digitize manusripts in various indic scripts. Warija has digitized fe
 | ![Sunder](../assets/sunder-2022.png)<br>**Sunder Chakravarty** , Associate |
 Develop computer programs and models to validate and infer astronomical and other observational information in ancient text . |
 
-<!-- |:------:|------------:|
-| ![Sudarshan](../assets/sudarshan.jpg) | <b> Sudarshan HS</b>  &nbsp; Research Associate <br><br> Researching on comets and impact events in Vedas, Puranas, Vedangas and other pre-siddhantic texts like <br> Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra.<br> <br>  Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa.   <br> |
-| ![Anand](../assets/anand.jpg)         | <b> Anand Viswanathan</b>  &nbsp;  Research Associate <br><br> Researching on planetary paths, perioidicity and other information <br> in pre-siddhantic texts like <br> Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra. <br><br>  Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa.   <br> |
-| ![Warija](../assets/warija.jpg)       | <b> Warija Adiga</b>  &nbsp; Associate  <br><br> Decode and digitize manusripts in various indic scripts. <br><br> Warija has digitized few chapters of Vṛddha-Gārgīya Jyotiṣa and Vṛddha-Gārga Vāstu Vidyā manuscripts into devanaagri from ancient Nepali, Newari and Bangla lipi.|
-| ![Sunder](../assets/sunder.jpg)       | <b> Sunder Chakravarty</b>  &nbsp; Associate <br><br> Develop computer programs and models to validate and infer <br> astronomical and other observational information in ancient text . | -->
 
-<!-- Master in Shastram from Karnataka Samskrit University <br> Bachelors of Telecommunication Engineering from  Bangalore University  -->
+<!-- ---
+
+|:-:|:------------:|
+| ![Shankar](../assets/shankar-2018.jpg)<br>**Shankar&nbsp;Rajaraman**, Associate Professor | Shankar Rajaraman is an Associate Professor at CAHC since 2022. His areas of interest include Sanskrit Literature, Indian Aesthetics and Indian Psychology.|
+| ![Sudarshan](../assets/sudarshan.jpg)<br>**Sudarshan&nbsp;HS** , Research Associate | Researching on comets and impact events in Vedas, Puranas, Vedangas and other pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra.Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa.|
+| ![Anand](../assets/anand.jpg)<br>**Anand Viswanathan**, Research Associate | Researching on planetary paths, perioidicity and other information in pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra. Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa. |
+| ![Hari](../assets/hari-2023.jpg)<br>**R S Hariharan**, Research Assistant | Research Assistant working on an IKS Project. Interested in the interface of leadership studies & Sanskrit Literature.|
+| ![Smita](../assets/smita-2022.jpg)<br>**Smita Bhatta** , Project Assistant | Assist in the manuscript collation, translation and editing activities and maintenance of the book catalog for project titled "IKS Project of MOE-AICTE at Jain University"  |
+| ![Warija](../assets/warija.jpg)<br>**Warija Adiga** , Associate | Decode and digitize manusripts in various indic scripts. Warija has digitized few chapters of Vṛddha-Gārgīya Jyotiṣa and the full body of Vṛddha-Gārga Vāstu Vidyā manuscripts into devanaagri from ancient Nepali, Newari and Bangla lipi. Write and publish articles based on Sanskrit literature. |
+| ![Sunder](../assets/sunder-2022.png)<br>**Sunder Chakravarty** , Associate | Develop computer programs and models to validate and infer astronomical and other observational information in ancient text . |
+
+| ![badarayana](../assets/shankar-award.jpg) | *Prof Shankar Rajaraman* conferred with the 2016  **Badarayan Vyas Samman**  |
+| ![INSA](../assets/anand-insa-young-historian-award-small.jpg)| *Anand Viswanathan* is elected **INSA Young Historian of Science for the year 2021**  | -->
