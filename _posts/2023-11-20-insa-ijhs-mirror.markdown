@@ -7,7 +7,7 @@ categories: papers mirror
 
 The table below is a mirror of INSA-IJHS papers.  ( [sources are here](https://insa.nic.in/UI/journaldetails.aspx?AID=Mw==) )
 
-<input id="myInput" type="text" placeholder="Search..">
+<input hidden id="myInput" type="text" placeholder="Search..">
 <style>
     .highlight {
         background-color: yellow;
@@ -29,10 +29,10 @@ document.getElementById('myInput').addEventListener('keyup', function() {
         for ( j=0; j < tds.length; j++ ) {
             td = tds[j];
             if (td) {
-                txtValue = td.textContent || td.innerText;
-                // remove the highlight
-                txtValue = txtValue.replace(new RegExp('<span class="highlight">(.*)<\/span>', 'gi'), '$1');
-                td.innerHTML = txtValue;
+                txtValue = td.textContent; // || td.innerText;
+                // // remove the highlight
+                // txtValue = txtValue.replace(new RegExp('<span class="highlight">(.*?)<\/span>', 'gi'), '$1');
+                // // td.innerHTML = txtValue;
 
                 if (txtValue.toUpperCase().indexOf(filter) > -1) {
                     tr[i].style.display = "";
