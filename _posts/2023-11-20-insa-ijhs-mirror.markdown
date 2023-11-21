@@ -7,7 +7,7 @@ categories: papers mirror
 
 The table below is a mirror of INSA-IJHS papers.  ( [sources are here](https://insa.nic.in/UI/journaldetails.aspx?AID=Mw==) )
 
-<input hidden id="myInput" type="text" placeholder="Search..">
+<input id="myInput" type="text" placeholder="Search..">
 <style>
     .highlight {
         background-color: yellow;
@@ -23,16 +23,43 @@ document.getElementById('myInput').addEventListener('keyup', function() {
     table = document.querySelector("table");
     tr = table.getElementsByTagName("tr");
 
+    // If all text is cleared, show all the rows
+    if ( filter.length == 0 ) {
+        for (i = 0; i < tr.length; i++) {
+            tr[i].style.display = "";
+        }
+        // remove all the highlights
+        for (i = 0; i < tr.length; i++) {
+            tds = tr[i].getElementsByTagName("td");
+            for ( j=0; j < tds.length; j++ ) {
+                td = tds[j];
+                if ( td.getElementsByTagName("a").length > 0 ) {
+                    td = td.getElementsByTagName("a")[0];
+                }
+                if (td) {
+                    txtValue = td.textContent; // || td.innerText;
+                    // remove the highlight
+                    txtValue = txtValue.replace(new RegExp('<span class="highlight">(.*?)<\/span>', 'gi'), '$1');
+                    td.innerHTML = txtValue;
+                }
+            }
+        }
+        return;
+    }
+
     // Loop through all table rows, and hide those who don't match the search query
     for (i = 0; i < tr.length; i++) {
         tds = tr[i].getElementsByTagName("td");
         for ( j=0; j < tds.length; j++ ) {
             td = tds[j];
+            if ( td.getElementsByTagName("a").length > 0 ) {
+                td = td.getElementsByTagName("a")[0];
+            }
             if (td) {
                 txtValue = td.textContent; // || td.innerText;
-                // // remove the highlight
-                // txtValue = txtValue.replace(new RegExp('<span class="highlight">(.*?)<\/span>', 'gi'), '$1');
-                // // td.innerHTML = txtValue;
+                // remove the highlight
+                txtValue = txtValue.replace(new RegExp('<span class="highlight">(.*?)<\/span>', 'gi'), '$1');
+                td.innerHTML = txtValue;
 
                 if (txtValue.toUpperCase().indexOf(filter) > -1) {
                     tr[i].style.display = "";
