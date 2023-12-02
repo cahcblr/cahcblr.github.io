@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  " Mirror of INSA IJHS Papers"
+title:  "References to INSA IJHS Papers"
 date:   2023-11-20 18:30:00 +0530
 categories: papers mirror
+noindex: true
 ---
 
-The table below is a mirror of INSA-IJHS papers.  ( [sources are here](https://insa.nic.in/UI/journaldetails.aspx?AID=Mw==) )
+INSA-IJHS papers. ( [sources are here!!](https://insa.nic.in/UI/journaldetails.aspx?AID=Mw==) )
 
 <input id="myInput" type="text" placeholder="Search..">
 <style>
@@ -112,7 +113,7 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 |30|1967|2|P Ray|[Review](/assets/ijhs/Vol02_2_6_Review.pdf)|
 |31|1971|1|M N Deshpande|[Archaeological Sources for the Reconstruction of The History of Sciences of India](/assets/ijhs/Vol06_1_1_MNDeshpande.pdf)|
 |32|1971|1|R Sengupta|[Inluence of Certain Harappan Architectural Features on Some Texts of Early–Historical Period](/assets/ijhs/Vol06_1_2_RSengupta.pdf)|
-|33|1971|1|R N Rai|[Karanasara of Vatesvara](/assets/ijhs/Vol06_1_3_RNRai.pdf) &#128148;|
+|33|1971|1|R N Rai|[Karanasara of Vatesvara *$$*](/assets/ijhs/Vol06_1_3_RNRai.pdf) &#128148;   |
 |34|1971|1|N K Panikkar|[The Concept of Tides in Ancient India](/assets/ijhs/Vol06_1_4_NKPanikkar.pdf)|
 |35|1971|1|R C Gupta|[Fractional Parts of Aryabhata's Sines and Certain Rules](/assets/ijhs/Vol06_1_5_RCGupta.pdf)|
 |36|1971|1|Albert V Carozzi|[Lucien Cayeux: A Challenger of the Principle of Uniformity in Geology?](/assets/ijhs/Vol06_1_6_AVCarozzi.pdf)|
@@ -120,7 +121,7 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 |38|1971|1|Visvapriya Mukherji|[A Short History of the Meson Theory from 1935 to 1943](/assets/ijhs/Vol06_1_8_VMukherji.pdf)|
 |39|1971|1|B M Chintamani and B V Subbarayyapa|[Histrory of Sciences in india: Pali Sources](/assets/ijhs/Vol06_1_9_BMChintamani.pdf)|
 |40|1971|1||[Book Review](/assets/ijhs/Vol06_1_10_BookReviews.pdf)|
-|41|1971|2|Visvapriya Mukherji|[A Short History of the Meson Theory from 1943 to 1948 (Part II)](/assets/ijhs/Vol06_2_1_VMukherji.pdf) &#128148;|
+|41|1971|2|Visvapriya Mukherji|[A Short History of the Meson Theory from 1943 to 1948 (Part II) *$$*](/assets/ijhs/Vol06_2_1_VMukherji.pdf) &#128148;   |
 |42|1971|2|R N Rai|[The Extant Siddhanta Sekhra: An Error in one of its Sine Values](/assets/ijhs/Vol06_2_2_RNRai.pdf)|
 |43|1971|2|E G K Rao|[Exploration of Underground Water Springs According to the Ancient Hindus](/assets/ijhs/Vol06_2_3_EGKRao.pdf)|
 |44|1971|2|R N Rai|[The Ardharatrika System of Aryabhata I](/assets/ijhs/Vol06_2_4_RNRai.pdf)|
@@ -509,7 +510,7 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 |427|1996|4|Vijaya Jayant Deshpande|[Musavijnana or the Ancient Science of Crucibles](/assets/ijhs/Vol31_4_4_VJDeshpande.pdf)|
 |428|1996|4|M K Chandrashekaran and R Subbaraj|[JC Bose’s Views on Biological Rhythms](/assets/ijhs/Vol31_4_5_MKChandrashekaran.pdf)|
 |429|1996|4|N C Shah|[Norman Gill: The Pioneer Horticulturist of the Hills of Uttar Pradesh – A Tribute](/assets/ijhs/Vol31_4_6_NCShah.pdf)|
-|430|1996|4||[Book Review‚ Current Excerpts on History of Science and News](/assets/ijhs/Vol31_4_7_BookReview.pdf) &#128148;|
+|430|1996|4||[Book Review‚ Current Excerpts on History of Science and News *$$*](/assets/ijhs/Vol31_4_7_BookReview.pdf) &#128148;     *$$* |
 |431|1997|2|Subhash C Kak|[On th Science of Consciousness in Ancient India](/assets/ijhs/Vol32_2_1_SCKak.pdf)|
 |432|1997|2|Honor Frost|[Stone Anchors: The Need for Methodical Recording](/assets/ijhs/Vol32_2_2_HFrost.pdf)|
 |433|1997|2|V Mishra and S L Singh|[First Degree Indeterminate Analysis in Ancient India and its Application by Virasena](/assets/ijhs/Vol32_2_3_VMishra.pdf)|
@@ -586,7 +587,7 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 |504|2000|3||[Book Reviews](/assets/ijhs/Vol35_3_6_BookReviews.pdf)|
 |505|2000|3||[Notices](/assets/ijhs/Vol35_3_7_Notices.pdf)|
 |506|2000|3|A N Thakur|[Conferences: NISTADS INSA Workshop on History of Science in India](/assets/ijhs/Vol35_3_8_Conferences.pdf)|
-|507|2002|3|K D Abhyankar|[On Two Important Provisions in Vedanga&ndash Jyotisa](/assets/ijhs/Vol37_3_1_KDAbhyankar.pdf)|
+|507|2002|3|K D Abhyankar|[On Two Important Provisions in Vedanga-Jyotisa](/assets/ijhs/Vol37_3_1_KDAbhyankar.pdf)|
 |508|2002|3|K Chandra Hari|[Date of Haridatta‚ Promulgator of the Prahita System of Astronomy in Kerala](/assets/ijhs/Vol37_3_2_KCHari.pdf)|
 |509|2002|3|Dipak Jadhav|[Nemicandra’s Rule for the Volume of a Sphere](/assets/ijhs/Vol37_3_3_DJadhav.pdf)|
 |510|2002|3|S M R Ansari|[Practical Astronomy in Indo–Persian Sources](/assets/ijhs/Vol37_3_4_SMRAnsari.pdf)|
@@ -690,7 +691,7 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 |608|2006|1|Deepak Bhattacharya and P C Naik|[Archaeoastronomy at Bhubaneswar: A Polygonal and Mathematical Model — Taraka](/assets/ijhs/Vol41_1_4_DBhattacharya.pdf)|
 |609|2006|1|Jaweed Ashraf|[Some Medieval Manuscripts on Horticulture](/assets/ijhs/Vol41_1_5_JAshraf.pdf)|
 |610|2006|1|Sisir K Majumdar|[Historical Note: Einstein and India: His Scientific	Intellectual	Social and Moral Link](/assets/ijhs/Vol41_1_6_HistoricalNotes.pdf)|
-|611|2006|1|Sisir K Majumdar|[Historical Note: Einstein	Molecule and Medicine](/assets/ijhs/Vol41_1_7SisirKMajumdarEinstien.pdf) &#128148;|
+|611|2006|1|Sisir K Majumdar|[Historical Note: Einstein	Molecule and Medicine *$$*](/assets/ijhs/Vol41_1_7SisirKMajumdarEinstien.pdf) &#128148;   |
 |612|2006|1||[Historical Note: Magic Square for 2006](/assets/ijhs/Vol41_1_8_Magic Square.pdf)|
 |613|2006|1|R C Gupta|[Book Review– Pi: A Source Book](/assets/ijhs/Vol41_1_9_BookReview.pdf)|
 |614|2006|1||[Notices](/assets/ijhs/Vol41_1_10_Notices.pdf)|
@@ -713,21 +714,21 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 |631|2006|3|Rajesh Kocchar|[Book Review](/assets/ijhs/Vol41_3_8_BookReview.pdf)|
 |632|2006|3||[Supplement](/assets/ijhs/Vol41_3_9_SupplementGrahalaghavam.pdf)|
 |633|2007|2|Priyadarsan Sensarma|[Enthnobiological Information in Parasara Samhita](/assets/ijhs/Vol42_2_1_PSensarma.pdf)|
-|634|2007|2|Ankit Sule‚ Mayank Vahia‚ Hrishikesh Joglekar and Sudha Bhujle|[Saptarsi' Visit to different Naksatras: Subtle Effect of Earth’s Precession](/assets/ijhs/Vol42_2_2_ASule.pdf) &#128148;|
-|635|2007|2|Abhishek Parakh|[Ayrabhata’s Root Extraction Methods](/assets/ijhs/Vol42_2_3_AParekh.pdf) &#128148;|
+|634|2007|2|Ankit Sule‚ Mayank Vahia‚ Hrishikesh Joglekar and Sudha Bhujle|[Saptarsi' Visit to different Naksatras: Subtle Effect of Earth’s Precession *$$*](/assets/ijhs/Vol42_2_2_ASule.pdf) &#128148;   |
+|635|2007|2|Abhishek Parakh|[Ayrabhata’s Root Extraction Methods *$$*](/assets/ijhs/Vol42_2_3_AParekh.pdf) &#128148;   |
 |636|2007|2|R C Gupta|[Yantras or Mystic Diagrams: A Wide Area for Study in Ancient and Medieval Indian Mathematics](/assets/ijhs/Vol42_2_4_RCGupta.pdf)|
 |637|2007|2|R Balasubramaniam and Pranab K Chattopadhyay|[Zafarbaksh – The Composite Mughal Cannon of Aurangzeb at Fort William in Kolkata](/assets/ijhs/Vol42_2_5_RBalasubramaniam.pdf)|
-|638|2007|2|K D Abhyankar|[Historical Note: BG Tilak and Ancient Indian Astronomy – A Reappraisal](/assets/ijhs/Vol42_2_6_KDAbhyankar.pdf) &#128148;|
+|638|2007|2|K D Abhyankar|[Historical Note: BG Tilak and Ancient Indian Astronomy – A Reappraisal *$$*](/assets/ijhs/Vol42_2_6_KDAbhyankar.pdf) &#128148;   |
 |639|2007|2|K Chandra Hari|[Historical Note: Epoch of Lalla – An Overview](/assets/ijhs/Vol42_2_7_KCHari.pdf)|
-|640|2007|2|Rekha Ranade|[Historical Note: Cultivation of Naturally Coloured Cotton in India in the 19th century](/assets/ijhs/Vol42_2_8_RRanade.pdf) &#128148;|
-|641|2007|2|Sisir Kumar Majumdar|[Historical Note: Reception of Relativity Theory in Different Social‚ Political and Religious Ideologies](/assets/ijhs/Vol42_2_9_SKMajumdar.pdf) &#128148;|
+|640|2007|2|Rekha Ranade|[Historical Note: Cultivation of Naturally Coloured Cotton in India in the 19th century *$$*](/assets/ijhs/Vol42_2_8_RRanade.pdf) &#128148;   |
+|641|2007|2|Sisir Kumar Majumdar|[Historical Note: Reception of Relativity Theory in Different Social‚ Political and Religious Ideologies *$$*](/assets/ijhs/Vol42_2_9_SKMajumdar.pdf) &#128148;   |
 |642|2007|2|D Wujastyk|[Book Review: The Legacy of Susruta](/assets/ijhs/Vol42_2_10_BookReviewDWajastyk.pdf)|
 |643|2007|2|M S Sriram|[Book Review: Galileo Galilei – When the World Stood Still](/assets/ijhs/Vol42_2_11_BookReviewMSSriram.pdf)|
 |644|2007|2|Jagdish N Sinha|[Book Review: Chemical Sciences in Colonial India: The Science in Social History](/assets/ijhs/Vol42_2_12_BookReviewJNSinha.pdf)|
-|645|2007|2|Arun Kumar Biswas|[Obituary: Sushil Kumar Mukherjee (1914–2006)](/assets/ijhs/Vol42_2_13_Obituary.pdf) &#128148;|
+|645|2007|2|Arun Kumar Biswas|[Obituary: Sushil Kumar Mukherjee (1914–2006) *$$*](/assets/ijhs/Vol42_2_13_Obituary.pdf) &#128148;   |
 |646|2007|2||[News](/assets/ijhs/Vol42_2_14_News.pdf)|
 |647|2007|2|S Balachandra Rao|[Supplement: Karanakutuhalam of Bhaskaracarya II](/assets/ijhs/Vol42_2_15_Supplement.pdf)|
-|648|2008|1|R N Iyengar|[Archaic Astronomy of Parauara and Vrddha Garga](/assets/ijhs/Vol43_1_1_RNIyengar.pdf)|
+|648|2008|1|R N Iyengar|[Archaic Astronomy of Parāśara and Vṛddha Garga](/assets/ijhs/Vol43_1_1_RNIyengar.pdf)|
 |649|2008|1|Sumita Santra‚ Gautam Sengupta‚ Dipan Bhattacharya‚ Manoranjan Sarkar‚ Prati|[Recent Bronze Hoard from West Bengal: Analytical Studies](/assets/ijhs/Vol43_1_2_SSantra.pdf)|
 |650|2008|1|Jean Deloche|[Water Resources in the Hill Forts of South India (14—18th Century)](/assets/ijhs/Vol43_1_3_JDeloche.pdf)|
 |651|2008|1|Probir K Bondyopadhyay and Suchanda Banerjee|[Two Recently Discovered Patents of Professor Jagadis Chunder Bose and India’s First Electronics Technology Transfer to the West](/assets/ijhs/Vol43_1_4_PKBondyopadhyay.pdf)|
@@ -842,12 +843,12 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 |760|2010|4||[Index](/assets/ijhs/Vol45_4_26_Index.pdf)|
 |761|2010|4||[Cumulative Index](/assets/ijhs/Vol45_4_27_Cumulativeindex.pdf)|
 |762|2010|4||[Annual Contents](/assets/ijhs/Vol45_4_28_AnnualContents.pdf)|
-|763|2011|1||[Contents](/assets/ijhs/Vol46_2011_4_Art00_CONTENTS.pdf) &#128148;|
+|763|2011|1||[Contents *$$*](/assets/ijhs/Vol46_2011_4_Art00_CONTENTS.pdf) &#128148;   |
 |764|2011|1|Prabhakar Gondhalekar|[Possible Chronological Markers In The Vedic Texts](/assets/ijhs/Vol46_1_1_PGondalekhar.pdf)|
-|765|2011|1||[Dhruva the Ancient Indian Pole Star: Fixity Rotation and Movement](/assets/ijhs/Vol46_1_2_RNIyenger.pdf)|
+|765|2011|1|R N Iyengar|[Dhruva the Ancient Indian Pole Star: Fixity Rotation and Movement](/assets/ijhs/Vol46_1_2_RNIyenger.pdf)|
 |766|2011|1|OP Jaiswal|[Genesitic Roots and Philosophical Evolution of Vijnanavada (Yogacrya) School of Buddhism](/assets/ijhs/Vol46_1_3_OPJaiswal.pdf)|
 |767|2011|1|Vinod Mishra|[Computation of N : A Modern Generalization of Ancient Technique](/assets/ijhs/Vol46_1_4_VMishra.pdf)|
-|768|2011|1|Jayanta Bhattacharya|[Arrival of Western Medicine: Ayurvedic Knowledge; Colonial Confrontation and its Outcome](/assets/ijhs/Vol46_1_5_JBhattacharya.pdf) &#128148;|
+|768|2011|1|Jayanta Bhattacharya|[Arrival of Western Medicine: Ayurvedic Knowledge; Colonial Confrontation and its Outcome *$$*](/assets/ijhs/Vol46_1_5_JBhattacharya.pdf) &#128148;   |
 |769|2011|1|Arun Kumar Biswas|[Science in the Path of Syncretism](/assets/ijhs/Vol46_1_6_AKBiswas.pdf)|
 |770|2011|1|Sisir K Majumdar|[Historical Notes: Indian Renaissance: The Making of Modern India](/assets/ijhs/Vol46_1_7_SKMajumdar.pdf)|
 |771|2011|1|Sreeramula Rajeswara Sarma|[Historical Notes: Sudoku Yantra](/assets/ijhs/Vol46_1_8_SRSarma.pdf)|
@@ -944,7 +945,7 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 |862|2013|3|Sisir K Majumdar|[History and Philosophy of Quantum Physics : An Overview](/assets/ijhs/Vol48_3_6_SKMajumdar.pdf)|
 |863|2013|3||[Correspondence](/assets/ijhs/Vol48_3_7_Correspondence.pdf)|
 |864|2013|3||[Book Reviews](/assets/ijhs/Vol48_3_8_Bookreview.pdf)|
-|865|2013|3|Somenath Chatterjee|[Project Reports: Brahmasiddhanta in Sakalyasamhita-Text	English Translation and Commentary](/assets/ijhs/Vol48_3_9_Project Reports.pdf) &#128148;|
+|865|2013|3|Somenath Chatterjee|[Project Reports: Brahmasiddhanta in Sakalyasamhita-Text	English Translation and Commentary *$$*](/assets/ijhs/Vol48_3_9_Project Reports.pdf) &#128148;   |
 |866|2013|3|Srabani Sen|[Communicable Diseases and Germ Theory in Colonial India - An Assessment](/assets/ijhs/Vol48_3_10_SSen.pdf)|
 |867|2013|3||[NEWS](/assets/ijhs/Vol48_3_11_News.pdf)|
 |868|2013|3|Takao Hayashi|[Supplement:Ganitamanjari of Ganesa](/assets/ijhs/Vol48_3_12_Supplement_cover.pdf)|
@@ -952,7 +953,7 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 |870|2013|4||[Contents](/assets/ijhs/Vol48_4_0_Contents.pdf)|
 |871|2013|4|Bhagyashree Bavare and P P Divakaran|[Genesis and Early Evolution of Decimal Enumeration: Evidence from Number Names in Rigveda](/assets/ijhs/Vol48_4_1_BBaware.pdf)|
 |872|2013|4|Virendra N sharma|[Kapa-la Yantra at Sawai Jai Singh's Jaipur Observatory](/assets/ijhs/Vol48_4_2_VNSharma.pdf)|
-|873|2013|4|Anand M Sharan|[The Udayagiri Lion Pillar and its Astronomical Significance in Ancient India](/assets/ijhs/Vol48_4_3_AMSharan.pdf) &#128148;|
+|873|2013|4|Anand M Sharan|[The Udayagiri Lion Pillar and its Astronomical Significance in Ancient India *$$*](/assets/ijhs/Vol48_4_3_AMSharan.pdf) &#128148;   |
 |874|2013|4|Pratibha Mandal|[A Glimpse of the Garo Tangible Medicine: The Ruga-Garo Picture](/assets/ijhs/Vol48_4_4_PMandal.pdf)|
 |875|2013|4|Sukta Das|[Prevention of Diabetes- A Historical Note](/assets/ijhs/Vol48_4_5_SuktaDas.pdf)|
 |876|2013|4|R C Gupta|[M Rangacharya and his Century Old Translation of the Ganita Sarasangraha](/assets/ijhs/Vol48_4_6_ RCGupta)|
@@ -965,7 +966,7 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 |883|2013|4||[Cumulative Index : Vol. 48.1-4 (2013)](/assets/ijhs/Vol48_4_13_CumulativeIndex)|
 |884|2013|4||[Annual Contents: Vol. 48.1-4 (2013)](/assets/ijhs/Vol48_4_14_AnnualContent)|
 |885|2014|1|Contents|[Contents](/assets/ijhs/Vol49_1_0_Contents.pdf)|
-|886|2014|1|Pranab K Chattopadhayay and Ashok Purty|[Ho Tribes of Eastern India and their Metallurgical traditions](/assets/ijhs/Vol49_1_1_PK_chattopadhyay.pdf) &#128148;|
+|886|2014|1|Pranab K Chattopadhayay and Ashok Purty|[Ho Tribes of Eastern India and their Metallurgical traditions *$$*](/assets/ijhs/Vol49_1_1_PK_chattopadhyay.pdf) &#128148;   |
 |887|2014|1|Shraddha N Dhundi & PK Prajapati|[Critical review on Makaradhvaja- A Herbomineral Formulation](/assets/ijhs/Vol49_1_2_SNDhundi.pdf)|
 |888|2014|1|Sujit Dasgupta and Basab Mukhopadhyay|[1803 Earthquake in Garhwal Himalaya-Archival materials with commentary](/assets/ijhs/Vol49_1_3_Sdasgupta.pdf)|
 |889|2014|1|S K Jain and Harsh Singh|[India's notable presence in Linnaeus' Botanical Classification](/assets/ijhs/Vol49_1_4_SKJain.pdf)|
@@ -1400,3 +1401,15 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 |1318|2023|2|Prakrati Bhargava|[Institutionalization of agricultural education in the nineteenth century colonial India: its...](/assets/ijhs/IJHS_58_2_6.pdf)|
 |1319|2023|2|Mandakini Thakur|[Technologies of transportation: road	bridge and boat construction in colonial Punjab](/assets/ijhs/IJHS58_2_7.pdf)|
 |1320|2023|2|C. S. Meenakshi|[Project Report: The history of geographical surveys in India during the British period](/assets/ijhs/IJHS_58_2_8.pdf)|
+|1321|2023|3| IJHS|[Contents](/assets/ijhs/Contents_58-3.pdf)|
+|1322|2023|3| Venketeswara Pai R., M. S. Sriram|[Use of the concept of derivative in the computation of vyatīpāta in two Kerala texts](/assets/ijhs/IJHS_58_3_1.pdf)|
+|1323|2023|3| Nagakiran Yelluru, Aditya Kolachana|[Geometry of prāṇakalāntara in the Lagnaprakaraṇa](/assets/ijhs/IJHS_58_3_2.pdf)|
+|1324|2023|3| B. S. Shubha, B. S. Shylaja|[Mahādevī-sāriṇī : A unique table providing true longitudes of planets](/assets/ijhs/IJHS_58_3_3.pdf)|
+|1325|2023|3| Nagendra Rao|[Colonialism, nationalism and reconstruction of history of science: the case of Goa](/assets/ijhs/IJHS_58_3_4.pdf)|
+|1326|2023|3| Baasit Abubakr, Saradindu Bhaduri|[Advent, appropriation, and aesthetics of electric light in the princely state of Jammu and Kashmir,](/assets/ijhs/IJHS_58_3_5.pdf)|
+|1327|2023|3| Saumitra Basu|[Mountains of corpses: the deadliest attack of the 1918–19 influenza pandemic in the city of...](/assets/ijhs/IJHS_58_3_6.pdf)|
+|1328|2023|3| Sudhanshu Kumar Jha, Shubham|[A study of diseases and deaths in colonial Bihar in twentieth century](/assets/ijhs/IJHS_58_3_7.pdf)|
+|1329|2023|3| B. S. Shylaja|[BooK Review: History of Indian astronomy: The Tirvalore tables...](/assets/ijhs/IJHS_58_3_8.pdf)|
+|1330|2023|3| Samir Kumar Saha|[Book Review: Sir R.N. Mookerjee...](/assets/ijhs/IJHS_58_3_9.pdf)|
+|1331|2023|3| Sabyasachi Chatterjee|[Project Report: Development of amateur astronomy in independent India with special reference to...](/assets/ijhs/IJHS_58_3_10.pdf)|
+|1332|2023|todo|R. N. Iyengar and Sunder Chakravarty|[Equinoctial full moon of the Brahmāṇḍa Purāṇa and the nakṣatra solar zodiac starting from summer solstice](/assets/ijhs/rni-maghadi-2023.pdf)|
