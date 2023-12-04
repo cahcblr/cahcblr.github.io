@@ -17,7 +17,8 @@ noindex: true
 
 ### Session 3 - Solar zodiac in vedanga traditions (5th, PM)
 - [Solar transit paper](/assets/ijhs/1.pdf)
-- [Magaadi in Brahmanda Purana paper](/assets/ijhs/rni-maghadi-2023.pdf)
+- [Maghaadi in Brahmanda Purana paper](/assets/ijhs/rni-maghadi-2023.pdf)
+- Maghaadi Presentations as - [PDF](/assets/talks/2023-12-05-iks-cahc/maghaadi/maghaadi.pdf),  [HTML](/assets/talks/2023-12-05-iks-cahc/maghaadi/maghaadi.html)
   
 ### Session 4 - Continuity of tradition (6th, AM)
 - [Archaeo-astronomy paper](/assets/ijhs/rni-ichr-archaeo-astronomy-2018.pdf)
