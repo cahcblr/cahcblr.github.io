@@ -1,35 +1,58 @@
 ---
 layout: post
 title:  "Interdisciplinary Discussion Meeting on Indian Astronomy Before Common Era"
-date:   2023-12-02 18:30:00 +0530
+date:   2023-12-05 18:30:00 +0530
 categories: iks conference
 noindex: true
 ---
+<style>
+    em { color: #0000ff; }
+    .rounded-image { border-radius: 25%; }
+    table { font-size: smaller; }
+    table td:nth-child(2) { display: none; }
+    table th:nth-child(2) { display: none; }
+    table td:nth-child(1) { display: none; }
+    table th:nth-child(1) { display: none; }
+</style>
 
-### Session 1 - Jyotisha in the vedas (5th, AM)
+![](/assets/talks/2023-12-05-iks-cahc/iks-cahc-group-pic.jpg){: .rounded-image}
+
+
+### Session 1 - Jyotisha in the vedas
+- [*Adhidaivata Pakṣa presentaton by Prof. R. N. Iyengar*](/assets/talks/2023-12-05-iks-cahc/1_1_adhidaivata-paksha.pdf)
+- [*Ashva sukta presentation by Sudarshan*](/assets/talks/2023-12-05-iks-cahc/1_2_ashva-sukta.pdf)
 - [Darshapurnamasa paper](/assets/ijhs/Vol47_3_6_RNIyengar.pdf)
-- Ashva sukta (yet unpublished, no paper, ppt only)
 - [Comets and meteorites paper](/assets/ijhs/rni-extract-comets-meteors-vedas-2016.pdf)
   
-### Session 2 - Mahasalila (5th, PM)
-- Mahasalila paper (yet unpublished, no paper, ppt only)
-- [VGJ papers are optional references](/assets/tattvadipah/tattvadipah-vgj-2019-01.pdf)
+### Session 2 - Mahasalila
+- Mahasalila paper (yet unpublished)
+- [VGJ paper](/assets/tattvadipah/tattvadipah-vgj-2019-01.pdf)
 
-### Session 3 - Solar zodiac in vedanga traditions (5th, PM)
+### Session 3 - The vedanga jyotishas and dates
+- [*Pre Siddhantic Astronomy presentation by Prof. R. N. Iyengar*](/assets/talks/2023-12-05-iks-cahc/3_1_pre-siddhantic-astronomy.pdf)
+- [*Maghaadi Presentations by Sunder*](/assets/talks/2023-12-05-iks-cahc/maghaadi/maghaadi.pdf),  [*(as HTML)*](/assets/talks/2023-12-05-iks-cahc/maghaadi/maghaadi.html)
 - [Solar transit paper](/assets/ijhs/1.pdf)
 - [Maghaadi in Brahmanda Purana paper](/assets/ijhs/rni-maghadi-2023.pdf)
-- Maghaadi Presentations as - [PDF](/assets/talks/2023-12-05-iks-cahc/maghaadi/maghaadi.pdf),  [HTML](/assets/talks/2023-12-05-iks-cahc/maghaadi/maghaadi.html)
   
-### Session 4 - Continuity of tradition (6th, AM)
+### Session 4 - Continuity of tradition
+- [*Time measurement presentation by Anand*](/assets/talks/2023-12-05-iks-cahc/4_1_time.pdf)
+- [*Dhruva presentation by Prof. R. N. Iyengar*](/assets/talks/2023-12-05-iks-cahc/4_2_dhruva.pdf)
 - [Archaeo-astronomy paper](/assets/ijhs/rni-ichr-archaeo-astronomy-2018.pdf)
 - [Dhruva paper](/assets/ijhs/Vol46_1_2_RNIyenger.pdf)
 - [Akshara paper](/assets/ijhs/Vol55_3_2020__Art01.pdf)
 
-### Session 5 - Discussion, feedback, conclusion (6th, AM)
+#### Matsya Sisumara and the night sky over ages
+<video width="320" height="240" controls autoplay muted>
+  <source src="/assets/talks/2023-12-05-iks-cahc/4_2_matsya-sisumara-night.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<!-- ### Session 5 - Discussion, feedback, conclusion (6th, AM) -->
 
 
 ---
 ---
+
 
 <input hidden id="myInput" type="text" placeholder="Search..">
 <style>
@@ -103,6 +126,7 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 </script>
 
 
+### Paper References
 
 |session|slot|paper year|paper issue|author|paper|
 |:--:|:--:|---|---|---|---|
