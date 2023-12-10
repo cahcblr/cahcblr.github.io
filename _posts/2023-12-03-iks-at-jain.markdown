@@ -9,13 +9,14 @@ noindex: true
 <style>
     em { color: #0000ff; }
     .rounded-image { border-radius: 25%; color: }
+    table { display: none}
     /* table.nth-child(2) { font-size: smaller;  }
     table.nth-child(2) td:nth-child(2) { display: none; }
     table.nth-child(2) th:nth-child(2) { display: none; }
     table.nth-child(2) td:nth-child(1) { display: none; }
     table.nth-child(2) th:nth-child(1) { display: none; } */
 
-    li , h5, video { display: none }
+    li , h5 { display: none }
 
 </style>
 
@@ -24,9 +25,9 @@ noindex: true
 This discussion was organized by the [Center for Ancient History and Culture](https://cahc.jainuniversity.ac.in/), Jain University and the [Indian Knowledge Systems Division, MoE, Govt. of India](https://iksindia.org/). This discussion was held on Kārtika bahuḷa aṣṭamī & navamī, 5,& 6 December 2023 at
 CMS Business School, Jain University, Bangalore.
 
-Eminent panelists representing Vedic , Sanskrit  and modern scholarship from various parts of India and Nepal participated. The discussion was held in five sessions over two days. The discussion was attended by about 40 participants, including the panelists and observers.
+Eminent panelists representing Vedic , Sanskrit  and modern scholarship from various parts of India and Nepal participated. The discussion was held in five sessions over two days. The discussion was attended by about 40 participants, including the panelists and observers. Prof. RN Iyengar, Distinguished Professor and Director, CAHC. curated the discussion topics.  Sudarshan , Research Associate at CAHC co-ordinated the event.
 
-### Panelists
+<!-- ### Panelists -->
 
 |#|Name|Affiliation|City
 |:--|:--|:--|:--
@@ -147,7 +148,7 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 </script>
 
 
-## Paper References
+<!-- ## Paper References -->
 
 |session|year|author|paper|
 |:--:|---|---|---|
@@ -156,10 +157,10 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 |2|2019|R N Iyengar, H S Sudarshan and Anand Viswanathan|[Vṛddhagārgīya Jyotiṣa (Part 1)](/assets/tattvadipah/tattvadipah-vgj-2019-01.pdf)|
 |3|2021|R. N. Iyengar and Sunder Chakravarty|[Transit of sun through the seasonal naksatra cycle in the Vrddha-Gārgīya Jyotisa](/assets/ijhs/1.pdf)|
 |3|2023|R. N. Iyengar and Sunder Chakravarty|[Equinoctial full moon of the Brahmāṇḍa Purāṇa and the nakṣatra solar zodiac starting from summer solstice](/assets/ijhs/rni-maghadi-2023.pdf)|
-|4|2018|R N Iyengar|[Archaeo-astronomy and Ancient Indian Chronology](/assets/ijhs/rni-ichr-archaeo-astronomy-2018.pdf)|
 |4|2011|R N Iyengar|[Dhruva the Ancient Indian Pole Star: Fixity Rotation and Movement](/assets/ijhs/Vol46_1_2_RNIyenger.pdf)|
 |4|2020|R N Iyengar, H S Sudarshan and Anand Viswanathan|[Akṣara the Basic Unit of Time Measure in Ancient India](/assets/ijhs/Vol55_3_2020__Art01.pdf)|
 
+<!-- |4|2018|R N Iyengar|[Archaeo-astronomy and Ancient Indian Chronology](/assets/ijhs/rni-ichr-archaeo-astronomy-2018.pdf)| -->
 
 ##### Matsya Sisumara and the night sky over ages
 <video width="320" height="240" controls autoplay muted>
