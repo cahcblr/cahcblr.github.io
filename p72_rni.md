@@ -7,13 +7,14 @@ permalink: /people/
 |:-:|------------|
 | ![RNI](../assets/rni.jpg)<br>**Professor&nbsp;Rangachar&nbsp;Narayana&nbsp;Iyengar**, Director of CAHC |
 
-[Brief Bio of Prof.R.N.Iyengar ](../assets/rni.pdf)
+Prof RNI is the Director  of the Center for Ancient History and Culture (CAHC) at the [Jain University](https://en.wikipedia.org/wiki/Jain_University) since 2012 and is actively working on research in the areas of Indian Knowledge Systems including the History of Science in India.
 
-Prof RNI is the Director  of the Center for Ancient History and Culture (CAHC) at the [Jain University](https://en.wikipedia.org/wiki/Jain_University) since 2012 and is actively working on research in the area of History of Science in India.
+Professor R. N. Iyengar B.E., M.Sc(Eng).,Ph.D., (b. 1943) is renowned for his contributions to Earthquake Engineering, Random Vibrations, Mathematical Modeling, Structural Dynamics and Nonlinear Systems. As faculty at the Indian Institute of Science from 1969 till his retirement in 2005 as KSIDC Chair Professor in Civil Engineering, Iyengar has published 200 technical papers, reports, general articles and books. He is **Fellow of the Indian National Academy of Engineering, Indian Academy of Science, National Academy of Science** and the Alexander von Humboldt Foundation, Germany. He held the Distinguished Schmidt Chair at the Florida Atlantic University, USA in 1995. He was Director of CBRI-CSIR (1994-2000); Raja Ramanna Fellow of Dept. of Atomic Energy (2005-10). After establishing the Centre for Disaster Mitigation with a unique Fire Research Lab, he is currently Distinguished Emeritus Professor and the Director of the Centre for Ancient History & Culture at the Jain University, Bangalore.
 
-R N Iyengar joined the Indian Institute of Science (IISc), Bangalore as a Master's student and obtained his M.Sc. (Engineering) (1966) and PhD (1970) from IISc. His PhD thesis on stochastic modeling of earthquake loads was the first doctoral thesis in the country in the area of random vibrations. He joined IISc as a faculty member in 1969 and became a Professor in 1986. Until his retirement, he was the KSIIDC Chair Professor in the Department of Civil Engineering and also Professor in Center for Atmospheric and Oceanic Sciences at the Indian Institute of Science, Bangalore.
+Brought up in a family of Sanskrit scholars, Professor Iyengar received initial training in Sanskrit studies in the traditional way. This has propelled him to become an avid reader of ancient texts in the original. He has developed, combining Indic knowledge traditions with modern methods, a new line of study of ancient Indian heritage. His findings on comets, eclipses, earthquakes, ancient geography, effect of precession and the Pole Star Dhruva in Vedic literature, Concept of Probability in classical music, have attracted worldwide attention. He brought out the **Parāśaratantra**, an ancient Sanskrit treatise on astronomy and natural sciences, with text, translation and notes in 2013. Recently he has edited **Nāradaśilpam**, a medieval period text on Civil Engineering with introduction, translation and notes. He is presently critically editing **Vṛddha-gārgīya Jyotiṣa** an ancient text on astral sciences from about ten unpublished manuscripts.
 
-After his retirement from IISc, he joined Jain University and was instrumental in setting up the UL-Jain Fire Laboratory (UL-JFL). The UL-JFL is a state-of-art engineering laboratory devoted to fire safety education and research that will promote industry academia interaction, contributing to mitigation of fire hazard in the Indian habitat.
+
+**[Prof. R.N. Iyengar's Brief Bio and his Publications on Indian Knowledge Systems ](../assets/rni.pdf)**
 
 ---
 
@@ -27,11 +28,12 @@ Shankar Rajaraman is an Associate Professor at CAHC since 2022 and works in area
 | ![Sudarshan](../assets/sudarshan.jpg)<br>**Sudarshan&nbsp;HS** , Research Associate |
 Researching on comets and impact events in Vedas, Puranas, Vedangas and other pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra. Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa.|
 
----
+<!-- ---
 
 |:-|:------------|
 | ![Anand](../assets/anand.jpg)<br>**Anand Viswanathan**, Research Associate | ![INSA](../assets/anand-insa-young-historian-award-small.jpg)|
 Researching on planetary paths, perioidicity and other information in pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra. Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa. | *Anand Viswanathan* is elected **INSA Young Historian of Science for the year 2021**  |
+-->
 
 ---
 

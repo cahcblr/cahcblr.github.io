@@ -7,6 +7,7 @@ permalink: /papers/
 ## Papers
 ### History of Astronomy, Archaeo-Astronomy
 
+1. Iyengar, R. N. et al. (2023).<br/>`Equinoctial full moon of the Brahmāṇḍa Purāṇa and the nakṣatra solar zodiac starting from summer solstice.`<br/> Indian Journal of History of Science, 58(4).<br/>&nbsp; 
 1. Iyengar, R. N. et al. (2021).<br/>`Transit of Sun through the seasonal nakṣatra cycle in the Vṛddha-Gārgīya Jyotiṣa.`<br/> Indian Journal of History of Science, 56(3).<br/>&nbsp; 
 1. Iyengar, R. N. (2020).<br/>`Akṣara the Basic Unit of Time Measure in Ancient India.`<br/> Indian Journal of History of Science, 55(3).<br/>&nbsp; 
 1. Iyengar, R. N., & Satheeshkumar, V. H. (2012). (8)<br/>`Historical Notes: Archaeo Astronomical Significance of the Vedic Darsapaurnamasa Altar.`<br/> Indian Journal of History of Science, 47(3). 513-519.<br/>&nbsp; 
