@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Center for Ancient History and Culture
-email: cahcblr@gmail.com
+email: rn.iyengar@jainuniversity.ac.in
 description:
 zdescription: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
