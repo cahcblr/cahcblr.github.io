@@ -1,6 +1,6 @@
 ---
 
 layout: home
-title: "Posts" 
+title: "Events" 
 show_posts: true
 ---
