@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Māhasalilam Book Release"
+title:  "Mahāsalilam Book Release"
 subtitle: "Event Mythic Society, Bangalore , Dec 28th 2024"
 date:   2024-12-28 10:11:12 +0530
 categories: mythic book-release
@@ -12,7 +12,7 @@ categories: mythic book-release
     }
 </style>
 
-### **Māhasalilam** *Vedāṅga Text on Astronomical Sciences* 
+### **Mahāsalilam** *Vedāṅga Text on Astronomical Sciences* 
 #### *Critically Edited and Translated by* **Prof. R. N. Iyengar**
 
 | ![](/assets/talks/2024-12-18-mahasalilam/ms-book-release.jpg) |
