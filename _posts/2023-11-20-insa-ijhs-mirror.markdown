@@ -31,17 +31,25 @@ noindex: true
     myInput.dispatchEvent(new KeyboardEvent('keyup', {bubbles: true}));
   ">
     <option value="">--Select--</option>
-    <option value="Astronomy">Astronomy</option>
-    <option value="Ganita">Ganita</option>
-    <option value="Iyengar">Iyengar</option>
-    <option value="Jyotisa">Jyotisa</option>
-    <option value="Math">Math</option>
-    <option value="Music">Music</option>
-    <option value="Philosophy">Philosophy</option>
-    <option value="Siddhanta">Siddhanta</option>
+    <option value="Agriculture">Agriculture(59)</option>
+    <option value="Astronomy">Astronomy(329)</option>
+    <option value="Biology">Biology(90)</option>
+    <option value="Culture">Culture(113)</option>
+    <option value="Iyengar">Iyengar(17)</option>
+    <option value="Lingiustics">Lingiustics(31)</option>
+    <option value="Math">Math(210)</option>
+    <option value="Medicine">Medicine(249)</option>
+    <option value="Metallurgy">Metallurgy(162)</option>
+    <option value="MindSciences">MindSciences(16)</option>
+    <option value="Music">Music(6)</option>
+    <option value="Philosophy">Philosophy(49)</option>
+    <option value="Other">Other(625)</option>
 </select>
 
+<button id="myButton">Export</button>
+
 </div>
+
 
 <style>
     .highlight {
@@ -49,8 +57,19 @@ noindex: true
     }
 
     #myInput {
-        opacity: 0.1;
+        opacity: 0.3;
         border: none;
+    }
+
+    #myDropdown {
+        opacity: 0.3;
+        border: none;
+    }
+
+    #myButton {
+        opacity: 0.3;
+        border: none;
+        display: none;
     }
 
     #myInput:hover {
@@ -66,7 +85,8 @@ noindex: true
 </style>
 
 <script>
-document.getElementById('myInput').addEventListener('keyup', function() {
+
+function handleSearch () {
     // Declare variables
     var input, filter, table, tr, td, i, txtValue;
     input = document.getElementById("myInput");
@@ -126,10 +146,15 @@ document.getElementById('myInput').addEventListener('keyup', function() {
             }
         }
     }
-});
+};
+
+function deBounceSearch () {
+    setTimeout( handleSearch, 200);
+}
+
+document.getElementById('myInput').addEventListener('keyup', deBounceSearch )
 
 // Simulate typing of "Iyengar" in the search box
-
 setTimeout(function() {
     var input = document.getElementById('myInput');
     if (input) {
@@ -137,7 +162,64 @@ setTimeout(function() {
         var event = new Event('keyup');
         input.dispatchEvent(event);
     }
-}, 200);
+}, 300);
+
+
+function exportTableAsMarkdown() {
+    const table = document.querySelector("table");
+    const rows = Array.from(table.getElementsByTagName("tr"));
+    let markdown = "";
+    
+    // Add header row
+    const headerCells = rows[0].getElementsByTagName("th");
+    markdown += "|" + Array.from(headerCells)
+        .map(cell => cell.textContent.trim())
+        .filter((_, index) => index !== 3)
+        .join("|") + "|\n";
+    
+    // Add separator row
+    markdown += "|" + Array.from(headerCells)
+        .map(() => "---")
+        .filter((_, index) => index !== 3)
+        .join("|") + "|\n";
+    
+    // Add data rows
+    rows.slice(1).forEach((row) => {
+        if (row.style.display !== "none") {
+            const cells = Array.from(row.getElementsByTagName("td"));
+            markdown += "|" + cells
+                .map(cell => cell.textContent.trim())
+                .filter((_, index) => index !== 3)
+                .join("|") + "|\n";
+        }
+    });
+    
+    // Create and trigger download
+    const blob = new Blob([markdown], { type: "text/markdown;charset=utf-8" });
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "ijhs-papers-" +  document.getElementById('myInput').value+ ".md"
+    document.body.appendChild(a);
+    a.click();
+    window.URL.revokeObjectURL(url);
+    document.body.removeChild(a);
+}
+
+setTimeout(function() {
+	const exportButton = document.getElementById("myButton");
+	const dropdown = document.getElementById("myDropdown");
+	//const exportButton = document.createElement("button");
+	//exportButton.innerHTML = "Export as Markdown";
+	exportButton.onclick = exportTableAsMarkdown;
+	//exportButton.style.cssText = "margin: 10px 0; padding: 5px 10px; opacity: 0.3;";
+	exportButton.addEventListener("mouseover", () => exportButton.style.opacity = "1");
+	exportButton.addEventListener("mouseout", () => exportButton.style.opacity = "0.3");
+
+	dropdown.addEventListener("mouseover", () => dropdown.style.opacity = "1");
+	dropdown.addEventListener("mouseout", () => dropdown.style.opacity = "0.3");
+	//document.querySelector("option").insertAdjacentElement("beforestart", exportButton);
+}, 300);
 
 </script>
 
