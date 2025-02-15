@@ -15,7 +15,8 @@ categories: indian-chronology
 
 > The following posts are by Prof. R. N. Iyengar on Facebook starting Jan 29th 2025. The posts are about Indian history and chronology as seen from ancient texts. The posts are presented here in a single narrative for easy reading.
 
-### [Post 1](https://www.facebook.com/share/p/1BFb97bqag/)
+### [Post 1](https://www.facebook.com/share/p/1BFb97bqag/) {#p1}
+29-Jan-2025
 
 History is about the Past, there is no debate on this! The controversy and loud mouthing about Vedic, Aitihāsic, Purāṇic chronology is primarily due to subjective origins for estimating/measuring (or claims of it) long time periods. Let me put it this way. We need an origin or starting point for any measurement. This cannot be a zero point (Euclidian) origin as in a high school X-Y graph. But, the European model of history introduced the imaginary origin of Christ’s-birth and in our schools we were mostly exposed to this as AD and BC, slowly changing to CE and BCE. All the same for academic (not just modern) discussions an agreed origin is needed. 
 
@@ -33,7 +34,8 @@ All the above may sound argumentative, but helps in seeing the ‘traditional po
 
 Vedas starting from RV know and allude to both short and long intervals of time. First about the Yuga.
 
-### [Post 2](https://www.facebook.com/share/p/18eerT3kJ9/)
+### [Post 2](https://www.facebook.com/share/p/18eerT3kJ9/) {#p2}
+30-Jan-2025
 
 Literal meaning of the word Yuga is “conjunction/coexistence/ coevality of two entities.” This may be a wooden yoke, connecting the back of two bullocks or a time period in days/years when the same two celestial bodies appear to conjunct. The word Yuga in pre-siddhānta astronomy, is usually qualified as Pañcavarṣīya-yuga, Rāhu-yuga, Bṛhaspati-yuga indicating specific periods of time. 
 
@@ -50,7 +52,8 @@ The Purāṇas have carried on the above ‘Time/Kāla’ concepts in their own 
 ![](https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/475759426_2741208336052201_7734745339605419732_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=lWVMpfjkS2sQ7kNvgFDEWpm&_nc_oc=Adh6WwQHMGvVpriFJJ7r3ZmfnowWmm5sOQqt8hOYMfyva31gqu-38L4y20qLpcKSjII&_nc_zt=23&_nc_ht=scontent.fblr1-5.fna&_nc_gid=AdcVE6Iv_q4V-kQCQGL2KWn&oh=00_AYBHA5j8PMW57SAwWUr9LXO3zaSoYFh02i_YIpzQsvEP-g&oe=67B4C06D)
 
 
-### [Post 3](https://www.facebook.com/share/p/1B7b7bqag/)
+### [Post 3](https://www.facebook.com/share/p/1B7b7bqag/) {#p3}
+31-Jan-2025
 
 There is a Sanskrit adage sthitasya gatiḥ chintanīyā. Translated roughly this means, we have to engage with and possibly benefit from what is in front of us, not decry or demean. There is no point in blaming the Purāṇas as having lead Hindus to low IQ, like some history/chronology judges WUI.  With 18 major and 18 minor Purāṇas and the two epics it is nobody’s case that these texts are coherent and agree with each other. Much of the material is floating stuff, scum on the surface. One has to avoid getting stuck in this quick sand, if one has to draw some useful conclusions. 
 
@@ -72,7 +75,8 @@ The following three bullet points emerge repeatedly:
 This is a minimalistic picture, but if you know that in organic systems, like Hinduism in reality is, period three-implies-chaos. But chaos is not white noise or lack of order; it is only fine structured self-similarity as per Prajāpati’s Manas.  Sanātana is basically characterization of TIME as primeval, perpetual, eternal. This word in the sense of very ancient is traceable to the Shatapatha Brāhmaṇa.
 Where does history come into picture here?
 
-### [Post 4](https://www.facebook.com/share/p/1AzcUuDN63/)
+### [Post 4](https://www.facebook.com/share/p/1AzcUuDN63/) {#p4}
+02-Feb-2025
 
 History (intermediate or 100, 1000 year scale chronology) as we call it today, was not the central theme of the Purāṇas. Still here and there, time in centuries, like the interval between Parikshit and the Nandas as 1050 years shows up in some Purāṇas. For them, this was sufficient, as societally inherited information, to believe in the historicity of Krishna and the associated MBh characters. Since the human avatāra was the Parabrahman, the contradiction was ironed out by making the texts a-historical (but not un- or anti-historical) in the cosmological time frame of the yugas expanded to manvantaras, Kalpa, half-day of Brahma.
 
@@ -85,7 +89,8 @@ Vedic-Hindus maintain (unknowingly or unwittingly?) to this day, their link to t
 Note carefully, if you see the above in reverse order, mainly Three Time parameters are here; the local calendar date and time; intermediate (historical) time in years (śakābda, Vi. samvatsara, kaliyuga); long time in manvantara, reaching parārdha. All the three are important parts of Kāla in the religious Hindu saṅkalpa and have to be correct as envisioned in the Vedas, but modulated over millennia. This is quantification of Time in three scales Before Present (BP). In current practice some of the above numbers are glaringly wrong and should be corrected. But the inbuilt concept of evolutionary, natural, tectonic, human, calendar (history) linked to personal time, cannot be denied. Unfortunately, some of our own scholars declare that for Hindus time is circular/periodic and it is made longer only by multiplying with planetary periods. Such negations are based on ignorance and inability to feel the common spiritual/dhārmic thread passing through the texts they read or ignore. 
 First, I will consider the intermediate time scale, that has spurred contemporary Bhāratīyas to delineate their identity as the followers or otherwise of the Vedic-Purāṇic Past.
 
-### [Post 5](https://www.facebook.com/share/p/1A2oi9ARXq/)
+### [Post 5](https://www.facebook.com/share/p/1A2oi9ARXq/)  {#p5}
+09-Feb-2025
 
 Curiosity to know where Agni, Indra, Vibhāvasu, Mātariśvan, Mitra, Varuṇa, Achyuta, Dhruva, Samvatsara, Kalpa, Rudra, Māruti, Viṣṇu, Lakshmi, Umā, Saraswati, Uśanas, Vasiṣṭha, Viswamitra, Agastya, Kṛṣṇa, Rāma, Gaṇapati, Skanda, Anumati, Kuhū, etc etc fit-in in the above grandstand saṅkalpa time line is a legitimate desire.
 
@@ -102,6 +107,33 @@ If the textual geographical names of towns, villages, forests, lakes, coastlines
 The above may not always be possible, since displaced people usually name their new settlements with previous city/village/river names of fond memory. In some of the Purāṇas this shows up as discontinuity/contradictions in the geo-environment, supposedly of the same sacred site. Thus, ASI may be digging in the wrong place for the original Dvāraka/Prabhāsa of MBh and the Harivamsha!
 
 Genealogy studies arrive at broad and rather hazy picture of the historicity of the epic heroes. For example, if you ask whether the Ambarisha mentioned above by Bṛhadratha, is same as the one who promoted ekādaśi vrata of the Bhāgavata there will be confusion. That Rāma was earlier than Kṛṣṇa will be quite clear from the texts. But the linkages between the two as per the Uttarakāṇḍa and Harivamśa are not same and this will necessitate lot of special pleading for consistency.
+
+### [Post-6](https://www.facebook.com/share/p/17bxmfzSn4/) {#p6}
+15-Feb-2025
+
+Yāskāchārya in the Nirukta makes a sarcastic comment: If a blind man hits his head against a pillar, whose fault is it; of the pillar or of the person? He was referring to persons of his time (c1000 BCE?) who argued that the Vedas have no meaning. Now, his remark is relevant to all of us as Hindus, with our diverse inherited practices (sampradāya) on one side and Vedas still learnt orally and preserved (paraṁpara) diligently on the other side. The meanings of the Vedic texts including the śrauta practices are not remembered without confusion.  Some selected Purāṇas and the epics being so popular, (even at street level), we have difficulty in placing the canonical texts and the dhārmic practices at large, in intellectual and emotional balance.
+
+All said and done Hinduism is not a book based religious culture. Nevertheless, the texts are the repositories of our treasured unitary Vedic paraṁpara and the myriad saṁpradāyas that together make up for sanātana dharma. This is a dicey situation, since we don’t know what texts have been lost or still catching dust in a manuscript library.
+
+Talking about our not too distant past, one should wonder why a mleccha name appears and elapsed years are recollected as śakābda in the religious saṅkalpa.  The only reason can be, in my opinion; we are here recollecting the most turbulent period of Hinduism, when outsiders (Scythians) invaded and destroyed Pāṭaliputra, Sāketa, and Avanti (100BC-100AD). The famous purāṇas do not have much to say on this period, but some of the Sanskrit dramas and Jaina texts allude to this period.
+
+There is also a tiny text with just 115 verses, called “Yugapurāṇa” that provides some real history. This purāṇa is like a conversation between Śiva and Skanda said to be from Skānda Puraṇa. This short YP text was submerged as a part of the Vrddhagarga Samhita/Jyotisha, but pulled out and edited first by [Mankad (1950)](https://archive.org/details/in.gov.ignca.8341) and later by [Mitchiner (1986)](https://archive.org/details/TheYugaPurana).
+
+As per YP, the first Kṛtayuga ended with the Tārakā war, (devāsura yuddha a metaphor for a disturbed sky and extra-terrestrial impacts causing disasters in India). The Tretāyuga ended with Rāma destroying kṣatriyas 21 times, that is a reference to Paraśurāma of MBh.  Keśava (Vāsudeva), Pāṇḍavas were at the closing part of Dwāpara, whereas Janamejaya Pārikṣita (s/o Parīkṣit) was at the start of Kaliyuga. This yuga gradually transitioned after the Yavanas and Śakas were pushed back. Northern India was devastated by famine, followed by people resettling peacefully in twelve different regions of India, waiting for a new Yuga! 
+
+I am not working out any chronology, but I like to point out that this text (critically edited with translation by Mitchiner available on [archive.org](https://archive.org/details/TheYugaPurana) ) is available for anyone, particularly those against the Purāṇas, to read and ponder about how and why śakābda got mandated into our dhārmic vocabulary.
+
+It may be inferred that YP and other relatively short Purāṇas originated from the same single ancient source. The popular Purāṇas when scripted in the royal courts, were expanded in their size and also in Yuga numbers, so that they become para-historical or a-historical (see [Post-4](#p4) ) by design. Several other smṛti, āgama texts also appear para-historical with their authorship ascribed to Vedic Sages: Vasiṣṭha, Kaśyapa, Parāśara, Agastya, Nārada, Viśvāmitra, Hārita, Yājñavalkya etc. 
+
+I have wondered very often why so; were the primary level Purāṇa-kartas unethical? Or did they have a greater ideal in front of them for some special purpose. To me it appears they had set for themselves to give to the society a taste of what had been lost due to some apocalyptic disaster and destruction, denoted by the generic word Pralaya. The people directly bearing the brunt could not have left any record. Only the survivors gathering their lives and spiritual strength could have said or written about their past. Possibly the School of Vyāsa not only organized the family traditions of the Vedas for proper preservation, but also sowed the seeds for the Purāṇas meant for public teaching in the story telling tradition. We have no access to the original deliberations, but the text of Brahmāṇḍa Purāṇa gives some clues to this.
+
+A very powerful word Śiṣṭāchāra (śiṣṭānāṁ āchāraḥ i.e practice of Śiṣṭas) is usually cited by traditional scholars when questioned about some peculiar socio-religious practices. The word Śiṣṭa in current Sanskrit (rūdhyartha) means noble/ pious/ learned/ knowledgeable. But the earlier etymological meaning was ‘remainder / left back’ as per the Purāṇa.
+
+    शेषशब्दः शिष्ट  इति शेषं शिष्टं प्रचक्षते | 
+    मन्वन्तरेषु ये शिष्टाः इह तिष्ठन्ति धार्मिकाः || (BP.1.32.37). 
+    
+The word Smṛti is also defined as what is remembered from previous Yugas. Not everything can be written down nor remembered. Thus, this permitted flexibility in time but bound by eight principles (lakṣaṇa) of this dhārmic Śiṣṭāchāra (BP.1.32.41). These are declared as dāna, satya, tapas, jñāna, vidyā, ijyā, vrajana, dayā. [ijyā is Pooja/worship, vrajana is yātra/ renunciation/ resettlement.] 
+The endlessly lectured pañcha lakṣaṇa, viz. sarga, pratisarga, vaṁśa, manvantara, vamśānucharita are there, but these are supporting structures to promote and continue the practice of the above eight principles, bequeathed by our most ancient ancestors as the essentials of sanātana dharma.  (Contd. Post-7)
 
 
 
