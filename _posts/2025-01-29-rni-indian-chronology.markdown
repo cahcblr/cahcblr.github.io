@@ -15,6 +15,8 @@ categories: indian-chronology
 
 > The following posts are by Prof. R. N. Iyengar on Facebook starting Jan 29th 2025. The posts are about Indian history and chronology as seen from ancient texts. The posts are presented here in a single narrative for easy reading.
 
+| **Posts :** | [1](#p1) | [2](#p2) | [3](#p3) | [4](#p4) | [5](#p5) | [6](#p6) | [7](#p7)
+
 ### [Post 1](https://www.facebook.com/share/p/1BFb97bqag/) {#p1}
 29-Jan-2025
 
@@ -133,8 +135,34 @@ A very powerful word Śiṣṭāchāra (śiṣṭānāṁ āchāraḥ i.e practi
     मन्वन्तरेषु ये शिष्टाः इह तिष्ठन्ति धार्मिकाः || (BP.1.32.37). 
     
 The word Smṛti is also defined as what is remembered from previous Yugas. Not everything can be written down nor remembered. Thus, this permitted flexibility in time but bound by eight principles (lakṣaṇa) of this dhārmic Śiṣṭāchāra (BP.1.32.41). These are declared as dāna, satya, tapas, jñāna, vidyā, ijyā, vrajana, dayā. [ijyā is Pooja/worship, vrajana is yātra/ renunciation/ resettlement.] 
-The endlessly lectured pañcha lakṣaṇa, viz. sarga, pratisarga, vaṁśa, manvantara, vamśānucharita are there, but these are supporting structures to promote and continue the practice of the above eight principles, bequeathed by our most ancient ancestors as the essentials of sanātana dharma.  (Contd. Post-7)
+The endlessly lectured pañcha lakṣaṇa, viz. sarga, pratisarga, vaṁśa, manvantara, vamśānucharita are there, but these are supporting structures to promote and continue the practice of the above eight principles, bequeathed by our most ancient ancestors as the essentials of sanātana dharma.  
 
+### [Post-7](https://www.facebook.com/share/p/15mjMTTS6e/) {#p7}
+18-Feb-2025
 
+The word Sanātana refers to TIME which is ancient, primeval, perpetual, eternal, …To me it is clear, Vedic-Hinduism promoted by the Purāṇas, Epics and the āgamas, expect sanātana-dharma followers to willy-nilly connect themselves mentally (Prāṇāyāma is mandatory before every saṅkalpa, which has now largely vanished or reduced to touching the nose.) with the First Matter/ Creation/ Creator as their source! One among Viṣṇu’s 1000 name in MBh is sanātsanātanatamaḥ; ancient-est than the ancient. It is not that this is a dictum in vacuum only for those who sit closing their eyes and ears. Hinduism helps humans with 100-year life-scale, to link elegantly and objectively with a very long time scale, as part of dhārmic practice.
 
+The Sāligrāma in our temples and homes is direct manifestation of Viṣṇu; no prāṇapratiṣṭhā is needed for ritualistic worship, unlike with large granitic icons. I have not seen any specific Vedic statement about this śilā, even though there may be a tenuous link to agni, makhā etc. In the Garuḍa Purāṇa and in some āgama texts Sāligrāmas are extolled. How and why did this practice spread all over India? Is it purely by chance or is there any etiological significance? You can say without contradiction, if you are a votary of modern science, that the avatāra of Viṣṇu as Ammonites/ Sāligrāma-śila happened during 500 million years ago (Mya) till 66 Mya.
 
+The first initiators of the above obviously knew primitive life forms also to be a mode of Viṣṇu and selected Sāligrāma to represent a very ancient period (manvantara) symbolically in the course of a Hindu’s life. One can say that for āstikas it is not sufficient to know only the Purāṇa stories of child Kṛṣna for developing Bhakti, but they have to ponder about the origin of life and earth also.
+
+I speculate about the possibility of a Vedic link for the above. In several of the Vedic rituals (ex: agnichayana, pravargya) an important sambhāra (component) is the valmīka-vapā. This is the special mud from a termite mound. Too many esoteric concepts are here and I will not go into them; but just note that the Vedas laud vamrī (termites) as the first born of this creation on earth (devīrvamrīrasya bhūtasya prathamajā ṛtavarīḥ T.A. 4.2.3). Modern science says this life form evolved about 250 Mya. 
+The above is not an isolated case. The Skānda Purāṇa in the Prabhāsakhaṇḍa, describes an ancient extraterrestrial impact as part of the physical features of the region. This also provides the etiology for worshipping Liṅga, commonly taken to be Śiva’s phallus fallen on ground.
+
+The puraṇas have come down to us in a storytelling mode, through the survivors. Hence, here again Yāska’s caution about hitting our head against a pillar has to be kept in mind, while retrieving natural history of Vedic Hinduism from the above Purāṇa. Here I just give a summary:
+
+| One, who is called Kālāgni-rudra, by the followers of the Vedas, is in Prabhāsa, named Bhairava.   When Agni (Fire) burnt continuously for a length of four yugas in the Megha-vāhana Kalpa a liṅga came into existence there. This liṅga has three names, Agnimīdha, Kālāgni-rudra and Agni-īśāna. The legend of a part of Sun falling down in Prabhāsa appears in the 11th chapter, where Sun’s birth itself is put at the beginning of the present Śvetavarāha Kalpa, that would be 1975 million years ago.
+
+The descent of the Sun (ET impacts) is said to be in the Svārociṣa manvantara that works out to be 1665 Mya. The sea near Prabhāsa receded for thousand years and overflowed after a long time. All of this cosmogony is combined with the vanishing of River Saraswati in a picturesque and poignant style. [For details please see](https://cahc.jainuniversity.ac.in/assets/ijhs/Vol39_1_2_RNIyengar.pdf)
+
+The interesting point is that the text says a part of Sun fell at Prabhāsa (This place is not the present day Somanath, near Verawal).  The text also identifies that out of the first fifteen parts of Sun, the discus of Viṣṇu, the trident of Śiva, the spear of Skanda, the weapons of all the gods and demons got formed. (PK 11.195-205).  This is an allusion to the celestial origin and inspiration for some of the sacred religious symbols. 
+The message is that Purāṇas have thought out a lot on cosmos, creation, Vedas, birth, death, and disasters for formulating sanātana dharma and its philosophy of Upaniṣads for balancing action, emotion and the intellect. Not only the modern evolutionary history of life forms but also the natural history of the Raṇ (Iriṇa), Sharavana, Arāvali region is reflected in the Ṛgveda and the Purāṇa.
+
+The Vedic MAU, declares TIME started (that is measurement) after the manifestation of Sun, that per the Skānda Purāṇa happened 2.3 Billion years ago. The Vedic dictum is kālam brahmetyupāsīta (TIME should be worshipped / contemplated as Brahman). True to this, the primary sources of sanātana dharma have information for understanding our past history chronologically at least up to 4th mill. BCE and before that the natural history of the Brahmāvarta region, contemplating through the Vedas towards cosmogony of the solar system.
+
+As we seek and study our history, many unanswered questions arise about ancient India. But paradoxically while the long period yuga, kalpa are all fine as sanātanis, our short time parameters as practicing Hindus, have gone horribly wrong. When the Vedic uttarāyaṇa-puṇyakāla day (for pitṛ-tarpaṇa) is declared to be the makara-sankrānti day even by religious institutions, what has happened to Hinduism as a discerning intellectual culture? Why have we accepted to be led by the words of panchangas and astrologers rather than by direct observation of Sun in the spirit of the Vedas and the Puraṇas? 
+
+(Concluded.)
+
+> **PS: In December 2023, I had organized at CAHC-Jain Univ., a two-day meeting with several traditional Vedic scholars that included discussions on some of the long, intermediate, and short term historical issues of Vedic culture. I am glad to inform, that one of the participants Vid. Shriramaṇa Sharma of Nerur, is organizing a discussion meeting today in Chennai on exactly the last topic! I am not participating but sent a note for discussion. I hope some positive action point emerges as the first step in self healing.
+![](https://scontent.fblr2-2.fna.fbcdn.net/v/t39.30808-6/480580270_2756362977870070_1723043380758357494_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=YYhLDqteKHIQ7kNvgEW9l20&_nc_oc=AdiBedWjUh1pe-B7QuEwiUPkFwuDs-BHttKdpE-9amVlCbIuoF3OHajNFoSZIEpDCsQ&_nc_zt=23&_nc_ht=scontent.fblr2-2.fna&_nc_gid=At6fHIl50TZApyI3dWYCAw1&oh=00_AYDZUg0jmmZm7Kxf365JlWYpm_gX5A1tNxqPcvYI8cxuwA&oe=67C34C73)
