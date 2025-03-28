@@ -12,7 +12,7 @@ JP Nagar 6th Phase
 
 Bengaluru - 560078
 
-Tel +91 80 2671 1119
+Tel +91 80 43430400 extn 237
 
 [rn.iyengar@jainuniversity.ac.in](mailto:rn.iyengar@jainuniversity.ac.in)
 
