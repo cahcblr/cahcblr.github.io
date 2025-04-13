@@ -34,6 +34,7 @@ github_username:  cahcblr
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Google Analytics
 google_analytics: G-LBDLP2G1Y9
