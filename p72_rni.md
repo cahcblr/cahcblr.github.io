@@ -5,7 +5,7 @@ permalink: /people/
 ---
 
 |:-:|------------|
-| ![RNI](../assets/rni.jpg)<br>**Professor&nbsp;Rangachar&nbsp;Narayana&nbsp;Iyengar**, Director of CAHC |
+| ![RNI](../assets/rni.jpg)<br>**Professor&nbsp;Rangachar&nbsp;Narayana&nbsp;Iyengar**,<br> Distinguished Professor and Mentor of CAHC |
 
 Prof RNI is the Director  of the Center for Ancient History and Culture (CAHC) at the [Jain University](https://en.wikipedia.org/wiki/Jain_University) since 2012 and is actively working on research in the areas of Indian Knowledge Systems including the History of Science in India.
 
@@ -19,16 +19,19 @@ Brought up in a family of Sanskrit scholars, Professor Iyengar received initial 
 ---
 
 |:-:|:------------:|
-| ![Shankar](../assets/shankar-2018.jpg)<br>**Shankar&nbsp;Rajaraman**, Associate Professor |
-Shankar Rajaraman is an Associate Professor at CAHC since 2022 and works in area of Sanskrit Literature.|
+| ![Shankar](../assets/shankar-2025.jpg)<br>**Shankar&nbsp;Rajaraman**, Director of CAHC |
+
+Dr Shankar Rajaraman is a MBBS graduate with a postgraduate degree in psychiatry, a researcher in Indian Knowledge Systems, and a Sanskrit poet and translator by passion. He is a recipient of the prestigious Badarayan Vyas Samman from the President of India for his contribution to Sanskrit language and literature.
+
+His Citranaiṣadham is the first full-fledged Gomūtrikā kāvya in the history of Sanskrit literature. His PhD, in psychology from the National Institute of Advanced Studies (NIAS), was on a topic that bridged the psychology of self-conscious emotions and Sanskrit poetics. He has penned several original works in Sanskrit. His interests include Sanskrit poetry, particularly Citrakāvya, Sanskrit poetics, leadership studies under IKS, psychology of emotions, and translating works from Sanskrit to English and vice versa.
 
 ---
+<!-- ---
 
 |:-|:------------|
 | ![Sudarshan](../assets/sudarshan.jpg)<br>**Sudarshan&nbsp;HS** , Research Associate |
 Researching on comets and impact events in Vedas, Puranas, Vedangas and other pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra. Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa.|
 
-<!-- ---
 
 |:-|:------------|
 | ![Anand](../assets/anand.jpg)<br>**Anand Viswanathan**, Research Associate | ![INSA](../assets/anand-insa-young-historian-award-small.jpg)|
