@@ -21,9 +21,9 @@ Brought up in a family of Sanskrit scholars, Professor Iyengar received initial 
 |:-:|:------------:|
 | ![Shankar](../assets/shankar-2025.jpg)<br>**Shankar&nbsp;Rajaraman**, Director of CAHC |
 
-Dr Shankar Rajaraman is a MBBS graduate with a postgraduate degree in psychiatry, a researcher in Indian Knowledge Systems, and a Sanskrit poet and translator by passion. He is a recipient of the prestigious Badarayan Vyas Samman from the President of India for his contribution to Sanskrit language and literature.
+Dr Shankar Rajaraman is a MBBS graduate with a postgraduate degree in psychiatry, a researcher in Indian Knowledge Systems, and a Sanskrit poet and translator by passion. He is a recipient of the prestigious Maharshi Badrayan Vyas Samman from the President of India for his contribution to Sanskrit language and literature.
 
-His Citranaiṣadham is the first full-fledged Gomūtrikā kāvya in the history of Sanskrit literature. His PhD, in psychology from the National Institute of Advanced Studies (NIAS), was on a topic that bridged the psychology of self-conscious emotions and Sanskrit poetics. He has penned several original works in Sanskrit. His interests include Sanskrit poetry, particularly Citrakāvya, Sanskrit poetics, leadership studies under IKS, psychology of emotions, and translating works from Sanskrit to English and vice versa.
+His Citranaiṣadham is the first full-fledged Gomūtrikā kāvya in the history of Sanskrit literature. His PhD, in psychology from the National Institute of Advanced Studies (NIAS), was on a topic that bridged the psychology of self-conscious emotions and Sanskrit poetics. He has penned several original works in Sanskrit. His interests include Sanskrit poetry, particularly Citrakāvya, Sanskrit poetics, leadership studies under IKS, psychology of emotions, and translating works between Sanskrit, Kannada, and English.
 
 ---
 <!-- ---
@@ -41,7 +41,7 @@ Researching on planetary paths, perioidicity and other information in pre-siddha
 ---
 
 |:-|:------------|
-| ![Hari](../assets/hari-2023.jpg)<br>**R S Hariharan**, Research Assistant |
+| ![Hari](../assets/hari-2023.jpg)<br>**R S Hariharan**, Research Associate |
 Interested in the interface of leadership studies & Sanskrit Literature.|
 
 ---
