@@ -15,11 +15,62 @@ layout: default
     line-height: 1;
     letter-spacing: -1px;
   }
+
+  #maybe-redirect {
+    margin: 25px 0;
+    font-size: 1.2em;
+    color: #555;
+    font-style: italic;
+    background-color: #f9f9f9;
+  }
+
 </style>
+
+<script>
+  (function() {
+    // Get the current URL path
+    var path = window.location.pathname;
+    // console.log('Current path:', path);
+
+    // Check if the URL matches the pattern for assets/ijhs/...
+    if (!path.startsWith('/assets/ijhs/')) { return; } // Exit if it doesn't match
+    
+    // Extract just the filename component
+    var fileName = path.split('/').pop();
+
+    //eat any leading z from the filename - for testing with localhost
+    var is_localhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'; 
+    if ( is_localhost && fileName.startsWith('z')) { 
+      fileName = fileName.substring(1);
+    }
+    
+    // Construct the new URL with the Google Storage path and just the filename
+    var newUrl = 'https://storage.googleapis.com/cahcblr-pdfs/assets/ijhs/' + fileName;
+
+    setTimeout(function() {
+      var redirectElement = document.createElement('a'); // Create the anchor element
+      redirectElement.href = newUrl; // Set the href to the new URL 
+      redirectElement.textContent = 'This alternate link may work.'; // Set the link text
+      document.getElementById('maybe-redirect').appendChild(redirectElement); // Append the link to the div
+
+      // Also insert an iframe with the new URL
+      var iframe = document.createElement('iframe');
+      iframe.src = newUrl; // Set the src to the new URL
+      iframe.style.width = '100%'; // Set the width to 100%
+      iframe.style.height = '600px'; // Set the height to 600px
+
+      // document.body.appendChild(iframe); // Append the iframe to the body
+      document.getElementById('maybe-redirect').appendChild(iframe); // Append the iframe to the div
+
+    }, 300); // Delay the execution by 1 second
+  })();
+</script>
 
 <div class="container">
   <h1>404</h1>
-
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
+
+  <div id="maybe-redirect"></div>
+
 </div>
