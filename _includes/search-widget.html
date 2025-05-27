@@ -1,21 +1,54 @@
-<!-- Google Cloud Search Widget -->
+<!-- Widget JavaScript bundle -->
 <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
 
+<!-- Search widget element is not visible by default -->
 <gen-search-widget
-  configId="a582b62c-9ce1-4b0f-bf13-f68ef31c71d1"
-  triggerId="searchWidgetTrigger">
-</gen-search-widget>
+  configId="508b23be-e628-4134-b0bd-4edf0a031487"
+  triggerId="searchWidgetTrigger2">
+</gen-search-widget>>
 
-<h2>Search CAHC</h2>
+<a href="https://sanchaya.rasowshi.us"><input type="button" value="Keyword Search (Experimental)" class="search-trigger2"/></a>
 
-<input placeholder="Search CAHC content" id="searchWidgetTrigger" class="search-trigger" />
+<input  placeholder="Semantic Search (Experimental)" id="searchWidgetTrigger2" class="search-trigger2" />
 
 <style>
+  a.search-trigger2 {
+    text-decoration: none; /* Remove underline from link */
+    color: inherit; /* Inherit color from parent */
+    display: inline-block; /* Make it behave like a button */
+    width: 100%; /* Make it full width */
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    padding: 8px 12px;
+  }
+
 .search-trigger {
     padding: 8px 12px;
-    border: 1px solid #ddd;
+    border: 1px solid #26d1a1;
     border-radius: 4px;
     margin: 10px 0;
     width: 200px;
+    padding: 10px;  /* Added padding for better user experience */
+    font-size: 14px; /* Increased font size for better readability */
+    color: #333; /* Changed text color for better contrast */
 }
+.search-trigger2 {
+  /* make it look like a button */
+    padding: 8px 12px;
+    border: 1px solid #26d1a1;
+    border-radius: 4px;
+    margin: 10px 0;
+    background-color: #26d1a1;
+    color: white;
+    font-size: 20px; /* Increased font size for better readability */
+    word-wrap: break-word;
+    width: 300px;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
 </style>
+
