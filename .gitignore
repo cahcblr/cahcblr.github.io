@@ -13,6 +13,10 @@ assets/ijhs/*
 # ignore tmp/* files
 tmp/*
 
+# VS Code specific files
+.vscode/
+*.code-workspace
+
 # Exception for the following essential PDFs that are referenced on the website:
 !assets/ijhs/Vol47_3_6_RNIyengar.pdf         # Darshapurnamasa paper
 !assets/ijhs/rni-extract-comets-meteors-vedas-2016.pdf  # Comets and meteorites paper
