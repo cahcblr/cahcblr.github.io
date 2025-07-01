@@ -41,3 +41,5 @@ A question that often arises is about positive sciences of India before the Comm
 
 |**प्रकाशकः** | [केन्द्रीयसंस्कृतविश्वविद्यालय 56-57, इन्स्टीट्यूशनल् एरिया, जनकपुरी, नवदेहली-110058](https://www.sanskrit.nic.in/language.php?language=SA)
 |**Publisher** | [Central Sanskrit University, 56-57, Institutional Area, Janakpuri, New Delhi-110058](https://www.sanskrit.nic.in/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5fsnWGwPDYo?si=k_an7d3ExWnLfZEJ&amp;start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
