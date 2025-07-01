@@ -14,3 +14,4 @@ The talk was a part of the Mythic Society's ongoing series of talks on Indian cu
 
 ![Vāstuvidyā](/assets/talks/2024-02-18-mythic/vastuvidya.jpg)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1sYB0iZwEYc?si=HfCXjdPWiy0Frli7&amp;start=83" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
