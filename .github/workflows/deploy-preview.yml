@@ -12,10 +12,10 @@ permissions:
 
 jobs:
   deploy:
+    if: github.ref != 'refs/heads/main'  #  Must come before 'environment'
     runs-on: ubuntu-latest
     environment:
       name: github-pages  # Required for Pages deployment
-    if: github.ref != 'refs/heads/main'  # Extra safety: skip if somehow triggered on main
     steps:
       - uses: actions/checkout@v4
 
