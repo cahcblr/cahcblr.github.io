@@ -15,7 +15,7 @@ jobs:
     if: github.ref != 'refs/heads/main'  #  Must come before 'environment'
     runs-on: ubuntu-latest
     environment:
-      name: github-pages  # Required for Pages deployment
+      name: preview-pages  # Required for Pages deployment
     steps:
       - uses: actions/checkout@v4
 
