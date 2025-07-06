@@ -18,7 +18,7 @@ Karnataka, India
 ### Contact Information
 
 **Phone:** +91 80 43430400 extn 237  
-**Email:** [rn.iyengar@jainuniversity.ac.in](mailto:rn.iyengar@jainuniversity.ac.in)  
+**Email:** [rn.iyengar@jainuniversity.ac.in](mailto:rn.iyengar@jainuniversity.ac.in?subject=CAHC%20Inquiry)  
 **Website:** [https://cahc.jainuniversity.ac.in](https://cahc.jainuniversity.ac.in)
 
 ### Research Inquiries

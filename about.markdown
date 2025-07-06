@@ -8,7 +8,7 @@ permalink: /about/
 
 The **Center for Ancient History and Culture (CAHC)** at Jain University is a premier research institution dedicated to the interdisciplinary study of India's ancient cultural and intellectual heritage. Established in 2011, CAHC has been recognized by the Ministry of Education, Government of India, as an **Indian Knowledge System (IKS) center** following a competitive national evaluation.
 
-![IKS Certificate](../assets/cahc-iks-cert.jpg)
+![IKS Certificate](assets/cahc-iks-cert.jpg)
 
 ### Mission
 
@@ -54,4 +54,4 @@ Bengaluru - 560078
 
 **Contact:**  
 Tel: +91 80 43430400 extn 237  
-Email: [rn.iyengar@jainuniversity.ac.in](mailto:rn.iyengar@jainuniversity.ac.in)
+Email: [rn.iyengar@jainuniversity.ac.in](mailto:rn.iyengar@jainuniversity.ac.in?subject=CAHC%20Inquiry)
