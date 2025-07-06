@@ -39,6 +39,7 @@ theme: minima
 # Header navigation pages (in order)
 header_pages:
   - about.markdown
+  - p72_rni.md
   - p60_papers.markdown  
   - p70_books.markdown
   - p85_search.markdown

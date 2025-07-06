@@ -5,12 +5,30 @@
 
 /* CAHC Custom Styles */
 
-/* Improve logo display */
+/* Improve logo display and header alignment */
+.site-header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .site-logo {
     height: 40px;
     width: auto;
-    margin-right: 10px;
+    margin-right: 15px;
     vertical-align: middle;
+    flex-shrink: 0;
+}
+
+.site-title {
+    flex-grow: 1;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.site-nav {
+    flex-shrink: 0;
 }
 
 /* Better spacing for content */
@@ -49,12 +67,23 @@ table th {
 
 /* Mobile responsiveness improvements */
 @media screen and (max-width: 600px) {
+    .site-header .wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
     .site-logo {
         height: 30px;
+        margin-bottom: 5px;
     }
     
     .site-title {
         font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+    
+    .site-nav {
+        width: 100%;
     }
     
     table {
