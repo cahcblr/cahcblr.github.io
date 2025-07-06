@@ -1,0 +1,145 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* CAHC Custom Styles */
+
+/* Improve logo display */
+.site-logo {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Better spacing for content */
+.post-content {
+    line-height: 1.6;
+}
+
+/* Improve image responsive behavior */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Better table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 0.9em;
+}
+
+table th, 
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Mobile responsiveness improvements */
+@media screen and (max-width: 600px) {
+    .site-logo {
+        height: 30px;
+    }
+    
+    .site-title {
+        font-size: 1.2em;
+    }
+    
+    table {
+        font-size: 0.8em;
+    }
+    
+    table th,
+    table td {
+        padding: 4px;
+    }
+    
+    /* Stack navigation on mobile */
+    .site-nav .page-link {
+        display: block;
+        padding: 5px 0;
+    }
+}
+
+/* Search button improvements */
+.search-button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px 5px 10px 0;
+    background-color: #26d1a1;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #1fb892;
+    transform: translateY(-1px);
+    text-decoration: none;
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(38, 209, 161, 0.3);
+}
+
+/* Improve readability */
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.post-content p {
+    margin-bottom: 15px;
+}
+
+/* Better link styling */
+.post-content a {
+    color: #26d1a1;
+    text-decoration: none;
+    border-bottom: 1px dotted #26d1a1;
+}
+
+.post-content a:hover {
+    color: #1fb892;
+    border-bottom: 1px solid #1fb892;
+}
+
+/* Accessibility improvements */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Focus indicators for keyboard navigation */
+a:focus,
+button:focus,
+input:focus,
+select:focus {
+    outline: 2px solid #26d1a1;
+    outline-offset: 2px;
+}

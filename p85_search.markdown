@@ -1,17 +1,18 @@
 ---
-layout: home
-title:  🔍
+layout: page
+title: Search
+permalink: /search/
 ---
 
-<!-- ## [Click to Browse/Search the CAHC collection of Indic unicode documents](https://github1s.com/cahcblr/sanchaya){:target="_sanchaya"}  -->
+## Search Academic Papers and Resources
 
-## Search Options
+The CAHC collection includes thousands of research papers on ancient Indian sciences, culture, and history. Use the search tools below to find relevant academic content.
 
-### General Search
+### External Search Collections
 
-{% include search-widget.html %}
+<a href="https://sanchaya.mooo.info" class="search-button">📚 Browse CAHC Document Collection</a>
 
-## Search Papers 
+### Search by Subject Category 
 <div style="display: flex; align-items: center; gap: 8px;">
   <input id="myInput" type="text" placeholder="Search..">
 
@@ -42,6 +43,28 @@ title:  🔍
 
 
 <style>
+    .search-button {
+        display: inline-block;
+        padding: 12px 24px;
+        margin: 10px 0;
+        background-color: #26d1a1;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    
+    .search-button:hover {
+        background-color: #1fb892;
+        transform: translateY(-1px);
+        text-decoration: none;
+        color: white;
+    }
+    
     .highlight {
         background-color: yellow;
     }
@@ -81,7 +104,6 @@ title:  🔍
         width: 100%;
         margin-top: 20px;
     }
-
 
 </style>
 
