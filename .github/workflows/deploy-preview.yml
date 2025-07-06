@@ -1,0 +1,27 @@
+name: Deploy Preview to GitHub Pages (Feature Branch)
+
+on:
+  push:
+    branches:
+      - copilot/fix-*  # Only deploys from feature branches
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref != 'refs/heads/main'  # Extra safety: skip if somehow triggered on main
+    steps:
+      - uses: actions/checkout@v4
+
+      # Optional: build step if your site needs it (e.g., Jekyll, React, etc.)
+      # - run: npm install && npm run build
+
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public  # Replace with your actual output directory
+      - uses: actions/deploy-pages@v4
