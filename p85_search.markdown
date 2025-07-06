@@ -10,7 +10,7 @@ The CAHC collection includes thousands of research papers on ancient Indian scie
 
 ### External Search Collections
 
-<a href="https://sanchaya.mooo.info" class="search-button">📚 Browse CAHC Document Collection</a>
+{% include search-widget.html %}
 
 ### Search by Subject Category 
 <div style="display: flex; align-items: center; gap: 8px;">

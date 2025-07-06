@@ -27,7 +27,7 @@
     margin-right: auto;
 }
 
-.site-nav {
+.xsite-nav {
     flex-shrink: 0;
 }
 
@@ -82,8 +82,10 @@ table th {
         margin-bottom: 10px;
     }
     
-    .site-nav {
-        width: 100%;
+    .xsite-nav {
+        width: 30%;
+        border: none;
+        opacity: 0.6;
     }
     
     table {
@@ -96,7 +98,7 @@ table th {
     }
     
     /* Stack navigation on mobile */
-    .site-nav .page-link {
+    .xsite-nav .page-link {
         display: block;
         padding: 5px 0;
     }
