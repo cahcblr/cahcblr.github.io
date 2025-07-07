@@ -13,6 +13,9 @@ assets/ijhs/*
 # ignore tmp/* files
 tmp/*
 
+# BFG Repo-Cleaner report files
+.git.bfg-report/
+
 # VS Code specific files
 .vscode/
 *.code-workspace
