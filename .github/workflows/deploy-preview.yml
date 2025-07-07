@@ -12,18 +12,33 @@ permissions:
 
 jobs:
   deploy:
-    if: github.ref != 'refs/heads/main'  #  Must come before 'environment'
+    if: github.ref != 'refs/heads/main'  # Prevent accidental deploys from main
     runs-on: ubuntu-latest
     environment:
-      name: github-pages  # Required for Pages deployment
+      name: preview-pages  # Isolated environment for preview deploys
+
     steps:
       - uses: actions/checkout@v4
 
-      # Optional: build step if your site needs it (e.g., Jekyll, React, etc.)
-      # - run: npm install && npm run build
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'  # Match your local Ruby version
+          bundler-cache: true
+
+      - name: Build site with Jekyll
+        run: bundle install && bundle exec jekyll build
+
+      - name: Confirm _site/ was built
+        run: ls -R _site
 
       - uses: actions/configure-pages@v4
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site  # Replace with your actual output directory
+          path: ./_site  # Upload the Jekyll output directory
+          name: preview-pages-artifact
+
       - uses: actions/deploy-pages@v4
+        with:
+          artifact_name: preview-pages-artifact
