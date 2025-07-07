@@ -34,11 +34,12 @@ jobs:
 
       - uses: actions/configure-pages@v4
 
-      - uses: actions/upload-pages-artifact@v3
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site  # Upload the Jekyll output directory
-          name: preview-pages-artifact
+          # Remove custom name - use default
 
-      - uses: actions/deploy-pages@v4
-        with:
-          artifact_name: preview-pages-artifact
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        # Remove artifact_name - use default
