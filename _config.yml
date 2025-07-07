@@ -20,11 +20,11 @@
 
 title: Center for Ancient History and Culture
 email: rn.iyengar@jainuniversity.ac.in
-description:
-zdescription: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >- # this means to ignore newlines until "baseurl:"
+  The Center for Ancient History and Culture (CAHC) at Jain University conducts 
+  interdisciplinary research on India's ancient cultural and intellectual heritage. 
+  Recognized as an Indian Knowledge System (IKS) center by the Ministry of Education, 
+  Government of India.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # ...existing code...
@@ -35,6 +35,15 @@ github_username:  cahcblr
 
 # Build settings
 theme: minima
+
+# Header navigation pages (in order)
+header_pages:
+  - about.markdown
+  - p72_rni.md
+  - p60_papers.markdown  
+  - p70_books.markdown
+  - p85_search.markdown
+  - p80_contact.markdown
       
 defaults:
   - scope:

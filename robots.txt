@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://cahc.jainuniversity.ac.in/sitemap.xml
+
+# Allow search engines to index academic content
+Allow: /papers/
+Allow: /books/
+Allow: /posts/
+Allow: /about/
+Allow: /contact/
+
+# Prevent indexing of search results and admin pages
+Disallow: /search/
+Disallow: /assets/ijhs/

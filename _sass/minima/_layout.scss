@@ -17,10 +17,12 @@
 
 .site-logo {
   margin-top: $spacing-unit * 0.000025;
-  background-image: url('/assets/jain_uni.png');
+  // background-image: url('/assets/jain_uni.png');
   background-repeat: no-repeat;
   background-position: center;
   float: left;
+  margin-top: 15px;
+  scale: 1.2;
 }
 
 .site-title {
