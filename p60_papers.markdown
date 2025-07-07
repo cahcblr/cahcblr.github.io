@@ -4,6 +4,14 @@ title: Papers
 permalink: /papers/
 ---
 
+## Research Papers by CAHC
+
+This collection represents the scholarly output of the Center for Ancient History and Culture, focusing on various aspects of ancient Indian knowledge systems. Our research spans multiple disciplines including astronomy, mathematics, cultural studies, and the history of science.
+
+### Browse by Category
+
+Use our [search interface](/search/) to find papers by subject area, or browse the complete list below organized by research themes.
+
 ## Papers
 ### History of Astronomy, Archaeo-Astronomy
 

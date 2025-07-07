@@ -1,0 +1,45 @@
+name: Deploy Preview to GitHub Pages (Feature Branch)
+
+on:
+  push:
+    branches:
+      - copilot/fix-*  # Only deploys from feature branches
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    if: github.ref != 'refs/heads/main'  # Prevent accidental deploys from main
+    runs-on: ubuntu-latest
+    environment:
+      name: preview-pages  # Isolated environment for preview deploys
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'  # Match your local Ruby version
+          bundler-cache: true
+
+      - name: Build site with Jekyll
+        run: bundle install && bundle exec jekyll build
+
+      - name: Confirm _site/ was built
+        run: ls -R _site
+
+      - uses: actions/configure-pages@v4
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site  # Upload the Jekyll output directory
+          # Remove custom name - use default
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        # Remove artifact_name - use default
