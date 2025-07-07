@@ -25,5 +25,5 @@ jobs:
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./  # Replace with your actual output directory
+          path: ./_site  # Replace with your actual output directory
       - uses: actions/deploy-pages@v4
