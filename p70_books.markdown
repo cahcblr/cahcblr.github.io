@@ -31,9 +31,20 @@ A question that often arises is about positive sciences of India before the Comm
 
 [Before Space Science, There Was Mahāsalilam: Rediscovery of India's Oldest Astronomical Text](https://swarajyamag.com/books/before-space-science-there-was-mahsalilam-rediscovery-of-indias-oldest-astronomical-text)
 
+---
+
+## निपुणप्राघुणकम् <span style="color:gray; font-size:smaller">(_Nipuṇaprāghuṇakam_)</span>
+
+|![Nipuṇaprāghuṇakam Book Cover](../assets/np-book-cover.png) | **Nipuṇaprāghuṇakam** falls under the **Bhāṇa** genre, which is one of the ten classical forms of Sanskrit drama outlined in the **Nāṭyaśāstra**. <br> <br>Bhāṇa is considered the most challenging dramatic style in Sanskrit literature, featuring a single performer who portrays various absent characters, sustaining the story's continuity via speech, movements, and the **ākāśabhāṣita** technique—engaging in dialogue with entities not physically on stage.  [To purchase, please contact Prekshaa (प्रेक्षा) ](https://www.prekshaa.in/निपुणप्राघुणकम्-२०१९)|
+
+[How A Sanskrit Play Brings Ancient Theatre Into Today’s Bengaluru](https://swarajyamag.com/books/how-a-sanskrit-play-brings-ancient-theatre-into-todays-bengaluru)
+
+---
+
 ## पराशरतन्त्रम् <span style="color:gray; font-size:smaller">(_Parāśaratantra_)</span>
 
 | ![Parasaratantra Book Cover](../assets/pt_book_cover.jpg) | The 21 chapters present a compilation of Sanskrit texts by Parasara, a sage and scholar from ancient India dispersed in the commentaries of scholars such as Varāha-mihira, Utpala, Ballāla-Sena and Bhaskara-Yogi living between 6th and 13th century. <br><br> The text is accompanied by relevant archaeo-astronomical analysis of Parāśara’s season solar zodiac and observation of the heliacal rise and set of star Agastya (Canopus).  <br> <br> This reconstructed text with translation and notes by RNI is a fruition of a long journey of research and investigation into History of Science in India. <br> <br> [Parāśaratantra at Amazon](https://www.amazon.in/Parasaratantra-R-N-Iyengar/dp/8192099245) |
+
 
 ## नारदशिल्पशास्त्रम् <span style="color:gray; font-size:smaller">(_Nārada Śilpaśāstra_)</span>
 
