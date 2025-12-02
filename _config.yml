@@ -36,6 +36,7 @@ github_username:  cahcblr
 # Build settings
 theme: minima
 
+
 # Header navigation pages (in order)
 header_pages:
   - about.markdown
@@ -46,15 +47,15 @@ header_pages:
   - p80_contact.markdown
       
 defaults:
-  - scope:
-      path: "assets/ijhs"
-      type: "pdf"
-    values:
-      sitemap: false
-  - scope:
-      path: "assets/ijhs/**/*.pdf"
-    values:
-      sitemap: false
+  # - scope:
+  #     path: "assets/ijhs"
+  #     type: "pdf"
+  #   values:
+  #     sitemap: false
+  # - scope:
+  #     path: "assets/ijhs/**/*.pdf"
+  #   values:
+  #     sitemap: false
   
 plugins:
   - jekyll-feed
@@ -80,3 +81,10 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - .git/
+  - .venv/
+  - .DS_Store
+  - assets/ijhs/
+
+keep_files:
+  - assets/ijhs/

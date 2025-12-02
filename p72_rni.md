@@ -19,7 +19,7 @@ Brought up in a family of Sanskrit scholars, Professor Iyengar received initial 
 ---
 
 |:-:|:------------:|
-| ![Shankar](../assets/shankar-2025.jpg)<br>**Shankar&nbsp;Rajaraman**, Director of CAHC |
+| ![Shankar](../assets/shankar-2025.jpg)<br>**Dr. Shankar&nbsp;Rajaraman**, Director of CAHC |
 
 **Dr. Shankar Rajaraman** is a medical doctor with a post-graduate degree in Psychiatry, a researcher in Indian Knowledge Systems by profession, and a Sanskrit poet and translator by passion. His poetical works include _Citranaiṣadham_, _Devidānavīyam_, _Bhārāvatārastava_, and _Niguḍaprāghūṇaka_. Shankar received the _Maharshi Badarayan Vyas Samman_ from the President of India for his contribution to Sanskrit language and literature. <br><br> 
 
@@ -41,8 +41,8 @@ Researching on planetary paths, perioidicity and other information in pre-siddha
 ---
 
 |:-|:------------|
-| ![Hari](../assets/hari-2023.jpg)<br>**R S Hariharan**, Research Associate |
-Interested in the interface of leadership studies & Sanskrit Literature.|
+| ![Hari](../assets/hari-2025.png)<br>**R S Hariharan**, Research Associate |
+**Dr. R S Hariharan** has a background in science and technology with experience in research, linguistics, and industry. His work explores Sanskrit literature and India’s civilisational and scientific thought.Interested in the interface of leadership studies & Sanskrit Literature.|
 
 ---
 
