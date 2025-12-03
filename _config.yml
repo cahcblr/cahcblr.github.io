@@ -84,7 +84,7 @@ exclude:
   - .git/
   - .venv/
   - .DS_Store
-  - assets/ijhs/
+  - assets/ijhs_potentials/
 
 keep_files:
   - assets/ijhs/

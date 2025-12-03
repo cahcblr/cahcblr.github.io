@@ -2,6 +2,7 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+assets/ijhs_potentials/
 vendor
 .DS_Store
 **/.*.swp
