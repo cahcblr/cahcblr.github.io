@@ -9,14 +9,14 @@ noindex: true
 <style>
     em { color: #0000ff; }
     .rounded-image { border-radius: 25%; color: }
-    table { display: none}
+    /* table { display: none} */
     /* table.nth-child(2) { font-size: smaller;  }
     table.nth-child(2) td:nth-child(2) { display: none; }
     table.nth-child(2) th:nth-child(2) { display: none; }
     table.nth-child(2) td:nth-child(1) { display: none; }
     table.nth-child(2) th:nth-child(1) { display: none; } */
 
-    li , h5 { display: none }
+    /* li , h5 { display: none } */
 
 </style>
 
