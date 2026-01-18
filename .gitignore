@@ -9,6 +9,7 @@ vendor
 **/*~.*
 # Ignore all IJHS PDFs (about 1.6GB in total)
 assets/ijhs/*
+assets/ijhs_potentials
 
 # ignore tmp/* files
 tmp/*
@@ -20,11 +21,5 @@ tmp/*
 .vscode/
 *.code-workspace
 
-# Exception for the following essential PDFs that are referenced on the website:
-!assets/ijhs/Vol47_3_6_RNIyengar.pdf         # Darshapurnamasa paper
-!assets/ijhs/rni-extract-comets-meteors-vedas-2016.pdf  # Comets and meteorites paper
-!assets/ijhs/1.pdf                           # Solar transit paper
-!assets/ijhs/rni-maghadi-2023.pdf            # Maghaadi in Brahmanda Purana paper
-!assets/ijhs/rni-ichr-archaeo-astronomy-2018.pdf  # Archaeo-astronomy paper
-!assets/ijhs/Vol46_1_2_RNIyenger.pdf         # Dhruva paper
-!assets/ijhs/Vol55_3_2020__Art01.pdf         # Akshara paper
+
+!assets/cached_papers/rni/*

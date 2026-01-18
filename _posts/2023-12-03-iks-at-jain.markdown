@@ -60,7 +60,7 @@ Eminent panelists representing Vedic , Sanskrit  and modern scholarship from var
 - [*Pre Siddhantic Astronomy presentation by Prof. R. N. Iyengar*](/assets/talks/2023-12-05-iks-cahc/3_1_pre-siddhantic-astronomy.pdf)
 - [*Maghaadi Presentations by Sunder*](/assets/talks/2023-12-05-iks-cahc/maghaadi/maghaadi.pdf),  [*(as HTML)*](/assets/talks/2023-12-05-iks-cahc/maghaadi/maghaadi.html)
 - [Solar transit paper](/assets/ijhs/1.pdf)
-- [Maghaadi in Brahmanda Purana paper](/assets/ijhs/rni-maghadi-2023.pdf)
+- [Maghaadi in Brahmanda Purana paper](/assets/cached_papers/rni/01_58_4.pdf)
   
 #### 4 - Continuity of tradition
 - [*Time measurement presentation by Anand*](/assets/talks/2023-12-05-iks-cahc/4_1_time.pdf)
@@ -156,7 +156,7 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 |1|2016|R N Iyengar|[Comets and meteorites in the Ṛgveda](/assets/ijhs/rni-extract-comets-meteors-vedas-2016.pdf)|
 |2|2019|R N Iyengar, H S Sudarshan and Anand Viswanathan|[Vṛddhagārgīya Jyotiṣa (Part 1)](/assets/tattvadipah/tattvadipah-vgj-2019-01.pdf)|
 |3|2021|R. N. Iyengar and Sunder Chakravarty|[Transit of sun through the seasonal naksatra cycle in the Vrddha-Gārgīya Jyotisa](/assets/ijhs/1.pdf)|
-|3|2023|R. N. Iyengar and Sunder Chakravarty|[Equinoctial full moon of the Brahmāṇḍa Purāṇa and the nakṣatra solar zodiac starting from summer solstice](/assets/ijhs/rni-maghadi-2023.pdf)|
+|3|2023|R. N. Iyengar and Sunder Chakravarty|[Equinoctial full moon of the Brahmāṇḍa Purāṇa and the nakṣatra solar zodiac starting from summer solstice](/assets/cached_papers/rni/01_58_4.pdf)|
 |4|2011|R N Iyengar|[Dhruva the Ancient Indian Pole Star: Fixity Rotation and Movement](/assets/ijhs/Vol46_1_2_RNIyenger.pdf)|
 |4|2020|R N Iyengar, H S Sudarshan and Anand Viswanathan|[Akṣara the Basic Unit of Time Measure in Ancient India](/assets/ijhs/Vol55_3_2020__Art01.pdf)|
 
