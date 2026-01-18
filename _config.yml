@@ -85,6 +85,10 @@ exclude:
   - .venv/
   - .DS_Store
   - assets/ijhs/
+  - assets/ijhs_potentials/
+
+include:
+  - assets/cached_papers/
 
 keep_files:
   - assets/ijhs/

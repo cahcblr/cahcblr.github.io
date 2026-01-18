@@ -14,7 +14,7 @@ Professor R. N. Iyengar B.E., M.Sc(Eng).,Ph.D., (b. 1943) is renowned for his co
 Brought up in a family of Sanskrit scholars, Professor Iyengar received initial training in Sanskrit studies in the traditional way. This has propelled him to become an avid reader of ancient texts in the original. He has developed, combining Indic knowledge traditions with modern methods, a new line of study of ancient Indian heritage. His findings on comets, eclipses, earthquakes, ancient geography, effect of precession and the Pole Star Dhruva in Vedic literature, Concept of Probability in classical music, have attracted worldwide attention. He brought out the **Parāśaratantra**, an ancient Sanskrit treatise on astronomy and natural sciences, with text, translation and notes in 2013. Recently he has edited **Nāradaśilpam**, a medieval period text on Civil Engineering with introduction, translation and notes. He is presently critically editing **Vṛddha-gārgīya Jyotiṣa** an ancient text on astral sciences from about ten unpublished manuscripts.
 
 
-**[Prof. R.N. Iyengar's Brief Bio and his Publications on Indian Knowledge Systems ](../assets/rni.pdf)**
+**[Prof. R.N. Iyengar's Brief Bio and his Publications on Indian Knowledge Systems ](../assets/rni.pdf)** | **[View Selected Research Papers](/rni-papers/)**
 
 ---
 
