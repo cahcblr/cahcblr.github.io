@@ -6,7 +6,7 @@ permalink: /papers/
 
 ## Research Papers by CAHC
 
-The Center for Ancient History and Culture (CAHC) is built on a rich legacy of interdisciplinary research. This page hosts the collected works of our distinguished mentor and key researcher, **Prof. R.N. Iyengar**, whose pioneering scholarship in ancient Indian astronomy, mathematics, and earth sciences spans over 40 years. While many of these seminal papers predate the Center, they established the rigorous methodology that continues to drive our mission. This collection serves as a living archive, expanding to include contributions from the Center's current research team.
+The Center for Ancient History and Culture (CAHC) is built on a rich legacy of interdisciplinary research. This page hosts the collected works of our distinguished mentor and key researcher, **Prof. R.N. Iyengar** ([**Google Scholar Profile**](https://scholar.google.co.in/citations?user=KISAL2oAAAAJ&hl=en)), whose pioneering scholarship in ancient Indian astronomy, mathematics, and earth sciences spans over 40 years. While many of these seminal papers predate the Center, they established the rigorous methodology that continues to drive our mission. This collection serves as a living archive, expanding to include contributions from the Center's current research team.
 
 ### Browse Papers
 
