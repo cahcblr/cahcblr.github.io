@@ -7,14 +7,14 @@ permalink: /people/
 |:-:|------------|
 | ![RNI](../assets/rni.jpg)<br>**Professor&nbsp;Rangachar&nbsp;Narayana&nbsp;Iyengar**,<br> Distinguished Professor and Mentor of CAHC |
 
-Prof RNI is the Director  of the Center for Ancient History and Culture (CAHC) at the [Jain University](https://en.wikipedia.org/wiki/Jain_University) since 2012 and is actively working on research in the areas of Indian Knowledge Systems including the History of Science in India.
+Prof RNI is the Director  of the Center for Ancient History and Culture (CAHC) at the [Jain University](https://www.jainuniversity.ac.in/) since 2012 and is actively working on research in the areas of Indian Knowledge Systems including the History of Science in India.
 
 Professor R. N. Iyengar B.E., M.Sc(Eng).,Ph.D., (b. 1943) is renowned for his contributions to Earthquake Engineering, Random Vibrations, Mathematical Modeling, Structural Dynamics and Nonlinear Systems. As faculty at the Indian Institute of Science from 1969 till his retirement in 2005 as KSIDC Chair Professor in Civil Engineering, Iyengar has published 200 technical papers, reports, general articles and books. He is **Fellow of the Indian National Academy of Engineering, Indian Academy of Science, National Academy of Science** and the Alexander von Humboldt Foundation, Germany. He held the Distinguished Schmidt Chair at the Florida Atlantic University, USA in 1995. He was Director of CBRI-CSIR (1994-2000); Raja Ramanna Fellow of Dept. of Atomic Energy (2005-10). After establishing the Centre for Disaster Mitigation with a unique Fire Research Lab, he is currently Distinguished Emeritus Professor and the Director of the Centre for Ancient History & Culture at the Jain University, Bangalore.
 
 Brought up in a family of Sanskrit scholars, Professor Iyengar received initial training in Sanskrit studies in the traditional way. This has propelled him to become an avid reader of ancient texts in the original. He has developed, combining Indic knowledge traditions with modern methods, a new line of study of ancient Indian heritage. His findings on comets, eclipses, earthquakes, ancient geography, effect of precession and the Pole Star Dhruva in Vedic literature, Concept of Probability in classical music, have attracted worldwide attention. He brought out the **Parāśaratantra**, an ancient Sanskrit treatise on astronomy and natural sciences, with text, translation and notes in 2013. Recently he has edited **Nāradaśilpam**, a medieval period text on Civil Engineering with introduction, translation and notes. He is presently critically editing **Vṛddha-gārgīya Jyotiṣa** an ancient text on astral sciences from about ten unpublished manuscripts.
 
 
-**[Prof. R.N. Iyengar's Brief Bio and his Publications on Indian Knowledge Systems ](../assets/rni.pdf)** | **[View Selected Research Papers](/papers/)** | **[Google Scholar Profile](https://scholar.google.co.in/citations?user=KISAL2oAAAAJ&hl=en)**
+**[Prof. R.N. Iyengar's Brief Bio and his Publications on Indian Knowledge Systems ](../assets/rni.pdf)** | **[View Selected Research Papers](/papers/)** | **[Google Scholar Profile](https://scholar.google.co.in/citations?user=KISAL2oAAAAJ&hl=en)** | **[Academia.edu Profile](https://jainuniversity.academia.edu/RNIyengar)**
 
 ---
 
@@ -25,7 +25,7 @@ Brought up in a family of Sanskrit scholars, Professor Iyengar received initial 
 
 His Citranaiṣadham is the first full-fledged Gomūtrikā kāvya in the history of Sanskrit literature. His PhD, in psychology from the National Institute of Advanced Studies (NIAS), was on a topic that bridged the psychology of self-conscious emotions and Sanskrit poetics. He has penned several original works in Sanskrit. His interests include Sanskrit poetry, particularly Citrakāvya, Sanskrit poetics, leadership studies under IKS, psychology of emotions, and translating works between Sanskrit, Kannada, and English.
 
-**[Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=yZ2TrakAAAAJ)**
+**[Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=yZ2TrakAAAAJ)** | **[Academia.edu Profile](https://independent.academia.edu/RajaramanShankar)**
 
 ---
 <!-- ---
@@ -44,7 +44,7 @@ Researching on planetary paths, perioidicity and other information in pre-siddha
 
 |:-|:------------|
 | ![Hari](../assets/hari-2025.png)<br>**R S Hariharan**, Assistant Professor |
-**Dr. R S Hariharan** has a background in science and technology with experience in research, linguistics, and industry. His work explores Sanskrit literature and India’s civilisational and scientific thought. |
+**Dr. R S Hariharan** has a background in science and technology with experience in research, linguistics, and industry. His work explores Sanskrit literature and India’s civilisational and scientific thought. <br><br>**[Academia.edu Profile](https://independent.academia.edu/RSHariharan2)**|
 
 ---
 
@@ -62,13 +62,13 @@ Assist in the manuscript collation, translation and editing activities and maint
 
 |:-|:------------|
 | ![Warija](../assets/warija.jpg)<br>**Warija Adiga** , Associate |
- A researcher involved in study of ancient Sanskrit manuscripts and shastras. She has published several Sanskrit articles/ stories in Sanskrit magazines like Sambhashana Sandesha and Sanskrit Bhavitavyam.  She has  presented a couple of papers at All India Sanskrit Conference and BVP Conference. She has also summarised the proceedings of BVP conference (Udupi) and All India Oriental Centennial Conference (Nagpur) in the form of books. Some of her articles have been published by Indica and Ethics Asia journal as well.|
+ A researcher involved in study of ancient Sanskrit manuscripts and shastras. She has published several Sanskrit articles/ stories in Sanskrit magazines like Sambhashana Sandesha and Sanskrit Bhavitavyam.  She has  presented a couple of papers at All India Sanskrit Conference and BVP Conference. She has also summarised the proceedings of BVP conference (Udupi) and All India Oriental Centennial Conference (Nagpur) in the form of books. Some of her articles have been published by Indica and Ethics Asia journal as well. <br><br>**[Academia.edu Profile](https://independent.academia.edu/WarijaAdiga)**|
 
 ---
 
 |:-:|------------|
 | ![Sunder](../assets/sunder-2022.png)<br>**Sunder Chakravarty** , Associate |
-Develop computer programs and models to validate and infer astronomical and other observational information in ancient text . |
+Develop computer programs and models to validate and infer astronomical and other observational information in ancient text . <br><br>**[Academia.edu Profile](https://jainuniversity.academia.edu/SunderChakravarty)**|
 
 <!-- ---
 
