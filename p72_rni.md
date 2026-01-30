@@ -42,9 +42,12 @@ Researching on planetary paths, perioidicity and other information in pre-siddha
 
 ---
 
-|:-|:------------|
-| ![Hari](../assets/hari-2025.png)<br>**R S Hariharan**, Assistant Professor |
-**Dr. R S Hariharan** has a background in science and technology with experience in research, linguistics, and industry. His work explores Sanskrit literature and India’s civilisational and scientific thought. <br><br>**[Academia.edu Profile](https://independent.academia.edu/RSHariharan2)**|
+|:-:|:------------:|
+| ![Hari](../assets/hari-2025.png)<br>**Dr. R S Hariharan**, Assistant Professor |
+
+**Dr. R S Hariharan** has a background in science and technology with experience in research, linguistics, and industry. His work explores Sanskrit literature and India’s civilisational and scientific thought. 
+
+**[Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=7MBUHmkAAAAJ)** | **[Academia.edu Profile](https://independent.academia.edu/RSHariharan2)**
 
 ---
 
