@@ -50,7 +50,7 @@ def parse_markdown_table(file_path):
         # Extract Title and Link
         # [**Title**](../assets/cached_papers/rni/file.pdf)
         pdf_path = None
-        title = title_blobs
+        title = title_blobs.replace('**', '').strip()
         
         match = re.search(r'\[\*\*(.*?)\*\*\]\((.*?)\)', title_blobs)
         if match:
@@ -63,7 +63,7 @@ def parse_markdown_table(file_path):
              # Try simple link [Title](link)
              match = re.search(r'\[(.*?)\]\((.*?)\)', title_blobs)
              if match:
-                title = match.group(1).replace('**', '')
+                title = match.group(1).replace('**', '').strip()
                 pdf_path_raw = match.group(2)
                 if "assets/cached_papers/rni/" in pdf_path_raw:
                     pdf_path = os.path.basename(pdf_path_raw)
@@ -83,7 +83,7 @@ def parse_markdown_table(file_path):
 def generate_index_html(papers):
     """Generates a simple HTML index for the zip bundle."""
     # Use f-string. Note: CSS braces { } inside f-string must be escaped as {{ }}
-    current_date = datetime.now().strftime("%Y-%m-%d")
+    current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     count = len(papers)
     
     html = f"""
@@ -126,14 +126,17 @@ def generate_index_html(papers):
 """
 
     for p in papers:
-        link = p['pdf_link'] if p['pdf_link'] else "#"
-        target = 'target="_blank"' if p['pdf_link'] else ''
+        if p['pdf_link']:
+            title_cell = f'<a href="{p["pdf_link"]}" target="_blank">{p["title"]}</a>'
+        else:
+            title_cell = p['title']
+
         html += f"""
             <tr>
                 <td>{p['id']}</td>
                 <td>{p['year']}</td>
                 <td>{p['category']}</td>
-                <td><a href="{link}" {target}>{p['title']}</a></td>
+                <td>{title_cell}</td>
                 <td>{p['author']}</td>
                 <td>{p['source']}</td>
             </tr>
@@ -149,7 +152,7 @@ def generate_index_html(papers):
 def generate_index_md(papers):
     """Generates a text-based Markdown index."""
     md = f"# Collected Papers of Prof. R.N. Iyengar\n\n"
-    md += f"**Generated:** {datetime.now().strftime('%Y-%m-%d')}\n"
+    md += f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
     md += f"**Total Papers:** {len(papers)}\n\n"
     md += "---\n\n"
     
@@ -195,11 +198,21 @@ def create_bundle():
         
         # 2. Generate Indexes
         print("Generating indexes...")
+        index_html_content = generate_index_html(papers)
+        index_md_content = generate_index_md(papers)
+
         with open(os.path.join(temp_dir, "index.html"), "w", encoding='utf-8') as f:
-            f.write(generate_index_html(papers))
+            f.write(index_html_content)
             
         with open(os.path.join(temp_dir, "index.md"), "w", encoding='utf-8') as f:
-            f.write(generate_index_md(papers))
+            f.write(index_md_content)
+
+        # 2.5 Also save them to the source folder for consistency and folder-level navigation
+        print(f"Writing index files to source directory: {PDF_SOURCE_DIR}")
+        with open(os.path.join(PDF_SOURCE_DIR, "index.html"), "w", encoding='utf-8') as f:
+            f.write(index_html_content)
+        with open(os.path.join(PDF_SOURCE_DIR, "index.md"), "w", encoding='utf-8') as f:
+            f.write(index_md_content)
             
         # 3. Create Zip
         zip_path = os.path.join(OUTPUT_ZIP_DIR, OUTPUT_ZIP_NAME)

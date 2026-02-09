@@ -122,7 +122,7 @@ function filterPapers() {
 | 64 | 1971 | Earth Science | [**Effect of self weight and vertical acceleration on the behaviour of tall structures during earthquake**](../assets/cached_papers/rni/Effect_of_self_weight_and_vertical_accel.pdf) | R.N. Iyengar, M. Shinozuka | Earthquake Engineering and Structural Dynamics  1 |
 
 <div style="margin-top: 40px; border-top: 1px solid #eee; padding-top: 20px; font-size: 0.9em; color: #666;">
-  <strong>Offline Access:</strong> <a href="https://drive.google.com/file/d/1Pp16SIilMRkPFryYLAyZr4TlTQUh2aP9/view?usp=sharing" target="_blank">Download complete collection of papers</a> (ZIP, ~55MB)
+  <!-- <strong>Offline Access:</strong> <a href="https://drive.google.com/file/d/1Pp16SIilMRkPFryYLAyZr4TlTQUh2aP9/view?usp=sharing" target="_blank">Download complete collection of papers</a> (ZIP, ~55MB) -->
 </div>
 
 [← Back to Profile](/people/)
