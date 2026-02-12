@@ -64,6 +64,12 @@ Assist in the manuscript collation, translation and editing activities and maint
 ---
 
 |:-|:------------|
+| ![Vani](../assets/vani-2026.jpg)<br>**Vani S**, Project Assistant |
+Assist in the manuscript collation, translation and editing activities and maintenance of the book catalog for project titled "IKS Project of MOE-AICTE at Jain University"  |
+
+---
+
+|:-|:------------|
 | ![Warija](../assets/warija.jpg)<br>**Warija Adiga** , Associate |
  A researcher involved in study of ancient Sanskrit manuscripts and shastras. She has published several Sanskrit articles/ stories in Sanskrit magazines like Sambhashana Sandesha and Sanskrit Bhavitavyam.  She has  presented a couple of papers at All India Sanskrit Conference and BVP Conference. She has also summarised the proceedings of BVP conference (Udupi) and All India Oriental Centennial Conference (Nagpur) in the form of books. Some of her articles have been published by Indica and Ethics Asia journal as well. <br><br>**[Academia.edu Profile](https://independent.academia.edu/WarijaAdiga)**|
 
