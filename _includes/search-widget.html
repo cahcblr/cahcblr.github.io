@@ -7,10 +7,14 @@
   triggerId="searchWidgetTrigger2">
 </gen-search-widget>>
 
-<!-- <a href="https://sanchaya.mooo.info" class="search-button">📚 Search CAHC Document Collection</a> -->
-<a href="https://sanchaya.rasowshi.us" class="search-button">📚 Search CAHC Document Collection</a>
+<!-- Patra Darpan (Primary) -->
+<a href="https://patra-darpan.netlify.app/?theme=light" target="_blank" class="search-button">📑 Find Research Papers (Patra Darpan)</a>
 
-<input  placeholder="Semantic Search (Experimental)" id="searchWidgetTrigger2" class="search-trigger2" />
+<!-- Sanchaya (Secondary) -->
+<a href="https://sanchaya.rasowshi.us" target="_blank" class="search-button">📚 Indic Text Search (Sanchaya)</a>
+
+<!-- Semantic Search (Tertiary) -->
+<input placeholder="🧠 Semantic Search (Experimental)" id="searchWidgetTrigger2" class="search-trigger2" />
 
 <!-- Visual separator -->
 <div class="search-separator"></div>
@@ -38,19 +42,25 @@
     color: #333; /* Changed text color for better contrast */
 }
 .search-trigger2 {
-  /* make it look like a button */
-    padding: 8px 12px;
-    border: 1px solid #26d1a1;
-    border-radius: 4px;
+    /* Harmonized with .search-button style */
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
     margin: 10px 0;
     background-color: #26d1a1;
     color: white;
-    font-size: 20px; /* Increased font size for better readability */
-    word-wrap: break-word;
-    width: 300px;
-
+    font-size: 16px; 
+    font-weight: 500;
+    width: 100%;
+    max-width: 400px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.search-trigger2:hover {
+    background-color: #1fb892;
+    transform: translateY(-1px);
 }
 
 /* Separator style */
