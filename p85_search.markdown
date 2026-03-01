@@ -12,6 +12,16 @@ The CAHC collection includes thousands of research papers on ancient Indian scie
 
 {% include search-widget.html %}
 
+<!--
+OPTIONAL: Patra Darpan Iframe Integration
+Available in darpan_p85.html if persistent embedding is required in the future.
+## Patra Darpan Search
+<div style="margin-bottom: 3rem;">
+{% include darpan_p85.html %}
+</div>
+<hr style="margin: 4rem 0;">
+-->
+
 ### Search by Subject Category
 
 <div style="display: flex; align-items: center; gap: 8px;">
