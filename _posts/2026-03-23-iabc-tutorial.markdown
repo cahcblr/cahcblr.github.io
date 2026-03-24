@@ -21,6 +21,12 @@ The tutorial is split across two main sessions:
 📺 **[View Session 2 Online Presentation](/assets/talks/2026-03-23-iabc/slides-session-2.html)** - Interactive HTML version  
 📄 **[Download Session 2 PDF](/assets/talks/2026-03-23-iabc/slides-session-2.pdf)** - Printable version
 
+## Source Materials
+
+The source slides, Stellarium scripts, notes, and operational helpers for this tutorial are available on GitHub:
+
+- [Presentation source in `cahc-utils`](https://github.com/suchakr/cahc-utils/tree/sunder_work/presentations/2026-03-23-iks-astro-talk)
+
 ## Stellarium Demonstration Videos
 
 The tutorial heavily relies on custom Stellarium scripts to demonstrate ancient astronomical principles. The recorded visualizations are available below:
