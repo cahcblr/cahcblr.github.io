@@ -54,6 +54,7 @@ You can take the IABC 50-question quiz directly on this page.
 	src="/assets/talks/2026-03-23-iabc/iabc-quiz.html"
 	title="Indian Astronomy Before Common Era Quiz"
 	loading="lazy"
+	scrolling="yes"
 	style="width:100%;height:92vh;min-height:620px;border:1px solid #d7d7d7;border-radius:12px;background:#fff;"
 ></iframe>
 
