@@ -45,3 +45,18 @@ The tutorial heavily relies on custom Stellarium scripts to demonstrate ancient 
 - [Total Solar Eclipse Visualizer](/assets/talks/2026-03-23-iabc/s23.mp4)
 - [Parāśara Tantra: Eclipse sequence anchor for Jaipur](/assets/talks/2026-03-23-iabc/s24.mp4)
 - [Visualizing the Equinoctial Full Moon Search](/assets/talks/2026-03-23-iabc/s25.mp4)
+
+## Interactive Quiz
+
+You can take the IABC 50-question quiz directly on this page.
+
+<iframe
+	src="/assets/talks/2026-03-23-iabc/iabc-quiz.html"
+	title="Indian Astronomy Before Common Era Quiz"
+	loading="lazy"
+	style="width:100%;height:92vh;min-height:620px;border:1px solid #d7d7d7;border-radius:12px;background:#fff;"
+></iframe>
+
+If the embedded quiz does not load, open it directly here:
+
+- [Open IABC Quiz](/assets/talks/2026-03-23-iabc/iabc-quiz.html)
