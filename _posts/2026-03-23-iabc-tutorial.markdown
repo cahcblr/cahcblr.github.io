@@ -26,6 +26,7 @@ The tutorial is split across two main sessions:
 The source slides, Stellarium scripts, notes, and operational helpers for this tutorial are available on GitHub:
 
 - [Presentation source in `cahc-utils`](https://github.com/suchakr/cahc-utils/tree/sunder_work/presentations/2026-03-23-iks-astro-talk)
+- [Stellarium automation toolkit](https://github.com/suchakr/agentic-skills/tree/main/stellarium) — command-line helper and AI agent skill for controlling Stellarium via its Remote Control plugin
 
 ## Stellarium Demonstration Videos
 
