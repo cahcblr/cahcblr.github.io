@@ -15,7 +15,7 @@ The **Center for Ancient History and Culture (CAHC)** at Jain University is a pr
 CAHC addresses the significant gap in Indian historical scholarship by presenting ancient Indian history in an objective fashion, avoiding ideological extremes. Our mission is to conduct primary research that:
 
 - Chronicles cultural, scientific, and social intellectual traditions beyond political history
-- Presents ancient history free from Eurocentric viewpoints  
+- Presents ancient history free from Eurocentric viewpoints
 - Connects modern education with intellectual traditions rooted in ancient India
 - Preserves and studies unpublished manuscripts and ancient texts
 
@@ -27,12 +27,14 @@ Our center specializes in several interconnected fields:
 - **Cultural History** - Understanding societal practices and cultural evolution
 - **Pre-Siddhantic and Siddhantic Astronomy** - Ancient Indian astronomical sciences
 - **Shilpashastra** - Traditional architecture and engineering texts
+- **Sanskrit Literature, Poetry and Poetics** - Classical Sanskrit literary traditions, kāvya, and alaṃkāraśāstra
 - **History of Music** - Ancient musical traditions and theory
 - **Manuscriptology** - Study and preservation of ancient manuscripts
 
 ### Publications & Impact
 
 CAHC actively disseminates research through:
+
 - [Academic papers](/papers) published in peer-reviewed journals
 - [Scholarly books](/books) on ancient sciences and culture
 - International conferences and workshops
@@ -40,7 +42,9 @@ CAHC actively disseminates research through:
 
 ### Leadership
 
-The center is directed by **Prof. R. N. Iyengar**, a renowned scholar in ancient Indian sciences and history of astronomy, whose research has significantly contributed to understanding India's scientific heritage.
+The center is directed by **Dr. Shankar Rajaraman**, a Sanskrit poet, scholar of Indian Knowledge Systems, and researcher in Sanskrit poetics and psychology of emotions. He received the _Maharṣi Bādarāyaṇa Vyāsa Sammān_ from the President of India for his contributions to Sanskrit language and literature.
+
+The center was founded and continues to be guided by **Prof. R. N. Iyengar** (Distinguished Professor and Mentor of CAHC), a renowned scholar in ancient Indian sciences and history of astronomy, whose research has significantly contributed to understanding India's scientific and cultural heritage.
 
 ### Contact Information
 
@@ -50,7 +54,7 @@ For research collaborations, manuscript access, or academic inquiries:
 Center for Ancient History and Culture  
 319, 25th Main, KR Layout  
 JP Nagar 6th Phase  
-Bengaluru - 560078  
+Bengaluru - 560078
 
 **Contact:**  
 Tel: +91 80 43430400 extn 237  
