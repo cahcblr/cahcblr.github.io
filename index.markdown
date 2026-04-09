@@ -19,7 +19,9 @@ The centre studies ancient natural sciences texts and unpublished manuscripts. T
 - Cultural history
 - Pre-Siddhantic and Siddhantic Astronomy
 - Shilpashastra
+- Sanskrit Literature, Poetry and Poetics
 - History of Music
+- Manuscriptology
 
 The center publishes
 
