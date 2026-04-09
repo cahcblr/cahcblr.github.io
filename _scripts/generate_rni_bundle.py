@@ -35,7 +35,7 @@ def parse_markdown_table(file_path):
             continue # End of table usually
 
         # Parse Row
-        # | 1 | 2023 | Jyotihsa | [**Title**](path) | Author | Source |
+        # | 1 | 2023 | Jyotisha | [**Title**](path) | Author | Source |
         parts = [p.strip() for p in line.split('|')]
         if len(parts) < 7: continue
 
