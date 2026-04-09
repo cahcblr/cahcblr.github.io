@@ -112,7 +112,7 @@ This course provides an introduction to the vast and interdisciplinary landscape
 *   **Prosody (Chandas *Meter*)**:
     *   **Rhythm as fundamental**: Emphasizing rhythm as a core element of language and poetry.
     *   **Chandas as a *Vedāṅga*** (*Limb of the Veda*): Compared to the "feet of the Veda".
-    *   **Foundational Texts**: *Piṅgala's Chandasshastra* and *Bharata's Nāṭyaśāstra*.
+    *   **Foundational Texts**: *Piṅgala's Chandasśāstra* and *Bharata's Nāṭyaśāstra*.
     *   **Types of Meters**:
         *   **Akṣaracchandas** (*syllable-based meter*): Regulated by syllable count and *Laghu-Guru* (*short-long*) distribution. Sub-types include *Samavṛtta* (all lines same), *Ardhasamavṛtta* (alternate lines same), and *Viṣamavṛtta* (all lines different). Rules for determining *Laghu-Guru* based on vowel length and conjunct consonants.
         *   **Mātrāchandas** (*mora-based meter*): Regulated by total *mātrās* (*units of time*) per line.
@@ -200,13 +200,13 @@ This course provides an introduction to the vast and interdisciplinary landscape
     *   **Origin and Necessity**: Development driven by the need to build habitats after environmental events (e.g., floods in the Holocene epoch).
     *   **Scope**: Encompasses Town Planning, design of various buildings (religious, residential, military, public), furniture, sculptures, gardens, roads, water bodies, and fortifications.
     *   **Propounders (*Praṇetā*)**: Prominent figures like *Viśvakarma*, *Maya*, *Nārada*, and *Garga Ṛṣi*.
-    *   **Key Texts**: *Viśwakarmaprakasha*, *Mayamata*, *Nāradaśilpaśāstram*, *Vṛddhagarga Vāstuvidyā*, *Samaranganasûtradhâra*.
-    *   **Archaeological Evidence**: Supporting physical evidence found in *Saraswati-Sindhu Civilization* sites (Harappa, Mohenjodaro, Dholavira), *Sisupalgarh*, and the planned city of *Jaipur*.
+    *   **Key Texts**: *Viśwakarmaprakasha*, *Mayamata*, *Nāradaśilpaśāstram*, *Vṛddhagarga Vāstuvidyā*, *Samarāṅgaṇasūtradhāra*.
+    *   **Archaeological Evidence**: Supporting physical evidence found in *Saraswati-Sindhu Civilization* sites (Harappa, Mohenjodaro, Dholavira), *Śiśupālgaṛh*, and the planned city of *Jaipur*.
 *   **Temple Architecture**:
     *   Temples as marvels of imagination, cultural edifices, and focal points for social gathering, education, and art.
     *   Integral elements: *Āgama* (*philosophical narratives*), *Vāstuvidyā* (*architectural planning*), and *Śilpaśāstram* (*sculptural iconography*).
     *   *Yuga parampara* (*era tradition*) of temple formation: From no need in *Kṛta Yuga* to public temples in *Kali Yuga*.
-    *   **Evolution of Temple Forms**: From early caves and excavated caves (Junnâr, Ajantâ, Ellorâ) to *Stupas* (*mound-like structures*).
+    *   **Evolution of Temple Forms**: From early caves and excavated caves (Junnar, Ajantā, Ellora) to *Stupas* (*mound-like structures*).
     *   **Buddhist Stupa Features**: Hemispherical structure, *Medhi* (*platform*), *Pradakshina* (*circumambulation path*), *Vedika* (*railing*), *Harmikâ* (*terrace*), and *Chatravali* (*umbrellas*).
     *   **Major Temple Styles**:
         *   **Nāgara Temples (North India)**: Characterized by a tall, curved *shikhara* (*spire*), typically with a square *garbhagriha* (*sanctum*) and an attached *mandapa* (*main hall*). Sub-types include **Latina** (single curvilinear *shikhara*) and **Phamsana** (pyramidal, tiered roof).
