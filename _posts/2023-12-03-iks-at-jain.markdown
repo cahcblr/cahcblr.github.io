@@ -22,7 +22,7 @@ noindex: true
 
 ![](/assets/talks/2023-12-05-iks-cahc/iks-cahc-group-pic.jpg){: .rounded-image}
 
-This discussion was organized by the [Center for Ancient History and Culture](https://cahc.jainuniversity.ac.in/), Jain University and the [Indian Knowledge Systems Division, MoE, Govt. of India](https://iksindia.org/). This discussion was held on Kārtika bahuḷa aṣṭamī & navamī, 5,& 6 December 2023 at
+This discussion was organized by the [Centre for Ancient History and Culture](https://cahc.jainuniversity.ac.in/), Jain University and the [Indian Knowledge Systems Division, MoE, Govt. of India](https://iksindia.org/). This discussion was held on Kārtika bahuḷa aṣṭamī & navamī, 5,& 6 December 2023 at
 CMS Business School, Jain University, Bangalore.
 
 Eminent panelists representing Vedic , Sanskrit  and modern scholarship from various parts of India and Nepal participated. The discussion was held in five sessions over two days. The discussion was attended by about 40 participants, including the panelists and observers. Prof. RN Iyengar, Distinguished Professor and Director, CAHC. curated the discussion topics.  Sudarshan , Research Associate at CAHC co-ordinated the event.
@@ -34,7 +34,7 @@ Eminent panelists representing Vedic , Sanskrit  and modern scholarship from var
 |1 |Prof. Ishwar Bhat |Central Sanskrit University |Jaipur
 |2 |Prof. Jnanendra Sapkota |Sampurnananda Sanskrit University |Kashi
 |3 |Prof. K Ramasubrahmanian |IIT Mumbai |Mumbai
-|4 |Prof. MD Srinivas |Center for Policy Studies |Chennai
+|4 |Prof. MD Srinivas |Centre for Policy Studies |Chennai
 |5 |Prof. MS Sriram |KV Sarma Research Institute |Chennai
 |6 |Prof. Dr. P Ramanujan |Parankusachar Institude of Vedic Studies |Bangalore
 |7 |Prof. Pramodavardhana Kaundinnyayana |Nepal Sanskrit University |Kathmandu
