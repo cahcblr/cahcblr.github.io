@@ -78,7 +78,7 @@ This course provides an introduction to the vast and interdisciplinary landscape
 *   **Astronomy (Jyotiṣa *Science of Light*)**:
     *   **Ancient Observations**: Systematic observation of the Sun, Moon, Stars, *Nakṣatras* (*lunar mansions*), and *Grahas* (*planets*).
     *   **Rhythms of Celestial Objects**:
-        *   **Sun's Rhythms**: *Ahorātrā* (*day*), *Ayana* (*solstice*), *Ṛtu* (*seasons*), *Samvatsara* (*year*); daily changes in sunrise/sunset positions; *Uttaryāṇa* (*northern swing*) and *Dakṣiṇāyana* (*southern swing*).
+        *   **Sun's Rhythms**: *Ahorātrā* (*day*), *Ayana* (*solstice*), *Ṛtu* (*seasons*), *Samvatsara* (*year*); daily changes in sunrise/sunset positions; *Uttarāyaṇa* (*northern swing*) and *Dakṣiṇāyana* (*southern swing*).
         *   **Moon's Rhythms**: *Tithi* (*lunar day*), *Pakṣa* (*fortnight*), *Māsa* (*month*), and Lunar Eclipses.
         *   **Grahas' Rhythms**: Visibility, *Vakra* (*retrograde*), and prograde motions.
     *   **Key Astronomical Concepts**:

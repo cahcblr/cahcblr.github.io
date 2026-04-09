@@ -4,11 +4,11 @@ title: Contact
 permalink: /contact/
 ---
 
-## Contact the Center for Ancient History and Culture
+## Contact the Centre for Ancient History and Culture
 
 ### Mailing Address
 
-**Center for Ancient History and Culture (CAHC)**  
+**Centre for Ancient History and Culture (CAHC)**  
 Jain University  
 319, 25th Main, KR Layout  
 JP Nagar 6th Phase  
