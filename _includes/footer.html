@@ -32,6 +32,17 @@
       </div>
     </div>
 
+    {%- if site.data.build -%}
+    <div class="wrapper" style="padding-top:0; padding-bottom: 8px;">
+      <p style="font-size:0.75em; color:#aaa; margin:0;">
+        Built {{ site.data.build.date }}
+        &middot;
+        <a href="https://github.com/cahcblr/cahcblr.github.io/commit/{{ site.data.build.sha }}"
+           style="color:#aaa; text-decoration:none;" target="_blank">{{ site.data.build.sha }}</a>
+      </p>
+    </div>
+    {%- endif -%}
+
   </div>
 
 </footer>
