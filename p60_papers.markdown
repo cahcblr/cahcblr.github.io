@@ -168,3 +168,77 @@ function filterPapers() {
 </div>
 
 [← Back to Profile](/people/)
+
+<script>
+(function () {
+  // Allowlist of accepted pd_base origins to prevent arbitrary script injection.
+  var ALLOWED_BASES = [
+    "https://patra-darpan.netlify.app",
+    "http://localhost:8888",
+    "http://127.0.0.1:8888"
+  ];
+  var PROD_BASE = "https://patra-darpan.netlify.app";
+
+  var rawBase = new URLSearchParams(window.location.search).get("pd_base") || "";
+  // Normalise: strip trailing slash, then validate against allowlist.
+  rawBase = rawBase.replace(/\/$/, "");
+  var pdBase = ALLOWED_BASES.indexOf(rawBase) !== -1 ? rawBase : PROD_BASE;
+
+  // Register the listener BEFORE injecting the script tag so the event
+  // cannot fire before we are ready (even though async scripts fire after
+  // the current task, this keeps the order explicit).
+  window.addEventListener("patra-darpan:p60-ready", function (evt) {
+    var data = evt.detail;
+
+    // Validate: must have a non-empty rows array.
+    if (!data || !Array.isArray(data.rows) || data.rows.length === 0) return;
+
+    // Each row must have at least title and url; others may be absent.
+    var validRows = data.rows.filter(function (r) {
+      return r && typeof r.title === "string" && r.title.trim() !== ""
+                && typeof r.url   === "string" && r.url.trim()   !== "";
+    });
+    if (validRows.length === 0) return;
+
+    var tbody = document.querySelector("table tbody");
+    if (!tbody) return;
+
+    var html = "";
+    validRows.forEach(function (r, idx) {
+      var num      = idx + 1;
+      var year     = r.year     || "";
+      var category = r.category || "";
+      var author   = r.author   || "";
+      var source   = r.source   || "";
+      // Patra Darpan already supplies full CAHC mirror URLs; keep them as-is.
+      var titleCell = "<a href=\"" + r.url + "\" target=\"_blank\"><strong>"
+                    + escHtml(r.title) + "</strong></a>";
+      html += "<tr>"
+            + "<td>" + num        + "</td>"
+            + "<td>" + escHtml(year)     + "</td>"
+            + "<td>" + escHtml(category) + "</td>"
+            + "<td>" + titleCell         + "</td>"
+            + "<td>" + escHtml(author)   + "</td>"
+            + "<td>" + escHtml(source)   + "</td>"
+            + "</tr>";
+    });
+    tbody.innerHTML = html;
+  });
+
+  function escHtml(str) {
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  // Inject the script tag asynchronously; on failure the static table stays.
+  // Note: if pd_base is http://localhost:8888, the Jekyll dev server must also
+  // be on http (bundle exec jekyll serve) to avoid mixed-content blocking.
+  var s = document.createElement("script");
+  s.async = true;
+  s.src   = pdBase + "/assets/js/p60.js";
+  document.head.appendChild(s);
+})();
+</script>
