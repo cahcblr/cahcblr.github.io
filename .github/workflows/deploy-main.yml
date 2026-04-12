@@ -37,6 +37,9 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: false
 
+      - name: Install gems
+        run: bundle install
+
       - name: Build site with Jekyll
         run: bundle exec jekyll build
         env:
