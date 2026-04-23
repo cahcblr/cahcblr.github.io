@@ -56,36 +56,106 @@ Use the search box below to filter papers by title, author, category, or year.
   border: 1px solid #ddd;
   margin-bottom: 12px;
 }
+
+#filterContainer {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #f9f9f9;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.filter-label {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.checkbox-group label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.checkbox-group label:hover {
+  background: #eee;
+}
+
+.checkbox-group input {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
 </style>
 
-<input type="text" id="paperSearchInput" onkeyup="filterPapers()" placeholder="Search for papers, years, sources...">
+<input type="text" id="paperSearchInput" onkeyup="applyFilters()" placeholder="Search for papers, years, sources...">
+
+<div id="filterContainer" style="display: none;">
+  <span class="filter-label">Show:</span>
+  <div class="checkbox-group">
+    <label title="Show scholarly research papers"><input type="checkbox" id="filterPaper" onchange="applyFilters()"> 📄 Papers</label>
+    <label title="Show popular articles and essays"><input type="checkbox" id="filterArticle" onchange="applyFilters()"> ✍️ Articles</label>
+  </div>
+</div>
 
 <script>
-function filterPapers() {
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("paperSearchInput");
-  filter = input.value.toUpperCase();
-  table = document.querySelector("table");
-  tr = table.getElementsByTagName("tr");
+function applyFilters() {
+  var input = document.getElementById("paperSearchInput");
+  var filter = input.value.toUpperCase();
+  var table = document.querySelector("table");
+  if (!table) return;
+  var tr = table.getElementsByTagName("tr");
+  
+  var paperChecked = document.getElementById("filterPaper").checked;
+  var articleChecked = document.getElementById("filterArticle").checked;
+  var anyChecked = paperChecked || articleChecked;
+  
+  var visibleCount = 0;
 
-  for (i = 0; i < tr.length; i++) {
-    tds = tr[i].getElementsByTagName("td");
+  for (var i = 0; i < tr.length; i++) {
+    var tds = tr[i].getElementsByTagName("td");
     if (tds.length > 0) {
-      var found = false;
+      var kind = tr[i].getAttribute("data-kind") || "paper"; 
+      
+      var kindMatch = !anyChecked || 
+                     (kind === "paper" && paperChecked) || 
+                     (kind === "article" && articleChecked);
+      
+      var textMatch = false;
       for (var j = 0; j < tds.length; j++) {
         if (tds[j].textContent.toUpperCase().indexOf(filter) > -1) {
-          found = true;
+          textMatch = true;
           break;
         }
       }
-      if (found) {
+      
+      if (kindMatch && textMatch) {
         tr[i].style.display = "";
+        visibleCount++;
+        tds[0].textContent = visibleCount;
       } else {
         tr[i].style.display = "none";
       }
     }
   }
 }
+
+// Fallback for static rows (no data-kind available)
+function filterPapers() { applyFilters(); }
 </script>
 
 | #    | Year | Category      | Paper Title                                                                                                                                                                                                                    | Author                                           | Source                                              |
@@ -189,11 +259,8 @@ function filterPapers() {
   // the current task, this keeps the order explicit).
   window.addEventListener("patra-darpan:p60-ready", function (evt) {
     var data = evt.detail;
-
-    // Validate: must have a non-empty rows array.
     if (!data || !Array.isArray(data.rows) || data.rows.length === 0) return;
 
-    // Each row must have at least title and url; others may be absent.
     var validRows = data.rows.filter(function (r) {
       return r && typeof r.title === "string" && r.title.trim() !== ""
                 && typeof r.url   === "string" && r.url.trim()   !== "";
@@ -205,16 +272,16 @@ function filterPapers() {
 
     var html = "";
     validRows.forEach(function (r, idx) {
-      var num      = idx + 1;
       var year     = r.year     || "";
       var category = r.category || "";
       var author   = r.author   || "";
       var source   = r.source   || "";
-      // Patra Darpan already supplies full CAHC mirror URLs; keep them as-is.
+      var kind     = r.content_kind || "paper";
+      
       var titleCell = "<a href=\"" + r.url + "\" target=\"_blank\"><strong>"
                     + escHtml(r.title) + "</strong></a>";
-      html += "<tr>"
-            + "<td>" + num        + "</td>"
+      html += "<tr data-kind=\"" + escHtml(kind) + "\">"
+            + "<td></td>" // Placeholder for # column, filled by applyFilters
             + "<td>" + escHtml(year)     + "</td>"
             + "<td>" + escHtml(category) + "</td>"
             + "<td>" + titleCell         + "</td>"
@@ -223,6 +290,10 @@ function filterPapers() {
             + "</tr>";
     });
     tbody.innerHTML = html;
+    
+    // Show filter container and run initial filter
+    document.getElementById("filterContainer").style.display = "flex";
+    applyFilters();
   });
 
   function escHtml(str) {
@@ -233,9 +304,19 @@ function filterPapers() {
       .replace(/"/g, "&quot;");
   }
 
-  // Inject the script tag asynchronously; on failure the static table stays.
-  // Note: if pd_base is http://localhost:8888, the Jekyll dev server must also
-  // be on http (bundle exec jekyll serve) to avoid mixed-content blocking.
+  // Initialize filters from URL or defaults
+  var params = new URLSearchParams(window.location.search);
+  var kindParam = params.get("kind");
+  if (kindParam) {
+    var kinds = kindParam.split(",");
+    document.getElementById("filterPaper").checked = kinds.includes("paper") || kinds.includes("all");
+    document.getElementById("filterArticle").checked = kinds.includes("article") || kinds.includes("all");
+  } else {
+    document.getElementById("filterPaper").checked = true;
+    document.getElementById("filterArticle").checked = false;
+  }
+
+  // Inject the script tag asynchronously
   var s = document.createElement("script");
   s.async = true;
   s.src   = pdBase + "/assets/js/p60.js";
