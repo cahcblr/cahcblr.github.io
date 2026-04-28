@@ -13,7 +13,12 @@ layout: default
     {%- if site.posts.size > 0 -%}
       <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
       <ul class="post-list">
-        {%- for post in site.posts -%}
+        {%- if page.url == "/" or page.url == "/index.html" -%}
+          {%- assign displayed_posts = site.posts | slice: 0, 3 -%}
+        {%- else -%}
+          {%- assign displayed_posts = site.posts -%}
+        {%- endif -%}
+        {%- for post in displayed_posts -%}
         <li>
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -28,6 +33,11 @@ layout: default
         </li>
         {%- endfor -%}
       </ul>
+      {%- if page.url == "/" or page.url == "/index.html" -%}
+        <div style="text-align: left; margin-top: 20px;">
+          <a href="{{ '/news/' | relative_url }}" style="display: inline-block; padding: 10px 20px; background-color: #f4f4f4; border: 1px solid #ddd; border-radius: 5px; text-decoration: none; color: #333; font-weight: bold;">View all News & Updates &rarr;</a>
+        </div>
+      {%- endif -%}
 
       {%- if 1 < 0 -%}
         <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>

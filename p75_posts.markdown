@@ -1,6 +1,7 @@
 ---
 
 layout: home
-title: "Events" 
+title: "News" 
 show_posts: true
+permalink: /news/
 ---
