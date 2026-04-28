@@ -6,7 +6,7 @@ date: 2026-04-24 10:00:00 +0530
 categories: news certification
 ---
 
-We are proud to announce that **Jain (Deemed-to-be University)** has been awarded the prestigious **ISO 21001:2018 Certificate** for the period of 2025-2028. This news was officially received on April 24, 2026.
+We are proud to announce that the **Center of Ancient History and Culture, Jain (Deemed-to-be University)** has been awarded the prestigious **ISO 21001:2018 Certificate** for the period of 2025-2028. This news was officially received on April 24, 2026.
 
 The ISO 21001:2018 is an international standard that provides a common management tool for organizations providing educational products and services, ensuring they are capable of meeting the needs and requirements of learners and other beneficiaries. 
 
