@@ -56,6 +56,18 @@
     - text: "Read Review on Swarajya"
       url: "https://swarajyamag.com/books/before-space-science-there-was-mahsalilam-rediscovery-of-indias-oldest-astronomical-text"
 
+- title: "भारावतारस्तवः (Bhārāvatārastava)"
+  author: "Dr. Shankar Rajaraman"
+  cover_image: "/assets/ba-cover-page.jpg"
+  description: |
+    In this poetic work consisting of fifty verses, the author offers praise to the Lord Śiva. Except for the final verse, which is composed in the indravajrā meter, all the verses herein are written in the vasantatilakā meter. The poet composed this hymn inspired by the style of the Ānandasāgarastava written by Nīlakaṇṭha. The "laying down of the burden" (bhārāvatāra) refers to placing a weight upon the shoulders or head of someone else. In this poem, the author casts the heavy weight of suffering caused by the bonds of worldly existence onto Lord Śiva and prays to Him, saying, "Deliver me." Whether contemplating the Deity as a friend, a master, a father, a teacher, a lover of His devotees, a refuge, the cause of dissolution, the granter of liberation, or as non-different from the self, almost all of the poet's verses shine with devotion.
+  links:
+    - text: "Email to buy"
+      url: "mailto:prekshaa.in@gmail.com"
+      is_buy: true
+    - text: "Read Review on Swarajya"
+      url: "https://swarajyamag.com/ideas/can-you-mock-god-this-sanskrit-poet-did-and-thats-worship"
+
 - title: "निपुणप्राघुणकम् (Nipuṇaprāghuṇakam)"
   subtitle: "A Sanskrit Bhāṇa"
   cover_image: "/assets/np-book-cover.png"
