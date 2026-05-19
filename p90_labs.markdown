@@ -21,7 +21,7 @@ permalink: /labs/
     background: #fff;
     border: 1px solid #e1e4e8;
     border-radius: 8px;
-    padding: 0.2rem 1.2rem 1rem 1.2rem; /* Ultra aggressive top cut */
+    padding: 0.2rem .2rem .2rem .2rem; /* Ultra aggressive top cut */
     box-shadow: 0 2px 10px rgba(0,0,0,0.04);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     scroll-margin-top: 80px;
@@ -30,11 +30,11 @@ permalink: /labs/
     justify-content: space-between;
   }
   
-  /* Subtle theme colors for each lab */
-  .lab-card:nth-child(1) { background-color: #f4f8fc; border-color: #d1e1f0; } /* Soft Blue - Jyotisha */
-  .lab-card:nth-child(2) { background-color: #fcf4f6; border-color: #f0d1dc; } /* Soft Rose - Vagartha */
-  .lab-card:nth-child(3) { background-color: #fbfaf0; border-color: #ede7c5; } /* Soft Sand - Meru */
-  .lab-card:nth-child(4) { background-color: #f2fbf6; border-color: #c9ebd8; } /* Soft Mint - Kaavya */
+  /* Subtle theme colors for each lab (cycling) */
+  .lab-card:nth-child(4n+1) { background-color: #f4f8fc; border-color: #d1e1f0; } /* Soft Blue */
+  .lab-card:nth-child(4n+2) { background-color: #fcf4f6; border-color: #f0d1dc; } /* Soft Rose */
+  .lab-card:nth-child(4n+3) { background-color: #fbfaf0; border-color: #ede7c5; } /* Soft Sand */
+  .lab-card:nth-child(4n+4) { background-color: #f2fbf6; border-color: #c9ebd8; } /* Soft Mint */
   .lab-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
@@ -42,18 +42,18 @@ permalink: /labs/
   
   .lab-title {
     margin-top: 0 !important; /* overrides .post-content h2 base theme */
-    margin-bottom: 0.2rem !important;
+    margin-bottom: 0.1rem !important;
     color: #1a202c;
-    font-size: 1.25rem;
-    line-height: 1.2;
-    font-weight: 600;
+    font-size: 1.0rem;
+    line-height: 1.0;
+    font-weight: 200;
   }
   .lab-subtitle {
     display: block;
     color: #4a5568;
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-    font-weight: 400;
+    font-size: 0.85rem;
+    margin-bottom: 0.2rem; 
+    font-weight: 200;
   }
   .lab-description {
     color: #4a5568;
@@ -67,8 +67,8 @@ permalink: /labs/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0.5rem;
-    padding-top: 0.75rem;
+    margin-top: 0.25rem;
+    padding-top: 0.25rem;
     border-top: 1px solid #edf2f7;
   }
 

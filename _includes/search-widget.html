@@ -1,3 +1,4 @@
+{% comment %}
 <!-- Widget JavaScript bundle -->
 <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
 
@@ -5,7 +6,8 @@
 <gen-search-widget
   configId="508b23be-e628-4134-b0bd-4edf0a031487"
   triggerId="searchWidgetTrigger2">
-</gen-search-widget>>
+</gen-search-widget>
+{% endcomment %}
 
 <!-- Patra Darpan (Primary) -->
 <a href="https://patra-darpan.netlify.app/?theme=light" target="_blank" class="search-button">📑 Find Research Papers (Patra Darpan)</a>
@@ -13,8 +15,10 @@
 <!-- Sanchaya (Secondary) -->
 <a href="https://sanchaya.rasowshi.us" target="_blank" class="search-button">📚 Indic Text Search (Sanchaya)</a>
 
+{% comment %}
 <!-- Semantic Search (Tertiary) -->
 <input placeholder="🧠 Semantic Search (Experimental)" id="searchWidgetTrigger2" class="search-trigger2" />
+{% endcomment %}
 
 <!-- Visual separator -->
 <div class="search-separator"></div>
