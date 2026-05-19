@@ -4,93 +4,258 @@ title: People
 permalink: /people/
 ---
 
-|:-:|------------|
-| ![RNI](../assets/rni.jpg)<br>**Professor&nbsp;Rangachar&nbsp;Narayana&nbsp;Iyengar**,<br> Distinguished Professor and Mentor of CAHC |
+<style>
+  .people-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 4rem;
+  }
+  .person-card {
+    background: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 12px;
+    padding: 2.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    scroll-margin-top: 90px;
+  }
+  .person-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+  }
+  
+  .person-image-float {
+    float: left;
+    margin-right: 2.5rem;
+    margin-bottom: 1.5rem;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+  }
+  .person-image-float img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top;
+  }
 
-Prof RNI is the founder and Distinguished Professor and Mentor of the Centre for Ancient History and Culture (CAHC) at the [Jain University](https://www.jainuniversity.ac.in/), which he established in 2012. He continues to pursue research in Indian Knowledge Systems including the History of Science in India.
+  @media (min-width: 768px) {
+    .person-image-float {
+      width: auto;
+      max-width: 180px;
+    }
+  }
 
-Professor R. N. Iyengar B.E., M.Sc(Eng).,Ph.D., (b. 1943) is renowned for his contributions to Earthquake Engineering, Random Vibrations, Mathematical Modeling, Structural Dynamics and Nonlinear Systems. As faculty at the Indian Institute of Science from 1969 till his retirement in 2005 as KSIDC Chair Professor in Civil Engineering, Iyengar has published 200 technical papers, reports, general articles and books. He is **Fellow of the Indian National Academy of Engineering, Indian Academy of Science, National Academy of Science** and the Alexander von Humboldt Foundation, Germany. He held the Distinguished Schmidt Chair at the Florida Atlantic University, USA in 1995. He was Director of CBRI-CSIR (1994-2000); Raja Ramanna Fellow of Dept. of Atomic Energy (2005-10). After establishing the Centre for Disaster Mitigation with a unique Fire Research Lab, he is currently Distinguished Emeritus Professor and the Director of the Centre for Ancient History & Culture at the Jain University, Bangalore.
+  .person-name {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #1a202c;
+    font-size: 1.75rem;
+    line-height: 1.3;
+    font-weight: 700;
+  }
+  .person-role {
+    display: block;
+    color: #4a5568;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  .person-bio {
+    color: #2d3748;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+  }
+  .person-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    clear: both;
+  }
 
-Brought up in a family of Sanskrit scholars, Professor Iyengar received initial training in Sanskrit studies in the traditional way. This has propelled him to become an avid reader of ancient texts in the original. He has developed, combining Indic knowledge traditions with modern methods, a new line of study of ancient Indian heritage. His findings on comets, eclipses, earthquakes, ancient geography, effect of precession and the Pole Star Dhruva in Vedic literature, Concept of Probability in classical music, have attracted worldwide attention. He brought out the **Parāśaratantra**, an ancient Sanskrit treatise on astronomy and natural sciences, with text, translation and notes in 2013. Recently he has edited **Nāradaśilpaśāstram**, a medieval period text on Civil Engineering with introduction, translation and notes. He is presently critically editing **Vṛddha-gārgīya Jyotiṣa** an ancient text on astral sciences from about ten unpublished manuscripts.
+  .btn-person {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.6rem 1.2rem;
+    background-color: transparent;
+    color: #4a5568 !important;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: 1px solid #cbd5e0;
+    transition: all 0.2s ease;
+  }
+  .btn-person:hover {
+    background-color: #f7fafc;
+    border-color: #a0aec0;
+    color: #1a202c !important;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  .btn-person.primary {
+    background-color: #e8f5e9;
+    color: #1b5e20 !important;
+    border-color: #c8e6c9;
+  }
+  .btn-person.primary:hover {
+    background-color: #c8e6c9;
+  }
 
-**Recent Recognition:** Prof. R. N. Iyengar was conferred the **SASTRA-Mahamana Award for Excellence in Indian Knowledge Systems** by SASTRA Deemed University on **28-Feb-2026**. [Read announcement and view images]({% post_url 2026-02-28-sastra-mahamana-award %}).
+  /* Hero Rail (Floating Mini-Nav) */
+  .people-hero-rail {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    gap: 16px;
+    padding: 10px 20px;
+    margin: 0 -20px 2rem -20px;
+    border-bottom: 1px solid #e1e4e8;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  .hero-rail-item {
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+    scroll-snap-align: center;
+    opacity: 0.6;
+    filter: grayscale(40%);
+  }
+  .hero-rail-item:hover, .hero-rail-item.active {
+    transform: scale(1.15);
+    opacity: 1;
+    filter: grayscale(0%);
+  }
+  .hero-rail-item img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  }
+  .hero-rail-item.active img {
+    border: 2px solid #3182ce;
+    padding: 2px;
+  }
+  
+  .group-header {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #2d3748;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+  }
+</style>
 
+<nav class="people-hero-rail">
+  {% for person in site.data.people %}
+    <a href="#{{ person.name | slugify }}" class="hero-rail-item" title="{{ person.name }}">
+      <img src="{{ person.image | relative_url }}" alt="{{ person.name }}" style="object-position: {{ person.image_position | default: 'top' }};">
+    </a>
+  {% endfor %}
+</nav>
 
-**[Prof. R.N. Iyengar's Brief Bio and his Publications on Indian Knowledge Systems ](../assets/rni.pdf)** | **[View Selected Research Papers](/papers/)** | **[Google Scholar Profile](https://scholar.google.co.in/citations?user=KISAL2oAAAAJ&hl=en)** | **[Academia.edu Profile](https://jainuniversity.academia.edu/RNIyengar)**
+<div class="people-container">
+  {% assign leadership = site.data.people | where: "group", "leadership" %}
+  {% assign team = site.data.people | where: "group", "team" %}
 
----
+  <h2 class="group-header">Leadership</h2>
+  {% for person in leadership %}
+    <div id="{{ person.name | slugify }}" class="person-card">
+      <div class="person-image-float">
+        <img src="{{ person.image | relative_url }}" alt="{{ person.name }}" style="object-position: {{ person.image_position | default: 'top' }};">
+      </div>
+      
+      <h2 class="person-name">{{ person.name }}</h2>
+      <span class="person-role">{{ person.role }}</span>
+      
+      <div class="person-bio">
+        {{ person.bio | markdownify }}
+      </div>
+      
+      {% if person.links %}
+        <div class="person-actions">
+          {% for link in person.links %}
+            <a href="{{ link.url }}" class="btn-person {% if link.is_primary %}primary{% endif %}" target="_blank" rel="noopener noreferrer">
+              {{ link.text }}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
 
-|:-:|:------------:|
-| ![Shankar](../assets/shankar-2025.jpg)<br>**Dr. Shankar&nbsp;Rajaraman**, Director of CAHC |
+  <h2 class="group-header">Team</h2>
+  {% for person in team %}
+    <div id="{{ person.name | slugify }}" class="person-card">
+      <div class="person-image-float">
+        <img src="{{ person.image | relative_url }}" alt="{{ person.name }}" style="object-position: {{ person.image_position | default: 'top' }};">
+      </div>
+      
+      <h2 class="person-name">{{ person.name }}</h2>
+      <span class="person-role">{{ person.role }}</span>
+      
+      <div class="person-bio">
+        {{ person.bio | markdownify }}
+      </div>
+      
+      {% if person.links %}
+        <div class="person-actions">
+          {% for link in person.links %}
+            <a href="{{ link.url }}" class="btn-person {% if link.is_primary %}primary{% endif %}" target="_blank" rel="noopener noreferrer">
+              {{ link.text }}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
 
-**Dr. Shankar Rajaraman** is a medical doctor with a post-graduate degree in Psychiatry, a researcher in Indian Knowledge Systems by profession, and a Sanskrit poet and translator by passion. His poetical works include _Citranaiṣadham_, _Devidānavīyam_, _Bhārāvatārastava_, and _Niguḍaprāghūṇaka_. Shankar received the _Maharshi Badarayan Vyas Samman_ from the President of India for his contribution to Sanskrit language and literature. <br><br> 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const cards = document.querySelectorAll('.person-card');
+  const railItems = document.querySelectorAll('.hero-rail-item');
+  const rail = document.querySelector('.people-hero-rail');
+  
+  const observerOptions = {
+    root: null,
+    rootMargin: '-100px 0px -60% 0px',
+    threshold: 0
+  };
 
-His Citranaiṣadham is the first full-fledged Gomūtrikā kāvya in the history of Sanskrit literature. His PhD, in psychology from the National Institute of Advanced Studies (NIAS), was on a topic that bridged the psychology of self-conscious emotions and Sanskrit poetics. He has penned several original works in Sanskrit. His interests include Sanskrit poetry, particularly Citrakāvya, Sanskrit poetics, leadership studies under IKS, psychology of emotions, and translating works between Sanskrit, Kannada, and English.
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.getAttribute('id');
+        
+        railItems.forEach(item => item.classList.remove('active'));
+        const activeItem = document.querySelector(`.hero-rail-item[href="#${id}"]`);
+        
+        if (activeItem) {
+          activeItem.classList.add('active');
+          const scrollLeft = activeItem.offsetLeft - (rail.clientWidth / 2) + (activeItem.clientWidth / 2);
+          rail.scrollTo({ left: scrollLeft, behavior: 'smooth' });
+        }
+      }
+    });
+  }, observerOptions);
 
-**[Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=yZ2TrakAAAAJ)** | **[Academia.edu Profile](https://independent.academia.edu/RajaramanShankar)**
-
----
-<!-- ---
-
-|:-|:------------|
-| ![Sudarshan](../assets/sudarshan.jpg)<br>**Sudarshan&nbsp;HS** , Research Associate |
-Researching on comets and impact events in Vedas, Puranas, Vedangas and other pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra. Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa.|
-
-
-|:-|:------------|
-| ![Anand](../assets/anand.jpg)<br>**Anand Viswanathan**, Research Associate | ![INSA](../assets/anand-insa-young-historian-award-small.jpg)|
-Researching on planetary paths, perioidicity and other information in pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra. Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa. | *Anand Viswanathan* is elected **INSA Young Historian of Science for the year 2021**  |
--->
-
----
-
-|:-:|:------------:|
-| ![Hari](../assets/hari-2025.png)<br>**Dr. R S Hariharan**, Assistant Professor |
-
-**Dr. R S Hariharan** has a background in science and technology with experience in research, linguistics, and industry. His work explores Sanskrit literature and India’s civilisational and scientific thought. 
-
-**[Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=7MBUHmkAAAAJ)** | **[Academia.edu Profile](https://independent.academia.edu/RSHariharan2)**
-
----
-
-|:-|:------------|
-| ![Smita](../assets/smita-2022.jpg)<br>**Smita Bhatta** , Project Assistant |
-Assist in the manuscript collation, translation and editing activities and maintenance of the book catalog for project titled "IKS Project of MOE-AICTE at Jain University"  |
-
----
-
-|:-|:------------|
-| ![Roopa](../assets/roopa-2025a.jpg)<br>**Roopa Ramesh**, Project Assistant |
-Assist in the manuscript collation, translation and editing activities and maintenance of the book catalog for project titled "IKS Project of MOE-AICTE at Jain University"  |
-
----
-
-|:-|:------------|
-| ![Vani](../assets/vani-2026.jpg)<br>**Vani S**, Project Assistant |
-Assist in the manuscript collation, translation and editing activities and maintenance of the book catalog for project titled "IKS Project of MOE-AICTE at Jain University"  |
-
----
-
-|:-|:------------|
-| ![Warija](../assets/warija.jpg)<br>**Warija Adiga** , Associate |
- A researcher involved in study of ancient Sanskrit manuscripts and shastras. She has published several Sanskrit articles/ stories in Sanskrit magazines like Sambhashana Sandesha and Sanskrit Bhavitavyam.  She has  presented a couple of papers at All India Sanskrit Conference and BVP Conference. She has also summarised the proceedings of BVP conference (Udupi) and All India Oriental Centennial Conference (Nagpur) in the form of books. Some of her articles have been published by Indica and Ethics Asia journal as well. <br><br>**[Academia.edu Profile](https://independent.academia.edu/WarijaAdiga)**|
-
----
-
-|:-:|------------|
-| ![Sunder](../assets/sunder-2022.png)<br>**Sunder Chakravarty** , Associate |
-Develop computer programs and models to validate and infer astronomical and other observational information in ancient text . <br><br>**[Academia.edu Profile](https://jainuniversity.academia.edu/SunderChakravarty)**|
-
-<!-- ---
-
-|:-:|:------------:|
-| ![Shankar](../assets/shankar-2018.jpg)<br>**Shankar&nbsp;Rajaraman**, Associate Professor | Shankar Rajaraman is an Associate Professor at CAHC since 2022. His areas of interest include Sanskrit Literature, Indian Aesthetics and Indian Psychology.|
-| ![Sudarshan](../assets/sudarshan.jpg)<br>**Sudarshan&nbsp;HS** , Research Associate | Researching on comets and impact events in Vedas, Puranas, Vedangas and other pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra.Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa.|
-| ![Anand](../assets/anand.jpg)<br>**Anand Viswanathan**, Research Associate | Researching on planetary paths, perioidicity and other information in pre-siddhantic texts like Vṛddha-Gārgīya Jyotiṣa and Parāśaratantra. Working towards publishing a crtical edition of  Vṛddha-Gārgīya Jyotiṣa. |
-| ![Hari](../assets/hari-2023.jpg)<br>**R S Hariharan**, Research Assistant | Research Assistant working on an IKS Project. Interested in the interface of leadership studies & Sanskrit Literature.|
-| ![Smita](../assets/smita-2022.jpg)<br>**Smita Bhatta** , Project Assistant | Assist in the manuscript collation, translation and editing activities and maintenance of the book catalog for project titled "IKS Project of MOE-AICTE at Jain University"  |
-| ![Warija](../assets/warija.jpg)<br>**Warija Adiga** , Associate | Decode and digitize manusripts in various indic scripts. Warija has digitized few chapters of Vṛddha-Gārgīya Jyotiṣa and the full body of Vṛddha-Gārga Vāstu Vidyā manuscripts into devanaagri from ancient Nepali, Newari and Bangla lipi. Write and publish articles based on Sanskrit literature. |
-| ![Sunder](../assets/sunder-2022.png)<br>**Sunder Chakravarty** , Associate | Develop computer programs and models to validate and infer astronomical and other observational information in ancient text . |
-
-| ![badarayana](../assets/shankar-award.jpg) | *Prof Shankar Rajaraman* conferred with the 2016  **Badarayan Vyas Samman**  |
-| ![INSA](../assets/anand-insa-young-historian-award-small.jpg)| *Anand Viswanathan* is elected **INSA Young Historian of Science for the year 2021**  | -->
+  cards.forEach(card => observer.observe(card));
+});
+</script>
