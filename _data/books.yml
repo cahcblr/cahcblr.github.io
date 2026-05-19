@@ -98,6 +98,8 @@
     - text: "Exotic India"
       url: "https://www.exoticindiaart.com/book/details/parasara-tantra-ancient-sanskrit-text-on-astronomy-and-natural-science-reconstructed-text-with-translation-and-notes-naj622/"
       is_buy: true
+    - text: "Read on Swarajya"
+      url: "https://swarajyamag.com/ideas/how-ancient-india-predicted-rains-before-the-arrogance-of-modern-science"
 
 - title: "नारदशिल्पशास्त्रम् (Nārada Śilpaśāstra)"
   cover_image: "/assets/ns_book_cover.jpg"
