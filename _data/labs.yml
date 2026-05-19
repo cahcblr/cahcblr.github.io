@@ -1,4 +1,4 @@
-- title: "Jyotisha Lab"
+- title: "Jyotiṣa Lab"
   subtitle: "Visualizing Precession and Nakshatras"
   url: "https://jyotisha-lab.netlify.app/"
   developer: "Sunder Chakravarty"
@@ -55,7 +55,7 @@
     - name: "Sunder Chakravarty"
       image: "/assets/sunder-2022.png"
 
-- title: "Patra Darpan"
+- title: "Patra Darpaṇa"
   subtitle: "Index of Academic Papers in CAHC area"
   url: "https://patra-darpan.netlify.app/?theme=light"
   developer: "Sunder Chakravarty"
@@ -73,7 +73,7 @@
     - name: "Sunder Chakravarty"
       image: "/assets/sunder-2022.png"
 
-- title: "Sanchaya"
+- title: "Sañcaya"
   subtitle: "Indic Text Search Engine"
   url: "https://sanchaya.rasowshi.us"
   developer: "Sunder Chakravarty"
