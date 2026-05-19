@@ -45,6 +45,7 @@ header_pages:
   - p70_books.markdown
   - p85_search.markdown
   - p75_posts.markdown
+  - p90_labs.markdown
   - p80_contact.markdown
       
 defaults:
