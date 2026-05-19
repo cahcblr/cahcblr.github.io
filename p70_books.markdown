@@ -20,6 +20,7 @@ permalink: /books/
     overflow: hidden; /* Clears floats */
     box-shadow: 0 4px 20px rgba(0,0,0,0.06);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    scroll-margin-top: 90px;
   }
   .book-card:hover {
     transform: translateY(-4px);
@@ -122,11 +123,52 @@ permalink: /books/
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   }
+
+  /* Hero Rail (Floating Mini-Nav) */
+  .book-hero-rail {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    gap: 16px;
+    padding: 10px 20px;
+    margin: 0 -20px 2rem -20px;
+    border-bottom: 1px solid #e1e4e8;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  .hero-rail-item {
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+  .hero-rail-item:hover {
+    transform: scale(1.1);
+  }
+  .hero-rail-item img {
+    height: 50px;
+    width: auto;
+    max-width: 40px;
+    object-fit: contain;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  }
 </style>
+
+<nav class="book-hero-rail">
+  {% for book in site.data.books %}
+    <a href="#{{ book.title | slugify }}" class="hero-rail-item" title="{{ book.title }}">
+      <img src="{{ book.cover_image | relative_url }}" alt="{{ book.title }} Mini Cover">
+    </a>
+  {% endfor %}
+</nav>
 
 <div class="books-container">
   {% for book in site.data.books %}
-    <div class="book-card">
+    <div id="{{ book.title | slugify }}" class="book-card">
       <div class="book-cover-float">
         <img src="{{ book.cover_image | relative_url }}" alt="{{ book.title }} Cover">
       </div>
