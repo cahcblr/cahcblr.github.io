@@ -139,14 +139,24 @@ permalink: /books/
     border-bottom: 1px solid #e1e4e8;
     overflow-x: auto;
     scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   }
   .hero-rail-item {
     flex-shrink: 0;
-    transition: transform 0.2s ease;
+    transition: all 0.3s ease;
+    scroll-snap-align: center;
+    opacity: 0.6;
+    filter: grayscale(40%);
   }
-  .hero-rail-item:hover {
-    transform: scale(1.1);
+  .hero-rail-item:hover, .hero-rail-item.active {
+    transform: scale(1.15);
+    opacity: 1;
+    filter: grayscale(0%);
+  }
+  .hero-rail-item.active img {
+    border: 2px solid #d35400;
+    padding: 2px;
   }
   .hero-rail-item img {
     height: 50px;
@@ -202,3 +212,40 @@ permalink: /books/
     </div>
   {% endfor %}
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const cards = document.querySelectorAll('.book-card');
+  const railItems = document.querySelectorAll('.hero-rail-item');
+  const rail = document.querySelector('.book-hero-rail');
+  
+  // Triggers when the top of the card is near the top of the screen (adjusting for the sticky header)
+  const observerOptions = {
+    root: null,
+    rootMargin: '-100px 0px -60% 0px',
+    threshold: 0
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.getAttribute('id');
+        
+        // Update classes
+        railItems.forEach(item => item.classList.remove('active'));
+        const activeItem = document.querySelector(`.hero-rail-item[href="#${id}"]`);
+        
+        if (activeItem) {
+          activeItem.classList.add('active');
+          
+          // Smoothly scroll the rail horizontally to keep the active item visible
+          const scrollLeft = activeItem.offsetLeft - (rail.clientWidth / 2) + (activeItem.clientWidth / 2);
+          rail.scrollTo({ left: scrollLeft, behavior: 'smooth' });
+        }
+      }
+    });
+  }, observerOptions);
+
+  cards.forEach(card => observer.observe(card));
+});
+</script>
