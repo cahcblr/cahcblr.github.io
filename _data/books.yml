@@ -1,3 +1,16 @@
+- title: "गूढपादरामायणम् (Gūḍhapāda Rāmāyaṇa)"
+  subtitle: "A Retelling of the Rāmāyaṇa in 180 Anuṣṭubh Verses"
+  author: "Dr. Shankar Rajaraman"
+  cover_image: "/assets/gp-book-cover.jpg"
+  description: |
+    **Gūḍhapāda Rāmāyaṇa** is a retelling of the Rāmāyaṇa (Bālakāṇḍa through Yuddhakāṇḍa) in 180 Anuṣṭubh verses under the *gūḍhapāda* constraint: in each verse, one *pāda* (quarter-verse) is hidden inside the other three via exact syllabic frequency.
+
+    Published by Praharsha Publications, Bengaluru (2026), this work represents the first strict execution of this classical *citrakāvya* (constrained poetry) technique at a narrative scale, observing complete phonetic integrity and positional freedom for the hidden *pāda*.
+  links:
+    - text: "Praharsha"
+      url: "https://docs.google.com/forms/d/e/1FAIpQLSdItiKHvOh-KFUli38tmrB6VKfbAS5hp-nR7lsSCJn-VOrqmQ/viewform"
+      is_buy: true
+
 - title: "Nalacaritam"
   subtitle: "Sanskrit Translation of Kanakadasa's Kannada Work"
   author: "Translated by Dr. Shankar Rajaraman"
