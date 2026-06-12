@@ -187,8 +187,12 @@ permalink: /books/
       {% if book.subtitle %}
         <span class="book-subtitle">{{ book.subtitle }}</span>
       {% endif %}
-      {% if book.author %}
-        <div class="book-author">{{ book.author }}</div>
+      {% if book.author or book.pages %}
+        <div class="book-author">
+          {% if book.author %}{{ book.author }}{% endif %}
+          {% if book.author and book.pages %} &middot; {% endif %}
+          {% if book.pages %}{{ book.pages }} pages{% endif %}
+        </div>
       {% endif %}
       
       <div class="book-description">
