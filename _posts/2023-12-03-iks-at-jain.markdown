@@ -5,6 +5,8 @@ title:  "Interdisciplinary Discussion Meeting on Indian Astronomy Before Common 
 date:   2023-12-05 18:30:00 +0530
 categories: iks conference
 noindex: true
+permalink: /discussion-meeting-2023/
+
 ---
 <style>
     em { color: #0000ff; }

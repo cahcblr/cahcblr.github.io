@@ -6,6 +6,9 @@ date: 2026-03-23 20:00:00 +0530
 categories: tutorial astronomy cosmography
 ---
 
+> [!NOTE]
+> This tutorial was part of the **[National Workshop on Indian Astronomy Before Common Era (IABCE)](/iabce-workshop/)** held on March 23–27, 2026. For the full 10-part video lecture series, schedule, and official 131-page lecture notes, visit the main [Workshop Archive Page](/iabce-workshop/).
+
 This tutorial presentation explores visual and computational tools to illustrate the pioneering research of Prof. R. N. Iyengar in Ancient Indian Astronomy and Cosmography. Delivered by Sunder, the material demonstrates ongoing work at the Centre for Ancient History and Culture (CAHC), Jain (Deemed-to-be) University, Bengaluru.
 
 The tutorial is split across two main sessions:
