@@ -28,3 +28,6 @@ zip_contents.txt
 assets/cached_papers/rni/index.html
 assets/cached_papers/rni/index.md
 tmp_unzip/*
+.venv
+.venv/
+
