@@ -43,10 +43,9 @@ The center publishes
 
 ## Outreach activities
 
-The Center's outreach activities aims to inculcate appreciation for the cultural heritage of India.
+Some of these are:
 
-Some of these are
-
+- [National Workshop on Indian Astronomy Before Common Era (IABCE)](/iabce-workshop/) (March 23–27, 2026)
 - National Level Workshop on Manuscriptology And Paleography (November 2012)
 - International Seminar On The Future Of Civilisation (December 2012)
 - National Conference on Intellectual Traditions of Ancient India supported by ICHR (August 2015)
