@@ -43,10 +43,11 @@ header_pages:
   - p72_rni.md
   - p60_papers.markdown  
   - p70_books.markdown
-  - p85_search.markdown
+  - p88_workshops.markdown
   - p75_posts.markdown
   - p90_labs.markdown
   - p80_contact.markdown
+
       
 defaults:
   # - scope:

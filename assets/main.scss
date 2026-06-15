@@ -174,3 +174,14 @@ select:focus {
     outline: 2px solid #26d1a1;
     outline-offset: 2px;
 }
+
+/* Optimize header navigation spacing and font-size */
+.site-nav {
+    font-size: 21px !important;
+}
+.site-nav .page-link {
+    letter-spacing: -0.1px;
+    &:not(:last-child) {
+        margin-right: 15px !important;
+    }
+}
