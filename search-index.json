@@ -1,0 +1,75 @@
+---
+layout: null
+permalink: /search-index.json
+sitemap: false
+---
+[
+  {%- assign sep = "" -%}
+
+  {%- comment -%} ══════ 1. Pages ══════ {%- endcomment -%}
+  {%- for pg in site.pages -%}
+    {%- if pg.title and pg.url != "/search-index.json" and pg.url != "/feed.xml" -%}
+      {%- assign body = pg.content | strip_html | strip_newlines | replace: '"', '\"' | replace: '\', '\\' | truncatewords: 2000 -%}
+      {{ sep }}{
+        "type": "page",
+        "title": {{ pg.title | jsonify }},
+        "url": {{ pg.url | relative_url | jsonify }},
+        "content": {{ body | jsonify }}
+      }
+      {%- assign sep = "," -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- comment -%} ══════ 2. Posts ══════ {%- endcomment -%}
+  {%- for post in site.posts -%}
+    {%- assign body = post.content | strip_html | strip_newlines | replace: '"', '\"' | replace: '\', '\\' | truncatewords: 500 -%}
+    {{ sep }}{
+      "type": "post",
+      "title": {{ post.title | jsonify }},
+      "url": {{ post.url | relative_url | jsonify }},
+      "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
+      "content": {{ body | jsonify }}
+    }
+    {%- assign sep = "," -%}
+  {%- endfor -%}
+
+  {%- comment -%} ══════ 3. Books ══════ {%- endcomment -%}
+  {%- for book in site.data.books -%}
+    {%- assign desc = book.description | strip_html | strip_newlines | replace: '"', '\"' | replace: '\', '\\' | truncatewords: 200 -%}
+    {%- assign subtitle = book.subtitle | default: "" -%}
+    {{ sep }}{
+      "type": "book",
+      "title": {{ book.title | jsonify }},
+      "url": "/books/",
+      "author": {{ book.author | default: "" | jsonify }},
+      "content": {{ subtitle | append: " " | append: desc | jsonify }}
+    }
+    {%- assign sep = "," -%}
+  {%- endfor -%}
+
+  {%- comment -%} ══════ 4. People ══════ {%- endcomment -%}
+  {%- for person in site.data.people -%}
+    {%- assign bio = person.bio | strip_html | strip_newlines | replace: '"', '\"' | replace: '\', '\\' | truncatewords: 200 -%}
+    {{ sep }}{
+      "type": "person",
+      "title": {{ person.name | jsonify }},
+      "url": "/about/",
+      "role": {{ person.role | default: "" | jsonify }},
+      "content": {{ bio | jsonify }}
+    }
+    {%- assign sep = "," -%}
+  {%- endfor -%}
+
+  {%- comment -%} ══════ 5. Labs ══════ {%- endcomment -%}
+  {%- for lab in site.data.labs -%}
+    {%- assign desc = lab.description | default: "" -%}
+    {%- assign subtitle = lab.subtitle | default: "" -%}
+    {{ sep }}{
+      "type": "lab",
+      "title": {{ lab.title | jsonify }},
+      "url": {{ lab.url | jsonify }},
+      "content": {{ subtitle | append: " " | append: desc | jsonify }}
+    }
+    {%- assign sep = "," -%}
+  {%- endfor -%}
+]
