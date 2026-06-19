@@ -12,7 +12,7 @@ The book launch was part of **Rasaradhane**, a grand series of cultural programs
 
 ### Books Released at the Event
 Four significant works were launched during the event:
-1. **Gūḍhapāda-rāmāyaṇam** – A Sanskrit *citrakāvya* with a Sanskrit commentary and English translation by **Dr. Shankar Rajaraman** (Published by Praharsha Publications). The work is a retelling of the Rāmāyaṇa (Bālakāṇḍa through Yuddhakāṇḍa) in 181 *Anuṣṭubh* verses under the *gūḍhapāda* constraint: in each verse, one *pāda* (quarter-verse) is hidden inside the other three via exact syllabic frequency.
+1. <span id="gudhapadaramanayam">**Gūḍhapāda-rāmāyaṇam**</span> – A Sanskrit *citrakāvya* with a Sanskrit commentary and English translation by **Dr. Shankar Rajaraman** (Published by Praharsha Publications). The work is a retelling of the Rāmāyaṇa (Bālakāṇḍa through Yuddhakāṇḍa) in 181 *Anuṣṭubh* verses under the *gūḍhapāda* constraint: in each verse, one *pāda* (quarter-verse) is hidden inside the other three via exact syllabic frequency.
 2. **Chaff and Draff** – The Personal Diary of Prof. M. Hiriyanna, edited by **Sri Shashi Kiran B. N.**
 3. **Raghuvīra-gadyam** – A Sanskrit stotra in rhythmic prose by Vedāntadeśika, with an English translation by **Dr. S. Ramapriya**.
 4. **Madhura-vijayam** – A modern reprint of the historical epic poem in Sanskrit by the queen-poetess Gaṅgādevī.
@@ -25,7 +25,7 @@ The event was co-organized by Abhinava Arts Company, Padyapaana, Praharsha Publi
 
 We congratulate Dr. Shankar Rajaraman and all the authors/editors on their valuable contributions to classical Sanskrit literature and scholarship!
 
-[View details of Gūḍhapāda Rāmāyaṇam on the Books Page](/books/#gudhapadaramanayam-gudhapa-da-ra-ma-yan-am)
+[View details of Gūḍhapāda Rāmāyaṇam on the Books Page](/books/#गूढपादरामायणम-gūḍhapāda-rāmāyaṇam)
 
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin: 30px 0;">
