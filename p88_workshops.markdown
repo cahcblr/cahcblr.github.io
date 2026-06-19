@@ -59,7 +59,7 @@ permalink: /workshops/
 </style>
 
 <div class="workshops-container">
-  <p>The Centre for Ancient History and Culture (CAHC) hosts academic workshops, discussion meetings, and seminars bringing together traditional scholars, modern researchers, and scientists to explore ancient Indian scientific traditions.</p>
+  <p>The Center for Ancient History and Culture (CAHC) hosts academic workshops, discussion meetings, and seminars bringing together traditional scholars, modern researchers, and scientists to explore ancient Indian scientific traditions.</p>
 
   <!-- Workshop 1 -->
   <div class="workshop-card">

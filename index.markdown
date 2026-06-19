@@ -5,7 +5,7 @@ show_posts: true
 list_title: "News & Updates"
 ---
 
-The **Centre for Ancient History and Culture (CAHC)** carries out inter-disciplinary research on India's ancient cultural & intellectual heritage. The Ministry of Education, Govt of India, has recognized CAHC of Jain University as an Indian Knowledge System (IKS) center after a competitive national evaluation. Furthermore, the center has been awarded the ISO 21001:2018 Certification (2025-2028), reflecting our commitment to quality educational management.
+The **Center for Ancient History and Culture (CAHC)** carries out inter-disciplinary research on India's ancient cultural & intellectual heritage. The Ministry of Education, Govt of India, has recognized CAHC of Jain University as an Indian Knowledge System (IKS) center after a competitive national evaluation. Furthermore, the center has been awarded the ISO 21001:2018 Certification (2025-2028), reflecting our commitment to quality educational management.
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin: 30px 0;">
   <div style="flex: 1; min-width: 250px; text-align: center;">
