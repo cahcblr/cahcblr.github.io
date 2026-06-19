@@ -6,7 +6,7 @@ date: 2026-05-15 10:00:00 +0530
 categories: news publication
 ---
 
-We are delighted to announce the publication and formal release of the Sanskrit translation of *Nalacaritam*, one of the most important poetic works of the great Kannada saint-poet Kanakadasa. 
+We are delighted to announce the publication and formal release of the Sanskrit translation of <span id="nalacaritam">*Nalacaritam*</span>, one of the most important poetic works of the great Kannada saint-poet Kanakadasa. 
 
 The work appears in Volume II of *The Complete Works of Kanakadasa Translated into Sanskrit*, brought out by the Saint Poet Kanakadasa and Tatvapadakarara Study Centre, Kalagrama, Bengaluru. The volume was formally released by the Hon’ble Chief Minister of Karnataka.
 
@@ -15,6 +15,8 @@ The Sanskrit translation of the longer *Nalacaritam* has been masterfully undert
 The newly released volume also features the translations of *Haribhaktisāram* and *Rāmadhānyacaritam* by Śatāvadhānī Dr. R. Ganesh. These valuable efforts play a significant role in bringing Kannada *bhakti* and literary traditions into wider Sanskrit intellectual circulation, fostering deeper inter-language literary dialogue within the Bhāratīya knowledge tradition.
 
 We extend our hearty congratulations to Dr. Shankar Rajaraman and Śatāvadhānī Dr. R. Ganesh on this momentous occasion!
+
+[View details of Nalacaritam on the Books Page](/books/#nalacaritam)
 
 <div style="text-align: center; margin: 30px 0;">
   <a href="/assets/nalacharitram_book_release.jpg" target="_blank">

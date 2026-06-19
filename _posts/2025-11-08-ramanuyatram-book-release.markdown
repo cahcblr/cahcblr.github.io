@@ -11,7 +11,7 @@ We are pleased to announce the formal release of **रामानुजया�
 The event was organized by **Praharsha Publications** in association with **The Mythic Society**.
 
 ### Books Released at the Event
-1. **रामानुजयात्रम् (*Rāmānuyātram - Rallying Behind Rāma*)**
+1. <span id="ramanuyatram">**रामानुजयात्रम् (*Rāmānuyātram - Rallying Behind Rāma*)**</span>
    * **Author:** Dr. Shankar Rajaraman
    * **Description:** A poignant poetry collection capturing the historic 1990 Rāma Ratha Yātrā as a classical Sanskrit poetic journey.
 2. **The Essential Mahabharata for the Young**
@@ -27,4 +27,4 @@ The release ceremony was followed by **Samāgama**, a captivating Kathak and Bha
 
 We congratulate Dr. Shankar Rajaraman, Hari Ravikumar, and Arjun Bharadwaj on their publications!
 
-[View details of Rāmānuyātram on the Books Page](/books/#ramanuyatram-ramanuyatram-rallying-behind-rama)
+[View details of Rāmānuyātram on the Books Page](/books/#रामानुयात-रम-rāmānuyātram-rallying-behind-rāma)
