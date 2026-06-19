@@ -1,10 +1,10 @@
 # CAHC Website
 
-This is the official website for the **Centre for Ancient History and Culture (CAHC)** at Jain University.
+This is the official website for the **Center for Ancient History and Culture (CAHC)** at Jain University.
 
 ## About
 
-The Centre for Ancient History and Culture (CAHC) conducts interdisciplinary research on India's ancient cultural and intellectual heritage. We are recognized as an Indian Knowledge System (IKS) center by the Ministry of Education, Government of India.
+The Center for Ancient History and Culture (CAHC) conducts interdisciplinary research on India's ancient cultural and intellectual heritage. We are recognized as an Indian Knowledge System (IKS) center by the Ministry of Education, Government of India.
 
 ## Website Structure
 
@@ -64,9 +64,10 @@ Navigation is controlled by the `header_pages` setting in `_config.yml`. To modi
 ## Contact
 
 For technical issues or content updates:
+
 - Email: rn.iyengar@jainuniversity.ac.in
 - Website: https://cahc.jainuniversity.ac.in
 
 ## License
 
-Content is owned by the Centre for Ancient History and Culture, Jain University.
+Content is owned by the Center for Ancient History and Culture, Jain University.

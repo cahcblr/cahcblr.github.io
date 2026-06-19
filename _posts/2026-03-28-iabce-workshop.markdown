@@ -381,7 +381,7 @@ details[open] .iabce-lecture-summary-toggle {
 <div class="iabce-hero">
 <h1>National Workshop on Indian Astronomy Before Common Era</h1>
 <p class="iabce-hero-subtitle">March 23–27, 2026</p>
-<p class="iabce-hero-details">Organized by the Centre for Ancient History and Culture (CAHC), Jain (Deemed-to-be) University, Bengaluru. Sponsored by the Indian Knowledge Systems (IKS) Division of the Ministry of Education, Government of India.</p>
+<p class="iabce-hero-details">Organized by the Center for Ancient History and Culture (CAHC), Jain (Deemed-to-be) University, Bengaluru. Sponsored by the Indian Knowledge Systems (IKS) Division of the Ministry of Education, Government of India.</p>
 </div>
 
 <p class="iabce-intro-text">
