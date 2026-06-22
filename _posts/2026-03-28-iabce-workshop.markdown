@@ -390,8 +390,6 @@ This week-long national workshop brought together scholars of astronomy, mathema
 
 <div class="iabce-materials-downloads">
 <span>Workshop Materials:</span>
-<a href="{{ '/assets/talks/2026-03-23-iabce/iabce-lecture-notes.pdf' | relative_url }}" target="_blank" class="iabce-download-inline">Lecture Notes Book (131 Pages) &darr;</a>
-<span class="iabce-separator">|</span>
 <a href="{{ '/assets/talks/2026-03-23-iabce/iabce-timestamps.pdf' | relative_url }}" target="_blank" class="iabce-download-inline">Timestamps & Outlines &darr;</a>
 </div>
 
