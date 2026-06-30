@@ -65,7 +65,7 @@ permalink: /workshops/
   <div class="workshop-card">
     <div class="workshop-date">March 23–27, 2026</div>
     <h3 class="workshop-title">National Workshop on Indian Astronomy Before Common Era (IABCE)</h3>
-    <p class="workshop-desc">A week-long national workshop sponsored by the IKS Division of the Ministry of Education. It brought together scholars of astronomy, mathematics, Sanskrit, and history to explore India's pre-Common-Era scientific heritage. Features 10 recorded lectures, weekly schedule, and comprehensive lecture notes (131 pages).</p>
+    <p class="workshop-desc">A week-long national workshop sponsored by the IKS Division of the Ministry of Education. It brought together scholars of astronomy, mathematics, Sanskrit, and history to explore India's pre-Common-Era scientific heritage. Features 10 recorded lectures and weekly schedule.</p>
     <a href="{{ '/iabce-workshop/' | relative_url }}" class="workshop-link">View Workshop Materials & Video Series &rarr;</a>
   </div>
 
