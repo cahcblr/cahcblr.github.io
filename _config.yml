@@ -43,7 +43,7 @@ header_pages:
   - p72_rni.md
   - p60_papers.markdown  
   - p70_books.markdown
-  - p88_workshops.markdown
+  - p88_events.markdown
   - p75_posts.markdown
   - p90_labs.markdown
   - p80_contact.markdown
@@ -63,6 +63,7 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Google Analytics
 google_analytics: G-LBDLP2G1Y9
