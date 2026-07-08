@@ -31,3 +31,10 @@ tmp_unzip/*
 .venv
 .venv/
 
+
+# YouTube Uploader Credentials & State
+_scripts/youtube_uploader/client_secrets.json
+_scripts/youtube_uploader/token.json
+_scripts/youtube_uploader/state.json
+_scripts/**/*.pyc
+
