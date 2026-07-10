@@ -38,3 +38,6 @@ _scripts/youtube_uploader/token.json
 _scripts/youtube_uploader/state.json
 _scripts/**/*.pyc
 
+
+# Local Netlify folder
+.netlify

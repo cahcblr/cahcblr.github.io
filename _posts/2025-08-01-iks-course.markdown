@@ -1,9 +1,15 @@
 ---
 title:  "Indian Knowledge Systems Course Overview"
+title_sa: "भारतीयज्ञानपद्धतिपाठ्यक्रमस्य रूपरेखा"
+subtitle: "Syllabus and Registration Details"
+subtitle_sa: "पाठ्यक्रमविवरणं पञ्जीकरणञ्च"
 date: 2025-08-01
 categories: iks
 layout: post
 ---
+
+<div class="lang-block">
+  <div class="lang-content" lang="en" markdown="1">
 
 This course provides an introduction to the vast and interdisciplinary landscape of Indian Knowledge Systems, exploring ancient Indian thought, sciences, and societal structures. It highlights the foundational principles, historical achievements, and practical applications across various domains, emphasizing the unique methodological approaches and intellectual contributions of ancient India. The course aims to foster an understanding of India's significant intellectual and economic standing in global history.
 
@@ -226,3 +232,16 @@ This course provides an introduction to the vast and interdisciplinary landscape
 *   **Environmental Management & Agriculture**:
     *   Ancient Indian agricultural practices were highly **optimal and sustainable**, as recognized by 18th-century studies conducted by external observers.
     *   Farmers using indigenous methods achieved better yields with less spending than those adopting "modern" European techniques.
+  </div>
+  <div class="lang-content" lang="sa" markdown="1">
+अस्मिन् लेखे जैनविश्वविद्यालये प्रचलन्त्याः **भारतीयज्ञानपद्धतेः (IKS)** पाठ्यक्रमस्य सङ्क्षिप्तपरिचयः पाठ्यक्रमतालिका च प्रदत्ता अस्ति।
+
+**पाठ्यक्रमस्य विषयाः:**
+१. भारतीयज्ञानस्य मूलस्रोतांसि (वेद-वेदाङ्ग-पुराणानि)
+२. प्राचीनभारतीयगणितं खगोलशास्त्रं च (सूर्यसिद्धान्तः, आर्यभटीयम्)
+३. शिल्पशास्त्रं, नगररचना, वास्तुविद्या च (वृद्धगर्गसंहिता)
+४. पर्यावरणविज्ञानं, कृषिः, जलप्रबन्धनं च
+
+*(कृपया विस्तृतपाठ्यक्रमविषयाणां कृते आङ्ग्लभाषासंस्करणं पश्यन्तु।)*
+  </div>
+</div>

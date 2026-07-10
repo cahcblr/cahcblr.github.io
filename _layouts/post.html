@@ -4,14 +4,36 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title p-name" itemprop="name headline">
+      <span class="lang-block">
+        <span class="lang-content" lang="en">{{ page.title | escape }}</span>
+        <span class="lang-content" lang="sa">{% if page.title_sa %}{{ page.title_sa | escape }}{% else %}{{ page.title | escape }}{% endif %}</span>
+      </span>
+    </h1>
+    {%- if page.subtitle -%}
+      <p class="post-subtitle">
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ page.subtitle | escape }}</span>
+          <span class="lang-content" lang="sa">{% if page.subtitle_sa %}{{ page.subtitle_sa | escape }}{% else %}{{ page.subtitle | escape }}{% endif %}</span>
+        </span>
+      </p>
+    {%- endif -%}
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ page.date | date: "%b %-d, %Y" }}</span>
+          <span class="lang-content" lang="sa">{{ page.date | date: "%Y-%m-%d" }}</span>
+        </span>
       </time>
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span class="p-author h-card" itemprop="name">
+            <span class="lang-block">
+              <span class="lang-content" lang="en">{{ page.author }}</span>
+              <span class="lang-content" lang="sa">{% if page.author_sa %}{{ page.author_sa }}{% else %}{{ page.author }}{% endif %}</span>
+            </span>
+          </span>
+        </span>
       {%- endif -%}</p>
   </header>
 

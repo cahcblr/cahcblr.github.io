@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Interdisciplinary Discussion Meeting on Indian Astronomy Before Common Era"
-
+title_sa: "प्राचीनकाले भारतीयखगोलशास्त्रविषये बहुविषयीया विचारगोष्ठी"
 date: 2023-12-05 18:30:00 +0530
 categories: iks conference
 noindex: true
 permalink: /discussion-meeting-2023/
 ---
+
+<div class="lang-block">
+  <div class="lang-content" lang="en" markdown="1">
 
 <style>
     em { color: #0000ff; }
@@ -171,6 +174,15 @@ document.getElementById('myInput').addEventListener('keyup', function() {
 ##### Matsya Sisumara and the night sky over ages
 
 <video width="320" height="240" controls autoplay muted>
-  <source src="/assets/talks/2023-12-05-iks-cahc/4_2_matsya-sisumara-night.mp4" type="video/mp4">
+  <source src="{{ '/assets/talks/2023-12-05-iks-cahc/4_2_matsya-sisumara-night.mp4' | relative_url }}" type="video/mp4">
 Your browser does not support the video tag.
 </video>
+  </div>
+  <div class="lang-content" lang="sa" markdown="1">
+अस्मिन् प्रतिवेदने भारतसर्वकारस्य शिक्षासन्त्रालयस्य भारतीयज्ञानपद्धति-विभागेन (IKS) तथा पुरातनेतिहास-संस्कृति-केन्द्रेण (CAHC) सहआयोजितायाः बहुविषयीयायाः विचारगोष्ठ्याः विवरणं सङ्गृहीतमस्ति।
+
+**सङ्क्षिप्तविवरणम्:** एषा द्विदिवसीया गोष्ठी भारतस्य नेपालस्य च विभिन्नसंस्थानां विदुषः प्राचीनभारतीयवैज्ञानिकपरम्पराणां परिशीलनार्थं सङ्गमयति।
+
+*(कृपया विस्तृतविवरणाय कार्यतालिकायै च आङ्ग्लभाषासंस्करणं पश्यन्तु।)*
+  </div>
+</div>

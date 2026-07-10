@@ -1,11 +1,16 @@
 ---
 layout: post
 title: "National Workshop on Indian Astronomy Before Common Era (IABCE)"
+title_sa: "प्राचीनकाले भारतीयखगोलशास्त्रविषये राष्ट्रिया कार्यशाला (IABCE)"
 subtitle: "Official Lecture Notes, Schedule, and 10-Part Video Series"
+subtitle_sa: "व्याख्यानपत्राणि, कार्यतालिका, चलच्चित्रमालिका च"
 date: 2026-03-28 10:00:00 +0530
 categories: workshop astronomy history outreach
 permalink: /iabce-workshop/
 ---
+
+<div class="lang-block">
+  <div class="lang-content" lang="en" markdown="1">
 
 <style>
 :root {
@@ -1314,4 +1319,13 @@ The complete recordings of all sessions are available in the official <a href="h
 </div>
 
 </div>
+</div>
+  </div>
+  <div class="lang-content" lang="sa" markdown="1">
+अस्मिन् प्रतिवेदने भारतसर्वकारस्य शिक्षासन्त्रालयस्य भारतीयज्ञानपद्धति-विभागेन (IKS) तथा पुरातनेतिहास-संस्कृति-केन्द्रेण (CAHC) सहआयोजितायाः कार्यशालायाः विवरणं सङ्गृहीतमस्ति।
+
+**सङ्क्षिप्तविवरणम्:** एषा सप्ताहव्यापिनी राष्ट्रिया कार्यशाला खगोलशास्त्र-गणित-संस्कृत-इतिहासानां विदुषः भारतीयवैज्ञानिकपरम्पराणाम् परिशीलनार्थं सङ्गमयति। अत्र मुद्रितानि व्याख्यानानि, रूपरेषाः, विचारसत्राणि च सन्ति।
+
+*(कृपया विस्तृतविवरणाय कार्यतालिकायै च आङ्ग्लभाषासंस्करणं पश्यन्तु।)*
+  </div>
 </div>
