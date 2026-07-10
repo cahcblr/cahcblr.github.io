@@ -4,7 +4,12 @@ layout: default
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <h1 class="page-heading">
+      <span class="lang-block">
+        <span class="lang-content" lang="en">{{ page.title | escape }}</span>
+        <span class="lang-content" lang="sa">{% if site.data.locales[page.title] %}{{ site.data.locales[page.title].sa }}{% else %}{{ page.title_sa | default: page.title | escape }}{% endif %}</span>
+      </span>
+    </h1>
   {%- endif -%}
 
   {{ content }}
