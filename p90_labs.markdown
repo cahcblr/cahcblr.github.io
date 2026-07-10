@@ -158,20 +158,36 @@ permalink: /labs/
 
 <nav class="labs-hero-rail">
   {% for lab in site.data.labs %}
-    <a href="#{{ lab.title | slugify }}" class="hero-rail-item" title="{{ lab.title }}">
-      {{ lab.title }}
+    <a href="#{{ lab.title.en | slugify }}" class="hero-rail-item" title="{{ lab.title.en }}">
+      <span class="lang-block">
+        <span class="lang-content" lang="en">{{ lab.title.en }}</span>
+        <span class="lang-content" lang="sa">{{ lab.title.sa }}</span>
+      </span>
     </a>
   {% endfor %}
 </nav>
 
 <div class="labs-container">
   {% for lab in site.data.labs %}
-    <div id="{{ lab.title | slugify }}" class="lab-card">
+    <div id="{{ lab.title.en | slugify }}" class="lab-card">
       <div>
-        <h2 class="lab-title">{{ lab.title }}</h2>
-        <span class="lab-subtitle">{{ lab.subtitle }}</span>
+        <h2 class="lab-title">
+          <span class="lang-block">
+            <span class="lang-content" lang="en">{{ lab.title.en }}</span>
+            <span class="lang-content" lang="sa">{{ lab.title.sa }}</span>
+          </span>
+        </h2>
+        <span class="lab-subtitle">
+          <span class="lang-block">
+            <span class="lang-content" lang="en">{{ lab.subtitle.en }}</span>
+            <span class="lang-content" lang="sa">{{ lab.subtitle.sa }}</span>
+          </span>
+        </span>
         <div class="lab-description">
-          {{ lab.description }}
+          <div class="lang-block">
+            <div class="lang-content" lang="en">{{ lab.description.en }}</div>
+            <div class="lang-content" lang="sa">{{ lab.description.sa }}</div>
+          </div>
         </div>
       </div>
       
@@ -182,7 +198,10 @@ permalink: /labs/
           {% endfor %}
         </div>
         <a href="{{ lab.url }}" class="btn-lab" target="_blank" rel="noopener noreferrer">
-          Launch ↗
+          <span class="lang-block">
+            <span class="lang-content" lang="en">Launch ↗</span>
+            <span class="lang-content" lang="sa">आरम्भः ↗</span>
+          </span>
         </a>
       </div>
     </div>

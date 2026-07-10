@@ -164,8 +164,8 @@ permalink: /people/
 
 <nav class="people-hero-rail">
   {% for person in site.data.people %}
-    <a href="#{{ person.name | slugify }}" class="hero-rail-item" title="{{ person.name }}">
-      <img src="{{ person.image | relative_url }}" alt="{{ person.name }}" style="object-position: {{ person.image_position | default: 'top' }};">
+    <a href="#{{ person.name.en | slugify }}" class="hero-rail-item" title="{{ person.name.en }}">
+      <img src="{{ person.image | relative_url }}" alt="{{ person.name.en }}" style="object-position: {{ person.image_position | default: 'top' }};">
     </a>
   {% endfor %}
 </nav>
@@ -174,25 +174,46 @@ permalink: /people/
   {% assign leadership = site.data.people | where: "group", "leadership" %}
   {% assign team = site.data.people | where: "group", "team" %}
 
-  <h2 class="group-header">Leadership</h2>
+  <h2 class="group-header">
+    <span class="lang-block">
+      <span class="lang-content" lang="en">Leadership</span>
+      <span class="lang-content" lang="sa">नेतृत्ववर्गः</span>
+    </span>
+  </h2>
   {% for person in leadership %}
-    <div id="{{ person.name | slugify }}" class="person-card">
+    <div id="{{ person.name.en | slugify }}" class="person-card">
       <div class="person-image-float">
-        <img src="{{ person.image | relative_url }}" alt="{{ person.name }}" style="object-position: {{ person.image_position | default: 'top' }};">
+        <img src="{{ person.image | relative_url }}" alt="{{ person.name.en }}" style="object-position: {{ person.image_position | default: 'top' }};">
       </div>
       
-      <h2 class="person-name">{{ person.name }}</h2>
-      <span class="person-role">{{ person.role }}</span>
+      <h2 class="person-name">
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ person.name.en }}</span>
+          <span class="lang-content" lang="sa">{{ person.name.sa }}</span>
+        </span>
+      </h2>
+      <span class="person-role">
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ person.role.en }}</span>
+          <span class="lang-content" lang="sa">{{ person.role.sa }}</span>
+        </span>
+      </span>
       
       <div class="person-bio">
-        {{ person.bio | markdownify }}
+        <div class="lang-block">
+          <div class="lang-content" lang="en">{{ person.bio.en | markdownify }}</div>
+          <div class="lang-content" lang="sa">{{ person.bio.sa | markdownify }}</div>
+        </div>
       </div>
       
       {% if person.links %}
         <div class="person-actions">
           {% for link in person.links %}
             <a href="{{ link.url }}" class="btn-person {% if link.is_primary %}primary{% endif %}" target="_blank" rel="noopener noreferrer">
-              {{ link.text }}
+              <span class="lang-block">
+                <span class="lang-content" lang="en">{{ link.text.en }}</span>
+                <span class="lang-content" lang="sa">{{ link.text.sa }}</span>
+              </span>
             </a>
           {% endfor %}
         </div>
@@ -200,25 +221,46 @@ permalink: /people/
     </div>
   {% endfor %}
 
-  <h2 class="group-header">Team</h2>
+  <h2 class="group-header">
+    <span class="lang-block">
+      <span class="lang-content" lang="en">Team</span>
+      <span class="lang-content" lang="sa">शोधकर्तारः</span>
+    </span>
+  </h2>
   {% for person in team %}
-    <div id="{{ person.name | slugify }}" class="person-card">
+    <div id="{{ person.name.en | slugify }}" class="person-card">
       <div class="person-image-float">
-        <img src="{{ person.image | relative_url }}" alt="{{ person.name }}" style="object-position: {{ person.image_position | default: 'top' }};">
+        <img src="{{ person.image | relative_url }}" alt="{{ person.name.en }}" style="object-position: {{ person.image_position | default: 'top' }};">
       </div>
       
-      <h2 class="person-name">{{ person.name }}</h2>
-      <span class="person-role">{{ person.role }}</span>
+      <h2 class="person-name">
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ person.name.en }}</span>
+          <span class="lang-content" lang="sa">{{ person.name.sa }}</span>
+        </span>
+      </h2>
+      <span class="person-role">
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ person.role.en }}</span>
+          <span class="lang-content" lang="sa">{{ person.role.sa }}</span>
+        </span>
+      </span>
       
       <div class="person-bio">
-        {{ person.bio | markdownify }}
+        <div class="lang-block">
+          <div class="lang-content" lang="en">{{ person.bio.en | markdownify }}</div>
+          <div class="lang-content" lang="sa">{{ person.bio.sa | markdownify }}</div>
+        </div>
       </div>
       
       {% if person.links %}
         <div class="person-actions">
           {% for link in person.links %}
             <a href="{{ link.url }}" class="btn-person {% if link.is_primary %}primary{% endif %}" target="_blank" rel="noopener noreferrer">
-              {{ link.text }}
+              <span class="lang-block">
+                <span class="lang-content" lang="en">{{ link.text.en }}</span>
+                <span class="lang-content" lang="sa">{{ link.text.sa }}</span>
+              </span>
             </a>
           {% endfor %}
         </div>

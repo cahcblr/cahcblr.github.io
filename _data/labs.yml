@@ -1,8 +1,14 @@
-- title: "Jyotiṣa Lab"
-  subtitle: "Visualizing Precession and Nakshatras"
+- title:
+    en: "Jyotiṣa Lab"
+    sa: "ज्योतिष-प्रयोगशाला"
+  subtitle:
+    en: "Visualizing Precession and Nakshatras"
+    sa: "अयनचलनस्य नक्षत्राणाञ्च दृश्यीकरणम्"
   url: "https://jyotisha-lab.netlify.app/"
   developer: "Sunder Chakravarty"
-  description: "An interactive visualization of celestial mechanics, axial precession, and pre-Siddhantic astronomical concepts."
+  description:
+    en: "An interactive visualization of celestial mechanics, axial precession, and pre-Siddhantic astronomical concepts."
+    sa: "खगोलयान्त्रिकी, अयनचलनं तथा पूर्वसिद्धान्तखगोलशास्त्रस्य संकल्पानां परस्परसंवादात्मकं प्रदर्शनम्।"
   authors:
     - name: "Prof. R. N. Iyengar"
       image: "/assets/rni.jpg"
@@ -10,11 +16,17 @@
     - name: "Sunder Chakravarty"
       image: "/assets/sunder-2022.png"
 
-- title: "Vāgartha"
-  subtitle: "Exploring Sounds and Utterances"
+- title:
+    en: "Vāgartha"
+    sa: "वागर्थः"
+  subtitle:
+    en: "Exploring Sounds and Utterances"
+    sa: "ध्वनीनां उच्चारणानाञ्च अन्वेषणम्"
   url: "https://vagartha.netlify.app/"
   developer: "Sunder Chakravarty"
-  description: "A digital exploration of ancient phonetics (Śikṣā), acoustics, and the science of classical Indian utterances."
+  description:
+    en: "A digital exploration of ancient phonetics (Śikṣā), acoustics, and the science of classical Indian utterances."
+    sa: "प्राचीनशिक्षाशास्त्रं, ध्वनिविज्ञानं, पारम्परिकभारतीय-उच्चारणशास्त्रस्य च अङ्कीयसंशोधनम्।"
   authors:
     - name: "Prof. R. N. Iyengar"
       image: "/assets/rni.jpg"
@@ -24,11 +36,17 @@
     - name: "Sunder Chakravarty"
       image: "/assets/sunder-2022.png"
 
-- title: "Meru Cosmos"
-  subtitle: "An Exploration of Ancient Cosmology"
+- title:
+    en: "Meru Cosmos"
+    sa: "मेरुब्रह्माण्डम्"
+  subtitle:
+    en: "An Exploration of Ancient Cosmology"
+    sa: "प्राचीनब्रह्माण्डविज्ञानस्य अन्वेषणम्"
   url: "https://meru-cosmos.netlify.app/"
   developer: "Sunder Chakravarty"
-  description: "A spatial reconstruction and interactive model of the Meru cosmological system as described in classical texts."
+  description:
+    en: "A spatial reconstruction and interactive model of the Meru cosmological system as described in classical texts."
+    sa: "शास्त्रेषु वर्णितस्य मेरुब्रह्माण्डतन्त्रस्य देशिकपुनर्निर्माणं परस्परसंवादात्मकं रूपं च।"
   authors:
     - name: "Prof. R. N. Iyengar"
       image: "/assets/rni.jpg"
@@ -44,22 +62,34 @@
     - name: "Sunder Chakravarty"
       image: "/assets/sunder-2022.png"
 
-- title: "Kāvya Kutūhalam"
-  subtitle: "New Experiments in the Field of Citrakāvya"
+- title:
+    en: "Kāvya Kutūhalam"
+    sa: "काव्यकुतूहलम्"
+  subtitle:
+    en: "New Experiments in the Field of Citrakāvya"
+    sa: "चित्रकाव्यक्षेत्रे अभिनवप्रयोगाः"
   url: "https://kaavya-kutuhalam.netlify.app/"
   developer: "Sunder Chakravarty"
-  description: "A digital companion showcasing complex poetic patterns and interactive visualizations of Dr. Shankar Rajaraman's Citrakāvya innovations."
+  description:
+    en: "A digital companion showcasing complex poetic patterns and interactive visualizations of Dr. Shankar Rajaraman's Citrakāvya innovations."
+    sa: "डॉ. शङ्करराजरामन्-महोदस्य चित्रकाव्याभिनवप्रयोगाणां क्लिष्टकाव्यरूपाणां च अङ्कीयप्रदर्शनम्।"
   authors:
     - name: "Dr. Shankar Rajaraman"
       image: "/assets/shankar-2025.jpg"
     - name: "Sunder Chakravarty"
       image: "/assets/sunder-2022.png"
 
-- title: "Patra Darpaṇa"
-  subtitle: "Index of Academic Papers in CAHC area"
+- title:
+    en: "Patra Darpaṇa"
+    sa: "पत्रदर्पणः"
+  subtitle:
+    en: "Index of Academic Papers in CAHC area"
+    sa: "पुरातनेतिहास-संस्कृति-केन्द्रस्य शोधपत्राणां अनुक्रमणिका"
   url: "https://patra-darpan.netlify.app/?theme=light"
   developer: "Sunder Chakravarty"
-  description: "A collection of articles and selected academic papers by CAHC staff, focusing on the core research areas of the Center."
+  description:
+    en: "A collection of articles and selected academic papers by CAHC staff, focusing on the core research areas of the Center."
+    sa: "केन्द्रस्य प्रमुखानुसन्धानक्षेत्रेषु केन्द्रस्य शोधकर्तॄणां लेखानां शोधपत्राणां च सङ्ग्रहः।"
   authors:
     - name: "Prof. R. N. Iyengar"
       image: "/assets/rni.jpg"
@@ -73,11 +103,17 @@
     - name: "Sunder Chakravarty"
       image: "/assets/sunder-2022.png"
 
-- title: "Sañcaya"
-  subtitle: "Indic Text Search Engine"
+- title:
+    en: "Sañcaya"
+    sa: "सञ्चयः"
+  subtitle:
+    en: "Indic Text Search Engine"
+    sa: "भारतीयग्रन्थानां अन्वेषणयन्त्रम्"
   url: "https://sanchaya.rasowshi.us"
   developer: "Sunder Chakravarty"
-  description: "A specialized, high-performance text search tool designed for querying a selected collection of classical Indic texts."
+  description:
+    en: "A specialized, high-performance text search tool designed for querying a selected collection of classical Indic texts."
+    sa: "विशिष्टानां पारम्परिकभारतीयग्रन्थानां अन्वेषणार्थं विरचितं तीव्रगतियुक्तमन्वेषणयन्त्रम्।"
   authors:
     - name: "Dr. Shankar Rajaraman"
       image: "/assets/shankar-2025.jpg"
