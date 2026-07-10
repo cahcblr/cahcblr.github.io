@@ -297,7 +297,7 @@ function filterPapers() { applyFilters(); }
     "Shankar Rajaraman": "शङ्करराजरामन्",
     "R.N. Iyengar": "आर. एन्. अय्यङ्गारः",
     "R. N. Iyengar": "आर. एन्. अय्यङ्गारः",
-    "Warija Adiga": "वारिजा आदिगा",
+    "Warija Adiga": "वारिजा अडिगा",
     "Sunder Chakravarty": "सुन्दरचक्रवर्ती",
     
     // Sources

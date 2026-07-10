@@ -17,7 +17,7 @@ The talk was followed by a Q&A session where the audience asked many questions a
 The talk was a part of the Mythic Society's ongoing series of talks on Indian culture and heritage. The society has been organizing such talks for many years now and has been instrumental in promoting Indian culture and heritage.
   </div>
   <div class="lang-content" lang="sa" markdown="1">
-वारिजा-आदिगा-महोदयायाः इदं [वृद्धगर्गवास्तुविद्या-व्याख्यानम्](/assets/talks/2024-02-18-mythic/vastuvidya.pdf) प्रो. आर्. एन्. अय्यङ्गारस्य वारिजायाश्च संशोधनकार्यस्य आधारेण अस्ति। व्याख्यानमिदं १८ फरवरी २०२४ दिनाङ्के मिथिक्-सोसैटि बेङ्गळूरु इत्यत्र उपस्थापितम् आसीत्।
+वारिजा-अडिगा-महोदयायाः इदं [वृद्धगर्गवास्तुविद्या-व्याख्यानम्](/assets/talks/2024-02-18-mythic/vastuvidya.pdf) प्रो. आर्. एन्. अय्यङ्गारस्य वारिजायाश्च संशोधनकार्यस्य आधारेण अस्ति। व्याख्यानमिदं १८ फरवरी २०२४ दिनाङ्के मिथिक्-सोसैटि बेङ्गळूरु इत्यत्र उपस्थापितम् आसीत्।
 
 अत्र वृद्धगर्गवास्तुविद्याग्रन्थस्य आधारेण प्राचीनभारतीयगृहनिर्माण-नगररचनापरम्पराणां प्रयोगाणां च विशिष्टं विश्लेषणं कृतम् अस्ति।
 
