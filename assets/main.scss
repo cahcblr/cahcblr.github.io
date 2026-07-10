@@ -500,3 +500,50 @@ select:focus {
     display: none;
   }
 }
+
+/* ══════════════════════════════════════════════════════════════════════
+   BILINGUAL (ENGLISH / SANSKRIT) VISIBILITY CONTROLS
+   ══════════════════════════════════════════════════════════════════════ */
+
+/* 1. Hide Sanskrit content when English is active */
+html[lang="en"] .lang-content[lang="sa"] {
+  display: none !important;
+}
+
+/* 2. Hide English content when Sanskrit is active AND Sanskrit is present */
+html[lang="sa"] .lang-block:has(.lang-content[lang="sa"]) .lang-content[lang="en"] {
+  display: none !important;
+}
+
+/* 3. Language switcher link options styling */
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+}
+
+.lang-switcher .lang-opt {
+  color: #999 !important;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.lang-switcher .lang-opt:hover {
+  color: #26d1a1 !important;
+}
+
+.lang-switcher .lang-divider {
+  color: #ddd;
+  margin: 0 5px;
+  user-select: none;
+  font-weight: 300;
+}
+
+/* Highlight active language option dynamically */
+html[lang="en"] .lang-switcher .lang-opt[data-lang="en"],
+html[lang="sa"] .lang-switcher .lang-opt[data-lang="sa"] {
+  color: #26d1a1 !important;
+  font-weight: bold;
+  pointer-events: none;
+}

@@ -4,7 +4,12 @@ layout: default
 <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <h1 class="post-title">
+      <span class="lang-block">
+        <span class="lang-content" lang="en">{{ page.title | escape }}</span>
+        <span class="lang-content" lang="sa">{% if site.data.locales[page.title] %}{{ site.data.locales[page.title].sa }}{% else %}{{ page.title | escape }}{% endif %}</span>
+      </span>
+    </h1>
   </header>
 
   <div class="post-content">
