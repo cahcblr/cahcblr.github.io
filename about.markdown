@@ -15,14 +15,9 @@ permalink: /about/
   <div class="lang-content" lang="sa">{{ content.intro_p.sa | markdownify }}</div>
 </div>
 
-<div class="lang-block">
-  <p class="lang-content" lang="en">
-    <img src="{{ '/assets/cahc-iks-cert.jpg' | relative_url }}" alt="IKS Certificate">
-  </p>
-  <p class="lang-content" lang="sa">
-    <img src="{{ '/assets/cahc-iks-cert.jpg' | relative_url }}" alt="IKS Certificate">
-  </p>
-</div>
+<p class="iks-cert-wrapper">
+  <img src="{{ '/assets/cahc-iks-cert.jpg' | relative_url }}" alt="IKS Certificate">
+</p>
 
 <div class="lang-block">
   <h3 class="lang-content" lang="en">{{ content.mission.title.en }}</h3>

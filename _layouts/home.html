@@ -11,12 +11,14 @@ layout: default
 
   {%- if page.show_posts -%}
     {%- if site.posts.size > 0 -%}
-      <h2 class="post-list-heading">
-        <span class="lang-block">
-          <span class="lang-content" lang="en">{{ page.list_title | default: "Posts" }}</span>
-          <span class="lang-content" lang="sa">{% if site.data.locales[page.list_title] %}{{ site.data.locales[page.list_title].sa }}{% else %}{{ page.list_title | default: "Posts" }}{% endif %}</span>
-        </span>
-      </h2>
+      {%- if page.url == "/" or page.url == "/index.html" -%}
+        <h2 class="post-list-heading">
+          <span class="lang-block">
+            <span class="lang-content" lang="en">{{ page.list_title | default: "Posts" }}</span>
+            <span class="lang-content" lang="sa">{% if site.data.locales[page.list_title] %}{{ site.data.locales[page.list_title].sa }}{% else %}{{ site.data.locales["Posts"].sa }}{% endif %}</span>
+          </span>
+        </h2>
+      {%- endif -%}
       <ul class="post-list">
         {%- if page.url == "/" or page.url == "/index.html" -%}
           {%- assign displayed_posts = site.posts | slice: 0, 3 -%}
