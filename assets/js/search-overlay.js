@@ -200,11 +200,19 @@
 
     for (var i = 0; i < searchIndex.length; i++) {
       var item = searchIndex[i];
-      var titleP   = prepareText(item.title   || "");
-      var contentP = prepareText(item.content || "");
-      var authorP  = prepareText(item.author  || "");
-      var roleP    = prepareText(item.role    || "");
-      var haystack = titleP + " " + contentP + " " + authorP + " " + roleP;
+      var titleEnP   = prepareText(item.title_en   || "");
+      var titleSaP   = prepareText(item.title_sa   || "");
+      var contentEnP = prepareText(item.content_en || "");
+      var contentSaP = prepareText(item.content_sa || "");
+      var authorEnP  = prepareText(item.author_en  || "");
+      var authorSaP  = prepareText(item.author_sa  || "");
+      var roleEnP    = prepareText(item.role_en    || "");
+      var roleSaP    = prepareText(item.role_sa    || "");
+      
+      var haystack = titleEnP + " " + titleSaP + " " +
+                     contentEnP + " " + contentSaP + " " +
+                     authorEnP + " " + authorSaP + " " +
+                     roleEnP + " " + roleSaP;
 
       var allMatch = true;
       var score = 0;
@@ -218,13 +226,13 @@
         } else {
           // Score by where it matched
           re.lastIndex = 0;
-          if (re.test(titleP))   score += 10;
+          if (re.test(titleEnP) || re.test(titleSaP))     score += 10;
           re.lastIndex = 0;
-          if (re.test(authorP))  score += 5;
+          if (re.test(authorEnP) || re.test(authorSaP))   score += 5;
           re.lastIndex = 0;
-          if (re.test(roleP))    score += 3;
+          if (re.test(roleEnP) || re.test(roleSaP))       score += 3;
           re.lastIndex = 0;
-          if (re.test(contentP)) score += 1;
+          if (re.test(contentEnP) || re.test(contentSaP)) score += 1;
         }
       } else {
         // Substring mode
@@ -234,10 +242,10 @@
             allMatch = false;
             break;
           }
-          if (titleP.indexOf(tok) !== -1)   score += 10;
-          if (authorP.indexOf(tok) !== -1)  score += 5;
-          if (roleP.indexOf(tok) !== -1)    score += 3;
-          if (contentP.indexOf(tok) !== -1) score += 1;
+          if (titleEnP.indexOf(tok) !== -1 || titleSaP.indexOf(tok) !== -1)     score += 10;
+          if (authorEnP.indexOf(tok) !== -1 || authorSaP.indexOf(tok) !== -1)   score += 5;
+          if (roleEnP.indexOf(tok) !== -1 || roleSaP.indexOf(tok) !== -1)       score += 3;
+          if (contentEnP.indexOf(tok) !== -1 || contentSaP.indexOf(tok) !== -1) score += 1;
         }
       }
 
@@ -304,20 +312,27 @@
       var badge = '<span class="search-type-badge search-type-' + item.type + '">'
                 + meta.icon + " " + meta.label + "</span>";
 
+      // Dynamically select language strings based on active document lang
+      var currentLang = document.documentElement.lang || "en";
+      var displayTitle   = currentLang === "sa" ? (item.title_sa || item.title_en || "") : (item.title_en || item.title_sa || "");
+      var displayContent = currentLang === "sa" ? (item.content_sa || item.content_en || "") : (item.content_en || item.content_sa || "");
+      var displayAuthor  = currentLang === "sa" ? (item.author_sa || item.author_en || "") : (item.author_en || item.author_sa || "");
+      var displayRole    = currentLang === "sa" ? (item.role_sa || item.role_en || "") : (item.role_en || item.role_sa || "");
+
       // Title with highlight
-      var title = highlightText(item.title || "", tokens);
+      var title = highlightText(displayTitle, tokens);
 
       // Subtitle line (author, role, date)
       var subtitle = "";
-      if (item.author)  subtitle += item.author;
-      if (item.role)    subtitle += (subtitle ? " · " : "") + item.role;
-      if (item.date)    subtitle += (subtitle ? " · " : "") + item.date;
+      if (displayAuthor)  subtitle += displayAuthor;
+      if (displayRole)    subtitle += (subtitle ? " · " : "") + displayRole;
+      if (item.date)      subtitle += (subtitle ? " · " : "") + item.date;
       if (subtitle) {
         subtitle = '<div class="search-result-subtitle">' + highlightText(subtitle, tokens) + "</div>";
       }
 
       // Snippet from content
-      var snippet = extractSnippet(item.content || "", tokens);
+      var snippet = extractSnippet(displayContent, tokens);
 
       card.innerHTML =
         '<div class="search-result-top">' + badge + '</div>'

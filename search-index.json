@@ -10,11 +10,34 @@ sitemap: false
   {%- for pg in site.pages -%}
     {%- if pg.title and pg.url != "/search-index.json" and pg.url != "/feed.xml" -%}
       {%- assign body = pg.content | strip_html | strip_newlines | replace: '"', '\"' | replace: '\', '\\' | truncatewords: 2000 -%}
+      {%- assign pg_title_en = pg.title -%}
+      {%- assign pg_title_sa = pg.title -%}
+      {%- if pg.url == "/" -%}
+        {%- assign pg_title_sa = "मुख्यपृष्ठम्" -%}
+      {%- elsif pg.url == "/about/" -%}
+        {%- assign pg_title_sa = "अस्मद्विषये" -%}
+      {%- elsif pg.url == "/books/" -%}
+        {%- assign pg_title_sa = "पुस्तकानि" -%}
+      {%- elsif pg.url == "/papers/" -%}
+        {%- assign pg_title_sa = "शोधपत्राणि" -%}
+      {%- elsif pg.url == "/people/" or pg.url == "/people" or pg.url == "/p72_rni.html" -%}
+        {%- assign pg_title_sa = "नेतृत्वं शोधकर्तारश्च" -%}
+      {%- elsif pg.url == "/contact/" -%}
+        {%- assign pg_title_sa = "सम्पर्कः" -%}
+      {%- elsif pg.url == "/events/" -%}
+        {%- assign pg_title_sa = "कार्यक्रमाः" -%}
+      {%- elsif pg.url == "/labs/" -%}
+        {%- assign pg_title_sa = "प्रयोगशालाः" -%}
+      {%- elsif pg.url == "/news/" -%}
+        {%- assign pg_title_sa = "वार्ताः" -%}
+      {%- endif -%}
       {{ sep }}{
         "type": "page",
-        "title": {{ pg.title | jsonify }},
+        "title_en": {{ pg_title_en | jsonify }},
+        "title_sa": {{ pg_title_sa | jsonify }},
         "url": {{ pg.url | relative_url | jsonify }},
-        "content": {{ body | jsonify }}
+        "content_en": {{ body | jsonify }},
+        "content_sa": {{ body | jsonify }}
       }
       {%- assign sep = "," -%}
     {%- endif -%}
@@ -23,52 +46,68 @@ sitemap: false
   {%- comment -%} ══════ 2. Posts ══════ {%- endcomment -%}
   {%- for post in site.posts -%}
     {%- assign body = post.content | strip_html | strip_newlines | replace: '"', '\"' | replace: '\', '\\' | truncatewords: 500 -%}
+    {%- assign post_title_sa = post.title_sa | default: post.title -%}
     {{ sep }}{
       "type": "post",
-      "title": {{ post.title | jsonify }},
+      "title_en": {{ post.title | jsonify }},
+      "title_sa": {{ post_title_sa | jsonify }},
       "url": {{ post.url | relative_url | jsonify }},
       "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
-      "content": {{ body | jsonify }}
+      "content_en": {{ body | jsonify }},
+      "content_sa": {{ body | jsonify }}
     }
     {%- assign sep = "," -%}
   {%- endfor -%}
 
   {%- comment -%} ══════ 3. Books ══════ {%- endcomment -%}
   {%- for book in site.data.books -%}
-    {%- assign desc = book.description | strip_html | strip_newlines | replace: '"', '\"' | replace: '\', '\\' | truncatewords: 200 -%}
-    {%- assign subtitle = book.subtitle | default: "" -%}
+    {%- assign desc_en = book.description.en | strip_html | strip_newlines | replace: '"', '\"' | replace: '\', '\\' | truncatewords: 200 -%}
+    {%- assign desc_sa = book.description.sa | strip_html | strip_newlines | replace: '"', '\"' | replace: '\', '\\' | truncatewords: 200 -%}
+    {%- assign subtitle_en = book.subtitle.en | default: "" -%}
+    {%- assign subtitle_sa = book.subtitle.sa | default: "" -%}
     {{ sep }}{
       "type": "book",
-      "title": {{ book.title | jsonify }},
+      "title_en": {{ book.title.en | jsonify }},
+      "title_sa": {{ book.title.sa | jsonify }},
       "url": "/books/",
-      "author": {{ book.author | default: "" | jsonify }},
-      "content": {{ subtitle | append: " " | append: desc | jsonify }}
+      "author_en": {{ book.author.en | default: "" | jsonify }},
+      "author_sa": {{ book.author.sa | default: "" | jsonify }},
+      "content_en": {{ subtitle_en | append: " " | append: desc_en | jsonify }},
+      "content_sa": {{ subtitle_sa | append: " " | append: desc_sa | jsonify }}
     }
     {%- assign sep = "," -%}
   {%- endfor -%}
 
   {%- comment -%} ══════ 4. People ══════ {%- endcomment -%}
   {%- for person in site.data.people -%}
-    {%- assign bio = person.bio | strip_html | strip_newlines | replace: '"', '\"' | replace: '\', '\\' | truncatewords: 200 -%}
+    {%- assign bio_en = person.bio.en | strip_html | strip_newlines | replace: '"', '\"' | replace: '\', '\\' | truncatewords: 200 -%}
+    {%- assign bio_sa = person.bio.sa | strip_html | strip_newlines | replace: '"', '\"' | replace: '\', '\\' | truncatewords: 200 -%}
     {{ sep }}{
       "type": "person",
-      "title": {{ person.name | jsonify }},
+      "title_en": {{ person.name.en | jsonify }},
+      "title_sa": {{ person.name.sa | jsonify }},
       "url": "/about/",
-      "role": {{ person.role | default: "" | jsonify }},
-      "content": {{ bio | jsonify }}
+      "role_en": {{ person.role.en | default: "" | jsonify }},
+      "role_sa": {{ person.role.sa | default: "" | jsonify }},
+      "content_en": {{ bio_en | jsonify }},
+      "content_sa": {{ bio_sa | jsonify }}
     }
     {%- assign sep = "," -%}
   {%- endfor -%}
 
   {%- comment -%} ══════ 5. Labs ══════ {%- endcomment -%}
   {%- for lab in site.data.labs -%}
-    {%- assign desc = lab.description | default: "" -%}
-    {%- assign subtitle = lab.subtitle | default: "" -%}
+    {%- assign desc_en = lab.description.en | default: "" | strip_html | strip_newlines -%}
+    {%- assign desc_sa = lab.description.sa | default: "" | strip_html | strip_newlines -%}
+    {%- assign subtitle_en = lab.subtitle.en | default: "" -%}
+    {%- assign subtitle_sa = lab.subtitle.sa | default: "" -%}
     {{ sep }}{
       "type": "lab",
-      "title": {{ lab.title | jsonify }},
+      "title_en": {{ lab.title.en | jsonify }},
+      "title_sa": {{ lab.title.sa | jsonify }},
       "url": {{ lab.url | jsonify }},
-      "content": {{ subtitle | append: " " | append: desc | jsonify }}
+      "content_en": {{ subtitle_en | append: " " | append: desc_en | jsonify }},
+      "content_sa": {{ subtitle_sa | append: " " | append: desc_sa | jsonify }}
     }
     {%- assign sep = "," -%}
   {%- endfor -%}
