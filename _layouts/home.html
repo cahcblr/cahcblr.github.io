@@ -11,7 +11,12 @@ layout: default
 
   {%- if page.show_posts -%}
     {%- if site.posts.size > 0 -%}
-      <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+      <h2 class="post-list-heading">
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ page.list_title | default: "Posts" }}</span>
+          <span class="lang-content" lang="sa">{% if site.data.locales[page.list_title] %}{{ site.data.locales[page.list_title].sa }}{% else %}{{ page.list_title | default: "Posts" }}{% endif %}</span>
+        </span>
+      </h2>
       <ul class="post-list">
         {%- if page.url == "/" or page.url == "/index.html" -%}
           {%- assign displayed_posts = site.posts | slice: 0, 3 -%}
@@ -24,7 +29,10 @@ layout: default
           <span class="post-meta">{{ post.date | date: date_format }}</span>
           <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
+              <span class="lang-block">
+                <span class="lang-content" lang="en">{{ post.title | escape }}</span>
+                <span class="lang-content" lang="sa">{% if post.title_sa %}{{ post.title_sa }}{% else %}{{ post.title | escape }}{% endif %}</span>
+              </span>
             </a>
           </h3>
           {%- if site.show_excerpts -%}
@@ -35,7 +43,12 @@ layout: default
       </ul>
       {%- if page.url == "/" or page.url == "/index.html" -%}
         <div style="text-align: left; margin-top: 20px;">
-          <a href="{{ '/news/' | relative_url }}" style="display: inline-block; padding: 10px 20px; background-color: #f4f4f4; border: 1px solid #ddd; border-radius: 5px; text-decoration: none; color: #333; font-weight: bold;">View all News & Updates &rarr;</a>
+          <a href="{{ '/news/' | relative_url }}" style="display: inline-block; padding: 10px 20px; background-color: #f4f4f4; border: 1px solid #ddd; border-radius: 5px; text-decoration: none; color: #333; font-weight: bold;">
+            <span class="lang-block">
+              <span class="lang-content" lang="en">View all News & Updates &rarr;</span>
+              <span class="lang-content" lang="sa">सर्वाः वार्ताः प्रवृत्तयश्च &rarr;</span>
+            </span>
+          </a>
         </div>
       {%- endif -%}
 

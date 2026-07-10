@@ -170,33 +170,55 @@ permalink: /books/
 
 <nav class="book-hero-rail">
   {% for book in site.data.books %}
-    <a href="#{{ book.title | slugify }}" class="hero-rail-item" title="{{ book.title }}">
-      <img src="{{ book.cover_image | relative_url }}" alt="{{ book.title }} Mini Cover">
+    <a href="#{{ book.title.en | slugify }}" class="hero-rail-item" title="{{ book.title.en }}">
+      <img src="{{ book.cover_image | relative_url }}" alt="{{ book.title.en }} Mini Cover">
     </a>
   {% endfor %}
 </nav>
 
 <div class="books-container">
   {% for book in site.data.books %}
-    <div id="{{ book.title | slugify }}" class="book-card">
+    <div id="{{ book.title.en | slugify }}" class="book-card">
       <div class="book-cover-float">
-        <img src="{{ book.cover_image | relative_url }}" alt="{{ book.title }} Cover">
+        <img src="{{ book.cover_image | relative_url }}" alt="{{ book.title.en }} Cover">
       </div>
       
-      <h2 class="book-title">{{ book.title }}</h2>
+      <h2 class="book-title">
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ book.title.en }}</span>
+          <span class="lang-content" lang="sa">{{ book.title.sa }}</span>
+        </span>
+      </h2>
       {% if book.subtitle %}
-        <span class="book-subtitle">{{ book.subtitle }}</span>
+        <span class="book-subtitle">
+          <span class="lang-block">
+            <span class="lang-content" lang="en">{{ book.subtitle.en }}</span>
+            <span class="lang-content" lang="sa">{{ book.subtitle.sa }}</span>
+          </span>
+        </span>
       {% endif %}
       {% if book.author or book.pages %}
         <div class="book-author">
-          {% if book.author %}{{ book.author }}{% endif %}
-          {% if book.author and book.pages %} &middot; {% endif %}
-          {% if book.pages %}{{ book.pages }} pages{% endif %}
+          <span class="lang-block">
+            <span class="lang-content" lang="en">
+              {% if book.author.en %}{{ book.author.en }}{% endif %}
+              {% if book.author.en and book.pages %} &middot; {% endif %}
+              {% if book.pages %}{{ book.pages }} pages{% endif %}
+            </span>
+            <span class="lang-content" lang="sa">
+              {% if book.author.sa %}{{ book.author.sa }}{% endif %}
+              {% if book.author.sa and book.pages %} &middot; {% endif %}
+              {% if book.pages %}{{ book.pages }} पृष्ठानि{% endif %}
+            </span>
+          </span>
         </div>
       {% endif %}
       
       <div class="book-description">
-        {{ book.description | markdownify }}
+        <div class="lang-block">
+          <div class="lang-content" lang="en">{{ book.description.en | markdownify }}</div>
+          <div class="lang-content" lang="sa">{{ book.description.sa | markdownify }}</div>
+        </div>
       </div>
       
       {% if book.links %}
@@ -205,10 +227,11 @@ permalink: /books/
             <a href="{{ link.url }}" class="btn-book {% if link.is_buy != true %}secondary{% endif %}" target="_blank" rel="noopener noreferrer">
               {% if link.is_buy %}
                 <span style="margin-right: 0.5rem; font-size: 1.1rem;">🛒</span>
-                {{ link.text }}
-              {% else %}
-                {{ link.text }}
               {% endif %}
+              <span class="lang-block">
+                <span class="lang-content" lang="en">{{ link.text.en }}</span>
+                <span class="lang-content" lang="sa">{{ link.text.sa }}</span>
+              </span>
             </a>
           {% endfor %}
         </div>

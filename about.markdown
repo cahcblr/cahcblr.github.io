@@ -3,59 +3,133 @@ layout: page
 title: About
 permalink: /about/
 ---
+{% assign content = site.data.pages.about %}
 
-## About the Center for Ancient History and Culture (CAHC)
+<div class="lang-block">
+  <h2 class="lang-content" lang="en">{{ content.title.en }}</h2>
+  <h2 class="lang-content" lang="sa">{{ content.title.sa }}</h2>
+</div>
 
-The **Center for Ancient History and Culture (CAHC)** at Jain University is a premier research institution dedicated to the interdisciplinary study of India's ancient cultural and intellectual heritage. Established in 2011, CAHC has been recognized by the Ministry of Education, Government of India, as an **Indian Knowledge System (IKS) center** following a competitive national evaluation.
+<div class="lang-block">
+  <div class="lang-content" lang="en">{{ content.intro_p.en | markdownify }}</div>
+  <div class="lang-content" lang="sa">{{ content.intro_p.sa | markdownify }}</div>
+</div>
 
-![IKS Certificate](../assets/cahc-iks-cert.jpg)
+<div class="lang-block">
+  <p class="lang-content" lang="en">
+    <img src="{{ '/assets/cahc-iks-cert.jpg' | relative_url }}" alt="IKS Certificate">
+  </p>
+  <p class="lang-content" lang="sa">
+    <img src="{{ '/assets/cahc-iks-cert.jpg' | relative_url }}" alt="IKS Certificate">
+  </p>
+</div>
 
-### Mission
+<div class="lang-block">
+  <h3 class="lang-content" lang="en">{{ content.mission.title.en }}</h3>
+  <h3 class="lang-content" lang="sa">{{ content.mission.title.sa }}</h3>
+</div>
 
-CAHC addresses the significant gap in Indian historical scholarship by presenting ancient Indian history in an objective fashion, avoiding ideological extremes. Our mission is to conduct primary research that:
+<div class="lang-block">
+  <div class="lang-content" lang="en">
+    <p>{{ content.mission.description.en }}</p>
+    <ul>
+      {% for bullet in content.mission.bullets %}
+        <li>{{ bullet.en }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="lang-content" lang="sa">
+    <p>{{ content.mission.description.sa }}</p>
+    <ul>
+      {% for bullet in content.mission.bullets %}
+        <li>{{ bullet.sa }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
-- Chronicles cultural, scientific, and social intellectual traditions beyond political history
-- Presents ancient history free from Eurocentric viewpoints
-- Connects modern education with intellectual traditions rooted in ancient India
-- Preserves and studies unpublished manuscripts and ancient texts
+<div class="lang-block">
+  <h3 class="lang-content" lang="en">{{ content.research_areas.title.en }}</h3>
+  <h3 class="lang-content" lang="sa">{{ content.research_areas.title.sa }}</h3>
+</div>
 
-### Research Areas
+<div class="lang-block">
+  <div class="lang-content" lang="en">
+    <p>{{ content.research_areas.description.en }}</p>
+    <ul>
+      {% for bullet in content.research_areas.bullets %}
+        <li>{{ bullet.en | markdownify }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="lang-content" lang="sa">
+    <p>{{ content.research_areas.description.sa }}</p>
+    <ul>
+      {% for bullet in content.research_areas.bullets %}
+        <li>{{ bullet.sa | markdownify }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
-Our center specializes in several interconnected fields:
+<div class="lang-block">
+  <h3 class="lang-content" lang="en">{{ content.publications.title.en }}</h3>
+  <h3 class="lang-content" lang="sa">{{ content.publications.title.sa }}</h3>
+</div>
 
-- **Intellectual History** - Tracing the development of ideas and knowledge systems
-- **Cultural History** - Understanding societal practices and cultural evolution
-- **Pre-Siddhantic and Siddhantic Astronomy** - Ancient Indian astronomical sciences
-- **Shilpashastra** - Traditional architecture and engineering texts
-- **Sanskrit Literature, Poetry and Poetics** - Classical Sanskrit literary traditions, kāvya, and alaṃkāraśāstra
-- **History of Music** - Ancient musical traditions and theory
-- **Manuscriptology** - Study and preservation of ancient manuscripts
+<div class="lang-block">
+  <div class="lang-content" lang="en">
+    <ul>
+      {% for bullet in content.publications.bullets %}
+        <li>{{ bullet.en | markdownify }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="lang-content" lang="sa">
+    <ul>
+      {% for bullet in content.publications.bullets %}
+        <li>{{ bullet.sa | markdownify }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
-### Publications & Impact
+<div class="lang-block">
+  <h3 class="lang-content" lang="en">{{ content.leadership.title.en }}</h3>
+  <h3 class="lang-content" lang="sa">{{ content.leadership.title.sa }}</h3>
+</div>
 
-CAHC actively disseminates research through:
+<div class="lang-block">
+  <div class="lang-content" lang="en">
+    {{ content.leadership.p1.en | markdownify }}
+    {{ content.leadership.p2.en | markdownify }}
+  </div>
+  <div class="lang-content" lang="sa">
+    {{ content.leadership.p1.sa | markdownify }}
+    {{ content.leadership.p2.sa | markdownify }}
+  </div>
+</div>
 
-- [Academic papers](/papers) published in peer-reviewed journals
-- [Scholarly books](/books) on ancient sciences and culture
-- International conferences and workshops
-- Educational outreach programs
+<div class="lang-block">
+  <h3 class="lang-content" lang="en">{{ content.contact.title.en }}</h3>
+  <h3 class="lang-content" lang="sa">{{ content.contact.title.sa }}</h3>
+</div>
 
-### Leadership
-
-The center is directed by **Dr. Shankar Rajaraman**, a Sanskrit poet, scholar of Indian Knowledge Systems, and researcher in Sanskrit poetics and psychology of emotions. He received the _Maharṣi Bādarāyaṇa Vyāsa Sammān_ from the President of India for his contributions to Sanskrit language and literature.
-
-The center was founded and continues to be guided by **Prof. R. N. Iyengar** (Distinguished Professor and Mentor of CAHC), a renowned scholar in ancient Indian sciences and history of astronomy, whose research has significantly contributed to understanding India's scientific and cultural heritage.
-
-### Contact Information
-
-For research collaborations, manuscript access, or academic inquiries:
-
-**Address:**  
-Center for Ancient History and Culture  
-319, 25th Main, KR Layout  
-JP Nagar 6th Phase  
-Bengaluru - 560078
-
-**Contact:**  
-Tel: +91 80 43430400 extn 237  
-Email: [rn.iyengar@jainuniversity.ac.in](mailto:rn.iyengar@jainuniversity.ac.in?subject=CAHC%20Inquiry)
+<div class="lang-block">
+  <div class="lang-content" lang="en">
+    <p><strong>{{ content.contact.description.en }}</strong></p>
+    <p><strong>{{ content.contact.address_title.en }}</strong><br>
+    {{ content.contact.address.en | markdownify }}</p>
+    <p><strong>{{ content.contact.contact_title.en }}</strong><br>
+    {{ content.contact.phone.en }}<br>
+    {{ content.contact.email.en | markdownify }}</p>
+  </div>
+  <div class="lang-content" lang="sa">
+    <p><strong>{{ content.contact.description.sa }}</strong></p>
+    <p><strong>{{ content.contact.address_title.sa }}</strong><br>
+    {{ content.contact.address.sa | markdownify }}</p>
+    <p><strong>{{ content.contact.contact_title.sa }}</strong><br>
+    {{ content.contact.phone.sa }}<br>
+    {{ content.contact.email.sa | markdownify }}</p>
+  </div>
+</div>

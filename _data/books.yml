@@ -1,134 +1,275 @@
-- title: "गूढपादरामायणम् (Gūḍhapāda Rāmāyaṇam)"
-  subtitle: "A Retelling of the Rāmāyaṇa in 181 Anuṣṭubh Verses"
-  author: "Dr. Shankar Rajaraman"
+- title:
+    en: "गूढपादरामायणम् (Gūḍhapāda Rāmāyaṇam)"
+    sa: "गूढपादरामायणम्"
+  subtitle:
+    en: "A Retelling of the Rāmāyaṇa in 181 Anuṣṭubh Verses"
+    sa: "१८१ अनुष्टुप्श्लोकेषु रामायणस्य अभिनवं संक्षेपणम्"
+  author:
+    en: "Dr. Shankar Rajaraman"
+    sa: "डॉ. शङ्करराजरामन्"
   cover_image: "/assets/gp-book-cover.jpg"
-  description: |
-    **Gūḍhapāda Rāmāyaṇam** is a retelling of the Rāmāyaṇa (Bālakāṇḍa through Yuddhakāṇḍa) in 181 Anuṣṭubh verses under the *gūḍhapāda* constraint: in each verse, one *pāda* (quarter-verse) is hidden inside the other three via exact syllabic frequency.
+  description:
+    en: |
+      **Gūḍhapāda Rāmāyaṇam** is a retelling of the Rāmāyaṇa (Bālakāṇḍa through Yuddhakāṇḍa) in 181 Anuṣṭubh verses under the *gūḍhapāda* constraint: in each verse, one *pāda* (quarter-verse) is hidden inside the other three via exact syllabic frequency.
 
-    Published by Praharsha Publications, Bengaluru (2026), this work represents the first strict execution of this classical *citrakāvya* (constrained poetry) technique at a narrative scale, observing complete phonetic integrity and positional freedom for the hidden *pāda*.
+      Published by Praharsha Publications, Bengaluru (2026), this work represents the first strict execution of this classical *citrakāvya* (constrained poetry) technique at a narrative scale, observing complete phonetic integrity and positional freedom for the hidden *pāda*.
+    sa: |
+      **गूढपादरामायणम्** इति १८१ अनुष्टुप्श्लोकेषु बालकाण्डतः युद्धकाण्डपर्यन्तं रामायणकथायाः अभिनवप्रकारः अस्ति, यत्र गूढपादप्रतिबन्धः पालितः अस्ति: प्रत्येकस्मिन् श्लोके एकः पादः अन्येषु त्रिषु पादेषु अक्षरावृत्त्या गूढः भवति।
+
+      प्रहर्षप्रकाशनद्वारा बेङ्गळूरुनगरे (२०२६) प्रकाशितम् इदं कार्यं प्रथमा आवृत्तिः अस्ति यत्र कथास्तरे अस्याः शास्त्रोक्तचित्रकाव्यपद्धतेः पूर्णस्वरेण अक्षरशुद्ध्या च प्रयोगः कृतः अस्ति।
   links:
-    - text: "Launch Announcement"
+    - text:
+        en: "Launch Announcement"
+        sa: "प्रकाशनवार्ता"
       url: "/news/publication/2026/06/06/rasaradhane-book-release.html#gudhapadaramanayam"
-    - text: "Praharsha"
+    - text:
+        en: "Praharsha"
+        sa: "प्रहर्षप्रकाशनम्"
       url: "https://docs.google.com/forms/d/e/1FAIpQLSdItiKHvOh-KFUli38tmrB6VKfbAS5hp-nR7lsSCJn-VOrqmQ/viewform"
       is_buy: true
 
-- title: "Nalacaritam"
-  subtitle: "Sanskrit Translation of Kanakadasa's Kannada Work"
-  author: "Translated by Dr. Shankar Rajaraman"
+- title:
+    en: "Nalacaritam"
+    sa: "नलचरितम्"
+  subtitle:
+    en: "Sanskrit Translation of Kanakadasa's Kannada Work"
+    sa: "कनकदासस्य कन्नडकृतेः संस्कृतानुवादः"
+  author:
+    en: "Translated by Dr. Shankar Rajaraman"
+    sa: "अनुवादकः - डॉ. शङ्करराजरामन्"
   cover_image: "/assets/nalacharitram_book_cover.jpg"
-  description: |
-    The Sanskrit translation of the longer **Nalacaritam**, one of the important poetic works of the great Kannada saint-poet Kanakadasa. It appears in Volume II of *The Complete Works of Kanakadasa Translated into Sanskrit*, brought out by the Saint Poet Kanakadasa and Tatvapadakarara Study Centre, Kalagrama, Bengaluru. 
+  description:
+    en: |
+      The Sanskrit translation of the longer **Nalacaritam**, one of the important poetic works of the great Kannada saint-poet Kanakadasa. It appears in Volume II of *The Complete Works of Kanakadasa Translated into Sanskrit*, brought out by the Saint Poet Kanakadasa and Tatvapadakarara Study Centre, Kalagrama, Bengaluru. 
 
-    The translation preserves important features of old Kannada poetic practice such as the Bhāminī Ṣaṭpadī structure, dvitīyākṣaraprāsa, stylistic continuity, and the aesthetic movement of the original composition. The volume also includes translations of *Haribhaktisāra* and *Rāmadhānya Carite* by Śatāvadhānī Dr. R. Ganesh.
+      The translation preserves important features of old Kannada poetic practice such as the Bhāminī Ṣaṭpadī structure, dvitīyākṣaraprāsa, stylistic continuity, and the aesthetic movement of the original composition. The volume also includes translations of *Haribhaktisāra* and *Rāmadhānya Carite* by Śatāvadhānī Dr. R. Ganesh.
+    sa: |
+      महानुभावस्य कन्नडभक्तकवेः कनकदासस्य प्रमुखकाव्यकृतेः **नलचरितम्** इत्यस्य संस्कृतभाषानुवादः अस्ति। बेङ्गळूरुनगरे कनकदास-तत्वपदकार-अध्ययनकेन्द्रेण प्रकाशिते *संस्कृतानुवादयुक्ता कनकदासग्रन्थावली* इत्यस्याः द्वितीयभागे ग्रन्थोऽयं लभ्यते।
+
+      अनुवादोऽयं प्राचीनकन्नडकाव्यपरम्परायाः भामिनीषट्पदी-रचनां, द्वितीयाक्षरप्रासं, शैलीप्रवाहं, मूलकृतेः रसात्मकताञ्च सुरक्षितां रक्षति। अस्मिन् भागे शतावधानी-डॉ-आर्-गणेशमहोदयस्य *हरिभक्तिसारः* *रामधान्यचरितं* च संस्कृतानुवादाः अपि सम्मिलिताः सन्ति।
   links:
-    - text: "Launch Announcement"
+    - text:
+        en: "Launch Announcement"
+        sa: "प्रकाशनवार्ता"
       url: "/news/publication/2026/05/15/nalacharitram-book-release.html#nalacaritam"
-    - text: "Contact Sriman Manjunath"
+    - text:
+        en: "Contact Sriman Manjunath"
+        sa: "सम्पर्कः (श्रीमान् मञ्जुनाथः)"
       url: "tel:+917338640080"
       is_buy: true
 
-- title: "रामानुयात्रम् (Rāmānuyātram - Rallying Behind Rāma)"
-  subtitle: "A Khaṇḍa-kāvya of 131 Verses"
-  author: "Dr. Shankar Rajaraman"
+- title:
+    en: "रामानुयात्रम् (Rāmānuyātram - Rallying Behind Rāma)"
+    sa: "रामानुयात्रम्"
+  subtitle:
+    en: "A Khaṇḍa-kāvya of 131 Verses"
+    sa: "१३१ श्लोकात्मकं खण्डकाव्यम्"
+  author:
+    en: "Dr. Shankar Rajaraman"
+    sa: "डॉ. शङ्करराजरामन्"
   cover_image: "/assets/ramanuyatram-cover.jpg"
-  description: |
-    _Rāmānuyātram_ (Rallying Behind Rāma) is a _khaṇḍa-kāvya_ of 131 verses that transforms the historic 1990 _Rāma Ratha Yātrā_ into a classical Sanskrit poetic journey. Drawing inspiration from Kālidāsa's _Raghuvaṃśa_ and _Māgha's Śiśupālavadha_, it traverses India's landscapes—its mountains, rivers, cities, and people—through the eyes of a moving chariot.
+  description:
+    en: |
+      _Rāmānuyātram_ (Rallying Behind Rāma) is a _khaṇḍa-kāvya_ of 131 verses that transforms the historic 1990 _Rāma Ratha Yātrā_ into a classical Sanskrit poetic journey. Drawing inspiration from Kālidāsa's _Raghuvaṃśa_ and _Māgha's Śiśupālavadha_, it traverses India's landscapes—its mountains, rivers, cities, and people—through the eyes of a moving chariot.
 
-    Blending historical realism with poetic imagination, and composed predominantly in the _Vasantatilakā_ meter, the work reaffirms Sanskrit's vitality as a living medium capable of illuminating contemporary history with classical grace—uniting nationalistic spirit, devotional fervour, scholarship, and emotional depth.
+      Blending historical realism with poetic imagination, and composed predominantly in the _Vasantatilakā_ meter, the work reaffirms Sanskrit's vitality as a living medium capable of illuminating contemporary history with classical grace—uniting nationalistic spirit, devotional fervour, scholarship, and emotional depth.
+    sa: |
+      **रामानुयात्रम्** इति १३१ श्लोकानां खण्डकाव्यमस्ति यत् ऐतिहासिकं १९९० तमस्य वर्षस्य रामरथयात्रां संस्कृतकाव्यस्य सरण्यां वर्णयति। कालिदासस्य *रघुवंशं* माघस्य *शिशुपालवधञ्च* अनुसृत्य रथदृष्ट्या भारतस्य पर्वताः, नद्यः, नगराणि, जनाः च वर्णिताः सन्ति।
+
+      ऐतिहासिकसत्यं काव्यकल्पनाञ्च मिश्रयित्वा वसन्ततिलकावृत्ते विरचिता इयं कृतिः आधुनिकेतिहासस्य शास्त्रोक्तवर्णने संस्कृतस्य सामर्थ्यं पुनः प्रख्यापयति—देशभक्तिं, भक्तिभावं, पाण्डित्यं, गाम्भीर्यञ्च एकीकरोति।
   links:
-    - text: "Launch Announcement"
+    - text:
+        en: "Launch Announcement"
+        sa: "प्रकाशनवार्ता"
       url: "/news/publication/2025/11/08/ramanuyatram-book-release.html#ramanuyatram"
-    - text: "Praharsha"
+    - text:
+        en: "Praharsha"
+        sa: "प्रहर्षप्रकाशनम्"
       url: "https://docs.google.com/forms/d/e/1FAIpQLSdItiKHvOh-KFUli38tmrB6VKfbAS5hp-nR7lsSCJn-VOrqmQ/viewform"
       is_buy: true
-    - text: "Read Review on Swarajya"
+    - text:
+        en: "Read Review on Swarajya"
+        sa: "समीक्षा (स्वराज्यम्)"
       url: "https://swarajyamag.com/books/rmnuytram-the-modern-ratha-yatra-in-classical-sanskrit"
 
-- title: "शुनः पुच्छम् (Śunaḥ Puccham)"
-  subtitle: "Contemporary Sanskrit Stories and Essays"
-  author: "Warija Adiga"
+- title:
+    en: "शुनः पुच्छम् (Śunaḥ Puccham)"
+    sa: "शुनः पुच्छम्"
+  subtitle:
+    en: "Contemporary Sanskrit Stories and Essays"
+    sa: "आधुनिकाः संस्कृतकथाः प्रबन्धाश्च"
+  author:
+    en: "Warija Adiga"
+    sa: "वारिजा आदिगा"
   cover_image: "/assets/shunah-puchham-cover.jpg"
-  description: |
-    This book is a unique collection of Sanskrit stories with a modern twist, blending humor and wisdom to reflect contemporary society. Written entirely in Sanskrit, it offers readers both entertainment and enlightenment.
+  description:
+    en: |
+      This book is a unique collection of Sanskrit stories with a modern twist, blending humor and wisdom to reflect contemporary society. Written entirely in Sanskrit, it offers readers both entertainment and enlightenment.
 
-    The title "Śunaḥ Puccham" (Dog's Tail) is derived from the Sanskrit idiom that describes situations where there is an unexpected twist at the end—just as a dog's tail remains curved no matter how much you try to straighten it. Each story in this collection ends with such a delightful twist, challenging our expectations about everyday life.
+      The title "Śunaḥ Puccham" (Dog's Tail) is derived from the Sanskrit idiom that describes situations where there is an unexpected twist at the end—just as a dog's tail remains curved no matter how much you try to straighten it. Each story in this collection ends with such a delightful twist, challenging our expectations about everyday life.
 
-    The book concludes with a curated list of _Subhāṣitas_ (wise sayings) relevant to the stories and essays, providing an easy reference for those keen to deepen their understanding of Sanskrit verses. Perfect for both new learners and seasoned scholars of Sanskrit.
+      The book concludes with a curated list of _Subhāṣitas_ (wise sayings) relevant to the stories and essays, providing an easy reference for those keen to deepen their understanding of Sanskrit verses. Perfect for both new learners and seasoned scholars of Sanskrit.
+    sa: |
+      इदं पुस्तकं आधुनिकशैल्यां लिखितानां संस्कृतकथानां विशिष्टसङ्ग्रहः अस्ति, यस्मिन् हास्यं विवेकश्च सम्यङ् मिश्रितः। पूर्णतः संस्कृतभाषया लिखिता एताः कथाः पाठकानां मनोजनरञ्जनं ज्ञानवर्धनं च कुर्वन्ति।
+
+      'शुनः पुच्छम्' इति शीर्षकं संस्कृतलोकोक्त्याः आगतं यत् कथायाः अन्ते आगच्छन्तं विचित्रं परिवर्तनं सूचयति—यथा शुनः पुच्छं सर्वथा सरलीकर्तुं न शक्यते। कथानां प्रबन्धानामपि अन्ते सुभाषितसङ्ग्रहः दत्तः अस्ति, येन पाठकानां संस्कृतश्लोकावगमने सौकर्यं भवति।
   links:
-    - text: "Amazon"
+    - text:
+        en: "Amazon"
+        sa: "अमेझन्"
       url: "https://www.amazon.in/SHUNAH-PUCHHAM-WARIJA-ADIGA/dp/934842212X"
       is_buy: true
 
-- title: "Mahāsalilam"
-  subtitle: "Vedāṅga Text on Astronomical Sciences"
-  author: "Critically Edited and Translated by Prof. R. N. Iyengar"
+- title:
+    en: "Mahāsalilam"
+    sa: "महासलिलम्"
+  subtitle:
+    en: "Vedāṅga Text on Astronomical Sciences"
+    sa: "खगोलशास्त्रविषयकः वेदाङ्गग्रन्थः"
+  author:
+    en: "Critically Edited and Translated by Prof. R. N. Iyengar"
+    sa: "समीक्षकः संस्कर्ता च - प्रो. आर्. एन्. अय्यङ्गारः"
   cover_image: "/assets/ms_book_cover.jpg"
-  description: |
-    A question that often arises is about positive sciences of India before the Common Era and their links with the Vedas. The present monograph brings out for the first time the Mahāsalila part of the **Vṛddhagārgīya Jyotiṣa**, critically edited from eleven manuscripts collected from libraries in India and abroad. **Salilam** is the name of the primordial state of dark-matter called andhaṁ-tamaḥ out of which all creation including the celestial bodies emerged. The **Mahāsalilam** in prose, introduces observations and quantification in terms of numbers, through a set of nearly one hundred questions and explanations, in a style that is archaic and original as emanating from the Vedic world view. Foundational concepts of astral sciences that over centuries evolved as Indian astronomy and astrology can be traced to this source in seed form. Earliest description of the five planets in terms of their brightness, six monthly lunar eclipse period, classification of comets, a theory of rainfall, instant of full moon as **pūrṇatithi**, astronomical background of the Vedic **sānnāyya**, are here. The synchronization of the five-year solar cycle with the sixty-seven sidereal lunar cycle is given. The text belongs to the **maghādi** era (c 1800-1600 BCE) when the summer solstice was with the maghā nakṣatra, centuries before the **śraviṣṭhādi** winter solstice calendar of Lagadha.
+  description:
+    en: |
+      A question that often arises is about positive sciences of India before the Common Era and their links with the Vedas. The present monograph brings out for the first time the Mahāsalila part of the **Vṛddhagārgīya Jyotiṣa**, critically edited from eleven manuscripts collected from libraries in India and abroad. **Salilam** is the name of the primordial state of dark-matter called andhaṁ-tamaḥ out of which all creation including the celestial bodies emerged. The **Mahāsalilam** in prose, introduces observations and quantification in terms of numbers, through a set of nearly one hundred questions and explanations, in a style that is archaic and original as emanating from the Vedic world view. Foundational concepts of astral sciences that over centuries evolved as Indian astronomy and astrology can be traced to this source in seed form. Earliest description of the five planets in terms of their brightness, six monthly lunar eclipse period, classification of comets, a theory of rainfall, instant of full moon as **pūrṇatithi**, astronomical background of the Vedic **sānnāyya**, are here. The synchronization of the five-year solar cycle with the sixty-seven sidereal lunar cycle is given. The text belongs to the **maghādi** era (c 1800-1600 BCE) when the summer solstice was with the maghā nakṣatra, centuries before the **śraviṣṭhādi** winter solstice calendar of Lagadha.
+    sa: |
+      ग्रन्थोऽयं वृद्धगार्गीयज्योतिषस्य **महासलिल** भागं प्रथमतया प्रकाशयति, यः देशविदेशानां पुस्तकालयेभ्यः सङ्गृहीतैः एकादशहस्तलेखैः समीक्षितः सम्पादितश्च अस्ति। **सलिलम्** इति तस्याः मूलप्रकृतेः (अन्धन्तमसः) नाम अस्ति यस्याः ब्रह्माण्डस्य खगोलीयानाञ्च पिण्डानां सृष्टिः अभवत्।
+
+      गद्यरूपे लिखितं महासलिलं वैदिकदृष्टिकोणात् जायमानं खगोलशास्त्रं शतप्रश्नोत्तरमाध्यमेन वर्णयति। पञ्चग्रहाणां दीप्तिः, चन्द्रग्रहणकालः, धूमकेतूनां वर्गीकरणं, वृष्टिसिद्धान्तः च अत्र सन्ति। अयं ग्रन्थः मघादियुगस्य (ई.पू. १८००-१६००) मन्यते, यः कालः लगधस्य काळगणनायाः शतशः वर्षेभ्यः पूर्ववर्ती।
   links:
-    - text: "Launch Announcement"
+    - text:
+        en: "Launch Announcement"
+        sa: "प्रकाशनवार्ता"
       url: "/mythic/book-release/2024/12/28/mahasalilam-book.html#mahasalilam"
-    - text: "by Email"
+    - text:
+        en: "by Email"
+        sa: "ई-पत्रद्वारा प्राप्तिः"
       url: "mailto:sales@csu.co.in"
       is_buy: true
-    - text: "Publisher: Central Sanskrit University"
+    - text:
+        en: "Publisher: Central Sanskrit University"
+        sa: "प्रकाशकः: केन्द्रीयसंस्कृतविश्वविद्यालयः"
       url: "https://www.sanskrit.nic.in/"
-    - text: "Read Review on Swarajya"
+    - text:
+        en: "Read Review on Swarajya"
+        sa: "समीक्षा (स्वराज्यम्)"
       url: "https://swarajyamag.com/books/before-space-science-there-was-mahsalilam-rediscovery-of-indias-oldest-astronomical-text"
 
-- title: "भारावतारस्तवः (Bhārāvatārastava)"
-  author: "Dr. Shankar Rajaraman"
+- title:
+    en: "भारावतारस्तवः (Bhārāvatārastava)"
+    sa: "भारावतारस्तवः"
+  subtitle:
+    en: "A Stotra of 50 Verses"
+    sa: "५० श्लोकात्मकं स्तोत्रकाव्यम्"
+  author:
+    en: "Dr. Shankar Rajaraman"
+    sa: "डॉ. शङ्करराजरामन्"
   cover_image: "/assets/ba-cover-page.jpg"
-  description: |
-    In this poetic work consisting of fifty verses, the author offers praise to the Lord Śiva. Except for the final verse, which is composed in the indravajrā meter, all the verses herein are written in the vasantatilakā meter. The poet composed this hymn inspired by the style of the Ānandasāgarastava written by Nīlakaṇṭha. The "laying down of the burden" (bhārāvatāra) refers to placing a weight upon the shoulders or head of someone else. In this poem, the author casts the heavy weight of suffering caused by the bonds of worldly existence onto Lord Śiva and prays to Him, saying, "Deliver me." Whether contemplating the Deity as a friend, a master, a father, a teacher, a lover of His devotees, a refuge, the cause of dissolution, the granter of liberation, or as non-different from the self, almost all of the poet's verses shine with devotion.
+  description:
+    en: |
+      In this poetic work consisting of fifty verses, the author offers praise to the Lord Śiva. Except for the final verse, which is composed in the indravajrā meter, all the verses herein are written in the vasantatilakā meter. The poet composed this hymn inspired by the style of the *Ānandasāgarastava* written by Nīlakaṇṭha. The "laying down of the burden" (*bhārāvatāra*) refers to placing a weight upon the shoulders or head of someone else. In this poem, the author casts the heavy weight of suffering caused by the bonds of worldly existence onto Lord Śiva and prays to Him, saying, "Deliver me." Whether contemplating the Deity as a friend, a master, a father, a teacher, a lover of His devotees, a refuge, the cause of dissolution, the granter of liberation, or as non-different from the self, almost all of the poet's verses shine with devotion.
+    sa: |
+      पञ्चाशत् श्लोकानां अस्मिन् काव्ये कविः शिवस्य स्तुतिं करोति। अन्तिमं श्लोकं विहाय अन्ये सर्वे श्लोकाः वसन्ततिलकावृत्ते लिखिताः सन्ति। नीलकण्ठदीक्षितस्य *आनन्दसागरस्तवम्* अनुसृत्य कविना अयं स्तवः विरचितः।
+
+      *भारावतारः* नाम स्वकीयसंसारबन्धनरूपं भारं शिवस्य चरणयोः अर्पणम् अस्ति। अत्र कविः संसारक्लेशभारं शिवे अर्पयित्वा 'मामुद्धर' इति प्रार्थयते। शिवं सखा, स्वामी, पिता, गुरुः वा मत्वा कृता इयं स्तुतिः भक्तिरसेन परिपूर्णा वर्तते।
   links:
-    - text: "Email to buy"
+    - text:
+        en: "Email to buy"
+        sa: "ई-पत्रद्वारा प्राप्तिः"
       url: "mailto:prekshaa.in@gmail.com"
       is_buy: true
-    - text: "Read Review on Swarajya"
+    - text:
+        en: "Read Review on Swarajya"
+        sa: "समीक्षा (स्वराज्यम्)"
       url: "https://swarajyamag.com/ideas/can-you-mock-god-this-sanskrit-poet-did-and-thats-worship"
 
-- title: "निपुणप्राघुणकम् (Nipuṇaprāghuṇakam)"
-  subtitle: "A Sanskrit Bhāṇa"
+- title:
+    en: "निपुणप्राघुणकम् (Nipuṇaprāghuṇakam)"
+    sa: "निपुणप्राघुणकम्"
+  subtitle:
+    en: "A Sanskrit Bhāṇa"
+    sa: "संस्कृतभाणरूपकम्"
+  author:
+    en: "Dr. Shankar Rajaraman"
+    sa: "डॉ. शङ्करराजरामन्"
   cover_image: "/assets/np-book-cover.png"
-  description: |
-    **Nipuṇaprāghuṇakam** falls under the **Bhāṇa** genre, which is one of the ten classical forms of Sanskrit drama outlined in the **Nāṭyaśāstra**.
+  description:
+    en: |
+      **Nipuṇaprāghuṇakam** falls under the **Bhāṇa** genre, which is one of the ten classical forms of Sanskrit drama outlined in the **Nāṭyaśāstra**.
 
-    Bhāṇa is considered the most challenging dramatic style in Sanskrit literature, featuring a single performer who portrays various absent characters, sustaining the story's continuity via speech, movements, and the **ākāśabhāṣita** technique—engaging in dialogue with entities not physically on stage.
+      Bhāṇa is considered the most challenging dramatic style in Sanskrit literature, featuring a single performer who portrays various absent characters, sustaining the story's continuity via speech, movements, and the **ākāśabhāṣita** technique—engaging in dialogue with entities not physically on stage.
+    sa: |
+      **निपुणप्राघुणकम्** इति नाटकं **भाण** रूपकप्रकारस्य अस्ति, यः नाट्यशास्त्रोक्तदशरूपकेषु अन्यतमः।
+
+      भाणप्रकारः संस्कृतसाहित्ये अत्यन्तं कठिनः मन्यते, यत्र एक एव नटः आकाशभाषितमाध्यमेन विविधान् अनुपस्थितान् पात्रान् अभिनयेन वाङ्मात्रेण च दर्शयन् कथाप्रवाहं रक्षति—रङ्गमञ्चे अनुपस्थितैः जनैः सह संवादाभिनयं करोति।
   links:
-    - text: "Prekshaa"
+    - text:
+        en: "Prekshaa"
+        sa: "प्रेक्षा"
       url: "https://www.prekshaa.in/निपुणप्राघुणकम्-२०१९"
       is_buy: true
-    - text: "Read Review on Swarajya"
+    - text:
+        en: "Read Review on Swarajya"
+        sa: "समीक्षा (स्वराज्यम्)"
       url: "https://swarajyamag.com/books/how-a-sanskrit-play-brings-ancient-theatre-into-todays-bengaluru"
 
-- title: "पराशरतन्त्रम् (Parāśaratantra)"
-  author: "Reconstructed with translation and notes by Prof. R. N. Iyengar"
+- title:
+    en: "पराशरतन्त्रम् (Parāśaratantra)"
+    sa: "पराशरतन्त्रम्"
+  subtitle:
+    en: "Reconstructed with translation and notes by Prof. R. N. Iyengar"
+    sa: "अनुवादेन टिप्पणीभिः सह पुनर्निर्मितः ग्रन्थः - प्रो. आर्. एन्. अय्यङ्गारः"
+  author:
+    en: "Prof. R. N. Iyengar"
+    sa: "प्रो. आर्. एन्. अय्यङ्गारः"
   cover_image: "/assets/pt_book_cover.jpg"
-  description: |
-    The 21 chapters present a compilation of Sanskrit texts by Parasara, a sage and scholar from ancient India dispersed in the commentaries of scholars such as Varāha-mihira, Utpala, Ballāla-Sena and Bhaskara-Yogi living between 6th and 13th century.
+  description:
+    en: |
+      The 21 chapters present a compilation of Sanskrit texts by Parasara, a sage and scholar from ancient India dispersed in the commentaries of scholars such as Varāha-mihira, Utpala, Ballāla-Sena and Bhaskara-Yogi living between 6th and 13th century.
 
-    The text is accompanied by relevant archaeo-astronomical analysis of Parāśara’s season solar zodiac and observation of the heliacal rise and set of star Agastya (Canopus).
+      The text is accompanied by relevant archaeo-astronomical analysis of Parāśara’s season solar zodiac and observation of the heliacal rise and set of star Agastya (Canopus).
 
-    This reconstructed text with translation and notes by RNI is a fruition of a long journey of research and investigation into History of Science in India.
+      This reconstructed text with translation and notes by RNI is a fruition of a long journey of research and investigation into History of Science in India.
+    sa: |
+      एकविंशति-अध्यायात्मकोऽयं ग्रन्थः वराहमिहिर-उत्पल-बल्लाळसेन-भास्करयोगिप्रभृतीनां टीकासु विप्रकीर्णानां प्राचीनमहर्षेः पराशरस्य वचनानां सङ्ग्रहः अस्ति।
+
+      अत्र पराशरोक्तऋतुचक्रस्य खगोलीयविश्लेषणं तथा अगस्त्यनक्षत्रस्य उदय-अस्तयोः निरीक्षणं दत्तं वर्तते। प्रो. अय्यङ्गारमहोदयस्य दीर्घकालीनशोधस्य फलरूपोऽयं ग्रन्थः भारतस्य विज्ञानस्य इतिहासे महत्त्वपूर्णां दृष्टिं ददाति।
   links:
-    - text: "Amazon"
+    - text:
+        en: "Amazon"
+        sa: "अमेझन्"
       url: "https://www.amazon.in/Parasaratantra-R-N-Iyengar/dp/8192099245"
       is_buy: true
-    - text: "Exotic India"
+    - text:
+        en: "Exotic India"
+        sa: "एक्झोटिक् इण्डिया"
       url: "https://www.exoticindiaart.com/book/details/parasara-tantra-ancient-sanskrit-text-on-astronomy-and-natural-science-reconstructed-text-with-translation-and-notes-naj622/"
       is_buy: true
-    - text: "Read on Swarajya"
+    - text:
+        en: "Read on Swarajya"
+        sa: "समीक्षा (स्वराज्यम्)"
       url: "https://swarajyamag.com/ideas/how-ancient-india-predicted-rains-before-the-arrogance-of-modern-science"
 
-- title: "नारदशिल्पशास्त्रम् (Nārada Śilpaśāstra)"
+- title:
+    en: "नारदशिल्पशास्त्रम् (Nārada Śilpaśāstra)"
+    sa: "नारदशिल्पशास्त्रम्"
+  subtitle:
+    en: "Critically Edited by Prof. R. N. Iyengar"
+    sa: "संपादकः - प्रो. आर्. एन्. अय्यङ्गारः"
   cover_image: "/assets/ns_book_cover.jpg"
-  description: |
-    This text, in terse technical Sanskrit prose describes site selection, planning of villages and cities, construction of roads, dams, lakes, foundation, basement, and super structure of private and public buildings including marriage halls, art galleries, theaters and temples.
+  description:
+    en: |
+      This text, in terse technical Sanskrit prose describes site selection, planning of villages and cities, construction of roads, dams, lakes, foundation, basement, and super structure of private and public buildings including marriage halls, art galleries, theaters and temples.
 
-    Internal evidences point out that in its present form, this text originated at a time when weekdays were not in vogue, but acquired additional material at a later period and fixed in South India around 6th century CE.
+      Internal evidences point out that in its present form, this text originated at a time when weekdays were not in vogue, but acquired additional material at a later period and fixed in South India around 6th century CE.
+    sa: |
+      अयं ग्रन्थः गद्यात्मकसंस्कृतशैल्या भूमिनिर्वाचनं, नगरग्रामरचनां, मार्गाणां, सेतु-जलाशयानां निर्माणं, तथा च सर्वसाधारणानां गृहाणां, कलादीर्घाणां, मन्दिराणाञ्च स्थापत्यकलां वर्णयति।
+
+      अन्तर्साक्ष्यानुसारं मूलरूपे अयं ग्रन्थः वारव्यवस्थायाः प्रचारात् पूर्वमेव विरचितः, यः पश्चात् षष्ठशतके दाक्षिणात्यशैल्यां परिष्कृतः।
   links:
-    - text: "Amazon"
+    - text:
+        en: "Amazon"
+        sa: "अमेझन्"
       url: "https://www.amazon.in/N%C4%81rada-%C5%9Ailpa%C5%9B%C4%81stra-R-N-Iyengar/dp/9385327585"
       is_buy: true

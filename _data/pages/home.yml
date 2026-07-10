@@ -1,0 +1,67 @@
+intro_p:
+  en: "The **Center for Ancient History and Culture (CAHC)** carries out inter-disciplinary research on India's ancient cultural & intellectual heritage. The Ministry of Education, Govt of India, has recognized CAHC of Jain University as an Indian Knowledge System (IKS) center after a competitive national evaluation. Furthermore, the center has been awarded the ISO 21001:2018 Certification (2025-2028), reflecting our commitment to quality educational management."
+  sa: "**पुरातनेतिहास-संस्कृति-केन्द्रम् (CAHC)** भारतस्य प्राचीनसांस्कृतिक-वैचारिकविरासतविषये बहुविषयीयं शोधकार्यं सञ्चालयति। राष्ट्रियस्तरीयायाः स्पर्धात्मकाङ्कनप्रक्रियायाः अनन्तरं भारतसर्वकारस्य शिक्षासन्त्रालयेन जैनविश्वविद्यालयस्य पुरातनेतिहास-संस्कृति-केन्द्रं **भारतीयज्ञानपद्धति-केन्द्रम् (IKS center)** इति स्वीकृतमस्ति। अपि च, शैक्षणिकप्रबन्धनगुणवत्तायै केन्द्रमिदं **ISO 21001:2018** प्रमाणीकरणेन (२०२५-२०२८) विभूषितम् अभवत्, यदस्माकं दृढसङ्कल्पं सूचयति।"
+
+iks_caption:
+  en: "IKS Center Recognition"
+  sa: "भारतीयज्ञानपद्धति-केन्द्रत्वेन मान्यता"
+
+iso_caption:
+  en: "ISO 21001:2018 Certification"
+  sa: "ISO 21001:2018 प्रमाणीकरणम्"
+
+p2:
+  en: "Generally, Indian history is treated as chronicling political history, without adequate emphasis on cultural, scientific and social intellectual traditions. Ancient Indian history is still depicted from a Eurocentric viewpoint. There is a need to present ancient history in an objective fashion avoiding extremities of ideologies. The modern education should be able to connect with intellectual traditions deep rooted in ancient India. CAHC was started in the year 2011 to conduct primary research towards addressing this gap."
+  sa: "सामान्यतः भारतीयइतिहासः केवलं राजकीयेतिहासस्य वर्णनं मन्यते, यत्र सांस्कृतिक-वैज्ञानिक-सामाजिक-वैचारिकपरम्पराणां पर्याप्तं महत्त्वं न दीयते। अद्यापि प्राचीनभारतीयइतिहासः यूरोपीयदृष्टिकोणेन एव उपस्थाप्यते। वैचारिकपक्षातिरेकान् विहाय वस्तुनिष्ठरूपेण प्राचीनइतिहासस्य उपस्थापनस्य आवश्यकता वर्तते। आधुनिकशिक्षा प्राचीनभारते दृढमूलयुक्तवैचारिकपरम्पराभिः सह सम्बद्धुं शक्नुयात्। एतां न्यूनतां पूरयितुं प्राथमिकानुसन्धानं कर्तुं २०११ तमे वर्षे पुरातनेतिहास-संस्कृति-केन्द्रस्य (CAHC) आरम्भः अभवत्।"
+
+research:
+  title:
+    en: "Research activities"
+    sa: "अनुसन्धानकार्याणि"
+  description:
+    en: "The centre studies ancient natural sciences texts and unpublished manuscripts. The research areas include"
+    sa: "केन्द्रमिदं प्राचीनभौतिकविज्ञानग्रन्थानां अप्रकाशितमातृकाणां च अध्ययनं करोति। अनुसन्धानक्षेत्राणि सन्ति:"
+  bullets:
+    - en: "Intellectual history"
+      sa: "वैचारिकेतिहासः"
+    - en: "Cultural history"
+      sa: "सांस्कृतिकेतिहासः"
+    - en: "Pre-Siddhantic and Siddhantic Astronomy"
+      sa: "पूर्वसिद्धान्त-सिद्धान्तज्योतिषम्"
+    - en: "Shilpashastra"
+      sa: "शिल्पशास्त्रम्"
+    - en: "Sanskrit Literature, Poetry and Poetics"
+      sa: "संस्कृतसाहित्यं, काव्यं, अलङ्कारशास्त्रं च"
+    - en: "History of Music"
+      sa: "सङ्गीतेतिहासः"
+    - en: "Manuscriptology"
+      sa: "मातृकाविज्ञानम्"
+  pub_header:
+    en: "The center publishes"
+    sa: "केन्द्रमिदं प्रकाशयति:"
+  pub_bullets:
+    - en: "[Academic papers](/papers) in peer reviewed journals."
+      sa: "समीक्षितपत्रिकासु [शोधपत्राणि](/papers)।"
+    - en: "[Books](/books) on these research areas. Two books are in print and third book is under preparation."
+      sa: "एतेषु क्षेत्रेषु रचितान् [ग्रन्थान्](/books)। द्वौ ग्रन्थौ मुद्रणाधीनौ स्तः, तृतीयः सज्जीक्रियमाणो वर्तते।"
+
+outreach:
+  title:
+    en: "Outreach activities"
+    sa: "प्रसारकार्याणि"
+  description:
+    en: "Some of these are:"
+    sa: "एतेषु केचन कार्यक्रमाः:"
+  bullets:
+    - en: "[National Workshop on Indian Astronomy Before Common Era (IABCE)](/iabce-workshop/) (March 23–27, 2026)"
+      sa: "[प्राचीनकाले भारतीयखगोलशास्त्रविषये राष्ट्रिया कार्यशाला (IABCE)](/iabce-workshop/) (मार्च २३-२७, २०२६)"
+    - en: "National Level Workshop on Manuscriptology And Paleography (November 2012)"
+      sa: "मातृकाविज्ञान-प्राचीनलिपिविषये राष्ट्रियस्तरीया कार्यशाला (नवम्बर २०१२)"
+    - en: "International Seminar On The Future Of Civilisation (December 2012)"
+      sa: "सभ्यतायाः भविष्यविषये अन्तर्राष्ट्रियगोष्ठी (दिसम्बर २०१२)"
+    - en: "National Conference on Intellectual Traditions of Ancient India supported by ICHR (August 2015)"
+      sa: "ICHR समर्थिता प्राचीनभारतीयवैचारिकपरम्पराविषयका राष्ट्रिया सङ्गोष्ठी (अगस्त २०१५)"
+    - en: "A short course on \"Introduction to Indian Astronomy\" (May 2018)"
+      sa: "\"भारतीयखगोलशास्त्रपरिचयः\" इति लघुपाठ्यक्रमः (मई २०१८)"
+    - en: "Lectures on topics as Dhruva, Agastya, Numbers in Vedas , etc."
+      sa: "ध्रुवः, अगस्त्यः, वेदेषु सङ्ख्याः, इत्यादिषु विषयेषु व्याख्यानानि"
