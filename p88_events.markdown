@@ -193,43 +193,110 @@ redirect_from:
   }
 </style>
 
+{% assign content = site.data.pages.events %}
+
 <div class="events-tab-container">
   <div class="events-pill-switcher">
-    <button id="tab-workshops" class="switcher-btn active" onclick="switchEventsTab('workshops')">Workshops & Meetings</button>
-    <button id="tab-talks" class="switcher-btn" onclick="switchEventsTab('talks')">Talks & Presentations</button>
+    <button id="tab-workshops" class="switcher-btn active" onclick="switchEventsTab('workshops')">
+      <span class="lang-block">
+        <span class="lang-content" lang="en">{{ content.tab_workshops.en }}</span>
+        <span class="lang-content" lang="sa">{{ content.tab_workshops.sa }}</span>
+      </span>
+    </button>
+    <button id="tab-talks" class="switcher-btn" onclick="switchEventsTab('talks')">
+      <span class="lang-block">
+        <span class="lang-content" lang="en">{{ content.tab_talks.en }}</span>
+        <span class="lang-content" lang="sa">{{ content.tab_talks.sa }}</span>
+      </span>
+    </button>
   </div>
 </div>
 
 <!-- Section: Workshops & Meetings -->
 <div id="section-workshops" class="events-section active">
-  <p>The Center for Ancient History and Culture (CAHC) hosts academic workshops, discussion meetings, and seminars bringing together traditional scholars, modern researchers, and scientists to explore ancient Indian scientific traditions.</p>
+  <div class="lang-block">
+    <p class="lang-content" lang="en">{{ content.workshops_intro.en }}</p>
+    <p class="lang-content" lang="sa">{{ content.workshops_intro.sa }}</p>
+  </div>
   
   <div class="events-grid">
     <!-- Workshop 1 -->
     <div class="event-card c-blue">
       <div class="event-header">
-        <span>March 23–27, 2026</span>
-        <span>National Workshop</span>
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ content.w1_date.en }}</span>
+          <span class="lang-content" lang="sa">{{ content.w1_date.sa }}</span>
+        </span>
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ content.w1_type.en }}</span>
+          <span class="lang-content" lang="sa">{{ content.w1_type.sa }}</span>
+        </span>
       </div>
-      <h3 class="event-title">National Workshop on Indian Astronomy Before Common Era (IABCE)</h3>
-      <p class="event-speaker">Supported by IKS Division, Ministry of Education, Govt. of India</p>
-      <p class="event-description">A week-long national workshop bringing together scholars of astronomy, mathematics, Sanskrit, and history to explore India's pre-Common-Era scientific heritage. Features recorded lectures, outlines, and discussion sessions.</p>
+      <h3 class="event-title">
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ content.w1_title.en }}</span>
+          <span class="lang-content" lang="sa">{{ content.w1_title.sa }}</span>
+        </span>
+      </h3>
+      <p class="event-speaker">
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ content.w1_speaker.en }}</span>
+          <span class="lang-content" lang="sa">{{ content.w1_speaker.sa }}</span>
+        </span>
+      </p>
+      <div class="event-description">
+        <div class="lang-block">
+          <div class="lang-content" lang="en">{{ content.w1_desc.en | markdownify }}</div>
+          <div class="lang-content" lang="sa">{{ content.w1_desc.sa | markdownify }}</div>
+        </div>
+      </div>
       <div class="event-actions">
-        <a href="{{ '/iabce-workshop/' | relative_url }}" class="pill-btn primary-btn">Materials & Videos &rarr;</a>
+        <a href="{{ '/iabce-workshop/' | relative_url }}" class="pill-btn primary-btn">
+          <span class="lang-block">
+            <span class="lang-content" lang="en">{{ content.w1_btn.en }}</span>
+            <span class="lang-content" lang="sa">{{ content.w1_btn.sa }}</span>
+          </span>
+        </a>
       </div>
     </div>
 
     <!-- Workshop 2 -->
     <div class="event-card c-sand">
       <div class="event-header">
-        <span>December 5–6, 2023</span>
-        <span>Discussion Meeting</span>
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ content.w2_date.en }}</span>
+          <span class="lang-content" lang="sa">{{ content.w2_date.sa }}</span>
+        </span>
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ content.w2_type.en }}</span>
+          <span class="lang-content" lang="sa">{{ content.w2_type.sa }}</span>
+        </span>
       </div>
-      <h3 class="event-title">Interdisciplinary Discussion Meeting on Indian Astronomy Before Common Era</h3>
-      <p class="event-speaker">Co-organized with IKS Division, MoE, Govt. of India</p>
-      <p class="event-description">A two-day panel discussion featuring eminent scholars representing Vedic, Sanskrit, and modern scientific institutions across India and Nepal. Includes session outlines, panelist details, and published research papers.</p>
+      <h3 class="event-title">
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ content.w2_title.en }}</span>
+          <span class="lang-content" lang="sa">{{ content.w2_title.sa }}</span>
+        </span>
+      </h3>
+      <p class="event-speaker">
+        <span class="lang-block">
+          <span class="lang-content" lang="en">{{ content.w2_speaker.en }}</span>
+          <span class="lang-content" lang="sa">{{ content.w2_speaker.sa }}</span>
+        </span>
+      </p>
+      <div class="event-description">
+        <div class="lang-block">
+          <div class="lang-content" lang="en">{{ content.w2_desc.en | markdownify }}</div>
+          <div class="lang-content" lang="sa">{{ content.w2_desc.sa | markdownify }}</div>
+        </div>
+      </div>
       <div class="event-actions">
-        <a href="{{ '/discussion-meeting-2023/' | relative_url }}" class="pill-btn primary-btn">Details & Materials &rarr;</a>
+        <a href="{{ '/discussion-meeting-2023/' | relative_url }}" class="pill-btn primary-btn">
+          <span class="lang-block">
+            <span class="lang-content" lang="en">{{ content.w2_btn.en }}</span>
+            <span class="lang-content" lang="sa">{{ content.w2_btn.sa }}</span>
+          </span>
+        </a>
       </div>
     </div>
   </div>
@@ -237,67 +304,131 @@ redirect_from:
 
 <!-- Section: Talks & Presentations -->
 <div id="section-talks" class="events-section">
-  <p>Academic lectures, presentations, and interactive tutorials delivered by CAHC researchers and collaborators on ancient Indian sciences, astronomy, and chronology.</p>
+  <div class="lang-block">
+    <p class="lang-content" lang="en">{{ content.talks_intro.en }}</p>
+    <p class="lang-content" lang="sa">{{ content.talks_intro.sa }}</p>
+  </div>
 
   <div class="events-grid">
     {% for talk in site.data.talks %}
       <div class="event-card {% cycle 'c-blue', 'c-sand', 'c-mint', 'c-grey' %}">
         <div class="event-header">
           <span>{{ talk.date | date: "%B %d, %Y" }}</span>
-          <span>{{ talk.venue }}</span>
+          <span class="lang-block">
+            <span class="lang-content" lang="en">{{ talk.venue.en }}</span>
+            <span class="lang-content" lang="sa">{{ talk.venue.sa }}</span>
+          </span>
         </div>
-        <h3 class="event-title">{{ talk.title }}</h3>
-        <p class="event-speaker">Presented by: {{ talk.speaker }}</p>
-        <p class="event-description">{{ talk.description }}</p>
+        <h3 class="event-title">
+          <span class="lang-block">
+            <span class="lang-content" lang="en">{{ talk.title.en }}</span>
+            <span class="lang-content" lang="sa">{{ talk.title.sa }}</span>
+          </span>
+        </h3>
+        <p class="event-speaker">
+          <span class="lang-block">
+            <span class="lang-content" lang="en">Presented by: {{ talk.speaker.en }}</span>
+            <span class="lang-content" lang="sa">उपस्थापकः: {{ talk.speaker.sa }}</span>
+          </span>
+        </p>
+        <div class="event-description">
+          <div class="lang-block">
+            <div class="lang-content" lang="en">{{ talk.description.en }}</div>
+            <div class="lang-content" lang="sa">{{ talk.description.sa }}</div>
+          </div>
+        </div>
         
         <div class="event-actions">
           {% if talk.html_slides %}
             <a href="{{ talk.html_slides | relative_url }}" class="pill-btn primary-btn" target="_blank">
-              {% if talk.html_slides_2 %}Session 1 Slides ↗{% else %}Slides ↗{% endif %}
+              <span class="lang-block">
+                <span class="lang-content" lang="en">{% if talk.html_slides_2 %}Session 1 Slides ↗{% else %}Slides ↗{% endif %}</span>
+                <span class="lang-content" lang="sa">{% if talk.html_slides_2 %}प्रथमसत्रस्य उपस्थापनालेखाः ↗{% else %}उपस्थापनालेखाः ↗{% endif %}</span>
+              </span>
             </a>
           {% endif %}
           {% if talk.html_slides_2 %}
-            <a href="{{ talk.html_slides_2 | relative_url }}" class="pill-btn primary-btn" target="_blank">Session 2 Slides ↗</a>
+            <a href="{{ talk.html_slides_2 | relative_url }}" class="pill-btn primary-btn" target="_blank">
+              <span class="lang-block">
+                <span class="lang-content" lang="en">Session 2 Slides ↗</span>
+                <span class="lang-content" lang="sa">द्वितीयसत्रस्य उपस्थापनालेखाः ↗</span>
+              </span>
+            </a>
           {% endif %}
           {% if talk.pdf %}
             <a href="{{ talk.pdf | relative_url }}" class="pill-btn secondary-btn" target="_blank">
-              {% if talk.pdf_label %}{{ talk.pdf_label }}{% else %}PDF ↓{% endif %}
+              <span class="lang-block">
+                <span class="lang-content" lang="en">{% if talk.pdf_label.en %}{{ talk.pdf_label.en }}{% else %}PDF ↓{% endif %}</span>
+                <span class="lang-content" lang="sa">{% if talk.pdf_label.sa %}{{ talk.pdf_label.sa }}{% else %}पीडीएफ् ↓{% endif %}</span>
+              </span>
             </a>
           {% endif %}
           {% if talk.pdf_2 %}
             <a href="{{ talk.pdf_2 | relative_url }}" class="pill-btn secondary-btn" target="_blank">
-              {% if talk.pdf_2_label %}{{ talk.pdf_2_label }}{% else %}PDF 2 ↓{% endif %}
+              <span class="lang-block">
+                <span class="lang-content" lang="en">{% if talk.pdf_2_label.en %}{{ talk.pdf_2_label.en }}{% else %}PDF 2 ↓{% endif %}</span>
+                <span class="lang-content" lang="sa">{% if talk.pdf_2_label.sa %}{{ talk.pdf_2_label.sa }}{% else %}पीडीएफ् २ ↓{% endif %}</span>
+              </span>
             </a>
           {% endif %}
           {% if talk.pdf_3 %}
             <a href="{{ talk.pdf_3 | relative_url }}" class="pill-btn secondary-btn" target="_blank">
-              {{ talk.pdf_3_label }} ↓
+              <span class="lang-block">
+                <span class="lang-content" lang="en">{{ talk.pdf_3_label.en }} ↓</span>
+                <span class="lang-content" lang="sa">{{ talk.pdf_3_label.sa }} ↓</span>
+              </span>
             </a>
           {% endif %}
           {% if talk.pdf_4 %}
             <a href="{{ talk.pdf_4 | relative_url }}" class="pill-btn secondary-btn" target="_blank">
-              {{ talk.pdf_4_label }} ↓
+              <span class="lang-block">
+                <span class="lang-content" lang="en">{{ talk.pdf_4_label.en }} ↓</span>
+                <span class="lang-content" lang="sa">{{ talk.pdf_4_label.sa }} ↓</span>
+              </span>
             </a>
           {% endif %}
           {% if talk.pdf_5 %}
             <a href="{{ talk.pdf_5 | relative_url }}" class="pill-btn secondary-btn" target="_blank">
-              {{ talk.pdf_5_label }} ↓
+              <span class="lang-block">
+                <span class="lang-content" lang="en">{{ talk.pdf_5_label.en }} ↓</span>
+                <span class="lang-content" lang="sa">{{ talk.pdf_5_label.sa }} ↓</span>
+              </span>
             </a>
           {% endif %}
           {% if talk.quiz_url %}
-            <a href="{{ talk.quiz_url | relative_url }}" class="pill-btn yellow-btn" target="_blank">Quiz 📝</a>
+            <a href="{{ talk.quiz_url | relative_url }}" class="pill-btn yellow-btn" target="_blank">
+              <span class="lang-block">
+                <span class="lang-content" lang="en">Quiz 📝</span>
+                <span class="lang-content" lang="sa">प्रश्नोत्तरी 📝</span>
+              </span>
+            </a>
           {% endif %}
           {% if talk.gif_demo %}
-            <a href="{{ talk.gif_demo | relative_url }}" class="pill-btn green-btn" target="_blank">Demo GIF 🎬</a>
+            <a href="{{ talk.gif_demo | relative_url }}" class="pill-btn green-btn" target="_blank">
+              <span class="lang-block">
+                <span class="lang-content" lang="en">Demo GIF 🎬</span>
+                <span class="lang-content" lang="sa">प्रदर्शनम् 🎬</span>
+              </span>
+            </a>
           {% endif %}
         </div>
         
         {% if talk.videos %}
           <div class="event-videos">
-            <span class="videos-label">Demonstration Videos:</span>
+            <span class="videos-label">
+              <span class="lang-block">
+                <span class="lang-content" lang="en">Demonstration Videos:</span>
+                <span class="lang-content" lang="sa">प्रदर्शनचलच्चित्राणि:</span>
+              </span>
+            </span>
             <div class="video-links">
               {% for video in talk.videos %}
-                <a href="{{ video.url | relative_url }}" class="video-pill" target="_blank">🎬 {{ video.name }}</a>
+                <a href="{{ video.url | relative_url }}" class="video-pill" target="_blank">
+                  <span class="lang-block">
+                    <span class="lang-content" lang="en">🎬 {{ video.name.en }}</span>
+                    <span class="lang-content" lang="sa">🎬 {{ video.name.sa }}</span>
+                  </span>
+                </a>
               {% endfor %}
             </div>
           </div>

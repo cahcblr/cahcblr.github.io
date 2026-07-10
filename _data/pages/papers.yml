@@ -1,0 +1,59 @@
+heading:
+  en: "Research Papers by CAHC"
+  sa: "शोधपत्राणि (Research Papers by CAHC)"
+
+desc:
+  en: "The Center for Ancient History and Culture (CAHC) is built on a rich legacy of interdisciplinary research. This page hosts the collected works of our distinguished mentor and key researcher, **Prof. R.N. Iyengar** ([**Google Scholar Profile**](https://scholar.google.co.in/citations?user=KISAL2oAAAAJ&hl=en)), whose pioneering scholarship in ancient Indian astronomy, mathematics, and earth sciences spans over 40 years. While many of these seminal papers predate the Center, they established the rigorous methodology that continues to drive our mission. This collection serves as a living archive, expanding to include contributions from the Center's current research team."
+  sa: "पुरातनेतिहास-संस्कृति-केन्द्रं (CAHC) बहुविषयीयानुसन्धानस्य समृद्धायां परम्परायां प्रतिष्ठितमस्ति। अत्र अस्माकं मार्गदर्शकस्य प्रो. आर्. एन्. अय्यङ्गार-महोदस्य ([**गूगल-स्कॉलर् प्रोफाइल**](https://scholar.google.co.in/citations?user=KISAL2oAAAAJ&hl=en)) चत्वारिंशद्वर्षाणाम् अनुसन्धानलेखाः सङ्गृहीताः सन्ति, यैः प्राचीनभारतीयखगोलशास्त्रं, गणितं, भूविज्ञानं च अधिकृत्य महत् कार्यं कृतम्। केन्द्रस्य स्थापनात् पूर्वमेव लिखिताः अपि एते लेखाः तस्याः दृढपद्धत्याः आधारं निर्मान्ति या अद्यापि अस्माकं कार्यं चालयति। अयं सङ्ग्रहः निरन्तरं वर्धमानः अस्ति यत्र केन्द्रस्य अन्यानां शोधकर्तॄणाम् अपि योगदानानि योज्यन्ते।"
+
+browse_title:
+  en: "Browse Papers"
+  sa: "शोधपत्राणां विलोकनम्"
+
+explorer_btn:
+  en: "📂 Explore Work of CAHC Researchers (Advanced Tools)"
+  sa: "📂 शोधकर्तॄणां कार्याणां गवेषणम् (प्रगतसाधनानि)"
+
+search_desc:
+  en: "Use the search box below to filter papers by title, author, category, or year."
+  sa: "शोधपत्राणां वर्षानुसारं, श्रेणीनुसारं वा शोधं कर्तुं अधः दत्तस्य पेटिकायाः उपयोगं कुर्वन्तु।"
+
+search_placeholder:
+  en: "Search for papers, years, sources..."
+  sa: "शोधपत्राणि, वर्षाणि, प्रकाशकाः..."
+
+show_label:
+  en: "Show:"
+  sa: "दर्शयन्तु:"
+
+papers_label:
+  en: "Papers"
+  sa: "शोधपत्राणि"
+
+articles_label:
+  en: "Articles"
+  sa: "लेखाः"
+
+back_link:
+  en: "← Back to Profile"
+  sa: "← सदस्यपृष्ठं प्रति गच्छन्तु"
+
+th_year:
+  en: "Year"
+  sa: "वर्षम्"
+
+th_category:
+  en: "Category"
+  sa: "वर्गः"
+
+th_title:
+  en: "Paper Title"
+  sa: "शीर्षकम्"
+
+th_author:
+  en: "Author"
+  sa: "लेखकः"
+
+th_source:
+  en: "Source"
+  sa: "प्रकाशकः"

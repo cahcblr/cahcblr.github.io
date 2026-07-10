@@ -4,25 +4,36 @@ title: Papers
 permalink: /papers/
 ---
 
-## Research Papers by CAHC
+{% assign content = site.data.pages.papers %}
 
-The Center for Ancient History and Culture (CAHC) is built on a rich legacy of interdisciplinary research. This page hosts the collected works of our distinguished mentor and key researcher, **Prof. R.N. Iyengar** ([**Google Scholar Profile**](https://scholar.google.co.in/citations?user=KISAL2oAAAAJ&hl=en)), whose pioneering scholarship in ancient Indian astronomy, mathematics, and earth sciences spans over 40 years. While many of these seminal papers predate the Center, they established the rigorous methodology that continues to drive our mission. This collection serves as a living archive, expanding to include contributions from the Center's current research team.
-
-### Browse Papers
-
-<!--
-OPTIONAL: Patra Darpan Iframe Integration
-Available in darpan_p60.html if persistent embedding is required in the future.
-<div style="margin-bottom: 2rem;">
-{% include darpan_p60.html %}
+<div class="lang-block">
+  <h2 class="lang-content" lang="en">{{ content.heading.en }}</h2>
+  <h2 class="lang-content" lang="sa">{{ content.heading.sa }}</h2>
 </div>
--->
+
+<div class="lang-block">
+  <div class="lang-content" lang="en">{{ content.desc.en | markdownify }}</div>
+  <div class="lang-content" lang="sa">{{ content.desc.sa | markdownify }}</div>
+</div>
+
+<div class="lang-block">
+  <h3 class="lang-content" lang="en">{{ content.browse_title.en }}</h3>
+  <h3 class="lang-content" lang="sa">{{ content.browse_title.sa }}</h3>
+</div>
 
 <div style="margin: 20px 0 30px 0;">
-  <a href="https://patra-darpan.netlify.app/?search=Juni&theme=light" target="_blank" class="explorer-button">📂 Explore Work of CAHC Researchers (Advanced Tools)</a>
+  <a href="https://patra-darpan.netlify.app/?search=Juni&theme=light" target="_blank" class="explorer-button">
+    <span class="lang-block">
+      <span class="lang-content" lang="en">{{ content.explorer_btn.en }}</span>
+      <span class="lang-content" lang="sa">{{ content.explorer_btn.sa }}</span>
+    </span>
+  </a>
 </div>
 
-Use the search box below to filter papers by title, author, category, or year.
+<div class="lang-block">
+  <p class="lang-content" lang="en">{{ content.search_desc.en }}</p>
+  <p class="lang-content" lang="sa">{{ content.search_desc.sa }}</p>
+</div>
 
 <style>
 .explorer-button {
@@ -105,10 +116,27 @@ Use the search box below to filter papers by title, author, category, or year.
 <input type="text" id="paperSearchInput" onkeyup="applyFilters()" placeholder="Search for papers, years, sources...">
 
 <div id="filterContainer" style="display: none;">
-  <span class="filter-label">Show:</span>
+  <span class="filter-label">
+    <span class="lang-block">
+      <span class="lang-content" lang="en">{{ content.show_label.en }}</span>
+      <span class="lang-content" lang="sa">{{ content.show_label.sa }}</span>
+    </span>
+  </span>
   <div class="checkbox-group">
-    <label title="Show scholarly research papers"><input type="checkbox" id="filterPaper" onchange="applyFilters()"> 📄 Papers</label>
-    <label title="Show popular articles and essays"><input type="checkbox" id="filterArticle" onchange="applyFilters()"> ✍️ Articles</label>
+    <label title="Show scholarly research papers">
+      <input type="checkbox" id="filterPaper" onchange="applyFilters()"> 
+      <span class="lang-block">
+        <span class="lang-content" lang="en">📄 {{ content.papers_label.en }}</span>
+        <span class="lang-content" lang="sa">📄 {{ content.papers_label.sa }}</span>
+      </span>
+    </label>
+    <label title="Show popular articles and essays">
+      <input type="checkbox" id="filterArticle" onchange="applyFilters()"> 
+      <span class="lang-block">
+        <span class="lang-content" lang="en">✍️ {{ content.articles_label.en }}</span>
+        <span class="lang-content" lang="sa">✍️ {{ content.articles_label.sa }}</span>
+      </span>
+    </label>
   </div>
 </div>
 
@@ -158,7 +186,7 @@ function applyFilters() {
 function filterPapers() { applyFilters(); }
 </script>
 
-| #   | Year | Category      | Paper Title                                                                                                                                                                                                                    | Author                                           | Source                                              |
+| #   | <span class="lang-block"><span class="lang-content" lang="en">{{ content.th_year.en }}</span><span class="lang-content" lang="sa">{{ content.th_year.sa }}</span></span> | <span class="lang-block"><span class="lang-content" lang="en">{{ content.th_category.en }}</span><span class="lang-content" lang="sa">{{ content.th_category.sa }}</span></span> | <span class="lang-block"><span class="lang-content" lang="en">{{ content.th_title.en }}</span><span class="lang-content" lang="sa">{{ content.th_title.sa }}</span></span> | <span class="lang-block"><span class="lang-content" lang="en">{{ content.th_author.en }}</span><span class="lang-content" lang="sa">{{ content.th_author.sa }}</span></span> | <span class="lang-block"><span class="lang-content" lang="en">{{ content.th_source.en }}</span><span class="lang-content" lang="sa">{{ content.th_source.sa }}</span></span> |
 | --- | ---- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------ | --------------------------------------------------- |
 | 1   | 2026 | Jyotisha      | [**Did India Lack Historical Consciousness? Or Did India Understand Time Differently?**](https://swarajyamag.com/ideas/did-india-lack-historical-consciousness-or-is-it-just-that-india-understood-time-differently)           | R. S. Hariharan                                  | Swarajya Magazine                                   |
 | 2   | 2025 | Literature    | [**A Forgotten Indian Theory Of How Power Turns Comic Before It Turns Cruel**](https://swarajyamag.com/culture/a-forgotten-indian-theory-of-how-power-turns-comic-before-it-turns-cruel)                                       | R. S. Hariharan                                  | Swarajya Magazine                                   |
@@ -254,9 +282,37 @@ function filterPapers() { applyFilters(); }
   rawBase = rawBase.replace(/\/$/, "");
   var pdBase = ALLOWED_BASES.indexOf(rawBase) !== -1 ? rawBase : PROD_BASE;
 
+  // Translation dictionary for dynamic row values
+  var translationMap = {
+    // Categories
+    "Jyotisha": "ज्योतिषम्",
+    "Literature": "साहित्यम्",
+    "Earth Science": "भूविज्ञानम्",
+    "Rainfall": "वृष्टिविज्ञानम्",
+    "Engineering": "अभियान्त्रिकी",
+    "Education": "शिक्षा",
+    
+    // Authors
+    "R. S. Hariharan": "आर. एस्. हरिहरन्",
+    "Shankar Rajaraman": "शङ्करराजरामन्",
+    "R.N. Iyengar": "आर. एन्. अय्यङ्गारः",
+    "R. N. Iyengar": "आर. एन्. अय्यङ्गारः",
+    "Warija Adiga": "वारिजा आदिगा",
+    "Sunder Chakravarty": "सुन्दरचक्रवर्ती",
+    
+    // Sources
+    "Swarajya Magazine": "स्वराज्य-पत्रिका"
+  };
+
+  function translateTerm(term, targetLang) {
+    if (targetLang === 'sa' && term && translationMap[term.trim()]) {
+      return translationMap[term.trim()];
+    }
+    return term;
+  }
+
   // Register the listener BEFORE injecting the script tag so the event
-  // cannot fire before we are ready (even though async scripts fire after
-  // the current task, this keeps the order explicit).
+  // cannot fire before we are ready
   window.addEventListener("patra-darpan:p60-ready", function (evt) {
     var data = evt.detail;
     if (!data || !Array.isArray(data.rows) || data.rows.length === 0) return;
@@ -273,20 +329,33 @@ function filterPapers() { applyFilters(); }
     var html = "";
     validRows.forEach(function (r, idx) {
       var year     = r.year     || "";
-      var category = r.category || "";
-      var author   = r.author   || "";
-      var source   = r.source   || "";
       var kind     = r.content_kind || "paper";
       
-      var titleCell = "<a href=\"" + r.url + "\" target=\"_blank\"><strong>"
-                    + escHtml(r.title) + "</strong></a>";
+      var categoryHtml = "<span class=\"lang-block\">"
+                       + "<span class=\"lang-content\" lang=\"en\">" + escHtml(r.category || "") + "</span>"
+                       + "<span class=\"lang-content\" lang=\"sa\">" + escHtml(translateTerm(r.category || "", "sa")) + "</span>"
+                       + "</span>";
+
+      var authorHtml   = "<span class=\"lang-block\">"
+                       + "<span class=\"lang-content\" lang=\"en\">" + escHtml(r.author || "") + "</span>"
+                       + "<span class=\"lang-content\" lang=\"sa\">" + escHtml(translateTerm(r.author || "", "sa")) + "</span>"
+                       + "</span>";
+
+      var sourceHtml   = "<span class=\"lang-block\">"
+                       + "<span class=\"lang-content\" lang=\"en\">" + escHtml(r.source || "") + "</span>"
+                       + "<span class=\"lang-content\" lang=\"sa\">" + escHtml(translateTerm(r.source || "", "sa")) + "</span>"
+                       + "</span>";
+
+      var titleCell    = "<a href=\"" + r.url + "\" target=\"_blank\"><strong>"
+                       + escHtml(r.title) + "</strong></a>";
+
       html += "<tr data-kind=\"" + escHtml(kind) + "\">"
             + "<td></td>" // Placeholder for # column, filled by applyFilters
             + "<td>" + escHtml(year)     + "</td>"
-            + "<td>" + escHtml(category) + "</td>"
+            + "<td>" + categoryHtml      + "</td>"
             + "<td>" + titleCell         + "</td>"
-            + "<td>" + escHtml(author)   + "</td>"
-            + "<td>" + escHtml(source)   + "</td>"
+            + "<td>" + authorHtml        + "</td>"
+            + "<td>" + sourceHtml        + "</td>"
             + "</tr>";
     });
     tbody.innerHTML = html;
@@ -315,6 +384,25 @@ function filterPapers() { applyFilters(); }
     document.getElementById("filterPaper").checked = true;
     document.getElementById("filterArticle").checked = false;
   }
+
+  // Sync search placeholder dynamically
+  document.addEventListener('DOMContentLoaded', () => {
+    var searchInput = document.getElementById("paperSearchInput");
+    function updatePlaceholder() {
+      var lang = document.documentElement.getAttribute('lang') || 'en';
+      if (searchInput) {
+        searchInput.placeholder = lang === 'sa' ? "शोधपत्राणि, वर्षाणि, प्रकाशकाः..." : "Search for papers, years, sources...";
+      }
+    }
+    
+    updatePlaceholder();
+    
+    document.querySelectorAll('.lang-switcher .lang-opt').forEach(opt => {
+      opt.addEventListener('click', () => {
+        setTimeout(updatePlaceholder, 50);
+      });
+    });
+  });
 
   // Inject the script tag asynchronously
   var s = document.createElement("script");

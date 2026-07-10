@@ -1,0 +1,63 @@
+tab_workshops:
+  en: "Workshops & Meetings"
+  sa: "कार्यशालाः गोष्ठ्यश्च"
+
+tab_talks:
+  en: "Talks & Presentations"
+  sa: "व्याख्यानानि उपस्थापनानि च"
+
+workshops_intro:
+  en: "The Center for Ancient History and Culture (CAHC) hosts academic workshops, discussion meetings, and seminars bringing together traditional scholars, modern researchers, and scientists to explore ancient Indian scientific traditions."
+  sa: "पुरातनेतिहास-संस्कृति-केन्द्रं (CAHC) पारम्परिकविदुषः, आधुनिकाविष्कारकान्, वैज्ञानिकांश्च एकत्र आनीय प्राचीनभारतीयवैज्ञानिकपरम्पराणां चिन्तनार्थं शैक्षणिकाः कार्यशालाः, विचारगोष्ठीः, सङ्गोष्ठीश्च समायोजयति।"
+
+talks_intro:
+  en: "Academic lectures, presentations, and interactive tutorials delivered by CAHC researchers and collaborators on ancient Indian sciences, astronomy, and chronology."
+  sa: "प्राचीनभारतीयविज्ञान-खगोलशास्त्र-कालक्रमविषयेषु केन्द्रस्य शोधकर्तृभिः सहयोगिभिश्च दत्तानि शैक्षणिका व्याख्यानानि, उपस्थापनानि, प्रयोगात्मकपाठाश्च।"
+
+w1_date:
+  en: "March 23–27, 2026"
+  sa: "मार्च २३-२७, २०२६"
+
+w1_type:
+  en: "National Workshop"
+  sa: "राष्ट्रिया कार्यशाला"
+
+w1_title:
+  en: "National Workshop on Indian Astronomy Before Common Era (IABCE)"
+  sa: "प्राचीनकाले भारतीयखगोलशास्त्रविषये राष्ट्रिया कार्यशाला (IABCE)"
+
+w1_speaker:
+  en: "Supported by IKS Division, Ministry of Education, Govt. of India"
+  sa: "भारतसर्वकारस्य शिक्षासन्त्रालयान्तर्गत-भारतीयज्ञानपद्धति-विभागेन समर्थिता"
+
+w1_desc:
+  en: "A week-long national workshop bringing together scholars of astronomy, mathematics, Sanskrit, and history to explore India's pre-Common-Era scientific heritage. Features recorded lectures, outlines, and discussion sessions."
+  sa: "सप्ताहव्यापिनी इयं राष्ट्रिया कार्यशाला खगोलशास्त्र-गणित-संस्कृत-इतिहासानां विदुषः ईस्वीपूर्वकालीनवैज्ञानिकविरासतस्य परिशीलनार्थं सङ्गमयति। अत्र मुद्रितानि व्याख्यानानि, रूपरेषाः, विचारसत्राणि च सन्ति।"
+
+w1_btn:
+  en: "Materials & Videos &rarr;"
+  sa: "सामग्र्यः चलच्चित्राणि च &rarr;"
+
+w2_date:
+  en: "December 5–6, 2023"
+  sa: "दिसम्बर ५-६, २०२३"
+
+w2_type:
+  en: "Discussion Meeting"
+  sa: "विचारगोष्ठी"
+
+w2_title:
+  en: "Interdisciplinary Discussion Meeting on Indian Astronomy Before Common Era"
+  sa: "प्राचीनकाले भारतीयखगोलशास्त्रविषये बहुविषयीया विचारगोष्ठी"
+
+w2_speaker:
+  en: "Co-organized with IKS Division, MoE, Govt. of India"
+  sa: "भारतसर्वकारस्य शिक्षासन्त्रालयान्तर्गत-भारतीयज्ञानपद्धति-विभागेन सह सहआयोजिता"
+
+w2_desc:
+  en: "A two-day panel discussion featuring eminent scholars representing Vedic, Sanskrit, and modern scientific institutions across India and Nepal. Includes session outlines, panelist details, and published research papers."
+  sa: "द्विदिवसीयविचारगोष्ठ्यां भारते नेपालदेशे च स्थितानां वैदिक-संस्कृत-आधुनिकविज्ञानसंस्थानानां प्रमुखाः विद्वांसः उपस्थिताः आसन्। अत्र कार्यविवरणानि, सदस्यपरिचयाः, प्रकाशिताः शोधलेखाः च सम्मिलिताः।"
+
+w2_btn:
+  en: "Details & Materials &rarr;"
+  sa: "विवरणानि सामग्र्यश्च &rarr;"

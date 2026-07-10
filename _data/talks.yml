@@ -1,135 +1,269 @@
-- title: "Tools for Ancient Indian Astronomy and Cosmography"
+- title:
+    en: "Tools for Ancient Indian Astronomy and Cosmography"
+    sa: "प्राचीनभारतीयखगोलशास्त्राय ब्रह्माण्डविज्ञानाय च साधनानि"
   date: "2026-03-23"
-  venue: "National Workshop on Indian Astronomy Before Common Era (IABCE)"
-  speaker: "Sunder Chakravarty"
-  description: "A two-session hands-on tutorial demonstrating visual and computational tools to verify ancient Indian astronomical concepts. Session 1 covers Meru cosmography, North Celestial Pole (Dhruva) drift, and the sun's Uttarayana/Dakshinayana paths using Stellarium. Session 2 extends to lunar orbits, the equinoctial full moon search (via Astropy), and eclipse calculations."
+  venue:
+    en: "National Workshop on Indian Astronomy Before Common Era (IABCE)"
+    sa: "प्राचीनकाले भारतीयखगोलशास्त्रविषये राष्ट्रिया कार्यशाला (IABCE)"
+  speaker:
+    en: "Sunder Chakravarty"
+    sa: "सुन्दरचक्रवर्ती"
+  description:
+    en: "A two-session hands-on tutorial demonstrating visual and computational tools to verify ancient Indian astronomical concepts. Session 1 covers Meru cosmography, North Celestial Pole (Dhruva) drift, and the sun's Uttarayana/Dakshinayana paths using Stellarium. Session 2 extends to lunar orbits, the equinoctial full moon search (via Astropy), and eclipse calculations."
+    sa: "प्राचीनभारतीयखगोलशास्त्रीयसंकल्पनानां परीक्षार्थं दृश्य-सङ्गणकसाधनानां द्विपरियोजनात्मकः पाठः। प्रथमसत्रे मेरुब्रह्माण्डं, ध्रुवनक्षत्रचलनं, उत्तरायण-दक्षिणायनमार्गश्च वर्ण्यन्ते। द्वितीयसत्रे चन्द्रकक्षा, विषुवत्कालपूर्णचन्द्रशोधनम्, ग्रहणगणना च वर्ण्यन्ते।"
   html_slides: "/assets/talks/2026-03-23-iabc/slides-session-1.html"
   html_slides_2: "/assets/talks/2026-03-23-iabc/slides-session-2.html"
   pdf: "/assets/talks/2026-03-23-iabc/slides-session-1.pdf"
   pdf_2: "/assets/talks/2026-03-23-iabc/slides-session-2.pdf"
   quiz_url: "/assets/talks/2026-03-23-iabc/iabc-quiz.html"
   videos:
-    - name: "Dhruva NCP Drift"
+    - name:
+        en: "Dhruva NCP Drift"
+        sa: "ध्रुवनक्षत्रस्य अयनचलनम्"
       url: "/assets/talks/2026-03-23-iabc/s11.mp4"
-    - name: "Sun horizon swing"
+    - name:
+        en: "Sun horizon swing"
+        sa: "क्षितिजे सूर्यस्य दोलनम्"
       url: "/assets/talks/2026-03-23-iabc/s12.mp4"
-    - name: "Sun meridian height"
+    - name:
+        en: "Sun meridian height"
+        sa: "मध्याह्ने सूर्यस्य उन्नतिः"
       url: "/assets/talks/2026-03-23-iabc/s13.mp4"
-    - name: "Tour of 27 Nakshatras"
+    - name:
+        en: "Tour of 27 Nakshatras"
+        sa: "सप्तविंशतिनक्षत्राणां यात्रा"
       url: "/assets/talks/2026-03-23-iabc/s14.mp4"
-    - name: "Successive Moonrises"
+    - name:
+        en: "Successive Moonrises"
+        sa: "क्रमशः चन्द्रोदयाः"
       url: "/assets/talks/2026-03-23-iabc/s21.mp4"
-    - name: "Vasanta & Sarat Full Moon"
+    - name:
+        en: "Vasanta & Sarat Full Moon"
+        sa: "वसन्त-शरत्कालपूर्णचन्द्राः"
       url: "/assets/talks/2026-03-23-iabc/s22.mp4"
-    - name: "Eclipse Visualizer"
+    - name:
+        en: "Eclipse Visualizer"
+        sa: "ग्रहण-दृश्यीकरणम्"
       url: "/assets/talks/2026-03-23-iabc/s23.mp4"
-    - name: "Parasara Tantra Eclipse Anchor"
+    - name:
+        en: "Parasara Tantra Eclipse Anchor"
+        sa: "पराशरतन्त्रे ग्रहणगणनम्"
       url: "/assets/talks/2026-03-23-iabc/s24.mp4"
-    - name: "Equinoctial FM Search"
+    - name:
+        en: "Equinoctial FM Search"
+        sa: "विषुवत्कालपूर्णचन्द्रशोधनम्"
       url: "/assets/talks/2026-03-23-iabc/s25.mp4"
-    - name: "Pole Stars Over Time"
+    - name:
+        en: "Pole Stars Over Time"
+        sa: "विविधकालेषु ध्रुवनक्षत्राणि"
       url: "/assets/talks/2026-03-23-iabc/user-01-pole-stars-over-time.mp4"
 
-- title: "Indian Astronomy through Observations from Ancient Periods"
+- title:
+    en: "Indian Astronomy through Observations from Ancient Periods"
+    sa: "प्राचीनकालादारभ्य निरीक्षणाधारेण भारतीयखगोलशास्त्रम्"
   date: "2024-09-09"
-  venue: "JU-IKS Course Lecture"
-  speaker: "Sunder Chakravarty"
-  description: "An introductory slide series on observational foundations of Indian astronomy. Focuses on the rhythms of the sun and moon, lunar months, Luni-Solar calendar systems (Panchanga, Tithi, Masa), and the axial precession dating method using nakshatra shifts."
+  venue:
+    en: "JU-IKS Course Lecture"
+    sa: "जैनविश्वविद्यालय-भारतीयज्ञानपद्धति-पाठ्यक्रमव्याख्यानम्"
+  speaker:
+    en: "Sunder Chakravarty"
+    sa: "सुन्दरचक्रवर्ती"
+  description:
+    en: "An introductory slide series on observational foundations of Indian astronomy. Focuses on the rhythms of the sun and moon, lunar months, Luni-Solar calendar systems (Panchanga, Tithi, Masa), and the axial precession dating method using nakshatra shifts."
+    sa: "भारतीयखगोलशास्त्रस्य निरीक्षणमूलविषयेषु प्रारम्भिका उपस्थापना। सूर्यचन्द्रयोः गतिः, चान्द्रमासाः, पञ्चाङ्गपद्धतिः, नक्षत्रचलनेन तिथिगणना च अत्र मुख्याः विषयाः सन्ति।"
   html_slides: "/assets/talks/2024-09-09-ju-iks/ju-iks-astro-01.html"
   pdf: "/assets/talks/2024-09-09-ju-iks/ju-iks-astro-01.pdf"
   gif_demo: "/assets/talks/2024-09-09-ju-iks/seasonal_naks_drift.gif"
 
-- title: "Transit of Sun through Seasonal Nakṣatras"
+- title:
+    en: "Transit of Sun through Seasonal Nakṣatras"
+    sa: "ऋतुनक्षत्रेषु सूर्यसंक्रमणम्"
   date: "2024-03-17"
-  venue: "Mythic Society, Bangalore"
-  speaker: "Sunder Chakravarty"
-  description: "Presented research conducted with Prof. R. N. Iyengar on the path of the sun through the seasonal nakshatra cycles. Details the solar epochs, equinox alignments, and their implications for establishing ancient Indian chronology."
+  venue:
+    en: "Mythic Society, Bangalore"
+    sa: "मिथिक्-सोसैटि, बेङ्गळूरु"
+  speaker:
+    en: "Sunder Chakravarty"
+    sa: "सुन्दरचक्रवर्ती"
+  description:
+    en: "Presented research conducted with Prof. R. N. Iyengar on the path of the sun through the seasonal nakshatra cycles. Details the solar epochs, equinox alignments, and their implications for establishing ancient Indian chronology."
+    sa: "प्रो. आर्. एन्. अय्यङ्गार-महोदयेन सह कृतस्य सूर्यमार्गस्य अनुसन्धानस्य उपस्थापनम्। अत्र ऋतुनक्षत्रचक्रे सूर्यस्य संक्रमणम्, विषुवत्कालसंरेखनं, कालनिर्धारणपद्धतयश्च चर्चिताः।"
   html_slides: "/assets/talks/2024-03-17-mythic/solar-epochs.html"
   pdf: "/assets/talks/2024-03-17-mythic/solar-epochs.pdf"
   videos:
-    - name: "Sun rise swings"
+    - name:
+        en: "Sun rise swings"
+        sa: "सूर्योदयस्य दोलनम्"
       url: "/assets/talks/2024-03-17-mythic/00_sun_rise_swings_with_naks.mp4"
-    - name: "Sun path movie"
+    - name:
+        en: "Sun path movie"
+        sa: "सूर्यपथस्य चलच्चित्रम्"
       url: "/assets/talks/2024-03-17-mythic/00_sun-path-movie.mp4"
-    - name: "Sun transit basics"
+    - name:
+        en: "Sun transit basics"
+        sa: "सूर्यसंक्रमणस्य मूलविषयाः"
       url: "/assets/talks/2024-03-17-mythic/01_sun-transit-basics-movie.mp4"
-    - name: "Precession movie"
+    - name:
+        en: "Precession movie"
+        sa: "अयनचलनस्य चलच्चित्रम्"
       url: "/assets/talks/2024-03-17-mythic/02_precession-movie.mp4"
-    - name: "Rtu Svabhava movie"
+    - name:
+        en: "Rtu Svabhava movie"
+        sa: "ऋतुस्वभावचलच्चित्रम्"
       url: "/assets/talks/2024-03-17-mythic/03_rtusvabhava_movie.mp4"
-    - name: "Adityacara movie"
+    - name:
+        en: "Adityacara movie"
+        sa: "आदित्यचारचलच्चित्रम्"
       url: "/assets/talks/2024-03-17-mythic/04_adityacara-movie.mp4"
-    - name: "Brahmanda movie"
+    - name:
+        en: "Brahmanda movie"
+        sa: "ब्रह्माण्डपुराणचलच्चित्रम्"
       url: "/assets/talks/2024-03-17-mythic/05_brahmanda-movie.mp4"
 
-- title: "Vṛddhagarga Vāstuvidyā"
+- title:
+    en: "Vṛddhagarga Vāstuvidyā"
+    sa: "वृद्धगर्गवास्तुविद्या"
   date: "2024-02-18"
-  venue: "Mythic Society, Bangalore"
-  speaker: "Warija Adiga"
-  description: "An analysis of ancient Indian civil and architectural planning traditions (Vastu) based on the Vṛddhagarga Vāstuvidyā text critically edited by CAHC."
+  venue:
+    en: "Mythic Society, Bangalore"
+    sa: "मिथिक्-सोसैटि, बेङ्गळूरु"
+  speaker:
+    en: "Warija Adiga"
+    sa: "वारिजा आदिगा"
+  description:
+    en: "An analysis of ancient Indian civil and architectural planning traditions (Vastu) based on the Vṛddhagarga Vāstuvidyā text critically edited by CAHC."
+    sa: "केन्द्रेण सम्पादितस्य वृद्धगर्गवास्तुविद्याग्रन्थस्य आधारेण प्राचीनभारतीयगृहनिर्माण-नगररचनापरम्पराणां विश्लेषणम्।"
   pdf: "/assets/talks/2024-02-18-mythic/vastuvidya.pdf"
 
-- title: "Dating Maghādi and Śraviṣṭhādi Epochs"
+- title:
+    en: "Dating Maghādi and Śraviṣṭhādi Epochs"
+    sa: "मघादि-श्रविष्ठादियुगयोः कालनिर्धारणम्"
   date: "2023-12-05"
-  venue: "Interdisciplinary Discussion Meeting (Session 3)"
-  speaker: "Sunder Chakravarty"
-  description: "Explores the Nakṣatra Solar Zodiac from Vedic times, detailing the mathematical and astronomical models to date the summer and winter solstice alignments in the Vrddhagargiya Jyotisa and Brahmanda Purana."
+  venue:
+    en: "Interdisciplinary Discussion Meeting (Session 3)"
+    sa: "बहुविषयीया विचारगोष्ठी (तृतीयसत्रम्)"
+  speaker:
+    en: "Sunder Chakravarty"
+    sa: "सुन्दरचक्रवर्ती"
+  description:
+    en: "Explores the Nakṣatra Solar Zodiac from Vedic times, detailing the mathematical and astronomical models to date the summer and winter solstice alignments in the Vrddhagargiya Jyotisa and Brahmanda Purana."
+    sa: "वैदिककालादारभ्य नक्षत्रसौरचक्रस्य अन्वेषणम्। वृद्धगार्गीयज्योतिषे ब्रह्माण्डपुराणे च वर्णितयोः दक्षिणायन-उत्तरायणसंरेखणयोः गणितीयखगोलीयप्रारूपैः कालनिर्णयः।"
   html_slides: "/assets/talks/2023-12-05-iks-cahc/maghaadi/maghaadi.html"
   pdf: "/assets/talks/2023-12-05-iks-cahc/maghaadi/maghaadi.pdf"
 
-- title: "Vedic Astronomy, Time & Pole Star (Dhruva) Studies"
+- title:
+    en: "Vedic Astronomy, Time & Pole Star (Dhruva) Studies"
+    sa: "वैदिकखगोलशास्त्रं, कालः, ध्रुवनक्षत्रमध्ययनञ्च"
   date: "2023-12-05"
-  venue: "Interdisciplinary Discussion Meeting"
-  speaker: "Prof. R. N. Iyengar & CAHC Team"
-  description: "A compilation of expert presentations delivered during the two-day panel discussion co-organized with the Ministry of Education's IKS Division."
+  venue:
+    en: "Interdisciplinary Discussion Meeting"
+    sa: "बहुविषयीया विचारगोष्ठी"
+  speaker:
+    en: "Prof. R. N. Iyengar & CAHC Team"
+    sa: "प्रो. आर्. एन्. अय्यङ्गारः सहयोगिवर्गश्च"
+  description:
+    en: "A compilation of expert presentations delivered during the two-day panel discussion co-organized with the Ministry of Education's IKS Division."
+    sa: "भारतसर्वकारस्य शिक्षासन्त्रालयस्य भारतीयज्ञानपद्धति-विभागेन सह आयोजितायां द्विदिवसीयविचारगोष्ठ्यां दत्तानां विशिष्टव्याख्यानानां सङ्ग्रहः।"
   pdf: "/assets/talks/2023-12-05-iks-cahc/1_1_adhidaivata-paksha.pdf"
-  pdf_label: "1. Adhidaivata Paksha (Vedic Roots)"
+  pdf_label:
+    en: "1. Adhidaivata Paksha (Vedic Roots)"
+    sa: "१. अधिदैवतपक्षः (वैदिकमूलानि)"
   pdf_2: "/assets/talks/2023-12-05-iks-cahc/1_2_ashva-sukta.pdf"
-  pdf_2_label: "2. Celestial Ashva Sukta"
+  pdf_2_label:
+    en: "2. Celestial Ashva Sukta"
+    sa: "२. दिव्यं अश्वसूक्तम्"
   pdf_3: "/assets/talks/2023-12-05-iks-cahc/3_1_pre-siddhantic-astronomy.pdf"
-  pdf_3_label: "3. Pre-Siddhantic Astronomy"
+  pdf_3_label:
+    en: "3. Pre-Siddhantic Astronomy"
+    sa: "३. पूर्वसिद्धान्तखगोलशास्त्रम्"
   pdf_4: "/assets/talks/2023-12-05-iks-cahc/4_1_time.pdf"
-  pdf_4_label: "4. Time Measure (Akshara)"
+  pdf_4_label:
+    en: "4. Time Measure (Akshara)"
+    sa: "४. कालपरिमाणम् (अक्षरम्)"
   pdf_5: "/assets/talks/2023-12-05-iks-cahc/4_2_dhruva.pdf"
-  pdf_5_label: "5. Dhruva Fixity & Motion"
+  pdf_5_label:
+    en: "5. Dhruva Fixity & Motion"
+    sa: "५. ध्रुवनक्षत्रस्थितिः चलनञ्च"
   videos:
-    - name: "Matsya Sisumara over Ages"
+    - name:
+        en: "Matsya Sisumara over Ages"
+        sa: "विविधकालेषु शिशुमारचक्रम्"
       url: "/assets/talks/2023-12-05-iks-cahc/4_2_matsya-sisumara-night.mp4"
 
-- title: "Śrautakarmasu Vaijñānikī Dṛṣṭiḥ (Sanskrit)"
+- title:
+    en: "Śrautakarmasu Vaijñānikī Dṛṣṭiḥ (Sanskrit)"
+    sa: "श्रौतकर्मसु वैज्ञानिकी दृष्टिः"
   date: "2023-03-24"
-  venue: "Sringeri Vedic Assembly"
-  speaker: "Prof. R. N. Iyengar"
-  description: "A presentation delivered in Sanskrit addressing scientific and geometric perceptions in Vedic Śrauta rituals, with a focus on Darshapurnamasa altar constructions."
+  venue:
+    en: "Sringeri Vedic Assembly"
+    sa: "शृङ्गेरी-विद्वत्सभा"
+  speaker:
+    en: "Prof. R. N. Iyengar"
+    sa: "प्रो. आर्. एन्. अय्यङ्गारः"
+  description:
+    en: "A presentation delivered in Sanskrit addressing scientific and geometric perceptions in Vedic Śrauta rituals, with a focus on Darshapurnamasa altar constructions."
+    sa: "वैदिकश्रौतयज्ञेषु विज्ञानस्य भूमित्याश्च दर्शने विषये संस्कृतभाषया दत्तं व्याख्यानम्। अत्र दर्शपूर्णमासवेदिनिर्माणविषयः विशेषतः चर्चितः।"
   pdf: "/assets/talks/2023-03-24-sringeri/darsheshti.pdf"
 
-- title: "Importance of the Legend of Dhruva for Indian Chronology"
+- title:
+    en: "Importance of the Legend of Dhruva for Indian Chronology"
+    sa: "भारतीयकालक्रमे ध्रुवोपाख्यानस्य महत्त्वम्"
   date: "2023-02-11"
-  venue: "IIT Gandhinagar"
-  speaker: "Prof. R. N. Iyengar"
-  description: "Analyzes the astronomical significance of the Dhruva/Pole Star narratives in Vedic literature to determine the chronological overlap between Vedic and Harappan eras."
+  venue:
+    en: "IIT Gandhinagar"
+    sa: "IIT गान्धिनगरम्"
+  speaker:
+    en: "Prof. R. N. Iyengar"
+    sa: "प्रो. आर्. एन्. अय्यङ्गारः"
+  description:
+    en: "Analyzes the astronomical significance of the Dhruva/Pole Star narratives in Vedic literature to determine the chronological overlap between Vedic and Harappan eras."
+    sa: "वैदिकसाहित्ये वर्णितस्य ध्रुवनक्षत्रस्य खगोलीयमहत्त्वस्य विश्लेषणम्, यत्र वैदिककालस्य हडप्पाकालस्य च पारस्परिकसम्बन्धः निर्धार्यते।"
   pdf: "/assets/talks/2023-02-11-iitg/dhruva-stratigraphy.pdf"
 
-- title: "Precession of Equinoxes & Sun's Transit in the Vrddha-Gargiya Jyotisa"
+- title:
+    en: "Precession of Equinoxes & Sun's Transit in the Vrddha-Gargiya Jyotisa"
+    sa: "वृद्धगार्गीयज्योतिषे अयनचलनं सूर्यसंक्रमणञ्च"
   date: "2022-11-05"
-  venue: "BIHS Cosmology Conference, Mumbai"
-  speaker: "Sunder Chakravarty"
-  description: "Explores solar transit observations described in the Aditya Chara and Rtu Svabhava chapters of the Vrddha-Gargiya Jyotisa, tracing the historical precession of solstices."
+  venue:
+    en: "BIHS Cosmology Conference, Mumbai"
+    sa: "BIHS ब्रह्माण्डविज्ञानसङ्गोष्ठी, मुम्बई"
+  speaker:
+    en: "Sunder Chakravarty"
+    sa: "सुन्दरचक्रवर्ती"
+  description:
+    en: "Explores solar transit observations described in the Aditya Chara and Rtu Svabhava chapters of the Vrddha-Gargiya Jyotisa, tracing the historical precession of solstices."
+    sa: "वृद्धगार्गीयज्योतिषस्य आदित्यचार-ऋतुस्वभाव-अध्यायेषु वर्णितानां सूर्यनिरीक्षणानां विश्लेषणम्, यत्र अयनानां अयनचलनं दृश्यते।"
   html_slides: "/assets/talks/bihs/sun-transit/sun-transit.html"
   pdf: "/assets/talks/bihs/sun-transit/sun-transit.pdf"
   pdf_2: "/assets/talks/bihs/sun-transit/Precession of Equinoxes and Sun's Transit in the Vṛddha-Gārgīya Jyotiṣa (2).pdf"
-  pdf_2_label: "Alternate Manuscript Copy"
+  pdf_2_label:
+    en: "Alternate Manuscript Copy"
+    sa: "वैतरणिकहस्तलेखप्रविष्टिः"
   gif_demo: "/assets/talks/bihs/sun-transit/sun-transit-ayana.gif"
   videos:
-    - name: "Precession Animation"
+    - name:
+        en: "Precession Animation"
+        sa: "अयनचलनस्य प्रदर्शनम्"
       url: "/assets/talks/bihs/sun-transit/sun-transit-precession.gif"
 
-- title: "Vedic Roots of Puranic Astronomy & Celestial Aśva Sūkta"
+- title:
+    en: "Vedic Roots of Puranic Astronomy & Celestial Aśva Sūkta"
+    sa: "पौराणिकखगोलशास्त्रस्य वैदिकमूलानि दिव्यम् अश्वसूक्तञ्च"
   date: "2022-11-05"
-  venue: "BIHS Cosmology Conference, Mumbai"
-  speaker: "Prof. R. N. Iyengar & Sudarshan H. S."
-  description: "Research papers and presentation abstracts delivered at the BIHS conference in Mumbai, documenting the Vedic origin of Puranic astronomical models."
-  pdf: "/assets/talks/bihs/vedic-adhidaivata-roots/vedic-adhidaivata-roots.pdf"
-  pdf_label: "Vedic Adhidaivata Roots"
-  pdf_2: "/assets/talks/bihs/asva-sukta/asva-sukta.pdf"
-  pdf_2_label: "Celestial Asva Sukta"
+  venue:
+    en: "BIHS Cosmology Conference, Mumbai"
+    sa: "BIHS ब्रह्माण्डविज्ञानसङ्गोष्ठी, मुम्बई"
+  speaker:
+    en: "Prof. R. N. Iyengar & Sudarshan H. S."
+    sa: "प्रो. आर्. एन्. अय्यङ्गारः, सुदर्शनः एच्. एस्. च"
+  description:
+    en: "Research papers and presentation abstracts delivered at the BIHS conference in Mumbai, documenting the Vedic origin of Puranic astronomical models."
+    sa: "मुम्बय्यां सम्पन्नायां BIHS सङ्गोष्ठ्यां प्रस्तुताः अनुसन्धानलेखाः, यत्र पौराणिकखगोलशास्त्रस्य वैदिकमूलानि प्रमाणितानि।"
+  pdf: "/assets/bihs/vedic-adhidaivata-roots/vedic-adhidaivata-roots.pdf"
+  pdf_label:
+    en: "Vedic Adhidaivata Roots"
+    sa: "वैदिकाधिदैवतमूलानि"
+  pdf_2: "/assets/bihs/asva-sukta/asva-sukta.pdf"
+  pdf_2_label:
+    en: "Celestial Asva Sukta"
+    sa: "दिव्यम् अश्वसूक्तम्"
