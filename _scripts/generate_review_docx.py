@@ -102,7 +102,7 @@ def clean_markdown(text):
     return text.strip()
 
 def extract_bilingual_post_blocks(filepath):
-    """Extracts English/Sanskrit block pairs from posts."""
+    """Extracts English/Sanskrit block pairs from posts while filtering out English-only transcripts/schedule blocks."""
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
     
@@ -118,12 +118,41 @@ def extract_bilingual_post_blocks(filepath):
         sa_html = re.sub(r'<style\b[^>]*>([\s\S]*?)<\/style>', '', sa_html, flags=re.I)
         sa_html = re.sub(r'<script\b[^>]*>([\s\S]*?)<\/script>', '', sa_html, flags=re.I)
 
+        # Strip collapsible <details> tags (which contain YouTube transcripts, timestamps, and schedule images)
+        en_html = re.sub(r'<details\b[^>]*>([\s\S]*?)<\/details>', '', en_html, flags=re.I)
+        sa_html = re.sub(r'<details\b[^>]*>([\s\S]*?)<\/details>', '', sa_html, flags=re.I)
+
+        # Strip specific English-only lecture list containers if present (like in iabce-workshop.markdown)
+        en_html = re.sub(r'<div\s+class="iabce-lectures-list"[^>]*>([\s\S]*?)<\/div>', '', en_html, flags=re.I)
+        en_html = re.sub(r'<h2\s+class="iabce-section-title">\s*Video Lectures & Timestamps\s*<\/h2>', '', en_html, flags=re.I)
+        en_html = re.sub(r'<div\s+class="iabce-playlist-intro"[^>]*>([\s\S]*?)<\/div>', '', en_html, flags=re.I)
+
         # Strip internal tags
         en_text = re.sub(r'<[^>]+>', '', en_html)
         sa_text = re.sub(r'<[^>]+>', '', sa_html)
-        blocks.append((clean_markdown(en_text), clean_markdown(sa_text)))
+        
+        cleaned_en = clean_markdown(en_text)
+        cleaned_sa = clean_markdown(sa_text)
+        if cleaned_en or cleaned_sa:
+            blocks.append((cleaned_en, cleaned_sa))
         
     return blocks
+
+def extract_yaml_dict_pairs(data, prefix=""):
+    """Helper to recursively extract {en: ..., sa: ...} dictionaries from YAML structures."""
+    pairs = []
+    if isinstance(data, dict):
+        if "en" in data and "sa" in data:
+            pairs.append((prefix, data.get("en", ""), data.get("sa", "")))
+        else:
+            for k, v in data.items():
+                new_prefix = f"{prefix} / {k}" if prefix else str(k)
+                pairs.extend(extract_yaml_dict_pairs(v, new_prefix))
+    elif isinstance(data, list):
+        for idx, item in enumerate(data):
+            new_prefix = f"{prefix}[{idx}]" if prefix else f"item[{idx}]"
+            pairs.extend(extract_yaml_dict_pairs(item, new_prefix))
+    return pairs
 
 # --- Main Document Builder ---
 def main():
@@ -147,57 +176,54 @@ def main():
     title_p.paragraph_format.space_after = Pt(4)
     
     subtitle_p = doc.add_paragraph()
-    subtitle_run = subtitle_p.add_run("Use Suggesting Mode (Track Changes) in Google Docs to propose translation updates.")
+    subtitle_run = subtitle_p.add_run("Compiled directly from Website YAML (_data/*.yml) & Markdown Post Sources (_posts/*.markdown).\nUse Suggesting Mode (Track Changes) in Google Docs to propose translation updates.")
     subtitle_run.font.name = "Georgia"
-    subtitle_run.font.size = Pt(12)
+    subtitle_run.font.size = Pt(11)
     subtitle_run.font.italic = True
     subtitle_run.font.color.rgb = RGBColor(113, 128, 150)
-    subtitle_p.paragraph_format.space_after = Pt(24)
+    subtitle_p.paragraph_format.space_after = Pt(20)
 
-    # --- SECTION 1: Page UI Strings & Short Labels ---
-    add_styled_heading(doc, "Section 1: General Website UI Labels", level=1)
+    # --- SECTION 1: YAML Source of Truth - General Website & Page UI Labels ---
+    add_styled_heading(doc, "Section 1: YAML Source of Truth — General Website UI & Page Labels", level=1)
     
-    ui_headers = ["Page / Section", "English Label", "Sanskrit (Current)", "Reviewer Suggestion / Note"]
-    ui_col_widths = [Inches(1.5), Inches(2.0), Inches(2.0), Inches(2.0)]
+    ui_headers = ["YAML File & Key Path", "English Label (_data)", "Sanskrit Label (_data)", "Reviewer Suggestion / Note"]
+    ui_col_widths = [Inches(1.8), Inches(2.1), Inches(2.1), Inches(1.5)]
     ui_table = create_styled_table(doc, ui_headers, ui_col_widths)
     
-    # 1a. Load home page translations
-    home_file = os.path.join(DATA_DIR, "pages", "home.yml")
-    if os.path.exists(home_file):
-        with open(home_file, 'r', encoding='utf-8') as f:
-            home_data = yaml.safe_load(f)
-        
-        # Add book status row
-        bullets = home_data.get("pub_bullets", [])
-        if len(bullets) > 1:
-            add_table_row(ui_table, [
-                "Home / Publication Facts", 
-                clean_markdown(bullets[1].get("en")), 
-                clean_markdown(bullets[1].get("sa")), 
-                ""
-            ], ui_col_widths)
+    # Iterate through all UI/page YAML files
+    yaml_files_to_scan = [
+        ("pages/home.yml", os.path.join(DATA_DIR, "pages", "home.yml")),
+        ("pages/contact.yml", os.path.join(DATA_DIR, "pages", "contact.yml")),
+        ("pages/papers.yml", os.path.join(DATA_DIR, "pages", "papers.yml")),
+        ("pages/events.yml", os.path.join(DATA_DIR, "pages", "events.yml")),
+    ]
+    
+    alt = False
+    for label, filepath in yaml_files_to_scan:
+        if os.path.exists(filepath):
+            with open(filepath, 'r', encoding='utf-8') as f:
+                ydata = yaml.safe_load(f)
+            pairs = extract_yaml_dict_pairs(ydata, label)
+            for path_key, en_val, sa_val in pairs:
+                add_table_row(ui_table, [
+                    path_key,
+                    clean_markdown(en_val),
+                    clean_markdown(sa_val),
+                    ""
+                ], ui_col_widths, is_alternate=alt)
+                alt = not alt
 
-        # Add caption rows
-        add_table_row(ui_table, [
-            "Home / IKS Caption", 
-            home_data.get("iks_caption", {}).get("en", ""), 
-            home_data.get("iks_caption", {}).get("sa", ""), 
-            ""
-        ], ui_col_widths, is_alternate=True)
-
-    # 1b. Load people profiles links & metadata
+    # Also extract People roles from people.yml
     people_file = os.path.join(DATA_DIR, "people.yml")
     if os.path.exists(people_file):
         with open(people_file, 'r', encoding='utf-8') as f:
             people_data = yaml.safe_load(f)
-        
-        alt = False
         for idx, person in enumerate(people_data):
             name_en = person.get("name", {}).get("en", "")
             role_en = person.get("role", {}).get("en", "")
             role_sa = person.get("role", {}).get("sa", "")
             add_table_row(ui_table, [
-                f"People / Role ({name_en})",
+                f"people.yml / role ({name_en})",
                 role_en,
                 role_sa,
                 ""
@@ -206,15 +232,15 @@ def main():
 
     doc.add_page_break()
 
-    # --- SECTION 2: Long-Form Prose & Biographies (Side-by-Side) ---
-    add_styled_heading(doc, "Section 2: Long-Form Bios & Static Page Paragraphs", level=1)
+    # --- SECTION 2: YAML Source of Truth - Biographies & Static Page Paragraphs ---
+    add_styled_heading(doc, "Section 2: YAML Source of Truth — Biographies & Long-Form Paragraphs", level=1)
     
-    prose_headers = ["English Content", "Sanskrit (Current Version - Edit Directly here)"]
+    prose_headers = ["English Content (_data YAML)", "Sanskrit (Current Version — Edit Directly Here)"]
     prose_col_widths = [Inches(3.75), Inches(3.75)]
 
     # 2a. People Biographies
     if os.path.exists(people_file):
-        add_styled_heading(doc, "Biographies & Leadership Profiles", level=2)
+        add_styled_heading(doc, "Biographies & Leadership Profiles (people.yml)", level=2)
         for person in people_data:
             name_en = person.get("name", {}).get("en", "")
             bio_en = person.get("bio", {}).get("en", "")
@@ -228,7 +254,6 @@ def main():
                 
                 table = create_styled_table(doc, prose_headers, prose_col_widths)
                 
-                # Split bios by paragraphs
                 en_paras = [clean_markdown(p) for p in (bio_en or "").split("\n\n") if p.strip()]
                 sa_paras = [clean_markdown(p) for p in (bio_sa or "").split("\n\n") if p.strip()]
                 
@@ -241,7 +266,7 @@ def main():
     # 2b. About Page Content
     about_file = os.path.join(DATA_DIR, "pages", "about.yml")
     if os.path.exists(about_file):
-        add_styled_heading(doc, "About Page Static Content", level=2)
+        add_styled_heading(doc, "About Page Static Content (pages/about.yml)", level=2)
         with open(about_file, 'r', encoding='utf-8') as f:
             about_data = yaml.safe_load(f)
             
@@ -251,7 +276,6 @@ def main():
             clean_markdown(about_data.get("intro_p", {}).get("sa", ""))
         ], prose_col_widths)
         
-        # Add leadership section intro
         add_table_row(about_table, [
             clean_markdown(about_data.get("leadership", {}).get("p1", "").get("en", "")),
             clean_markdown(about_data.get("leadership", {}).get("p1", "").get("sa", ""))
@@ -259,8 +283,8 @@ def main():
 
     doc.add_page_break()
 
-    # --- SECTION 3: Books & Publications Catalog ---
-    add_styled_heading(doc, "Section 3: Books & Publications Catalog", level=1)
+    # --- SECTION 3: YAML Source of Truth - Books & Publications Catalog ---
+    add_styled_heading(doc, "Section 3: YAML Source of Truth — Books & Publications Catalog (books.yml)", level=1)
     
     books_file = os.path.join(DATA_DIR, "books.yml")
     if os.path.exists(books_file):
@@ -299,8 +323,57 @@ def main():
 
     doc.add_page_break()
 
-    # --- SECTION 4: News & Announcements (Blog Posts) ---
-    add_styled_heading(doc, "Section 4: News & Outreach Announcements", level=1)
+    # --- SECTION 4: YAML Source of Truth - Talks & Tutorials Catalog ---
+    add_styled_heading(doc, "Section 4: YAML Source of Truth — Talks & Tutorials Catalog (talks.yml)", level=1)
+    
+    talks_file = os.path.join(DATA_DIR, "talks.yml")
+    if os.path.exists(talks_file):
+        with open(talks_file, 'r', encoding='utf-8') as f:
+            talks_data = yaml.safe_load(f)
+            
+        for talk in talks_data:
+            title_en = talk.get("title", {}).get("en", "")
+            desc_en = talk.get("description", {}).get("en", "")
+            desc_sa = talk.get("description", {}).get("sa", "")
+            
+            p_label = doc.add_paragraph()
+            p_label.add_run(f"Talk / Tutorial: {title_en}").bold = True
+            p_label.paragraph_format.space_before = Pt(8)
+            p_label.paragraph_format.space_after = Pt(2)
+            
+            talk_table = create_styled_table(doc, prose_headers, prose_col_widths)
+            
+            # Row 1: Title, Venue & Speaker
+            venue_en = talk.get("venue", {}).get("en", "")
+            venue_sa = talk.get("venue", {}).get("sa", "")
+            speaker_en = talk.get("speaker", {}).get("en", "")
+            speaker_sa = talk.get("speaker", {}).get("sa", "")
+            add_table_row(talk_table, [
+                f"Title: {title_en}\nVenue: {venue_en}\nSpeaker: {speaker_en}",
+                f"शीर्षकम्: {talk.get('title', {}).get('sa', '')}\nस्थानम्: {venue_sa}\nवक्ता: {speaker_sa}"
+            ], prose_col_widths)
+            
+            # Row 2: Description
+            if desc_en or desc_sa:
+                add_table_row(talk_table, [
+                    clean_markdown(desc_en),
+                    clean_markdown(desc_sa)
+                ], prose_col_widths, is_alternate=True)
+                
+            # Row 3: Video Modules
+            videos = talk.get("videos", [])
+            if videos:
+                vid_en_list = [f"• {v.get('name', {}).get('en', '')}" for v in videos if v.get('name', {}).get('en')]
+                vid_sa_list = [f"• {v.get('name', {}).get('sa', '')}" for v in videos if v.get('name', {}).get('sa')]
+                add_table_row(talk_table, [
+                    "Video Modules:\n" + "\n".join(vid_en_list),
+                    "चलनचित्र-भागाः:\n" + "\n".join(vid_sa_list)
+                ], prose_col_widths)
+
+    doc.add_page_break()
+
+    # --- SECTION 5: Markdown Post Sources - News & Outreach Announcements ---
+    add_styled_heading(doc, "Section 5: Markdown Post Sources — News & Outreach Announcements (_posts/*.markdown)", level=1)
     
     if os.path.exists(POSTS_DIR):
         posts = sorted([f for f in os.listdir(POSTS_DIR) if f.endswith(".markdown")], reverse=True)
@@ -309,7 +382,6 @@ def main():
             blocks = extract_bilingual_post_blocks(post_path)
             
             if blocks:
-                # Extract date/title from filename
                 date_match = re.match(r'(\d{4}-\d{2}-\d{2})-(.*)\.markdown', post_filename)
                 date_str = date_match.group(1) if date_match else "Date unknown"
                 title_slug = date_match.group(2).replace("-", " ").title() if date_match else post_filename
@@ -329,3 +401,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
