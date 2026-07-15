@@ -112,6 +112,12 @@ def extract_bilingual_post_blocks(filepath):
     
     blocks = []
     for en_html, sa_html in matches:
+        # Strip style and script tags along with their inner contents
+        en_html = re.sub(r'<style\b[^>]*>([\s\S]*?)<\/style>', '', en_html, flags=re.I)
+        en_html = re.sub(r'<script\b[^>]*>([\s\S]*?)<\/script>', '', en_html, flags=re.I)
+        sa_html = re.sub(r'<style\b[^>]*>([\s\S]*?)<\/style>', '', sa_html, flags=re.I)
+        sa_html = re.sub(r'<script\b[^>]*>([\s\S]*?)<\/script>', '', sa_html, flags=re.I)
+
         # Strip internal tags
         en_text = re.sub(r'<[^>]+>', '', en_html)
         sa_text = re.sub(r'<[^>]+>', '', sa_html)
