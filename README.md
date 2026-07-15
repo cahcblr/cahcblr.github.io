@@ -81,6 +81,38 @@ To prevent system-default Chrome profiles from crossing authorization channels (
 * **Idempotency:** Video uploads are tracked in `state.json` via MD5 checksums. Re-running the script will skip already uploaded files.
 * **Corrections:** If you edit titles, descriptions, or tags in `_data/talks.yml`, simply run the script. It detects the difference and updates the video metadata on YouTube via the API without re-uploading the video file itself.
 
+## Sanskrit Translation & Review Workflow
+
+The website features full bilingual support for English and Sanskrit. 
+
+### Bilingual Toggle
+* The site uses client-side state tracking to persist the language choice.
+* The query parameter `?lang=sa` or `?lang=en` forces the active language. 
+* Language choice is stored in `localStorage` so it persists across pages and browser sessions.
+
+### Sanskrit Translation Review (DOCX)
+An automated script compiles all Jekyll data files and blog posts into a side-by-side translation table in a Word document (`.docx`), ready for review by non-technical Sanskrit scholars in Google Docs.
+
+#### 1. Generate the Review Document
+Run the compiler tool using `uv` (it manages `python-docx` and `PyYAML` automatically):
+```bash
+uv run _scripts/generate_review_docx.py
+```
+This generates the Word file at: `tmp/sanskrit_review.docx` (automatically ignored by Git).
+
+#### 2. Sync to Google Drive
+Upload the generated document to your shared team folder:
+```bash
+rclone copy tmp/sanskrit_review.docx cahcgdrive:cahc-portal-stuff/
+```
+
+#### 3. Surfacing the Reviewer Portal on the Website
+To let reviewers access the Google Drive folder without publicizing it to general users:
+1. Have the reviewer visit the staging or production URL with the passcode parameter:
+   `https://cahc-ju-preview.netlify.app/?review=cahc2026`
+2. This activates **Reviewer Mode** via `localStorage` and injects a private **Sanskrit Reviewer Portal** link into the footer.
+3. They can open the synced `.docx` in Google Docs and suggest edits or leave comments inline.
+
 ## Maintenance
 
 - Academic papers are organized by category in the search interface
