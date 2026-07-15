@@ -1320,8 +1320,381 @@ The complete recordings of all sessions are available in the official <a href="h
 
 </div>
 </div>
+
   </div>
   <div class="lang-content" lang="sa" markdown="1">
+
+<style>
+:root {
+  --primary-hsl: 210, 80%, 40%;
+  --primary-color: hsl(var(--primary-hsl));
+  --primary-light: hsl(210, 80%, 96%);
+  --primary-dark: hsl(210, 80%, 25%);
+  --secondary-hsl: 230, 80%, 15%;
+  --secondary-color: hsl(var(--secondary-hsl));
+  
+  --bg-color: #ffffff;
+  --text-main: hsl(210, 15%, 20%);
+  --text-muted: hsl(210, 10%, 45%);
+  --border-color: hsl(210, 20%, 90%);
+  --shadow-light: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-hover: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.iabce-container {
+  color: var(--text-main);
+  line-height: 1.6;
+  margin-top: 1.5rem;
+}
+
+.iabce-hero {
+  background: linear-gradient(135deg, var(--primary-dark), var(--secondary-color));
+  color: #ffffff;
+  padding: 2.2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+.iabce-hero h1 {
+  color: #ffffff !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem !important;
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+.iabce-hero-subtitle {
+  font-size: 1.15rem;
+  opacity: 0.95;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 0.8rem;
+}
+.iabce-hero-details {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.iabce-intro-text {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+}
+
+.iabce-materials-downloads {
+  margin-bottom: 2.5rem;
+  padding: 0.8rem 1.2rem;
+  background: hsl(210, 80%, 98%);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  align-items: center;
+}
+.iabce-materials-downloads span {
+  font-weight: 700;
+  color: var(--primary-dark);
+}
+.iabce-download-inline {
+  color: var(--primary-color) !important;
+  text-decoration: underline !important;
+  font-weight: 600;
+}
+.iabce-download-inline:hover {
+  color: var(--primary-dark) !important;
+}
+.iabce-separator {
+  color: var(--border-color);
+  user-select: none;
+}
+
+.iabce-section-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.4rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.2rem;
+  color: var(--primary-dark);
+}
+
+.iabce-schedule-details {
+  border: 1px solid var(--border-color);
+  background: var(--primary-light);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-light);
+}
+.iabce-schedule-summary {
+  padding: 0.8rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  color: var(--primary-dark);
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+.iabce-schedule-summary:hover {
+  background: hsl(210, 80%, 93%);
+}
+.iabce-schedule-content {
+  padding: 1.2rem;
+  background: #ffffff;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+}
+.iabce-schedule-img {
+  max-width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.iabce-cross-link {
+  background: hsl(140, 30%, 96%);
+  border: 1px solid hsl(140, 30%, 88%);
+  border-radius: 10px;
+  padding: 1.2rem;
+  margin: 2rem 0;
+  box-shadow: var(--shadow-light);
+}
+.iabce-cross-link h3 {
+  margin-top: 0 !important;
+  margin-bottom: 0.4rem !important;
+  font-size: 1.1rem;
+  color: hsl(140, 50%, 20%);
+}
+.iabce-cross-link p {
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+  color: hsl(140, 30%, 25%);
+}
+.iabce-link-btn {
+  display: inline-block;
+  padding: 0.45rem 0.9rem;
+  background: hsl(140, 50%, 30%);
+  color: #ffffff !important;
+  text-decoration: none !important;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: background 0.2s ease;
+}
+.iabce-link-btn:hover {
+  background: hsl(140, 50%, 25%);
+}
+
+.iabce-playlist-intro {
+  font-size: 1.02rem;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-main);
+}
+.iabce-playlist-link {
+  color: var(--primary-color) !important;
+  font-weight: 700;
+  text-decoration: underline !important;
+}
+.iabce-playlist-link:hover {
+  color: var(--primary-dark) !important;
+}
+
+.iabce-lectures-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.iabce-lecture-card {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.iabce-lecture-details {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow-light);
+  background: #ffffff;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.iabce-lecture-details:hover {
+  box-shadow: var(--shadow-hover);
+  border-color: hsl(210, 80%, 75%);
+}
+
+.iabce-lecture-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary-light);
+  padding: 1rem 1.4rem;
+  cursor: pointer;
+  user-select: none;
+  border-left: 5px solid var(--primary-color);
+  list-style: none;
+}
+.iabce-lecture-summary::-webkit-details-marker {
+  display: none;
+}
+
+.iabce-lecture-summary-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  flex-grow: 1;
+}
+
+.iabce-lecture-num {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.iabce-lecture-title {
+  margin: 0 !important;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  line-height: 1.35;
+}
+.iabce-lecture-speakers {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 0.15rem;
+}
+
+.iabce-lecture-summary-toggle {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  line-height: 1;
+  font-weight: 300;
+  transition: transform 0.2s ease;
+  margin-left: 1rem;
+  user-select: none;
+}
+
+details[open] .iabce-lecture-summary-toggle {
+  transform: rotate(45deg);
+}
+
+.iabce-lecture-body {
+  padding: 1.4rem;
+  border-top: 1px solid var(--border-color);
+  background: #ffffff;
+}
+
+.iabce-lecture-desc {
+  font-size: 0.95rem;
+  color: var(--text-main);
+  margin-bottom: 1.2rem;
+  line-height: 1.55;
+}
+
+.iabce-video-wrapper {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+.iabce-video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iabce-timestamps-title {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
+  border-top: 1px solid var(--border-color);
+  padding-top: 0.8rem;
+}
+.iabce-timestamps-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.iabce-timestamp-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+.iabce-timestamp-pill {
+  flex-shrink: 0;
+  background: var(--primary-light);
+  color: var(--primary-color) !important;
+  border: 1px solid hsl(210, 80%, 90%);
+  padding: 0.2rem 0.5rem;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  min-width: 55px;
+  text-align: center;
+  line-height: 1.2;
+}
+.iabce-timestamp-pill:hover {
+  background: var(--primary-color);
+  color: #ffffff !important;
+  border-color: var(--primary-color);
+  transform: translateY(-1px);
+}
+.iabce-timestamp-text {
+  font-size: 0.88rem;
+  color: var(--text-main);
+  line-height: 1.35;
+  margin-top: 0.05rem;
+}
+
+.iabce-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2.2rem;
+}
+.iabce-gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: var(--shadow-light);
+  aspect-ratio: 4 / 3;
+  border: 1px solid var(--border-color);
+  background: hsl(210, 10%, 98%);
+  display: block;
+}
+.iabce-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+  cursor: zoom-in;
+  display: block;
+}
+.iabce-gallery-item:hover img {
+  transform: scale(1.05);
+}
+</style>
+
+<div class="iabce-container">
+<!-- Hero Card -->
 <div class="iabce-hero">
 <h1>प्राचीनकाले भारतीयखगोलशास्त्रविषये राष्ट्रिया कार्यशाला (IABCE)</h1>
 <p class="iabce-hero-subtitle">मार्च २३–२७, २०२६</p>
@@ -1329,24 +1702,24 @@ The complete recordings of all sessions are available in the official <a href="h
 </div>
 
 <p class="iabce-intro-text">
-एषा सप्ताहव्यापिनी राष्ट्रिया कार्यशाला खगोलशास्त्र-गणित-संस्कृत-इतिहासानां विदुषः BCE (Before Common Era) कालस्य भारतीयवैज्ञानिकपरम्पराणां परिशीलनार्थं सङ्गमयति स्म। <strong>प्रो. आर्. एन्. अय्यङ्गार-महोदयस्य</strong> मार्गदर्शकशोधकार्येण सह <strong>प्रो. एम्. डि. श्रीनिवासः</strong>, कुलाधिपतिः <strong>डॉ. चेनराज रोयचन्दः</strong>, कुलसचिवः <strong>डॉ. जितेन्द्रकुमार-मिश्रः</strong>, <strong>डॉ. शङ्कर-राजरामनः</strong>, <strong>डॉ. आर्. एस्. हरिहरनः</strong>, <strong>प्रो. वीरनारायण-पाण्डुरङ्गी</strong>, <strong>डॉ. गन्ति-एस्-मूर्तिः</strong> इत्येतेषां बीजव्याख्यानैः उद्बोधनैश्च उपबृंहिता इयं कार्यशाला वैदिकब्रह्माण्डविज्ञानात् अयनचलनात् आरभ्य वेदाङ्गज्योतिषं, खगोलसाधनानि (Stellarium/Astropy), प्राचीनवृष्टिपूर्वानुमानं च यावत् अनेकान् विषयान् समावृणोत्।
+एषा सप्ताहावधि-राष्ट्रियमहाकार्यशाला भारतस्य प्राचीनखगोलीय-निरीक्षणानाम्, गणितस्य, संस्कृतस्य, इतिहासस्य च शास्त्रीय-अन्वेषणार्थम् विदुषः एकत्र आनयत्। प्रो. आर्. एन्. अय्यङ्गार-महोदयानां मौलिक-संशोधनेन तथा प्रो. एम्. डि. श्रीनिवासः, डॉ. चेनराज रोयचन्दः, डॉ. जितेन्द्रकुमार-मिश्रः, डॉ. शङ्कर-राजरामनः, डॉ. आर्. एस्. हरिहरनः, प्रो. वीरनारायण-पाण्डुरङ्गी, डॉ. गन्ति-एस्-मूर्तिः इत्यादिभिः विद्भभिः मार्गदर्शितेयं कार्यशाला वैदिकब्रह्माण्डविज्ञानात् अयनचलनात् आरभ्य वेदाङ्गज्योतिषं, सङ्गणकसाधनानि (Stellarium/Astropy), प्राचीनवृष्टिपूर्वानुमानं च निरूपयति।
 </p>
 
 <div class="iabce-materials-downloads">
-<span>Workshop Materials:</span>
-<a href="{{ '/assets/talks/2026-03-23-iabce/iabce-timestamps.pdf' | relative_url }}" target="_blank" class="iabce-download-inline">Timestamps & Outlines &darr;</a>
+<span>कार्यशाला-सामग्री-सङ्ग्रहः:</span>
+<a href="{{ '/assets/talks/2026-03-23-iabce/iabce-timestamps.pdf' | relative_url }}" target="_blank" class="iabce-download-inline">व्याख्यान-समयसूचिका रूपरेखा च &darr;</a>
 </div>
 
 <!-- Interactive Schedule Toggle -->
 <details class="iabce-schedule-details">
-<summary class="iabce-schedule-summary">View Workshop Weekly Schedule Image</summary>
+<summary class="iabce-schedule-summary">कार्यशालायाः साप्ताहिक-कार्यक्रमस्य चित्रं पश्यन्तु</summary>
 <div class="iabce-schedule-content">
 <img src="{{ '/assets/talks/2026-03-23-iabce/iabce-schedule.jpg' | relative_url }}" alt="National Workshop Schedule March 2026" class="iabce-schedule-img" />
 </div>
 </details>
 
 <!-- Event Gallery -->
-<h2 class="iabce-section-title">Event Gallery</h2>
+<h2 class="iabce-section-title">कार्यशाला-चित्रसङ्ग्रहः (Event Gallery)</h2>
 <div class="iabce-gallery-grid">
 <a href="{{ '/assets/talks/2026-03-23-iabce/iabce-event-05.jpg' | relative_url }}" target="_blank" class="iabce-gallery-item">
   <img src="{{ '/assets/talks/2026-03-23-iabce/iabce-event-05.jpg' | relative_url }}" alt="National Workshop Event 5" loading="lazy" />
@@ -1370,14 +1743,14 @@ The complete recordings of all sessions are available in the official <a href="h
 
 <!-- Cross-link Box -->
 <div class="iabce-cross-link">
-<h3>Stellarium Tutorials & Interactive Quiz</h3>
-<p>Looking for the hands-on Stellarium scripts, demonstration videos, or the 50-question quiz from this workshop? Visit the dedicated tutorial page:</p>
-<a href="{{ '/tutorial/astronomy/cosmography/2026/03/23/iabc-tutorial.html' | relative_url }}" class="iabce-link-btn">Go to Stellarium Tutorials & Quiz &rarr;</a>
+<h3>Stellarium प्रायोगिकपाठः तथा प्रश्नोत्तरी (Interactive Quiz)</h3>
+<p>अस्याः कार्यशालायाः Stellarium-आदेशान्, प्रदर्शन-चलच्चित्राणि, अथवा पञ्चाशत्-प्रश्नोत्तरीं द्रष्टुम् इच्छन्ति? विशेष-प्रायोगिकपाठ-पृष्ठं पश्यन्तु:</p>
+<a href="{{ '/tutorial/astronomy/cosmography/2026/03/23/iabc-tutorial.html' | relative_url }}" class="iabce-link-btn">Stellarium प्रायोगिकपाठं प्रश्नोत्तरीञ्च पश्यन्तु &rarr;</a>
 </div>
 
-<h2 class="iabce-section-title">Video Lectures & Timestamps</h2>
+<h2 class="iabce-section-title">व्याख्यान-चलच्चित्राणि समयसूचिकाश्च (Video Lectures & Timestamps)</h2>
 <div class="iabce-playlist-intro">
-The complete recordings of all sessions are available in the official <a href="https://www.youtube.com/playlist?list=PLnRbqoRbGaa0aeflLaYt0NssoKfMM8rW-" target="_blank" class="iabce-playlist-link">YouTube Video Playlist &nearrow;</a>. The individual lectures and their timestamps can be expanded below:
+सर्वेषां सत्राणां सम्पूर्ण-चलच्चित्राणि <a href="https://www.youtube.com/playlist?list=PLnRbqoRbGaa0aeflLaYt0NssoKfMM8rW-" target="_blank" class="iabce-playlist-link">YouTube Video Playlist &nearrow;</a> इत्यत्र उपलब्धाः सन्ति। प्रत्येकं व्याख्यानं तस्य समयसूचिका च अधः द्रष्टुं शक्यते:
 </div>
 
 <div class="iabce-lectures-list">
@@ -1386,8 +1759,8 @@ The complete recordings of all sessions are available in the official <a href="h
 <details class="iabce-lecture-details">
 <summary class="iabce-lecture-summary">
 <div class="iabce-lecture-summary-info">
-<span class="iabce-lecture-num">Lecture 1</span>
-<h3 class="iabce-lecture-title">Inaugural session + Prof. M.D. Srinivas's special lecture</h3>
+<span class="iabce-lecture-num">व्याख्यानम् १</span>
+<h3 class="iabce-lecture-title">उद्घाटनसत्रम् तथा प्रो. एम्. डि. श्रीनिवास-महोदयस्य विशेषव्याख्यानम्</h3>
 <span class="iabce-lecture-speakers">Presented by: Dr. Shankar Rajaraman, Prof. M. D. Srinivas, Dr. Jitendra Kumar Mishra, Prof. R. N. Iyengar</span>
 </div>
 <span class="iabce-lecture-summary-toggle">&plus;</span>
@@ -1400,7 +1773,7 @@ The complete recordings of all sessions are available in the official <a href="h
 <iframe src="https://www.youtube.com/embed/qiigufghIHk" title="Inaugural session + Prof. M.D. Srinivas's special lecture" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div class="iabce-timestamps-title">Lecture Timestamps</div>
+<div class="iabce-timestamps-title">व्याख्यानस्य समयसूचिका (Lecture Timestamps)</div>
 <div class="iabce-timestamps-grid">
 <div class="iabce-timestamp-row">
 <a href="https://www.youtube.com/watch?v=qiigufghIHk&t=3m53s" target="_blank" class="iabce-timestamp-pill">3:53</a>
@@ -1472,8 +1845,8 @@ The complete recordings of all sessions are available in the official <a href="h
 <details class="iabce-lecture-details">
 <summary class="iabce-lecture-summary">
 <div class="iabce-lecture-summary-info">
-<span class="iabce-lecture-num">Lecture 2</span>
-<h3 class="iabce-lecture-title">Inauguration (afternoon) + first lecture</h3>
+<span class="iabce-lecture-num">व्याख्यानम् २</span>
+<h3 class="iabce-lecture-title">अपराह्न-उद्घाटनसत्रम् तथा प्रथमं व्याख्यानम्</h3>
 <span class="iabce-lecture-speakers">Presented by: Dr. Chenraj Roychand, Prof. R. N. Iyengar</span>
 </div>
 <span class="iabce-lecture-summary-toggle">&plus;</span>
@@ -1486,7 +1859,7 @@ The complete recordings of all sessions are available in the official <a href="h
 <iframe src="https://www.youtube.com/embed/s7clz9Em6Bg" title="Inauguration (afternoon) + first lecture" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div class="iabce-timestamps-title">Lecture Timestamps</div>
+<div class="iabce-timestamps-title">व्याख्यानस्य समयसूचिका (Lecture Timestamps)</div>
 <div class="iabce-timestamps-grid">
 <div class="iabce-timestamp-row">
 <a href="https://www.youtube.com/watch?v=s7clz9Em6Bg&t=0m06s" target="_blank" class="iabce-timestamp-pill">0:06</a>
@@ -1546,8 +1919,8 @@ The complete recordings of all sessions are available in the official <a href="h
 <details class="iabce-lecture-details">
 <summary class="iabce-lecture-summary">
 <div class="iabce-lecture-summary-info">
-<span class="iabce-lecture-num">Lecture 3</span>
-<h3 class="iabce-lecture-title">Indra, soma, 3339 & the Saros cycle</h3>
+<span class="iabce-lecture-num">व्याख्यानम् ३</span>
+<h3 class="iabce-lecture-title">इन्द्रः, सोमः, ३३३९ देवाः तथा Saros ग्रहणचक्रम्</h3>
 <span class="iabce-lecture-speakers">Presented by: Prof. R. N. Iyengar</span>
 </div>
 <span class="iabce-lecture-summary-toggle">&plus;</span>
@@ -1560,7 +1933,7 @@ The complete recordings of all sessions are available in the official <a href="h
 <iframe src="https://www.youtube.com/embed/RALgyeo79xg" title="Indra, soma, 3339 & the Saros cycle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div class="iabce-timestamps-title">Lecture Timestamps</div>
+<div class="iabce-timestamps-title">व्याख्यानस्य समयसूचिका (Lecture Timestamps)</div>
 <div class="iabce-timestamps-grid">
 <div class="iabce-timestamp-row">
 <a href="https://www.youtube.com/watch?v=RALgyeo79xg&t=1m00s" target="_blank" class="iabce-timestamp-pill">1:00</a>
@@ -1628,8 +2001,8 @@ The complete recordings of all sessions are available in the official <a href="h
 <details class="iabce-lecture-details">
 <summary class="iabce-lecture-summary">
 <div class="iabce-lecture-summary-info">
-<span class="iabce-lecture-num">Lecture 4</span>
-<h3 class="iabce-lecture-title">Dhruva, Śiśumāra & precession + first Stellarium tutorial</h3>
+<span class="iabce-lecture-num">व्याख्यानम् ४</span>
+<h3 class="iabce-lecture-title">ध्रुवः, शिशुमारचक्रम्, अयनचलनं तथा प्रथमः Stellarium-प्रायोगिकपाठः</h3>
 <span class="iabce-lecture-speakers">Presented by: Prof. R. N. Iyengar, Sunder Chakravarty</span>
 </div>
 <span class="iabce-lecture-summary-toggle">&plus;</span>
@@ -1642,7 +2015,7 @@ The complete recordings of all sessions are available in the official <a href="h
 <iframe src="https://www.youtube.com/embed/CurVfe5hzmw" title="Dhruva, Śiśumāra & precession + first Stellarium tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div class="iabce-timestamps-title">Lecture Timestamps</div>
+<div class="iabce-timestamps-title">व्याख्यानस्य समयसूचिका (Lecture Timestamps)</div>
 <div class="iabce-timestamps-grid">
 <div class="iabce-timestamp-row">
 <a href="https://www.youtube.com/watch?v=CurVfe5hzmw&t=1m19s" target="_blank" class="iabce-timestamp-pill">1:19</a>
@@ -1758,8 +2131,8 @@ The complete recordings of all sessions are available in the official <a href="h
 <details class="iabce-lecture-details">
 <summary class="iabce-lecture-summary">
 <div class="iabce-lecture-summary-info">
-<span class="iabce-lecture-num">Lecture 5</span>
-<h3 class="iabce-lecture-title">The nakṣatra system, calendar & ṛtus; intro to the VGJ</h3>
+<span class="iabce-lecture-num">व्याख्यानम् ५</span>
+<h3 class="iabce-lecture-title">नक्षत्रचक्रम्, पञ्चाङ्गम्, ऋतवश्च; वृद्धगार्गीयज्योतिषस्य परिचयः</h3>
 <span class="iabce-lecture-speakers">Presented by: Prof. R. N. Iyengar</span>
 </div>
 <span class="iabce-lecture-summary-toggle">&plus;</span>
@@ -1772,7 +2145,7 @@ The complete recordings of all sessions are available in the official <a href="h
 <iframe src="https://www.youtube.com/embed/zPj1cDxoUFU" title="The nakṣatra system, calendar & ṛtus; intro to the VGJ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div class="iabce-timestamps-title">Lecture Timestamps</div>
+<div class="iabce-timestamps-title">व्याख्यानस्य समयसूचिका (Lecture Timestamps)</div>
 <div class="iabce-timestamps-grid">
 <div class="iabce-timestamp-row">
 <a href="https://www.youtube.com/watch?v=zPj1cDxoUFU&t=0m06s" target="_blank" class="iabce-timestamp-pill">0:06</a>
@@ -1828,8 +2201,8 @@ The complete recordings of all sessions are available in the official <a href="h
 <details class="iabce-lecture-details">
 <summary class="iabce-lecture-summary">
 <div class="iabce-lecture-summary-info">
-<span class="iabce-lecture-num">Lecture 6</span>
-<h3 class="iabce-lecture-title">VGJ & Parāśaratantra + second Stellarium tutorial</h3>
+<span class="iabce-lecture-num">व्याख्यानम् ६</span>
+<h3 class="iabce-lecture-title">वृद्धगार्गीयज्योतिषम्, पराशरतन्त्रं तथा द्वितीयः Stellarium-प्रायोगिकपाठः</h3>
 <span class="iabce-lecture-speakers">Presented by: Prof. R. N. Iyengar, Sunder Chakravarty</span>
 </div>
 <span class="iabce-lecture-summary-toggle">&plus;</span>
@@ -1842,7 +2215,7 @@ The complete recordings of all sessions are available in the official <a href="h
 <iframe src="https://www.youtube.com/embed/sWPRYk1Ja4w" title="VGJ & Parāśaratantra + second Stellarium tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div class="iabce-timestamps-title">Lecture Timestamps</div>
+<div class="iabce-timestamps-title">व्याख्यानस्य समयसूचिका (Lecture Timestamps)</div>
 <div class="iabce-timestamps-grid">
 <div class="iabce-timestamp-row">
 <a href="https://www.youtube.com/watch?v=sWPRYk1Ja4w&t=0m04s" target="_blank" class="iabce-timestamp-pill">0:04</a>
@@ -1926,8 +2299,8 @@ The complete recordings of all sessions are available in the official <a href="h
 <details class="iabce-lecture-details">
 <summary class="iabce-lecture-summary">
 <div class="iabce-lecture-summary-info">
-<span class="iabce-lecture-num">Lecture 7</span>
-<h3 class="iabce-lecture-title">The Mahāsalilam book; Rohiṇī –Soma as the origin of Indian</h3>
+<span class="iabce-lecture-num">व्याख्यानम् ७</span>
+<h3 class="iabce-lecture-title">महासलिल-ग्रन्थः; भारतीयखगोलशास्त्रस्य मूलरूपेण रोहिणी-सोमविचारः</h3>
 <span class="iabce-lecture-speakers">Presented by: Prof. R. N. Iyengar</span>
 </div>
 <span class="iabce-lecture-summary-toggle">&plus;</span>
@@ -1940,7 +2313,7 @@ The complete recordings of all sessions are available in the official <a href="h
 <iframe src="https://www.youtube.com/embed/z_YAcqrHWh0" title="The Mahāsalilam book; Rohiṇī –Soma as the origin of Indian" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div class="iabce-timestamps-title">Lecture Timestamps</div>
+<div class="iabce-timestamps-title">व्याख्यानस्य समयसूचिका (Lecture Timestamps)</div>
 <div class="iabce-timestamps-grid">
 <div class="iabce-timestamp-row">
 <a href="https://www.youtube.com/watch?v=z_YAcqrHWh0&t=0m05s" target="_blank" class="iabce-timestamp-pill">0:05</a>
@@ -2000,8 +2373,8 @@ The complete recordings of all sessions are available in the official <a href="h
 <details class="iabce-lecture-details">
 <summary class="iabce-lecture-summary">
 <div class="iabce-lecture-summary-info">
-<span class="iabce-lecture-num">Lecture 8</span>
-<h3 class="iabce-lecture-title">Time ‑ measurement in ancient India + Rainfall in ancient</h3>
+<span class="iabce-lecture-num">व्याख्यानम् ८</span>
+<h3 class="iabce-lecture-title">प्राचीनभारते कालमापनपद्धतिः तथा वृष्टिपूर्वानुमानम्</h3>
 <span class="iabce-lecture-speakers">Presented by: Prof. R. N. Iyengar, Dr. R. S. Hariharan</span>
 </div>
 <span class="iabce-lecture-summary-toggle">&plus;</span>
@@ -2014,7 +2387,7 @@ The complete recordings of all sessions are available in the official <a href="h
 <iframe src="https://www.youtube.com/embed/7FrWQbX_lBc" title="Time ‑ measurement in ancient India + Rainfall in ancient" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div class="iabce-timestamps-title">Lecture Timestamps</div>
+<div class="iabce-timestamps-title">व्याख्यानस्य समयसूचिका (Lecture Timestamps)</div>
 <div class="iabce-timestamps-grid">
 <div class="iabce-timestamp-row">
 <a href="https://www.youtube.com/watch?v=7FrWQbX_lBc&t=0m05s" target="_blank" class="iabce-timestamp-pill">0:05</a>
@@ -2114,8 +2487,8 @@ The complete recordings of all sessions are available in the official <a href="h
 <details class="iabce-lecture-details">
 <summary class="iabce-lecture-summary">
 <div class="iabce-lecture-summary-info">
-<span class="iabce-lecture-num">Lecture 9</span>
-<h3 class="iabce-lecture-title">"Religious astronomy" (Prof. R.N. Iyengar)</h3>
+<span class="iabce-lecture-num">व्याख्यानम् ९</span>
+<h3 class="iabce-lecture-title">"धार्मिक-खगोलशास्त्रम्" (प्रो. आर्. एन्. अय्यङ्गारः)</h3>
 <span class="iabce-lecture-speakers">Presented by: Prof. R. N. Iyengar</span>
 </div>
 <span class="iabce-lecture-summary-toggle">&plus;</span>
@@ -2128,7 +2501,7 @@ The complete recordings of all sessions are available in the official <a href="h
 <iframe src="https://www.youtube.com/embed/4Et9xOQ7sA4" title="&quot;Religious astronomy&quot; (Prof. R.N. Iyengar)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div class="iabce-timestamps-title">Lecture Timestamps</div>
+<div class="iabce-timestamps-title">व्याख्यानस्य समयसूचिका (Lecture Timestamps)</div>
 <div class="iabce-timestamps-grid">
 <div class="iabce-timestamp-row">
 <a href="https://www.youtube.com/watch?v=4Et9xOQ7sA4&t=0m05s" target="_blank" class="iabce-timestamp-pill">0:05</a>
@@ -2192,8 +2565,8 @@ The complete recordings of all sessions are available in the official <a href="h
 <details class="iabce-lecture-details">
 <summary class="iabce-lecture-summary">
 <div class="iabce-lecture-summary-info">
-<span class="iabce-lecture-num">Lecture 10</span>
-<h3 class="iabce-lecture-title">Valedictory session</h3>
+<span class="iabce-lecture-num">व्याख्यानम् १०</span>
+<h3 class="iabce-lecture-title">समापनसत्रम् तथा भावि-संशोधन-दिशा</h3>
 <span class="iabce-lecture-speakers">Presented by: Prof. R. N. Iyengar, Prof. Vīranārāyaṇa Pāṇḍuraṅgī, Dr. Ganti S. Murthy, Dr. R. S. Hariharan</span>
 </div>
 <span class="iabce-lecture-summary-toggle">&plus;</span>
@@ -2206,7 +2579,7 @@ The complete recordings of all sessions are available in the official <a href="h
 <iframe src="https://www.youtube.com/embed/PCT5TH69QEI" title="Valedictory session" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div class="iabce-timestamps-title">Lecture Timestamps</div>
+<div class="iabce-timestamps-title">व्याख्यानस्य समयसूचिका (Lecture Timestamps)</div>
 <div class="iabce-timestamps-grid">
 <div class="iabce-timestamp-row">
 <a href="https://www.youtube.com/watch?v=PCT5TH69QEI&t=0m07s" target="_blank" class="iabce-timestamp-pill">0:07</a>
@@ -2250,7 +2623,7 @@ The complete recordings of all sessions are available in the official <a href="h
 </div>
 <div class="iabce-timestamp-row">
 <a href="https://www.youtube.com/watch?v=PCT5TH69QEI&t=2h53m35s" target="_blank" class="iabce-timestamp-pill">2:53:35</a>
-<span class="iabce-timestamp-text">Formal vote of thanks by Dr. R. S. Hariharan: Prof. M. D. Srinivas, Prof. Ganti S. Murthy, Prof. Vīranārāyaṇa N. K. Pāṇḍuraṅgī, Dr. Chenraj Roychand, Prof. R. N. Iyengar, Dr. Shankar Rajaraman, Sunder Chakravarty, the organising team (Roopa Ramesh, Smitha Bhatta, Vani S, Warija Adiga) and participants; workshop declared concluded</span>
+<span class="iabce-timestamp-text">Formal vote of thanks by Dr. R. S. Hariharan: Prof. M. D. Srinivas, Prof. Ganti S. Murthy, Prof. Vīranārāyaṇa N. K. Pāṇḍuraṅgī, Dr. Chenraj Roychand, प्रो. आर्. एन्. अय्यङ्गारः, डॉ. शङ्कर-राजरामनः, Sunder Chakravarty, the organising team (Roopa Ramesh, Smitha Bhatta, Vani S, Warija Adiga) and participants; workshop declared concluded</span>
 </div>
 </div>
 </div>
@@ -2259,6 +2632,6 @@ The complete recordings of all sessions are available in the official <a href="h
 
 </div>
 </div>
-  </div>
+
   </div>
 </div>
