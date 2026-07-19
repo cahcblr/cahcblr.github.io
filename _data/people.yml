@@ -7,9 +7,10 @@
   image: "/assets/rni.jpg"
   image_position: "center 15%"
   group: "leadership"
+  email: "rn.iyengar@jainuniversity.ac.in"
   bio:
     en: |
-      **Prof R. N. Iyengar** is the founder and Distinguished Professor and Mentor of the Center for Ancient History and Culture (CAHC) at the [Jain University](https://www.jainuniversity.ac.in/), which he established in 2011. He continues to pursue research in Indian Knowledge Systems including the History of Science in India.
+      **Prof R. N. Iyengar** is the founder and Distinguished Professor and Mentor of the Center for Ancient History and Culture (CAHC) at the [Jain University](https://www.jainuniversity.ac.in/), which he established in 2012. He continues to pursue research in Indian Knowledge Systems including the History of Science in India.
 
       R N Iyengar B.E., M.Sc(Eng).,Ph.D., (b. 1943) is renowned for his contributions to Earthquake Engineering, Random Vibrations, Mathematical Modeling, Structural Dynamics and Nonlinear Systems. As faculty at the Indian Institute of Science from 1969 till his retirement in 2005 as KSIDC Chair Professor in Civil Engineering, Iyengar has published 200 technical papers, reports, general articles and books. He is **Fellow of the Indian National Academy of Engineering, Indian Academy of Science, National Academy of Science** and the Alexander von Humboldt Foundation, Germany. He held the Distinguished Schmidt Chair at the Florida Atlantic University, USA in 1995. He was Director of CBRI-CSIR (1994-2000); Raja Ramanna Fellow of Dept. of Atomic Energy (2005-10). After establishing the Centre for Disaster Mitigation with a unique Fire Research Lab, he is currently Distinguished Emeritus Professor and the Director of the Center for Ancient History & Culture at the Jain University, Bangalore.
 
@@ -51,6 +52,7 @@
     sa: "पुरातनेतिहास-संस्कृति-केन्द्रस्य निदेशकः"
   image: "/assets/shankar-2025.jpg"
   group: "leadership"
+  email: "shankarrajaraman@jainuniversity.ac.in"
   bio:
     en: |
       **Dr. Shankar Rajaraman** is a medical doctor with a post-graduate degree in Psychiatry, a researcher in Indian Knowledge Systems by profession, and a Sanskrit poet and translator by passion. His poetical works include _Citranaiṣadham_, _Devidānavīyam_, _Bhārāvatārastava_, and _Nipuṇaprāghūṇakam_. Shankar received the _Maharshi Badarayan Vyas Samman_ from the President of India for his contribution to Sanskrit language and literature.
@@ -78,11 +80,12 @@
     sa: "सहायकप्राध्यापकः"
   image: "/assets/hari-2025.png"
   group: "team"
+  email: "hariharan.rs@jainuniversity.ac.in"
   bio:
     en: |
-      **Dr. R S Hariharan** holds a PhD in Sanskrit Literature. He has a background in science and technology with experience in research, linguistics, and industry. His work explores Sanskrit literature and India’s civilisational and scientific thought.
+      **Dr. R S Hariharan** is an Assistant Professor at CAHC. A telecommunications engineer by training, with prior experience in security research at the Indian Institute of Science and in the software industry, he subsequently earned a master's degree and a doctorate in Sanskrit. His work spans Sanskrit literature and poetics, the history of Indian astronomy and science, and India's civilisational thought. His interests include the interface of leadership studies and Sanskrit literature
     sa: |
-      **डॉ. आर. एस्. हरिहरन्** महोदयः संस्कृतसाहित्ये विद्यावारिधि-उपाधिं धरति। तस्य विज्ञान-तन्त्रज्ञानयोः पृष्ठभूमिः वर्तते, तथा च भाषाविज्ञाने उद्योगक्षेत्रे च अनुभवः अस्ति। सः संस्कृतसाहित्यस्य भारतस्य वैज्ञानिकचिन्तनस्य च अनुसन्धानं करोति।
+      **डॉ. आर्. एस्. हरिहरन्** CAHC इत्यत्र साहाय्यकाचार्यः अस्ति। मूलतः दूरसञ्चार-अभियन्ता, पूर्वं भारतीय-विज्ञान-संस्थाने (IISc) सुरक्षा-संशोधने तथा तन्त्रांश-उद्योमे च कार्यं कृत्वा, अनन्तरं तेन संस्कृते स्नातकोत्तर-पदवी विद्यावारिधिः (PhD) च प्राप्ता। तस्य संशोधनकार्यं संस्कृतसाहित्ये, अलङ्कारशास्त्रे, भारतीय-खगोलशास्त्रस्य विज्ञानस्य च इतिहासे, भारतस्य सास्कृतिक-चिन्तनेषु च विस्तृतमस्ति। तस्य रुचि-विषयेषु नेतृत्व-अध्ययनस्य (leadership studies) संस्कृतसाहित्यस्य च अन्तर्सम्बन्धः अन्तर्भवति।
   links:
     - text:
         en: "Google Scholar Profile"
@@ -101,6 +104,7 @@
     sa: "परियोजना-सहायिका"
   image: "/assets/smita-2022.jpg"
   group: "team"
+  email: "smitha.bhatta@jainuniversity.ac.in"
   bio:
     en: |
       **Smita Bhatta** holds a Master's degree in Sanskrit. She assists in manuscript collation, translation, and editing activities, and the maintenance of the book catalog for the project titled "IKS Project of MOE-AICTE at Jain University".
@@ -131,6 +135,7 @@
     sa: "शोधसहायिका"
   image: "/assets/vani-2026.jpg"
   group: "team"
+  email: "vani.rao@jainuniversity.ac.in"
   bio:
     en: |
       **Vani S** holds a Post Graduate Diploma in Sanskrit Computational Linguistics and a Bachelor’s degree in Computer Science and Engineering. She has teaching experience with Samskrita Bharati, conducting spoken Sanskrit camps and Sanskrit certification courses.
@@ -146,6 +151,7 @@
     sa: "सहयोगिनी"
   image: "/assets/warija.jpg"
   group: "team"
+  email: "warija.adiga@jainuniversity.ac.in"
   bio:
     en: |
       **Warija Adiga** holds a Master’s degree in Sanskrit and is a researcher involved in the study of ancient Sanskrit manuscripts and shastras. She has published several Sanskrit articles and stories in Sanskrit magazines like Sambhashana Sandesha and Sanskrit Bhavitavyam. She has presented a couple of papers at the All India Sanskrit Conference and the BVP Conference, and has summarised the proceedings of the BVP conference (Udupi) and the All India Oriental Centennial Conference (Nagpur) in book form. Some of her articles have been published by Indica and the Ethics Asia journal as well.
@@ -165,6 +171,7 @@
     sa: "सहयोगी"
   image: "/assets/sunder-2022.png"
   group: "team"
+  email: "sunder.chakravarty@jainuniversity.ac.in"
   bio:
     en: |
       **Sunder Chakravarty** holds a Bachelor’s degree in Physics and Electrical Communication Engineering, and a Kovida Sanskrit Certificate from Samskrita Bharati. He develops computer programs and models to validate and infer astronomical and other observational information in ancient texts.
