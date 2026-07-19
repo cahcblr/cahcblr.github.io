@@ -3,6 +3,7 @@
   image: "/assets/rni.jpg"
   image_position: "center 15%"
   group: "leadership"
+  email: "rn.iyengar@jainuniversity.ac.in"
   bio: |
     **Prof R. N. Iyengar** is the founder and Distinguished Professor and Mentor of the Center for Ancient History and Culture (CAHC) at the [Jain University](https://www.jainuniversity.ac.in/), which he established in 2012. He continues to pursue research in Indian Knowledge Systems including the History of Science in India.
 
@@ -26,6 +27,7 @@
   role: "Director of CAHC"
   image: "/assets/shankar-2025.jpg"
   group: "leadership"
+  email: "shankarrajaraman@jainuniversity.ac.in"
   bio: |
     **Dr. Shankar Rajaraman** is a medical doctor with a post-graduate degree in Psychiatry, a researcher in Indian Knowledge Systems by profession, and a Sanskrit poet and translator by passion. His poetical works include _Citranaiṣadham_, _Devidānavīyam_, _Bhārāvatārastava_, and _Nipuṇaprāghūṇakam_. Shankar received the _Maharshi Badarayan Vyas Samman_ from the President of India for his contribution to Sanskrit language and literature.
 
@@ -40,8 +42,9 @@
   role: "Assistant Professor"
   image: "/assets/hari-2025.png"
   group: "team"
+  email: "hariharan.rs@jainuniversity.ac.in"
   bio: |
-    **Dr. R S Hariharan** holds a PhD in Sanskrit Literature. He has a background in science and technology with experience in research, linguistics, and industry. His work explores Sanskrit literature and India’s civilisational and scientific thought.
+    **Dr. R S Hariharan** is an Assistant Professor at CAHC. A telecommunications engineer by training, with prior experience in security research at the Indian Institute of Science and in the software industry, he subsequently earned a master's degree and a doctorate in Sanskrit. His work spans Sanskrit literature and poetics, the history of Indian astronomy and science, and India's civilisational thought. His interests include the interface of leadership studies and Sanskrit literature
   links:
     - text: "Google Scholar Profile"
       url: "https://scholar.google.com/citations?hl=en&user=7MBUHmkAAAAJ"
@@ -52,6 +55,7 @@
   role: "Project Assistant"
   image: "/assets/smita-2022.jpg"
   group: "team"
+  email: "smitha.bhatta@jainuniversity.ac.in"
   bio: |
     **Smita Bhatta** holds a Master's degree in Sanskrit. She assists in manuscript collation, translation, and editing activities, and the maintenance of the book catalog for the project titled "IKS Project of MOE-AICTE at Jain University".
 
@@ -73,6 +77,7 @@
   role: "Associate"
   image: "/assets/warija.jpg"
   group: "team"
+  email: "warija.adiga@jainuniversity.ac.in"
   bio: |
     **Warija Adiga** holds a Master’s degree in Sanskrit and is a researcher involved in the study of ancient Sanskrit manuscripts and shastras. She has published several Sanskrit articles and stories in Sanskrit magazines like Sambhashana Sandesha and Sanskrit Bhavitavyam. She has presented a couple of papers at the All India Sanskrit Conference and the BVP Conference, and has summarised the proceedings of the BVP conference (Udupi) and the All India Oriental Centennial Conference (Nagpur) in book form. Some of her articles have been published by Indica and the Ethics Asia journal as well.
   links:
@@ -83,6 +88,7 @@
   role: "Associate"
   image: "/assets/sunder-2022.png"
   group: "team"
+  email: "sunder.chakravarty@jainuniversity.ac.in"
   bio: |
     **Sunder Chakravarty** holds a Bachelor’s degree in Physics and Electrical Communication Engineering, and a Kovida Sanskrit Certificate from Samskrita Bharati. He develops computer programs and models to validate and infer astronomical and other observational information in ancient texts.
   links:

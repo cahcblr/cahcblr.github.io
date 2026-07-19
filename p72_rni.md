@@ -63,8 +63,25 @@ permalink: /people/
     display: block;
     color: #4a5568;
     font-size: 1.1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     font-weight: 600;
+  }
+  .person-email {
+    display: inline-flex;
+    align-items: center;
+    color: #718096;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+  .person-email a {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  .person-email a:hover {
+    color: #2b6cb0;
+    text-decoration: underline;
   }
   .person-bio {
     color: #2d3748;
@@ -184,6 +201,13 @@ permalink: /people/
       <h2 class="person-name">{{ person.name }}</h2>
       <span class="person-role">{{ person.role }}</span>
       
+      {% if person.email %}
+        <span class="person-email">
+          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 0.4rem; color: #718096;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+        </span>
+      {% endif %}
+      
       <div class="person-bio">
         {{ person.bio | markdownify }}
       </div>
@@ -209,6 +233,13 @@ permalink: /people/
       
       <h2 class="person-name">{{ person.name }}</h2>
       <span class="person-role">{{ person.role }}</span>
+      
+      {% if person.email %}
+        <span class="person-email">
+          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 0.4rem; color: #718096;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+        </span>
+      {% endif %}
       
       <div class="person-bio">
         {{ person.bio | markdownify }}
